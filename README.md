@@ -12,7 +12,7 @@
 **refactor** = refactoring product code (neither fixes a bug nor adds a feature) <br/>
 **revert** = undo previous commits <br/>
 **style** = code formatting or code style adjustment (i.e. no product functionality change) <br/>
-**test** = implementation of missing or adjustment of existing test (i.e. no product functionality change) <br/>
+**test** = implementation of missing or adjustment of existing test (i.e. no product functionality change)
 
 ## Getting started
 
