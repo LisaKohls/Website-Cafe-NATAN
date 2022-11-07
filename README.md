@@ -1,6 +1,18 @@
 # Projekt_Lisa_Lisa
 
 
+## Commit messages:
+**build** = adjustment of build tools or external dependencies
+**chore** = generic maintenance (i.e. no product functionality change)
+**ci** = modification of Continuous Integration (CI) configurations/scripts
+**docs** = changes to the documentation
+**feat** = new feature for the end user (i.e. not a new feature for build script)
+**fix** = bug fix for the end user (i.e. not a fix to a build script)
+**perf** = source code adjustment that improves performance
+**refactor** = refactoring product code (neither fixes a bug nor adds a feature)
+**revert** = undo previous commits
+**style** = code formatting or code style adjustment (i.e. no product functionality change)
+**test** = implementation of missing or adjustment of existing test (i.e. no product functionality change)
 
 ## Getting started
 
