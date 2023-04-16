@@ -1,0 +1,40 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore .env files
+.env
+
+# Ignore compiled CSS files
+*.css.map
+*.css
+
+# Ignore compiled JavaScript files
+*.js.map
+*.js
+
+# Ignore compiled TypeScript files
+*.tsbuildinfo
+*.ts
+
+# Ignore package-lock.json file for NPM
+package-lock.json
+
+# Ignore Yarn lockfile
+yarn.lock
+
+# Ignore editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore user-specific files
+*.DS_Store
+Thumbs.db
+
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
