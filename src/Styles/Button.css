@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200&display=swap');
+
+btn a {
+    margin: 2rem;
+    color: var(--textColor);
+    text-decoration: none;
+}
+
+btn a:hover {
+    transition: 125ms;
+    color: var(--mainColor);
+}
+
+.btn {
+    margin-top: 15rem;
+    padding: 1.2rem;
+    display: flex;
+    text-align: center;
+    border-width: thin;
+    border-color: var(--textColor);
+}
