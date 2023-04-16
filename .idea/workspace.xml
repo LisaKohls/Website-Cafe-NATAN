@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88699615-1f21-4e9c-b35f-385a4db2352d" name="Changes" comment="gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="88699615-1f21-4e9c-b35f-385a4db2352d" name="Changes" comment="gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +40,7 @@
       <workItem from="1681284241743" duration="319000" />
       <workItem from="1681315948332" duration="483000" />
       <workItem from="1681631492866" duration="3411000" />
-      <workItem from="1681640831415" duration="2605000" />
+      <workItem from="1681640831415" duration="2900000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1681640948248</created>
@@ -51,7 +49,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681640948248</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gitignore">
+      <created>1681654351340</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681654351340</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
