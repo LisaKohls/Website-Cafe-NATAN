@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="831da116-b36e-4c3b-8b9e-ec881e0919cd" name="Changes" comment="btn komponenten">
-      <change afterPath="$PROJECT_DIR$/src/Resources/Natanlogo.png" afterDir="false" />
+    <list default="true" id="831da116-b36e-4c3b-8b9e-ec881e0919cd" name="Changes" comment="Natan logo, text postitionierung">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Navbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +39,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Documents\Semester4\NatanWebseite\public" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +59,7 @@
       <workItem from="1681651852312" duration="2001000" />
       <workItem from="1681653910173" duration="3501000" />
       <workItem from="1681660326663" duration="88000" />
-      <workItem from="1681745365865" duration="4983000" />
+      <workItem from="1681745365865" duration="5955000" />
     </task>
     <task id="LOCAL-00001" summary="React Navbar">
       <created>1681654023637</created>
@@ -95,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681748931858</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Natan logo, text postitionierung">
+      <created>1681751556965</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681751556965</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Natan logo, text postitionierung">
+      <created>1681751575836</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681751575836</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +132,7 @@
     <MESSAGE value="btn componente" />
     <MESSAGE value="btn Komponente eingebaut öffnungszeiten und volunteer" />
     <MESSAGE value="btn komponenten" />
-    <option name="LAST_COMMIT_MESSAGE" value="btn komponenten" />
+    <MESSAGE value="Natan logo, text postitionierung" />
+    <option name="LAST_COMMIT_MESSAGE" value="Natan logo, text postitionierung" />
   </component>
 </project>
