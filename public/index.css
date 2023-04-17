@@ -1,0 +1,13 @@
+body {
+    background: var(--mainColor);
+}
+
+p {
+    color:var(--textColor);
+    margin: 2rem;
+}
+
+h1 {
+    color:var(--textColor);
+    margin: 2rem;
+}

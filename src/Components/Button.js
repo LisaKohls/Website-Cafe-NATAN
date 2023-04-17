@@ -7,6 +7,6 @@ function Button(props){
         const targetPosition = 500;
         window.scrollTo({top: targetPosition, behavior: 'smooth'});
     }
-    return (<button className = "btn" onClick={jumpTo} > {props.btnName} </button>);
+    return (<button className="btn" onClick={jumpTo}  > {props.name} </button>);
 }
 export default Button;

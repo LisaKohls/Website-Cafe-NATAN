@@ -9,9 +9,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.Fragment>
         <Navbar />
-        <Button nameBtn = "Volunteer" />
     </React.Fragment>
 );
+
+const btnÖffnungszeiten = ReactDOM.createRoot(document.querySelector('.btnÖffnungszeiten'));
+btnÖffnungszeiten.render(<Button name="Öffnungszeiten" />);
+
+const btnVolunteers = ReactDOM.createRoot(document.querySelector('.btnVolunteers'));
+btnVolunteers.render(<Button name="Volunteer" />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
