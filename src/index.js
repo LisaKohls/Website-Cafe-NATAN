@@ -18,6 +18,9 @@ btnÖffnungszeiten.render(<Button name="Öffnungszeiten" />);
 const btnVolunteers = ReactDOM.createRoot(document.querySelector('.btnVolunteers'));
 btnVolunteers.render(<Button name="Volunteer" />);
 
+const btnReservierung = ReactDOM.createRoot(document.querySelector('.btnReservation'));
+btnReservierung.render(<Button name="Reservierung" />);
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
