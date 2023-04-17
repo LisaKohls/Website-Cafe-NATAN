@@ -1,5 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+:root {
+    --mainColor: #212121;
+    --mainColorLight: #E8E8E8;
+    --secondaryColor: #808770;
+    --textColor: white;
+}
+
 body {
     background: var(--mainColor);
+    text-align: center;
 }
 
 p {
@@ -10,4 +25,13 @@ p {
 h1 {
     color:var(--textColor);
     margin: 2rem;
+}
+
+.Logo{
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
 }

@@ -11,28 +11,14 @@
     padding: 0.5rem;
     cursor: pointer;
     border-color: var(--textColor);
-    border-radius: 0px;
+    border-radius: 0;
     border-width: thin;
     text-decoration-color: white;
     align-items: center;
-    display: flex;
     background: var(--mainColor);
     color: var(--textColor);
 }
 
-.btn button {
-    width: 100%;
-    padding: 0.5rem;
-    cursor: pointer;
-    border-color: var(--textColor);
-    border-radius: 5px;
-    border-width: thin;
-    text-decoration-color: white;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    background: var(--mainColor);
-}
 
 .btn:hover {
     transition: 125ms;
