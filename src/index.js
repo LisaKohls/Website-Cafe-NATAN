@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { oeffnungszeiten } from './Resources/textInhalte'
 import reportWebVitals from './reportWebVitals';
 import Navbar from './Components/Navbar';
 import Button from './Components/Button';
+import Oeffnungszeiten from './Components/Oeffnungszeiten'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +23,7 @@ btnVolunteers.render(<Button name="Volunteer" />);
 const btnReservierung = ReactDOM.createRoot(document.querySelector('.btnReservation'));
 btnReservierung.render(<Button name="Reservierung" />);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+const oeffnungszeitenBlock = ReactDOM.createRoot(document.querySelector('.oeffnungszeitenBlock'));
+oeffnungszeitenBlock.render(<Oeffnungszeiten inhalt={oeffnungszeiten} />);
+
 reportWebVitals();
