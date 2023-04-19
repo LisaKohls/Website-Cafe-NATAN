@@ -1,0 +1,408 @@
+Index: public/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"utf-8\" />\n  <link rel=\"icon\" href=\"%PUBLIC_URL%/favicon.ico\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n  <meta name=\"theme-color\" content=\"#000000\" />\n  <meta name=\"description\" content=\"Web site created using create-react-app\" />\n  <link rel=\"apple-touch-icon\" href=\"%PUBLIC_URL%/logo192.png\" />\n  <!--\n      manifest.json provides metadata used when your web app is installed on a\n      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/\n    -->\n  <link rel=\"manifest\" href=\"%PUBLIC_URL%/manifest.json\" />\n  <!--\n      Notice the use of %PUBLIC_URL% in the tags above.\n      It will be replaced with the URL of the `public` folder during the build.\n      Only files inside the `public` folder can be referenced from the HTML.\n\n      Unlike \"/favicon.ico\" or \"favicon.ico\", \"%PUBLIC_URL%/favicon.ico\" will\n      work correctly both with client-side routing and a non-root public URL.\n      Learn how to configure a non-root public URL by running `npm run build`.\n    -->\n  <title>React App</title>\n</head>\n\n<body>\n  <noscript>You need to enable JavaScript to run this app.</noscript>\n  <div id=\"root\"></div>\n\n  <section class=\"about\" id=\"about\">\n    <div class=\"container\">\n      <div class=\"image\">\n      </div>\n      <div class=\"about-content\">\n        <h1>NATAN</h1>\n        <p>Über Natan: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor\n          invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo\n          duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit\n          amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt\n          ut labore </p>\n        <button class=\"btn\" style=\"color: black;\">Öffnungszeiten</button>\n      </div>\n    </div>\n  </section>\n  <!-- End About Section -->\n\n\n\n  <!-- Reservation Section -->\n\n  <!-- End Reservation Section -->\n\n\n\n  <!-- Products Section -->\n\n  <!-- End Products Section -->\n\n\n\n  <!-- Volunteers Section -->\n\n  <!-- End Volunteers Section -->\n\n\n\n  <!-- Events Section -->\n\n  <!-- End Events Section -->\n\n\n\n  <!-- Contact Section -->\n\n  <!-- End Contact Section -->\n\n\n  <!-- Footer Section -->\n  <section class=\"footer\">\n    <div class=\"container\">\n      <div class=\"footer-box\">\n\n        <p>Copyrights &copy; <!-- current date --> 2023 All rights reserved\n        </p>\n      </div>\n      <div class=\"footer-box\">\n        <h3>Follow Us</h3>\n        <p>Connect With Us On:</p>\n        <div>\n          <a href=\"#\"><i class=\"fa-brands fa-facebook-f\"></i></a>\n          <a href=\"#\"><i class=\"fa-brands fa-instagram\"></i></a>\n          <a href=\"#\"><i class=\"fa-brands fa-twitter\"></i></a>\n        </div>\n      </div>\n    </div>\n  </section>\n  <!-- Footer Section End -->\n\n  <script src=\"script.js\"></script>\n\n</body>\n\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/public/index.html b/public/index.html
+--- a/public/index.html	(revision e85ca075f57f830d0e9f62d0a8c762ac8b7fb273)
++++ b/public/index.html	(date 1681659034749)
+@@ -26,24 +26,11 @@
+ </head>
+ 
+ <body>
++
+   <noscript>You need to enable JavaScript to run this app.</noscript>
+   <div id="root"></div>
+ 
+-  <section class="about" id="about">
+-    <div class="container">
+-      <div class="image">
+-      </div>
+-      <div class="about-content">
+-        <h1>NATAN</h1>
+-        <p>Über Natan: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+-          invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+-          duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+-          amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+-          ut labore </p>
+-        <button class="btn" style="color: black;">Öffnungszeiten</button>
+-      </div>
+-    </div>
+-  </section>
++
+   <!-- End About Section -->
+ 
+ 
+@@ -78,6 +65,8 @@
+ 
+ 
+   <!-- Footer Section -->
++  <Footer/>
++
+   <section class="footer">
+     <div class="container">
+       <div class="footer-box">
+Index: src/App.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import logo from './logo.svg';\nimport React from 'react';\nimport './App.css';\nimport Navbar from './Components/Navbar';\n\n\nfunction App() {\n  return (\n    <React.Fragment>\n      <Navbar />\n    </React.Fragment>\n  );\n}\n\nexport default App;\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/App.js b/src/App.js
+--- a/src/App.js	(revision e85ca075f57f830d0e9f62d0a8c762ac8b7fb273)
++++ b/src/App.js	(date 1681659223489)
+@@ -2,12 +2,33 @@
+ import React from 'react';
+ import './App.css';
+ import Navbar from './Components/Navbar';
++import Footer from './Components/Footer/Footer';
+ 
+ 
+ function App() {
+   return (
+     <React.Fragment>
+       <Navbar />
++        <section className="about" id="about">
++            <div className="container">
++                <div className="image">
++                </div>
++                <div className="about-content">
++                    <h1>NATAN</h1>
++                    <p>Über Natan: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
++                        tempor
++                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
++                        justo
++                        duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
++                        dolor sit
++                        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
++                        invidunt
++                        ut labore </p>
++                    <button className="btn" style={{color: "--mainColor"}}>Öffnungszeiten</button>
++                </div>
++            </div>
++        </section>
++        <Footer/>
+     </React.Fragment>
+   );
+ }
+Index: src/Components/Footer/Footer.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Components/Footer/Footer.js b/src/Components/Footer/Footer.js
+new file mode 100644
+--- /dev/null	(date 1681675825381)
++++ b/src/Components/Footer/Footer.js	(date 1681675825381)
+@@ -0,0 +1,30 @@
++import "./Footer.css";
++import  React from "react";
++import Instagram from 'node-instagram';
++
++const Footer=()=>{
++    return(
++
++        <div className="footer">
++            <div>
++                <div>
++                    <div>
++                        <a href="/impressum">
++                        <p>Impressum</p>
++                        </a>
++                    </div>
++                    <div className="socialmedia">
++                        <a href="src/Components/Footer/Footer">
++                        <Instagram/>
++                        </a>
++                        <a href="src/Components/Footer/Footer">
++                        </a>
++                    </div>l
++                </div>
++            </div>
++        </div>
++
++    )
++}
++
++export default Footer;
+\ No newline at end of file
+Index: package-lock.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package-lock.json b/package-lock.json
+--- a/package-lock.json	(revision e85ca075f57f830d0e9f62d0a8c762ac8b7fb273)
++++ b/package-lock.json	(date 1681656407746)
+@@ -11,10 +11,11 @@
+         "@testing-library/jest-dom": "^5.16.5",
+         "@testing-library/react": "^13.4.0",
+         "@testing-library/user-event": "^13.5.0",
++        "node-instagram": "^4.3.0",
+         "react": "^18.2.0",
+         "react-dom": "^18.2.0",
+         "react-icons": "^4.8.0",
+-        "react-scripts": "5.0.1",
++        "react-scripts": "^5.0.1",
+         "web-vitals": "^2.1.4"
+       }
+     },
+@@ -6439,6 +6440,14 @@
+       "resolved": "https://registry.npmjs.org/decimal.js/-/decimal.js-10.4.3.tgz",
+       "integrity": "sha512-VBBaLc1MgL5XpzgIP7ny5Z6Nx3UrRkIViUkPUdtl9aya5amy3De1gsUUSB1g3+3sExYNjCAsAznmukyxCb1GRA=="
+     },
++    "node_modules/decode-uri-component": {
++      "version": "0.2.2",
++      "resolved": "https://registry.npmjs.org/decode-uri-component/-/decode-uri-component-0.2.2.tgz",
++      "integrity": "sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==",
++      "engines": {
++        "node": ">=0.10"
++      }
++    },
+     "node_modules/dedent": {
+       "version": "0.7.0",
+       "resolved": "https://registry.npmjs.org/dedent/-/dedent-0.7.0.tgz",
+@@ -7988,6 +7997,14 @@
+         "node": ">=8"
+       }
+     },
++    "node_modules/filter-obj": {
++      "version": "1.1.0",
++      "resolved": "https://registry.npmjs.org/filter-obj/-/filter-obj-1.1.0.tgz",
++      "integrity": "sha512-8rXg1ZnX7xzy2NGDVkBVaAy+lSlPNwad13BtgSlLuxfIslyt5Vg64U7tFcCt4WS1R0hvtnQybT/IyCkGZ3DpXQ==",
++      "engines": {
++        "node": ">=0.10.0"
++      }
++    },
+     "node_modules/finalhandler": {
+       "version": "1.2.0",
+       "resolved": "https://registry.npmjs.org/finalhandler/-/finalhandler-1.2.0.tgz",
+@@ -12146,6 +12163,44 @@
+         "tslib": "^2.0.3"
+       }
+     },
++    "node_modules/node-fetch": {
++      "version": "2.6.9",
++      "resolved": "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.9.tgz",
++      "integrity": "sha512-DJm/CJkZkRjKKj4Zi4BsKVZh3ValV5IR5s7LVZnW+6YMh0W1BfNA8XSs6DLMGYlId5F3KnA70uu2qepcR08Qqg==",
++      "dependencies": {
++        "whatwg-url": "^5.0.0"
++      },
++      "engines": {
++        "node": "4.x || >=6.0.0"
++      },
++      "peerDependencies": {
++        "encoding": "^0.1.0"
++      },
++      "peerDependenciesMeta": {
++        "encoding": {
++          "optional": true
++        }
++      }
++    },
++    "node_modules/node-fetch/node_modules/tr46": {
++      "version": "0.0.3",
++      "resolved": "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz",
++      "integrity": "sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw=="
++    },
++    "node_modules/node-fetch/node_modules/webidl-conversions": {
++      "version": "3.0.1",
++      "resolved": "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz",
++      "integrity": "sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ=="
++    },
++    "node_modules/node-fetch/node_modules/whatwg-url": {
++      "version": "5.0.0",
++      "resolved": "https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz",
++      "integrity": "sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==",
++      "dependencies": {
++        "tr46": "~0.0.3",
++        "webidl-conversions": "^3.0.0"
++      }
++    },
+     "node_modules/node-forge": {
+       "version": "1.3.1",
+       "resolved": "https://registry.npmjs.org/node-forge/-/node-forge-1.3.1.tgz",
+@@ -12154,6 +12209,16 @@
+         "node": ">= 6.13.0"
+       }
+     },
++    "node_modules/node-instagram": {
++      "version": "4.3.0",
++      "resolved": "https://registry.npmjs.org/node-instagram/-/node-instagram-4.3.0.tgz",
++      "integrity": "sha512-VDw9IH2XDSOHvgU2s63TkZe1EhWCg/NpA8qb6kw301Zmf907hcWGmDVpgo0jkMfWAt5cDL8ZEa90ZA6rGXqdEw==",
++      "dependencies": {
++        "lodash": "^4.17.11",
++        "node-fetch": "^2.3.0",
++        "query-string": "^6.2.0"
++      }
++    },
+     "node_modules/node-int64": {
+       "version": "0.4.0",
+       "resolved": "https://registry.npmjs.org/node-int64/-/node-int64-0.4.0.tgz",
+@@ -14061,6 +14126,23 @@
+         "url": "https://github.com/sponsors/ljharb"
+       }
+     },
++    "node_modules/query-string": {
++      "version": "6.14.1",
++      "resolved": "https://registry.npmjs.org/query-string/-/query-string-6.14.1.tgz",
++      "integrity": "sha512-XDxAeVmpfu1/6IjyT/gXHOl+S0vQ9owggJ30hhWKdHAsNPOcasn5o9BW0eejZqL2e4vMjhAxoW3jVHcD6mbcYw==",
++      "dependencies": {
++        "decode-uri-component": "^0.2.0",
++        "filter-obj": "^1.1.0",
++        "split-on-first": "^1.0.0",
++        "strict-uri-encode": "^2.0.0"
++      },
++      "engines": {
++        "node": ">=6"
++      },
++      "funding": {
++        "url": "https://github.com/sponsors/sindresorhus"
++      }
++    },
+     "node_modules/querystringify": {
+       "version": "2.2.0",
+       "resolved": "https://registry.npmjs.org/querystringify/-/querystringify-2.2.0.tgz",
+@@ -15273,6 +15355,14 @@
+         "wbuf": "^1.7.3"
+       }
+     },
++    "node_modules/split-on-first": {
++      "version": "1.1.0",
++      "resolved": "https://registry.npmjs.org/split-on-first/-/split-on-first-1.1.0.tgz",
++      "integrity": "sha512-43ZssAJaMusuKWL8sKUBQXHWOpq8d6CfN/u1p4gUzfJkM05C8rxTmYrkIPTXapZpORA6LkkzcUulJ8FqA7Uudw==",
++      "engines": {
++        "node": ">=6"
++      }
++    },
+     "node_modules/sprintf-js": {
+       "version": "1.0.3",
+       "resolved": "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz",
+@@ -15327,6 +15417,14 @@
+         "node": ">= 0.4"
+       }
+     },
++    "node_modules/strict-uri-encode": {
++      "version": "2.0.0",
++      "resolved": "https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-2.0.0.tgz",
++      "integrity": "sha512-QwiXZgpRcKkhTj2Scnn++4PKtWsH0kpzZ62L2R6c/LUVYv7hVnZqcg2+sMuT6R7Jusu1vviK/MFsu6kNJfWlEQ==",
++      "engines": {
++        "node": ">=4"
++      }
++    },
+     "node_modules/string_decoder": {
+       "version": "1.3.0",
+       "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz",
+Index: package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"name\": \"reactproject\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@testing-library/jest-dom\": \"^5.16.5\",\n    \"@testing-library/react\": \"^13.4.0\",\n    \"@testing-library/user-event\": \"^13.5.0\",\n    \"react\": \"^18.2.0\",\n    \"react-dom\": \"^18.2.0\",\n    \"react-icons\": \"^4.8.0\",\n    \"react-scripts\": \"5.0.1\",\n    \"web-vitals\": \"^2.1.4\"\n  },\n  \"scripts\": {\n    \"start\": \"react-scripts start\",\n    \"build\": \"react-scripts build\",\n    \"test\": \"react-scripts test\",\n    \"eject\": \"react-scripts eject\"\n  },\n  \"eslintConfig\": {\n    \"extends\": [\n      \"react-app\",\n      \"react-app/jest\"\n    ]\n  },\n  \"browserslist\": {\n    \"production\": [\n      \">0.2%\",\n      \"not dead\",\n      \"not op_mini all\"\n    ],\n    \"development\": [\n      \"last 1 chrome version\",\n      \"last 1 firefox version\",\n      \"last 1 safari version\"\n    ]\n  }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package.json b/package.json
+--- a/package.json	(revision e85ca075f57f830d0e9f62d0a8c762ac8b7fb273)
++++ b/package.json	(date 1681656407517)
+@@ -6,10 +6,11 @@
+     "@testing-library/jest-dom": "^5.16.5",
+     "@testing-library/react": "^13.4.0",
+     "@testing-library/user-event": "^13.5.0",
++    "node-instagram": "^4.3.0",
+     "react": "^18.2.0",
+     "react-dom": "^18.2.0",
+     "react-icons": "^4.8.0",
+-    "react-scripts": "5.0.1",
++    "react-scripts": "^5.0.1",
+     "web-vitals": "^2.1.4"
+   },
+   "scripts": {
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"831da116-b36e-4c3b-8b9e-ec881e0919cd\" name=\"Changes\" comment=\"React Navbar\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2OVMBj6mWAntS8ZKGlSSD3IFaSv\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Documents/Semester4/NatanWebseite&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"831da116-b36e-4c3b-8b9e-ec881e0919cd\" name=\"Changes\" comment=\"\" />\n      <created>1681641161279</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1681641161279</updated>\n      <workItem from=\"1681641162710\" duration=\"171000\" />\n      <workItem from=\"1681641342905\" duration=\"718000\" />\n      <workItem from=\"1681642074051\" duration=\"2845000\" />\n      <workItem from=\"1681651766132\" duration=\"83000\" />\n      <workItem from=\"1681651852312\" duration=\"2001000\" />\n      <workItem from=\"1681653910173\" duration=\"330000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"React Navbar\">\n      <created>1681654023637</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681654023637</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"React Navbar\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"React Navbar\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e85ca075f57f830d0e9f62d0a8c762ac8b7fb273)
++++ b/.idea/workspace.xml	(date 1681658622877)
+@@ -4,11 +4,27 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="831da116-b36e-4c3b-8b9e-ec881e0919cd" name="Changes" comment="React Navbar" />
++    <list default="true" id="831da116-b36e-4c3b-8b9e-ec881e0919cd" name="Changes" comment="gitignore">
++      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="JavaScript File" />
++        <option value="CSS File" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -17,24 +33,32 @@
+     <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectId" id="2OVMBj6mWAntS8ZKGlSSD3IFaSv" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Documents/Semester4/NatanWebseite&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "last_opened_file_path": "C:/Users/DELL/Documents/Semester4/NatanWebseite",
++    "list.type.of.created.stylesheet": "CSS",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/src/Components/Footer" />
++      <recent name="$PROJECT_DIR$/src/Components" />
++    </key>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+diff --git a/src/Components/Footer/Footer.css b/src/Components/Footer/Footer.css
+new file mode 100644
