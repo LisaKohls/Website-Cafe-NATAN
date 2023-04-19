@@ -7,6 +7,7 @@ import { oeffnungszeiten } from './Resources/textInhalte'
 import Navbar from './Components/Navbar';
 import Button from './Components/Button';
 import Oeffnungszeiten from './Components/Oeffnungszeiten';
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ btnReservierung.render(<Button name="Reservierung" />);
 
 const oeffnungszeitenBlock = ReactDOM.createRoot(document.querySelector('.oeffnungszeitenBlock'));
 oeffnungszeitenBlock.render(<Oeffnungszeiten inhalt={oeffnungszeiten} />);
+
+const footer = ReactDOM.createRoot(document.querySelector('.footer'));
+footer.render(<Footer />);
 
 
 export default App;
