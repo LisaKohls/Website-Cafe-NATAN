@@ -1,17 +1,32 @@
-/*import logo from './logo.svg';
+import logo from './logo.svg';
 import React from 'react';
 import './App.css';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import { oeffnungszeiten } from './Resources/textInhalte'
 import Navbar from './Components/Navbar';
 import Button from './Components/Button';
-
+import Oeffnungszeiten from './Components/Oeffnungszeiten';
 
 function App() {
   return (
     <React.Fragment>
       <Navbar />
-        <Button nameBtn = "Volunteer" />
     </React.Fragment>
   );
 }
 
-export default App;*/
+const btnÖffnungszeiten = ReactDOM.createRoot(document.querySelector('.btnÖffnungszeiten'));
+btnÖffnungszeiten.render(<Button name="Öffnungszeiten" />);
+
+const btnVolunteers = ReactDOM.createRoot(document.querySelector('.btnVolunteers'));
+btnVolunteers.render(<Button name="Volunteer" />);
+
+const btnReservierung = ReactDOM.createRoot(document.querySelector('.btnReservation'));
+btnReservierung.render(<Button name="Reservierung" />);
+
+const oeffnungszeitenBlock = ReactDOM.createRoot(document.querySelector('.oeffnungszeitenBlock'));
+oeffnungszeitenBlock.render(<Oeffnungszeiten inhalt={oeffnungszeiten} />);
+
+
+export default App;
