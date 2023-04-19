@@ -4,7 +4,6 @@ import Instagram from 'node-instagram';
 
 const Footer=()=>{
     return(
-
         <div className="footer">
             <div>
                 <div>
