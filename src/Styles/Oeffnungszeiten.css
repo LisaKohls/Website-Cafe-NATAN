@@ -1,0 +1,6 @@
+.opening{
+    display: inline-block;
+    border: 1.5rem solid var(--textColor);
+    border-width: thin;
+    margin: 2rem;
+}
