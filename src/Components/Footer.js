@@ -1,4 +1,4 @@
-import "./Footer.css";
+import "../Styles/Footer.css";
 import  React from "react";
 import Instagram from 'node-instagram';
 
@@ -14,10 +14,10 @@ const Footer=()=>{
                         </a>
                     </div>
                     <div className="socialmedia">
-                        <a href="src/Components/Footer/Footer">
+                        <a href="src/Components/Footer">
                         <Instagram/>
                         </a>
-                        <a href="src/Components/Footer/Footer">
+                        <a href="src/Components/Footer">
                         </a>
                     </div>l
                 </div>
