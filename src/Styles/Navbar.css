@@ -33,9 +33,15 @@ header .nav-btn {
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
+    margin-right: 2rem;
+
 }
 
 @media only screen and (max-width: 1024px) {
+    header {
+        position: static;
+    }
+
     header .nav-btn {
         visibility: visible;
         opacity: 1;

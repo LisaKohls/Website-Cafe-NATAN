@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200&family=Roboto:wght@100&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300&family=Roboto:wght@100&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 :root {
@@ -23,12 +22,14 @@ body {
 
 p {
     color:var(--textColor);
-    margin: 1.5rem;
+    margin: 2rem;
+    font-size: 1em;
 }
 
 h1 {
     color:var(--textColor);
     margin: 2rem;
+
 }
 
 h2{
@@ -43,4 +44,10 @@ h2{
     margin-right: auto;
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    .Logo{
+        margin-top: 1.8rem;
+    }
 }
