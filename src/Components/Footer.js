@@ -5,7 +5,6 @@ import { SocialIcon } from 'react-social-icons';
 
 const Footer=()=>{
     return(
-
         <div className="footer">
             <div>
                 <div>

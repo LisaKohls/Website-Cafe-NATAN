@@ -1,12 +1,13 @@
-import { useRef } from "react"
 import "../Styles/Button.css";
 
 
 function Button(props){
+
     const jumpTo = () => {
-        const targetPosition = 500;
-        window.scrollTo({top: targetPosition, behavior: 'smooth'});
+        //const anchor = document.getElementById(props.name)
+        window.location.href = `#${props.name}`;
     }
-    return (<button className="btn" onClick={jumpTo}  > {props.name} </button>);
+    return (<button className="btn" onClick={jumpTo} >
+        {props.name} </button>);
 }
 export default Button;
