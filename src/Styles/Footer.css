@@ -1,0 +1,10 @@
+
+.footer {
+    background-color: var(--secondaryColor);
+    margin-top: 2rem;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+
+
