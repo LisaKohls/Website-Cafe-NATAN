@@ -16,7 +16,7 @@
 
 
 .btn:hover {
-    transition: 300ms;
+    transition: var(--transitionHover);
     color: var(--secondaryColor);
     border-color: var(--secondaryColor);
 }

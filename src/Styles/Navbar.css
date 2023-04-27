@@ -19,12 +19,11 @@ nav a {
 }
 
 nav a:hover {
-    transition: 125ms;
+    transition: var(--transitionHover);
     color: var(--mainColor);
 }
 
 header .nav-btn {
-    padding: 5px;
     cursor: pointer;
     background: transparent;
     border: none;
@@ -33,14 +32,9 @@ header .nav-btn {
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
-    margin-right: 2rem;
-
 }
 
 @media only screen and (max-width: 1024px) {
-    header {
-        position: static;
-    }
 
     header .nav-btn {
         visibility: visible;

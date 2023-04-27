@@ -13,6 +13,7 @@
     --mainColorLight: #E8E8E8;
     --secondaryColor: #808770;
     --textColor: white;
+    --transitionHover: 300ms;
 }
 
 body {
@@ -38,16 +39,14 @@ h2{
 }
 
 .Logo{
-    margin-bottom: 0.5rem;
-    margin-top: 6rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 5rem !IMPORTANT;
     display: flex;
     justify-content: center;
 }
 
 @media only screen and (max-width: 1024px) {
     .Logo{
+        zoom: 100%;
         margin-top: 1.8rem;
     }
 }
