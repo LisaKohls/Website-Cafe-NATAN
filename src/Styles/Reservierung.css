@@ -1,0 +1,29 @@
+
+.Datepicker{
+    margin: 2rem;
+    display: inline-grid;
+    color: var(--textColor);
+}
+
+.Datepicker label{
+    padding: 1rem;
+}
+
+.Datepicker input{
+    all: unset;
+    width: 20rem;
+    height: 1.5rem;
+    background-color: #c4c4c4;
+    color: var(--mainColor);
+}
+
+.Datepicker input:focus{
+    background-color: #ffffff;
+    outline: none !important;
+}
+
+
+
+
+
+
