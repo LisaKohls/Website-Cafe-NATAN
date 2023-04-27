@@ -1,25 +1,36 @@
-import "../Styles/Footer.css";
 import  React from "react";
-import ReactDOM from 'react-dom';
+import "../Styles/Footer.css"
 import { SocialIcon } from 'react-social-icons';
 
 const Footer=()=>{
     return(
-        <div className="footer">
-            <div>
-                <div>
-                    <div>
-                        <a href="/impressum">
-                        <p >Impressum</p>
-                        </a>
-                    </div>
-                    <div className="socialmedia">
-                            <SocialIcon padding="4px" bgColor="var(--textColor)" url="https://www.facebook.com/people/NATANstuttgart/100063920867609/" target="_blank" />
-                            <SocialIcon bgColor="var(--textColor)" url="https://www.instagram.com/natan.stuttgart/" target="_blank" />
-                    </div>
-                </div>
+
+    <div className="footer">
+        <div className="information">
+            <div className="links">
+                <a href="/impressum">
+                    Impressum
+                </a>
+                <a href="/privacy">
+                    Datenschutz
+                </a>
+                <a href="https://stelp.eu/" target="_blank">
+                    Stelp
+                </a>
+            </div>
+            <div className="contact">
+                <p>Katharinenstraße 15 // 70182 Stuttgart</p>
+                <p>team@natan-cafeandbar.com</p>
+            </div>
+            <div className="socialmedia">
+                <SocialIcon bgColor="var(--textColor)" url="https://www.facebook.com/people/NATANstuttgart/100063920867609/" target="_blank" style={{margin: "0.5rem"}}/>
+                <SocialIcon bgColor="var(--textColor)" url="https://www.instagram.com/natan.stuttgart/" target="_blank" style={{margin: "0.5rem"}}/>
             </div>
         </div>
+        <div className="copyright">
+            <p>© 2023 NATAN – CAFE AND BAR</p>
+        </div>
+</div>
 
     )
 }
