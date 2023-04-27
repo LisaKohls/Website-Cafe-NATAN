@@ -8,6 +8,7 @@ import Navbar from './Components/Navbar';
 import Button from './Components/Button';
 import Oeffnungszeiten from './Components/Oeffnungszeiten';
 import Footer from "./Components/Footer";
+import Reservierung from "./Components/Reservierung";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ oeffnungszeitenBlock.render(<Oeffnungszeiten inhalt={oeffnungszeiten} />);
 
 const footer = ReactDOM.createRoot(document.querySelector('.footer'));
 footer.render(<Footer />);
+
+const reservierung = ReactDOM.createRoot(document.querySelector('.reservierung'));
+reservierung.render(<Reservierung />);
 
 
 export default App;
