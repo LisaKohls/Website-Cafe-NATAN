@@ -1,13 +1,11 @@
 .opening{
     display: inline-block;
     border: 0.1rem solid var(--textColor);
-    margin: 2rem;
     white-space: pre-line;
 }
 
 @media only screen and (max-width: 1024px) {
     .opening{
         display: inline-block;
-        margin: 2.5rem;
     }
 }
