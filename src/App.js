@@ -33,8 +33,8 @@ oeffnungszeitenBlock.render(<Oeffnungszeiten inhalt={oeffnungszeiten} />);
 const footer = ReactDOM.createRoot(document.querySelector('.footer'));
 footer.render(<Footer />);
 
-const text = ReactDOM.createRoot(document.querySelector("text"));
-text.render(<Text />);
+/*const text = ReactDOM.createRoot(document.querySelector("text"));
+text.render(<Text />);*/
 
 
 export default App;
