@@ -1,0 +1,51 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondaryColor);
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links {
+    text-align: left;
+}
+
+.links a {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    color: var(--textColor);
+    text-decoration: none;
+}
+
+.links a:hover {
+    transition: 125ms;
+    color: var(--mainColor);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact p {
+    margin: 1rem;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+
