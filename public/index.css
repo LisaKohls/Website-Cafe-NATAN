@@ -13,6 +13,7 @@
     --mainColorLight: #E8E8E8;
     --secondaryColor: #808770;
     --textColor: white;
+    --transitionHover: 300ms;
 }
 
 body {
