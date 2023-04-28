@@ -1,15 +1,12 @@
 import "../Styles/Text.css";
-import  React from "react";
+import React from "react";
 
-
-
-const Text=(props)=>{
+function Text(props){
     return(
-
         <div className="text" >
-            <div style={{width: "20rem"}}>
+            <p>
                 {props.text}
-            </div>
+            </p>
         </div>
     )
 }
