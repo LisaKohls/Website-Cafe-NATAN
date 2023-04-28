@@ -12,11 +12,14 @@ import Reservierung from './Components/Reservierung';
 import {ueberNatan} from './Resources/textInhalte'
 import Text from './Components/Text'
 import {volunteer} from './Resources/textInhalte';
+import ImgCenter from "./Components/ImgCenter";
+import natanLogo from './Resources/Natanlogo.png';
 
 function App() {
   return (
     <React.Fragment>
       <Navbar />
+        <ImgCenter name='Logo'image ={natanLogo}/>
     </React.Fragment>
   );
 }

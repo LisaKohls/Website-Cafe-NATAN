@@ -1,5 +1,18 @@
 p {
     color:var(--textColor);
-    margin: 2rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     font-size: 1em;
+    display: block;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1024px) {
+    p{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
 }
