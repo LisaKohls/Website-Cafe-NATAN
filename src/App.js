@@ -19,7 +19,8 @@ function App() {
   return (
     <React.Fragment>
       <Navbar />
-        <ImgCenter name='Logo'image ={natanLogo}/>
+      <ImgCenter name='Logo'image ={natanLogo}/>
+      <Text text={volunteer} /><Oeffnungszeiten inhalt={oeffnungszeiten} />
     </React.Fragment>
   );
 }
@@ -33,8 +34,7 @@ btnVolunteers.render(<Button name="Volunteer" />);
 const btnReservierung = ReactDOM.createRoot(document.querySelector('.btnReservation'));
 btnReservierung.render(<Button name="Reservierung" />);
 
-const oeffnungszeitenBlock = ReactDOM.createRoot(document.querySelector('.oeffnungszeitenBlock'));
-oeffnungszeitenBlock.render(<Oeffnungszeiten inhalt={oeffnungszeiten} />);
+
 
 const footer = ReactDOM.createRoot(document.querySelector('.footer'));
 footer.render(<Footer />);
