@@ -1,0 +1,13 @@
+/* Definieren Sie die Größe der Karte für größere Bildschirme */
+.map {
+    width: 600px;
+    height: 450px;
+}
+
+/* Reduzieren Sie die Größe der Karte für kleinere Bildschirme */
+@media screen and (max-width: 768px) {
+    .map {
+        width: auto;
+        height: 225px;
+    }
+}

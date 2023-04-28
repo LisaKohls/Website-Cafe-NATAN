@@ -1,3 +1,40 @@
+# Webseite Café Natan
+
+Bei Problemen oder Fragen zur Webseite könnt ihr uns gerne kontaktieren:
+
+Technisch: 
+
+- Lisa Salzer Mail: salzer.lisa@gmail.com Tel: 01708152153
+- Lisa Kohls Mail: lisa.01.09.2002@gmail.com Tel: 017685213223
+
+
+Inhaltlich:
+
+- Nadia Tel: 017623901885
+
+
+## Anleitung zum Aktualisieren der Inhalte
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

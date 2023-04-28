@@ -43,11 +43,55 @@
     margin: 1rem;
 }
 
-
 .socialmedia {
     display: flex;
     flex-direction: column;
     margin: 0.5rem;
+    justify-content: center;
+    align-items: center;
 }
+
+.socialmedia .icon{
+    fill: var(--textColor) ; /* Farbe der Social Icons */
+}
+
+/* Media Query für Tablets */
+@media screen and (max-width: 768px) {
+    .information {
+        flex-direction: column;
+    }
+    .links {
+        text-align: center;
+    }
+    .contact {
+        text-align: center;
+    }
+    .socialmedia {
+        flex-direction: row;
+    }
+}
+
+/* Media Query für Smartphones */
+@media screen and (max-width: 480px) {
+    .information {
+        flex-direction: column;
+    }
+    .links {
+        text-align: center;
+    }
+    .contact {
+        text-align: center;
+    }
+    .socialmedia {
+        margin: 0;
+    }
+    .socialmedia .icon{
+        margin: 0.5rem;
+        flex-direction: row;
+    }
+}
+
+
+
 
 
