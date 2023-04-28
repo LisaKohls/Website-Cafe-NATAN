@@ -14,17 +14,25 @@ import Text from './Components/Text'
 import {volunteer} from './Resources/textInhalte';
 import ImgCenter from "./Components/ImgCenter";
 import natanLogo from './Resources/Natanlogo.png';
+import Gallery from "./Components/Gallery";
+import Maps from "./Components/Map"
+import Menu from "./Components/Menu";
 
 function App() {
   return (
     <React.Fragment>
       <Navbar />
       <ImgCenter name='Logo'image ={natanLogo}/>
+
+        <Gallery />
         <Text text={ueberNatan} />
         <Oeffnungszeiten inhalt={oeffnungszeiten} />
 
         <h2>Du möchtest einen Tisch reservieren?</h2>
         <Button name="Reservierung" />
+        <Menu />
+        <Maps />
+
 
 
     </React.Fragment>
