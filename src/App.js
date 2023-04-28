@@ -14,6 +14,7 @@ import Text from './Components/Text'
 import {volunteer} from './Resources/textInhalte';
 import ImgCenter from "./Components/ImgCenter";
 import natanLogo from './Resources/Natanlogo.png';
+import eventplaceholder from './Resources/EventPlaceholder.png'
 
 function App() {
   return (
@@ -22,9 +23,13 @@ function App() {
       <ImgCenter name='Logo'image ={natanLogo}/>
         <Text text={ueberNatan} />
         <Oeffnungszeiten inhalt={oeffnungszeiten} />
-
         <h2>Du möchtest einen Tisch reservieren?</h2>
         <Button name="Reservierung" />
+        <h2>Unsere Speisekarte</h2>
+        <h2>Events </h2>
+        <ImgCenter name='Event'image ={eventplaceholder}/>
+
+
 
 
     </React.Fragment>
@@ -36,16 +41,13 @@ const btnVolunteers = ReactDOM.createRoot(document.querySelector('.btnVolunteers
 btnVolunteers.render(<Button name="Volunteer" />);
 
 
-
-
 const footer = ReactDOM.createRoot(document.querySelector('.footer'));
 footer.render(<Footer />);
 
 const reservierung = ReactDOM.createRoot(document.querySelector('.reservierung'));
 reservierung.render(<Reservierung />);
 
-const überNatan = ReactDOM.createRoot(document.querySelector('.überNatan'));
-überNatan.render(<Text text={ueberNatan} />);
+
 
 const volunteerText = ReactDOM.createRoot(document.querySelector('.volunteerText'));
 volunteerText.render(<Text text={volunteer} />);
