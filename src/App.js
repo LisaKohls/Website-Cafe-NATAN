@@ -20,19 +20,21 @@ function App() {
     <React.Fragment>
       <Navbar />
       <ImgCenter name='Logo'image ={natanLogo}/>
-      <Text text={volunteer} /><Oeffnungszeiten inhalt={oeffnungszeiten} />
+        <Text text={ueberNatan} />
+        <Oeffnungszeiten inhalt={oeffnungszeiten} />
+
+        <h2>Du möchtest einen Tisch reservieren?</h2>
+        <Button name="Reservierung" />
+
+
     </React.Fragment>
   );
 }
 
-const btnÖffnungszeiten = ReactDOM.createRoot(document.querySelector('.btnÖffnungszeiten'));
-btnÖffnungszeiten.render(<Button name="Öffnungszeiten" />);
 
 const btnVolunteers = ReactDOM.createRoot(document.querySelector('.btnVolunteers'));
 btnVolunteers.render(<Button name="Volunteer" />);
 
-const btnReservierung = ReactDOM.createRoot(document.querySelector('.btnReservation'));
-btnReservierung.render(<Button name="Reservierung" />);
 
 
 
