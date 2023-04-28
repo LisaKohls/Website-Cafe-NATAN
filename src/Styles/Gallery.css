@@ -1,0 +1,11 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 Spalten */
+    gap: 1rem; /* Abstand zwischen den Bildern */
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
