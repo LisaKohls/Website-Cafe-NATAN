@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="831da116-b36e-4c3b-8b9e-ec881e0919cd" name="Changes" comment="feat(scroll): scroll mit button click geht noch nicht">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_04_23,_16_07_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_04_23__16_07__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_04_23,_19_25_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_04_23__19_25__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_04_23,_09_55_[Changes]/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_04_23,_09_55_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_04_23,_10_06_[Changes]/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_04_23,_10_06_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_04_23__09_55__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_04_23__10_06__Changes_.xml" beforeDir="false" />
+    <list default="true" id="831da116-b36e-4c3b-8b9e-ec881e0919cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Resources/textInhalte.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/textInhalte.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Oeffnungszeiten.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Oeffnungszeiten.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/Text.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Text.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +133,56 @@
       <option name="project" value="LOCAL" />
       <updated>1681813673175</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat(imgComponente): done">
+      <created>1682675848786</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682675848786</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat(öffnungszeitencomponente): neue Reihenfolge">
+      <created>1682677006088</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682677006088</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat(components): neue Reihenfolge">
+      <created>1682679626253</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682679626253</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat(components)">
+      <created>1682680530372</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682680530372</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat(wheel): png rad eingebaut">
+      <created>1682681464591</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682681464591</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat(componenten): Alles in app gerendert">
+      <created>1682681996410</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682681996410</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat(componenten): Alles in app gerendert">
+      <created>1682682349284</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682682349284</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +207,12 @@
     <MESSAGE value="Natan logo, text postitionierung" />
     <MESSAGE value="positionierung nav bar" />
     <MESSAGE value="border für Öffnungszeiten komponente" />
-    <option name="LAST_COMMIT_MESSAGE" value="border für Öffnungszeiten komponente" />
+    <MESSAGE value="feat(imgComponente): done" />
+    <MESSAGE value="feat(öffnungszeitencomponente): neue Reihenfolge" />
+    <MESSAGE value="feat(components): neue Reihenfolge" />
+    <MESSAGE value="feat(components)" />
+    <MESSAGE value="feat(wheel): png rad eingebaut" />
+    <MESSAGE value="feat(componenten): Alles in app gerendert" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(componenten): Alles in app gerendert" />
   </component>
 </project>
