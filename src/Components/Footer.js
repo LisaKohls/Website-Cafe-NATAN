@@ -2,9 +2,8 @@ import  React from "react";
 import "../Styles/Footer.css"
 import { SocialIcon } from 'react-social-icons';
 
-const Footer=()=>{
+function Footer(){
     return(
-
     <div className="footer">
         <div className="information">
             <div className="links">

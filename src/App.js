@@ -30,26 +30,14 @@ function App() {
         <h2>Events </h2>
         <ImgCenter name='Event'image ={eventplaceholder}/>
         <ImgCenter name='wheel' image={wheel}/>
-
+        <h2>Produkte & Partner</h2>
+        <Text text={volunteer} />
+        <Button name="Volunteer" />
+        <Reservierung />
+        <Footer />
     </React.Fragment>
   );
 }
-
-
-const btnVolunteers = ReactDOM.createRoot(document.querySelector('.btnVolunteers'));
-btnVolunteers.render(<Button name="Volunteer" />);
-
-
-const footer = ReactDOM.createRoot(document.querySelector('.footer'));
-footer.render(<Footer />);
-
-const reservierung = ReactDOM.createRoot(document.querySelector('.reservierung'));
-reservierung.render(<Reservierung />);
-
-
-
-const volunteerText = ReactDOM.createRoot(document.querySelector('.volunteerText'));
-volunteerText.render(<Text text={volunteer} />);
 
 
 export default App;
