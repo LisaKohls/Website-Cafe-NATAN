@@ -15,6 +15,7 @@ import {volunteer} from './Resources/textInhalte';
 import ImgCenter from "./Components/ImgCenter";
 import natanLogo from './Resources/Natanlogo.png';
 import eventplaceholder from './Resources/EventPlaceholder.png'
+import wheel from './Resources/Rad.png'
 
 function App() {
   return (
@@ -28,9 +29,7 @@ function App() {
         <h2>Unsere Speisekarte</h2>
         <h2>Events </h2>
         <ImgCenter name='Event'image ={eventplaceholder}/>
-
-
-
+        <ImgCenter name='wheel' image={wheel}/>
 
     </React.Fragment>
   );
