@@ -1,11 +1,35 @@
-.Logo{
-    margin-top: 5rem;
+img{
     justify-content: center;
     align-items: center;
 }
 
+.Logo{
+    margin-top: 5rem;
+}
+
+.wheel{
+    display: block;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7rem;
+    height: 7rem;
+}
+
+
+
 @media only screen and (max-width: 1024px) {
-    .Logo{
+    .Logo {
         margin-top: 5rem;
     }
+
+    .Event {
+        margin: 0;
+    }
+
+    .wheel{
+        width: 6rem;
+        height: 6rem;
+    }
+
 }
