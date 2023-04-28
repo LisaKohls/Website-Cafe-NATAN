@@ -7,8 +7,11 @@ import { oeffnungszeiten } from './Resources/textInhalte'
 import Navbar from './Components/Navbar';
 import Button from './Components/Button';
 import Oeffnungszeiten from './Components/Oeffnungszeiten';
-import Footer from "./Components/Footer";
-import Reservierung from "./Components/Reservierung";
+import Footer from './Components/Footer';
+import Reservierung from './Components/Reservierung';
+import {ueberNatan} from './Resources/textInhalte'
+import Text from './Components/Text'
+import {volunteer} from './Resources/textInhalte';
 
 function App() {
   return (
@@ -35,6 +38,12 @@ footer.render(<Footer />);
 
 const reservierung = ReactDOM.createRoot(document.querySelector('.reservierung'));
 reservierung.render(<Reservierung />);
+
+const überNatan = ReactDOM.createRoot(document.querySelector('.überNatan'));
+überNatan.render(<Text text={ueberNatan} />);
+
+const volunteerText = ReactDOM.createRoot(document.querySelector('.volunteerText'));
+volunteerText.render(<Text text={volunteer} />);
 
 
 export default App;

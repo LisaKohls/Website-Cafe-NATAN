@@ -21,16 +21,9 @@ body {
     text-align: center;
 }
 
-p {
-    color:var(--textColor);
-    margin: 2rem;
-    font-size: 1em;
-}
-
 h1 {
     color:var(--textColor);
     margin: 2rem;
-
 }
 
 h2{
