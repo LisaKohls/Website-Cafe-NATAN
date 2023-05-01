@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+
 import './index.css';
 import { oeffnungszeiten } from './Resources/textInhalte'
 import Navbar from './Components/Navbar';
@@ -18,9 +18,13 @@ import wheel from './Resources/Rad.png'
 import Gallery from "./Components/Gallery";
 import Maps from "./Components/Map"
 import Menu from "./Components/Menu";
+import PopUp from "./Components/PopUp";
+import { useState } from 'react';
 
 function App() {
+
   return (
+
       <React.Fragment>
           <Navbar />
           <ImgCenter name='Logo'image ={natanLogo}/>
@@ -37,7 +41,6 @@ function App() {
           <h2>Produkte & Partner</h2>
           <Text text={volunteer} />
           <Button name="Volunteer" />
-          <Reservierung />
           <Maps />
           <Footer />
       </React.Fragment>
