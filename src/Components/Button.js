@@ -11,6 +11,7 @@ function Button(props){
     const [volunteerPopUp, setVolunteerPopUp] = useState(false);
 
     function open(name) {
+        document.body.style.overflow = "hidden";
         if (name === 'Volunteer') {
             setVolunteerPopUp(true);
         } else {
