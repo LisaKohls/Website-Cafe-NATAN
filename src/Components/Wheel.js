@@ -1,13 +1,15 @@
-import '../Styles/Wheel.css'
 import {useRef, useEffect} from "react";
+import '../Styles/Wheel.css'
+import wheel from '../Resources/Kreis.svg'
 
-function Wheel(props){
+
+function Wheel(){
     const teschd = useRef(null)
 
     useEffect(() => {
         const rotate =  (event) => {
             if (teschd && teschd.current) {
-                teschd.current.style.transform = `rotate(${window.scrollY/3}deg)`
+                teschd.current.style.transform = `rotate(${window.scrollY/10}deg)`
             }
         }
         document.addEventListener("scroll", rotate )
@@ -18,8 +20,8 @@ function Wheel(props){
     }, [])
 
     return(
-        <img alt="trans" ref={teschd} className='wheel'
-             src={props.image}
+        <img alt="wheel" ref={teschd} className='wheel'
+             src={wheel}
         />
     )
 }

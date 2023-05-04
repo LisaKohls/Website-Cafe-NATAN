@@ -40,7 +40,7 @@ function App() {
                 <h2>Events </h2>
                 <ImgCenter name='Event' image={eventplaceholder}/>
             </Page>
-            <Page style={{backgroundColor: "var(--textColor)"}} className="blackText">
+            <Page style={{backgroundColor: "var(--textColor)"}} className="blackText aenderMeinNameTopPadding">
                 <h2>Produkte & Partner</h2>
                 <Text text={volunteer}/>
                 <Button name="Volunteer"/>
