@@ -7,7 +7,7 @@ function Menu() {
 
     return(
         <div className="menu">
-            <img src={MenuCard}  width="40%" height="auto"/>
+            <img alt="MenuCard" src={MenuCard}  width="40%" height="auto"/>
         </div>
     )
 }

@@ -10,6 +10,7 @@ header {
     padding: 0 2rem;
     background-color: var(--secondaryColor);
     color: var(--textColor);
+    z-index: 9999;
 }
 
 nav a {

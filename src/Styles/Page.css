@@ -1,0 +1,7 @@
+.with-bottom-wheel {
+    padding-bottom: calc(8rem / 2 + 1rem);
+}
+
+page {
+    background-color: var(--mainColor);
+}
