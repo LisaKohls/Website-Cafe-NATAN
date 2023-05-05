@@ -1,5 +1,6 @@
 .popup{
     position: fixed;
+    z-index: 10;
     top: 0;
     left: 0;
     width: 100%;
@@ -12,12 +13,31 @@
 }
 
 .popup-inner{
-    position: relative;
-    padding: 5rem;
-    width: 100%;
-    max-width: 40rem;
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem;
+    width: calc(100% - 4rem);
+    max-width: 400px;
     background-color: var(--textColor);
     margin: 2rem;
+    max-height: 80vh;
+    overflow-y: auto;
+    animation: wannIschCHilliWiederInStuttgart .5s ease-out backwards;
+}
+
+@keyframes wannIschCHilliWiederInStuttgart {
+    0% {
+        opacity: 0;
+        transform: translateY(100px) translateX(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) translateX(-50%);
+    }
 }
 
 .popup-inner .closeBtn{
@@ -25,3 +45,4 @@
     top: 1em;
     right: 1em;
 }
+

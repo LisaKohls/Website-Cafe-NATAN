@@ -1,11 +1,13 @@
 import '../Styles/Image.css'
 
-function imgCenter(props){
+
+function ImgCenter(props){
+
     return(
-        <img className={props.name}
+        <img alt="trans" className={"image-center" + props.name}
             src={props.image}
         />
     )
 }
 
-export default imgCenter;
+export default ImgCenter;

@@ -1,27 +1,63 @@
-
 .Datepicker{
     display: inline-grid;
-    color: var(--textColor);
+    color: var(--mainColor);
+    text-align: left;
 }
 
 .Datepicker label{
-
+    margin: 1rem;
 }
 
 .Datepicker input{
     all: unset;
-    width: 10rem;
+    width: 15rem;
     height: 1.5rem;
-    background-color: #c4c4c4;
+    border: 0.1rem solid #b4b2b2;
+    border-radius: 0.5rem;
     color: var(--mainColor);
+    margin: 1rem;
+    padding: 0.3rem;
+}
+
+.Datepicker #timepicker{
+    width: 15rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .Datepicker input:focus{
-    background-color: #ffffff;
+    background-color: var(--textColor);
+    border-color: var(--mainColor);
     outline: none;
 }
 
+.Datepicker .submit{
+    all: unset;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    padding: 0.4rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    display: flex;
+    margin-left: 10.5rem;
+    margin-top: 0.4rem;
+    border: 0.1rem solid var(--mainColor);
+}
 
+.Datepicker .submit:hover{
+    transition: var(--transitionHover);
+    background-color: var(--secondaryColor);
+    color: var(--textColor);
+    border-color: var(--secondaryColor);
+}
+
+@media only screen and (max-width: 1024px) {
+    .Datepicker{
+        display: block;
+    }
+
+}
 
 
 

@@ -1,0 +1,12 @@
+.with-bottom-wheel {
+    padding-bottom: calc(8rem / 2 + 2rem);
+}
+
+.page {
+    background-color: var(--mainColor);
+    position: relative;
+}
+
+.aenderMeinNameTopPadding {
+    padding-top: calc(8rem / 2 + 1rem);
+}

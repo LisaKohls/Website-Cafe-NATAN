@@ -1,0 +1,13 @@
+.wheel{
+    z-index: 1;
+    position: absolute;
+    bottom: calc(var(--size-circle) * -0.5);
+    left: 0;
+    right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: var(--size-circle);
+    height: var(--size-circle);
+    mix-blend-mode: difference;
+}

@@ -1,11 +1,37 @@
-.Volunteer h2{
+.volunteer h2 {
     color: var(--mainColor);
 }
 
-.Volunteer input {
 
+.volunteer input,
+.volunteer label {
+    display: block;
 }
 
-.Volunteer{
+.volunteer label {
+    font-weight: bold;
+}
+
+.volunteer input{
+    display: block;
+    width: 100%;
+    height: 1.4rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+.volunteer textarea{
+    display: block;
+    width: 100%;
+    height: 6rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+.volunteer .input-wrapper {
+    margin: .5rem 0;
+}
+
+.volunteer {
     text-align: left;
 }
