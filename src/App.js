@@ -25,11 +25,10 @@ import Page from "./Components/Page";
 function App() {
 
     return (
-
         <React.Fragment>
             <Navbar/>
             <Page bottomWheel={true}>
-                <ImgCenter name='Logo' image={natanLogo}/>
+                <ImgCenter name='logo' image={natanLogo}/>
                 <Gallery/>
                 <Text text={ueberNatan}/>
                 <Oeffnungszeiten inhalt={oeffnungszeiten}/>
@@ -38,7 +37,7 @@ function App() {
                 <h2>Unsere Speisekarte</h2>
                 <Menu/>
                 <h2>Events </h2>
-                <ImgCenter name='Event' image={eventplaceholder}/>
+                <ImgCenter name='event' image={eventplaceholder}/>
             </Page>
             <Page style={{backgroundColor: "var(--textColor)"}} className="blackText aenderMeinNameTopPadding">
                 <h2>Produkte & Partner</h2>
