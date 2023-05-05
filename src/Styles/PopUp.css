@@ -25,10 +25,10 @@
     background-color: var(--textColor);
     max-height: 75vh;
     overflow-y: auto;
-    animation: wannIschCHilliWiederInStuttgart .5s ease-out backwards;
+    animation: easeInPopUp .5s ease-out backwards;
 }
 
-@keyframes wannIschCHilliWiederInStuttgart {
+@keyframes easeInPopUp {
     0% {
         opacity: 0;
         transform: translateY(100px) translateX(-50%);
@@ -43,6 +43,13 @@
     position: absolute;
     top: 1em;
     right: 1em;
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--mainColor);
+    font-size: 1.8rem;
 }
 
 @media only screen and (max-width: 1024px) {

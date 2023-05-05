@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/PopUp.css'
+import { FaTimes } from "react-icons/fa"
 
 function PopUp(props){
     return(props.trigger) ? (
@@ -7,7 +8,7 @@ function PopUp(props){
             <div className='popup-inner'>
                 <button className='closeBtn' onClick={() => {
                     props.setTrigger(false);
-                    document.body.style.overflow = "auto";}}>close</button>
+                    document.body.style.overflow = "auto";}}>{FaTimes}</button>
                 { props.children }
             </div>
         </div>

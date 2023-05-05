@@ -12,7 +12,7 @@ import ImgCenter from "./Components/ImgCenter";
 import natanLogo from './Resources/Natanlogo.png';
 import eventplaceholder from './Resources/EventPlaceholder.png'
 import Gallery from "./Components/Gallery";
-import Maps from "./Components/Map"
+
 import Menu from "./Components/Menu";
 import Page from "./Components/Page";
 import Partner from './Resources/img.png'
@@ -38,7 +38,6 @@ function App() {
                 <ImgCenter name='partner' image={Partner}/>
                 <Text text={volunteer}/>
                 <Button name="Volunteer"/>
-                <Maps/>
             </Page>
             <Footer/>
         </React.Fragment>
