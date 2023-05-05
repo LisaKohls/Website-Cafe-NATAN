@@ -13,17 +13,27 @@ function Reservierung() {
     registerLocale("de", de)
     return (
         <div className='Datepicker'>
+            <div>
             <label for='datePicker'>Wähle ein Datum: </label>
             <DatePicker id='datePicker' locale="de" selected={startDate} onChange={(date) => setStartDate(date)}
                         dateFormat='dd MMMM yy'/>
+            </div>
+        <div>
             <label for='timepicker'>Uhrzeit: </label>
             <TimePicker id='timepicker' onChange={onChange} value={value}/>
+        </div>
+        <div>
             <label for='name'>Name: </label>
             <input type='text' id='name' name='fname'></input>
+        </div>
+        <div>
             <label for='personen'> Anzahl Personen</label>
             <input type='number' id='personen' name='personen'></input>
+        </div>
+        <div>
             <label for='mail'>E-Mail: </label>
             <input type='text' id='mail' name='mail'></input>
+        </div>
             <button className='submit'>Abschicken</button>
         </div>
     );
