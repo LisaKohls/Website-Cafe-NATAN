@@ -21,7 +21,7 @@ function Button(props){
 
     return (
         <div>
-            <button className="btn" onClick={() => open(props.name)}>
+            <button className={"btn" + props.name} onClick={() => open(props.name)}>
                 {props.name}
             </button>
             <PopUp trigger={reservierungPopUp} setTrigger={setReservierungPopUp}>
