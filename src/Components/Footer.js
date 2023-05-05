@@ -1,12 +1,12 @@
 import  React from "react";
 import "../Styles/Footer.css"
 import { SocialIcon } from 'react-social-icons';
+import Maps from "./Map"
 
 function Footer() {
     const currentYear = new Date().getFullYear();
 
     return(
-
     <div className="footer">
         <div className="information">
             <div className="links">
@@ -24,6 +24,7 @@ function Footer() {
                 </a>
 
             </div>
+            <Maps/>
             <div className="contact">
                 <p>Katharinenstraße 15 // 70182 Stuttgart</p>
                 <p>team@natan-cafeandbar.com</p>

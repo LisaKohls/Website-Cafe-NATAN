@@ -1,6 +1,6 @@
 .gallery {
     display: flex;
-    margin: 5rem;
+    margin-top: var(--marginContent);
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
@@ -8,15 +8,16 @@
     height: 30rem;
 }
 
+/*
 .gallery img {
     scroll-snap-align: start;
     width: auto;
     height: auto;
     object-fit: cover;
-}
+}*/
 
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 0;
     background: transparent;
 }
 

@@ -7,6 +7,11 @@
     margin-top: 5rem;
 }
 
+.image-centerpartner{
+    max-width: 20rem;
+    margin-top: var(--marginContent);
+}
+
 
 @media only screen and (max-width: 1024px) {
     .image-centerlogo {
@@ -20,6 +25,11 @@
     .wheel{
         width: 6rem;
         height: 6rem;
+    }
+
+    .image-centerpartner{
+        max-width: 22rem;
+        margin-top: var(--marginContent);
     }
 
 }

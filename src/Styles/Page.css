@@ -5,8 +5,17 @@
 .page {
     background-color: var(--mainColor);
     position: relative;
+    padding-left: 15rem;
+    padding-right: 15rem;
 }
 
 .aenderMeinNameTopPadding {
     padding-top: calc(8rem / 2 + 1rem);
+}
+
+@media only screen and (max-width: 1024px) {
+    .page {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 }
