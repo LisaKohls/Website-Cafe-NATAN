@@ -6,7 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="831da116-b36e-4c3b-8b9e-ec881e0919cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Text.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Text.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Reservierung.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Reservierung.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Volunteer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Volunteer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/Page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/PopUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/PopUp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/Reservierung.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Reservierung.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/Volunteer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Volunteer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +43,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Documents/Semester4/NatanWebseite/public&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -48,6 +57,45 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\Documents\Semester4\NatanWebseite\public" />
     </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,6 +117,9 @@
       <workItem from="1682071270194" duration="650000" />
       <workItem from="1682081209091" duration="1563000" />
       <workItem from="1682499968885" duration="318000" />
+      <workItem from="1683305962112" duration="288000" />
+      <workItem from="1683308625612" duration="6368000" />
+      <workItem from="1684001937784" duration="4889000" />
     </task>
     <task id="LOCAL-00001" summary="React Navbar">
       <created>1681654023637</created>

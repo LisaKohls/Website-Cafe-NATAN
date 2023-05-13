@@ -60,6 +60,7 @@ header nav {
         gap: 1.6rem;
         background-color: var(--secondaryColor);
         transition: 1s;
+
     }
 
     header nav.responsive_nav {

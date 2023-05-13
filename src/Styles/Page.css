@@ -9,7 +9,8 @@
     padding-right: 15rem;
 }
 
-.aenderMeinNameTopPadding {
+.paddingPage {
+    background-color: var(--textColor);
     padding-top: calc(8rem / 2 + 1rem);
 }
 

@@ -1,38 +1,54 @@
-.Datepicker{
-    display: inline-grid;
+.Datepicker {
     color: var(--mainColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Datepicker p {
+    display: block;
+    margin-top: var(--marginContent);
     text-align: left;
 }
 
-.Datepicker label{
-    margin: 1rem;
+.Datepicker h2 {
+    margin-top: var(--marginContent);
 }
 
-.Datepicker input{
+.Datepicker label {
+    display: block;
+    margin-top: var(--marginContent);
+    text-align: left;
+}
+
+.Datepicker input {
     all: unset;
-    width: 15rem;
-    height: 1.5rem;
+    width: 15.5rem;
+    height: 1.3rem;
     border: 0.1rem solid #b4b2b2;
     border-radius: 0.5rem;
     color: var(--mainColor);
-    margin: 1rem;
+    margin-top: 0.8rem;
     padding: 0.3rem;
+    text-align: left;
 }
 
-.Datepicker #timepicker{
-    width: 15rem;
-    margin: 0.5rem;
-    padding: 0.5rem;
+.Datepicker #time {
+    display: block;
+    margin-top: 0.8rem;
+    padding: 0.3rem;
+    width: 15.5rem;
     border-radius: 0.5rem;
+    align-content: center;
 }
 
-.Datepicker input:focus{
+.Datepicker input:focus {
     background-color: var(--textColor);
     border-color: var(--mainColor);
     outline: none;
 }
 
-.Datepicker .submit{
+.Datepicker .submit {
     all: unset;
     background-color: var(--mainColor);
     color: var(--textColor);
@@ -40,22 +56,42 @@
     cursor: pointer;
     border-radius: 0.5rem;
     border: 0.1rem solid var(--mainColor);
+    width: fit-content;
+    text-align: center;
+    margin-top: var(--marginContent);
+    margin-bottom: var(--marginContent)
 }
 
-.Datepicker .submit:hover{
+
+
+.Datepicker .submit:hover {
     transition: var(--transitionHover);
     background-color: var(--secondaryColor);
     color: var(--textColor);
     border-color: var(--secondaryColor);
 }
 
-@media only screen and (max-width: 1024px) {
-    .Datepicker{
-        display: block;
-    }
+.Datepicker .textArea{
+    all: unset;
+    display: block;
+    width: 16.2rem;
+    height: 6rem;
+    margin-top: var(--marginContent);
+    border: 0.1rem solid #b4b2b2;
+    border-radius: 0.5rem;
+    text-align: left;
+}
 
+.Datepicker textarea:focus {
+    background-color: var(--textColor);
+    border-color: var(--mainColor);
+    outline: none;
 }
 
 
 
-
+@media only screen and (max-width: 1024px) {
+    .Datepicker {
+        display: block;
+    }
+}

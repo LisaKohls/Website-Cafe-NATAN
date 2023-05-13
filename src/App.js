@@ -33,7 +33,7 @@ function App() {
                 <Menu/>
                 <h2>Events </h2>
             </Page>
-            <Page style={{"--mainColor": "var(--textColor)"}} className="blackText aenderMeinNameTopPadding">
+            <Page className="blackText paddingPage">
                 <h2>Produkte & Partner</h2>
                 <ImgCenter name='partner' image={Partner}/>
                 <Text text={volunteer}/>
