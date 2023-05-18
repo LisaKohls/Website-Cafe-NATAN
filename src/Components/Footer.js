@@ -1,7 +1,8 @@
 import  React from "react";
 import "../Styles/Footer.css"
 import { SocialIcon } from 'react-social-icons';
-import Maps from "./Map"
+import Oeffnungszeiten from "./Oeffnungszeiten";
+import {oeffnungszeiten} from '../Resources/textInhalte'
 
 function Footer() {
     const currentYear = new Date().getFullYear();
@@ -24,10 +25,12 @@ function Footer() {
                 </a>
 
             </div>
-            <Maps/>
             <div className="contact">
                 <p>Katharinenstraße 15 // 70182 Stuttgart</p>
                 <p>team@natan-cafeandbar.com</p>
+            </div>
+            <div>
+                <Oeffnungszeiten inhalt={oeffnungszeiten} />
             </div>
             <div className="socialmedia">
                 <SocialIcon bgColor="var(--textColor)"
