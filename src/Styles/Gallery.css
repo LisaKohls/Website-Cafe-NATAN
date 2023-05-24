@@ -8,7 +8,7 @@
 
 .gallery-container {
     width: 100%;
-    overflow-x: scroll;
+    overflow: hidden;
     position: relative;
 }
 
@@ -26,7 +26,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    overflow: auto;
+    overflow: hidden;
     position: relative;
     scroll-behavior: smooth;
 }
@@ -71,7 +71,7 @@
 
 .icon {
     color: var(--mainColorLight);
-    background-color: var(--mainColor);
+    background-color: transparent;
     font-size: 50px;
     outline: none;
     border: none;

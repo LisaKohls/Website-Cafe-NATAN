@@ -24,18 +24,20 @@ function App() {
             <Navbar/>
             <Page bottomWheel={true}>
                 <ImgCenter name='logo' image={natanLogo}/>
+                <div id="ueberUns" className="sectionPadding"/>
                 <Gallery/>
                 <Text text={ueberNatan}/>
                 <Oeffnungszeiten inhalt={oeffnungszeiten}/>
-                <h2>Du möchtest einen Tisch reservieren?</h2>
+                <h2 id="reservierung" className="sectionPadding">Du möchtest einen Tisch reservieren?</h2>
                 <Button name="Reservierung"/>
                 <h2>Unsere Speisekarte</h2>
                 <Menu/>
-                <h2>Events </h2>
+                <h2 id="events" className="sectionPadding">Events </h2>
             </Page>
             <Page className="blackText paddingPage">
-                <h2>Produkte & Partner</h2>
+                <h2 id="produkteUndPartner" className="sectionPadding">Produkte & Partner</h2>
                 <ImgCenter name='partner' image={Partner}/>
+                <div id="volunteers" className="sectionPadding"/>
                 <Text text={volunteer}/>
                 <Button name="Volunteer"/>
             </Page>

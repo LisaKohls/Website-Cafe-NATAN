@@ -49,3 +49,7 @@ code {
 .blackText * {
   color: black;
 }
+
+.sectionPadding {
+  padding-top: 100px;
+}
