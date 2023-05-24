@@ -27,6 +27,7 @@ function App() {
                 <div id="ueberUns" className="sectionPadding"/>
                 <Gallery/>
                 <Text text={ueberNatan}/>
+                <div id="oeffnungszeiten" className="sectionPadding"/>
                 <Oeffnungszeiten inhalt={oeffnungszeiten}/>
                 <h2 id="reservierung" className="sectionPadding">Du möchtest einen Tisch reservieren?</h2>
                 <Button name="Reservierung"/>
@@ -40,6 +41,7 @@ function App() {
                 <div id="volunteers" className="sectionPadding"/>
                 <Text text={volunteer}/>
                 <Button name="Volunteer"/>
+                <div id="footer" className="sectionPadding"/>
             </Page>
             <Footer/>
         </React.Fragment>
