@@ -25,10 +25,10 @@ function Button(props){
                 {props.name}
             </button>
             <PopUp trigger={reservierungPopUp} setTrigger={setReservierungPopUp}>
-                <Reservierung />
+                <Reservierung trigger={reservierungPopUp} setTrigger={setReservierungPopUp}/>
             </PopUp>
             <PopUp trigger={volunteerPopUp} setTrigger={setVolunteerPopUp}>
-                <Volunteer />
+                <Volunteer trigger={volunteerPopUp} setTrigger={setVolunteerPopUp}/>
             </PopUp>
         </div>
     );
