@@ -4,22 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="831da116-b36e-4c3b-8b9e-ec881e0919cd" name="Changes" comment="">
+    <list default="true" id="831da116-b36e-4c3b-8b9e-ec881e0919cd" name="Changes" comment="added arrow icons to gallery">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Reservierung.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Reservierung.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Volunteer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Volunteer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/PopUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/PopUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Reservierung.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Reservierung.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Volunteer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Volunteer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -43,8 +45,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Documents/Semester4/NatanWebseite/public&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lisasalzer/WebstormProjects/projekt_lisa_lisa/src/Resources&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -55,47 +57,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Resources" />
       <recent name="C:\Users\DELL\Documents\Semester4\NatanWebseite\public" />
     </key>
-  </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.test" />
-        <item itemvalue="npm.build" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -117,9 +81,9 @@
       <workItem from="1682071270194" duration="650000" />
       <workItem from="1682081209091" duration="1563000" />
       <workItem from="1682499968885" duration="318000" />
-      <workItem from="1683305962112" duration="288000" />
-      <workItem from="1683308625612" duration="6368000" />
-      <workItem from="1684001937784" duration="4889000" />
+      <workItem from="1683286389812" duration="5176000" />
+      <workItem from="1683816386300" duration="10154000" />
+      <workItem from="1684820577787" duration="3800000" />
     </task>
     <task id="LOCAL-00001" summary="React Navbar">
       <created>1681654023637</created>
@@ -184,56 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681813673175</updated>
     </task>
-    <task id="LOCAL-00010" summary="feat(imgComponente): done">
-      <created>1682675848786</created>
+    <task id="LOCAL-00010" summary="removed map from footer">
+      <created>1684390895602</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1682675848786</updated>
+      <updated>1684390895602</updated>
     </task>
-    <task id="LOCAL-00011" summary="feat(öffnungszeitencomponente): neue Reihenfolge">
-      <created>1682677006088</created>
+    <task id="LOCAL-00011" summary="added arrow icons to gallery">
+      <created>1684853299306</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1682677006088</updated>
+      <updated>1684853299306</updated>
     </task>
-    <task id="LOCAL-00012" summary="feat(components): neue Reihenfolge">
-      <created>1682679626253</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1682679626253</updated>
-    </task>
-    <task id="LOCAL-00013" summary="feat(components)">
-      <created>1682680530372</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1682680530372</updated>
-    </task>
-    <task id="LOCAL-00014" summary="feat(wheel): png rad eingebaut">
-      <created>1682681464591</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1682681464591</updated>
-    </task>
-    <task id="LOCAL-00015" summary="feat(componenten): Alles in app gerendert">
-      <created>1682681996410</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1682681996410</updated>
-    </task>
-    <task id="LOCAL-00016" summary="feat(componenten): Alles in app gerendert">
-      <created>1682682349284</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1682682349284</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,12 +187,8 @@
     <MESSAGE value="Natan logo, text postitionierung" />
     <MESSAGE value="positionierung nav bar" />
     <MESSAGE value="border für Öffnungszeiten komponente" />
-    <MESSAGE value="feat(imgComponente): done" />
-    <MESSAGE value="feat(öffnungszeitencomponente): neue Reihenfolge" />
-    <MESSAGE value="feat(components): neue Reihenfolge" />
-    <MESSAGE value="feat(components)" />
-    <MESSAGE value="feat(wheel): png rad eingebaut" />
-    <MESSAGE value="feat(componenten): Alles in app gerendert" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(componenten): Alles in app gerendert" />
+    <MESSAGE value="removed map from footer" />
+    <MESSAGE value="added arrow icons to gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="added arrow icons to gallery" />
   </component>
 </project>

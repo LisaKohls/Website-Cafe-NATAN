@@ -8,7 +8,7 @@
 
 .gallery-container {
     width: 100%;
-    overflow-x: scroll;
+    overflow: hidden;
     position: relative;
 }
 
@@ -26,32 +26,30 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    overflow: auto;
+    overflow: hidden;
     position: relative;
     scroll-behavior: smooth;
 }
 
 
-.scroll-images::before{
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    z-index: 99;
-    height: 100%;
-    width: 150px;
-    background-image: linear-gradient(90deg, var(--mainColor), transparent);
-}
-
+.scroll-images::before,
 .scroll-images::after{
     position: absolute;
     content: "";
-    right: 0;
     top: 0;
     z-index: 99;
     height: 100%;
     width: 150px;
-    background-image: linear-gradient(-90deg, var(--mainColor), transparent);
+}
+
+.scroll-images::before {
+    left: 0;
+   /* background-image: linear-gradient(90deg, var(--mainColor), transparent);*/
+}
+
+.scroll-images::after{
+    right: 0;
+    /*background-image: linear-gradient(-90deg, var(--mainColor), transparent);*/
 }
 
 
@@ -71,7 +69,7 @@
 
 .icon {
     color: var(--mainColorLight);
-    background-color: var(--mainColor);
+    background-color: transparent;
     font-size: 50px;
     outline: none;
     border: none;
