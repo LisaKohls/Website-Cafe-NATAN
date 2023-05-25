@@ -22,9 +22,9 @@ const Speisekarte = (props) => {
 
     const handleScroll = (direction) => {
         if (direction === 'left') {
-            setScrollPosition(scrollPosition - 0.5);
+            setScrollPosition(scrollPosition - 1.5);
         } else if (direction === 'right') {
-            setScrollPosition(scrollPosition + 0.5);
+            setScrollPosition(scrollPosition + 1.5);
         }
     };
 
