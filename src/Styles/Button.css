@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200&display=swap');
 
 .btnReservierung,
-.btnVolunteer {
+.btnVolunteer,
+.btnSpeisekarte{
     all: unset;
     margin-left: auto;
     margin-right: auto;
@@ -24,9 +25,16 @@
     border: 0.1rem solid black;
 }
 
+.btnSpeisekarte {
+    border: 0.1rem solid var(--textColor);
+    background: var(--mainColor);
+    color: var(--textColor);
+}
+
 
 .btnReservierung:hover,
-.btnVolunteer:hover {
+.btnVolunteer:hover,
+.btnMenu:hover{
     transition: var(--transitionHover);
     color: var(--secondaryColor);
     border-color: var(--secondaryColor);

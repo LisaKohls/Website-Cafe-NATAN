@@ -1,6 +1,7 @@
 import { FaBars, FaTimes } from "react-icons/fa"
 import {useEffect, useRef} from "react"
 import "../Styles/Navbar.css";
+import Logo from "../Resources/Natan_Logo_white.png"
 
 
 function Navbar() {
@@ -26,7 +27,7 @@ function Navbar() {
     }, [])
     return (
         <header>
-            <h3>logo</h3>
+            <img src={Logo} alt="Natan Logo" width="40px" height="60px"/>
             <nav ref={navRef}>
                 <a href="/#ueberUns">Über uns</a>
                 <a href="/#reservierung">Reservierung</a>

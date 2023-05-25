@@ -1,16 +1,19 @@
 # Webseite Café Natan
 
+## Ansprechpartner
+
 Bei Problemen oder Fragen zur Webseite könnt ihr uns gerne kontaktieren:
 
 Technisch: 
 
-- Lisa Salzer Mail: salzer.lisa@gmail.com Tel: 01708152153
-- Lisa Kohls Mail: lisa.01.09.2002@gmail.com Tel: 017685213223
+- **Lisa Kohls** Mail: lisa.01.09.2002@gmail.com Tel: 017685213223
+- **Lisa Salzer** Mail: salzer.lisa@gmail.com Tel: 01708152153
 
 
 Inhaltlich:
 
-- Nadia Tel: 017623901885
+- **Nadia** Mail: nadia@natan-cafeandbar.com Tel: 017623901885
+- **Lea** Mail: lea@natan-cafeandbar.com Tel: 01537750546
 
 
 ## Anleitung zum Aktualisieren der Inhalte
