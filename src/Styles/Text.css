@@ -1,13 +1,13 @@
 .mittig {
+    text-align: center;
     color:var(--textColor);
     margin-top: var(--marginContent);
     font-size: 0.8em;
     display: block;
-    text-align: justify;
 }
 
 .blocksatz{
-    text-align: left;
+    text-align: justify;
     color: var(--textColor);
     margin-top: var(--marginContent);
     font-size: 0.8rem;
@@ -17,8 +17,11 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .text{
-
+    .blocksatz{
+        text-align: justify;
+        color: var(--textColor);
+        margin-top: var(--marginContent);
+        font-size: 0.8rem;
+        display: block;
     }
-
 }

@@ -3,7 +3,7 @@ import './index.css';
 import {oeffnungszeiten} from './Resources/textInhalte'
 import Navbar from './Components/Navbar';
 import Button from './Components/Button';
-import Oeffnungszeiten from './Components/Oeffnungszeiten';
+
 import Footer from './Components/Footer';
 import {ueberNatan} from './Resources/textInhalte'
 import Text from './Components/Text'
@@ -13,7 +13,7 @@ import natanLogo from './Resources/Natanlogo.png';
 import eventplaceholder from './Resources/EventPlaceholder.png'
 import Gallery from "./Components/Gallery";
 import Speisekarte from "./Components/Speisekarte";
-
+import BoxWithText from "./Components/BoxWithText";
 import Page from "./Components/Page";
 import Partner from './Resources/img.png'
 
