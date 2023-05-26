@@ -13,7 +13,7 @@ import natanLogo from './Resources/Natanlogo.png';
 import eventplaceholder from './Resources/EventPlaceholder.png'
 import Gallery from "./Components/Gallery";
 
-import Menu from "./Components/Menu";
+import Speisekarte from "./Components/Speisekarte";
 import Page from "./Components/Page";
 import Partner from './Resources/img.png'
 
@@ -27,11 +27,12 @@ function App() {
                 <div id="ueberUns" className="sectionPadding"/>
                 <Gallery/>
                 <Text text={ueberNatan}/>
+                <div id="oeffnungszeiten" className="sectionPadding"/>
                 <Oeffnungszeiten inhalt={oeffnungszeiten}/>
                 <h2 id="reservierung" className="sectionPadding">Du möchtest einen Tisch reservieren?</h2>
                 <Button name="Reservierung"/>
                 <h2>Unsere Speisekarte</h2>
-                <Menu/>
+                <Button name="Speisekarte"/>
                 <h2 id="events" className="sectionPadding">Events </h2>
             </Page>
             <Page className="blackText paddingPage">
@@ -40,6 +41,7 @@ function App() {
                 <div id="volunteers" className="sectionPadding"/>
                 <Text text={volunteer}/>
                 <Button name="Volunteer"/>
+                <div id="footer" className="sectionPadding"/>
             </Page>
             <Footer/>
         </React.Fragment>
