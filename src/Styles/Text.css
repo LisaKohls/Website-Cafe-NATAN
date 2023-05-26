@@ -1,9 +1,19 @@
-.text {
+.mittig {
     color:var(--textColor);
     margin-top: var(--marginContent);
     font-size: 0.8em;
     display: block;
     text-align: justify;
+}
+
+.blocksatz{
+    text-align: left;
+    color: var(--textColor);
+    margin-top: var(--marginContent);
+    font-size: 0.8rem;
+    flex: 1;
+    display: inline-block;
+    text-align-last: justify;
 }
 
 @media only screen and (max-width: 1024px) {

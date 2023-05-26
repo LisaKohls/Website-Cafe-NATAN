@@ -12,6 +12,12 @@
     margin-top: var(--marginContent);
 }
 
+.image-centertables{
+    width: 15rem;
+    height: 10rem;
+    margin: var(--marginContent);
+}
+
 
 @media only screen and (max-width: 1024px) {
     .image-centerlogo {

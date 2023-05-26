@@ -22,9 +22,7 @@
     padding: 0 4rem;
     width: fit-content;
     height: fit-content;
-
     background-color: var(--textColor);
-
     overflow-y: auto;
     animation: easeInPopUp .5s ease-out backwards;
 }

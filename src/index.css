@@ -14,7 +14,6 @@
   --secondaryColor: #808770;
   --textColor: white;
   --transitionHover: 300ms;
-
   --size-circle: 10rem;
   --marginContent: 1.5rem;
 }
@@ -26,7 +25,7 @@ h1 {
 
 h2{
   color:var(--textColor);
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 body {
@@ -52,4 +51,16 @@ code {
 
 .sectionPadding {
   padding-top: 100px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .container{
+    display: block;
+  }
 }
