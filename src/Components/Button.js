@@ -4,6 +4,7 @@ import Reservierung from "./Reservierung";
 import Volunteer from './Volunteer'
 import Speisekarte from './Speisekarte'
 import React, {useState} from "react";
+import PictureGallery from "./PictureGallery";
 
 
 function Button(props){
@@ -34,7 +35,7 @@ function Button(props){
             <PopUp trigger={volunteerPopUp} setTrigger={setVolunteerPopUp}>
                 <Volunteer trigger={volunteerPopUp} setTrigger={setVolunteerPopUp}/>
             </PopUp>
-                <Speisekarte trigger={menuPopUp} setTrigger={setMenuPopUp}/>
+                <PictureGallery trigger={menuPopUp} setTrigger={setMenuPopUp}/>
         </div>
     );
 }

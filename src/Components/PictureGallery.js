@@ -1,46 +1,47 @@
 import React, { useState } from 'react';
-import "../Styles/Speisekarte.css"
-import Img1 from '../Resources/barNatan1.jpg'
-import Img2 from '../Resources/barNatan2.jpg'
-import Img3 from '../Resources/outsideViewNatan.jpg'
-import Img4 from '../Resources/interiorNatan.jpg'
-import Img5 from '../Resources/foodCloseup1.jpg'
+import "../Styles/PictureGallery.css"
+import img1 from "../Resources/speisekarte1.png"
+import img2 from "../Resources/speisekarte2.png"
+import img3 from "../Resources/speisekarte3.png"
+import img4 from "../Resources/speisekarte4.png"
+import img5 from "../Resources/speisekarte5.png"
+import { FaTimes } from "react-icons/fa";
 
+const Speisekarte = (props) => {
+    const [currentIndex, setCurrentIndex] = useState(0);
 
-const PictureGallery = (props) => {
-    const [scrollPosition, setScrollPosition] = useState(0);
-
-    const images = [
-        { src: Img1, alt: 'Natan Bar', width: "600px", height:"400px"},
-        { src: Img2, alt: 'Natan Bar', width: "600px", height:"400px" },
-        { src: Img3, alt: 'Outside View Natan', width: "600px", height:"400px" },
-        { src: Img4, alt: 'Interior Natan', width: "600px", height:"400px" },
-        { src: Img5, alt: 'food closeup', width: "600px", height:"400px"},
+    const speisen = [
+        { src: img1, alt: 'Natan Bar'},
+        { src: img2, alt: 'Natan Bar'},
+        { src: img3, alt: 'Outside View Natan'},
+        { src: img4, alt: 'Interior Natan'},
+        { src: img5, alt: 'food closeup'},
     ];
-
 
     const handleScroll = (direction) => {
         if (direction === 'left') {
-            setScrollPosition(scrollPosition - 0.5);
+            setCurrentIndex((prevIndex) => (prevIndex === 0 ? speisen.length - 1 : prevIndex - 1));
         } else if (direction === 'right') {
-            setScrollPosition(scrollPosition + 0.5);
+            setCurrentIndex((prevIndex) => (prevIndex === speisen.length - 1 ? 0 : prevIndex + 1));
         }
     };
 
-    return(props) ? (
-        <div>
+    return (props.trigger) ? (
+        <div className="popup">
+            <button className="closeBtn" onClick={() => {
+                props.setTrigger(false);
+                document.body.style.overflow = "auto";
+            }}>✕</button>
+
             <button className="scroll-buttons" onClick={() => handleScroll('left')}>←</button>
             <div className="scroll-container">
-                <div className="menu" style={{transform: `translateX(-${scrollPosition * 100}%)`}}>
-                    {images.map((image, index) => (
-                        <img className="child" key={index} src={image.src} alt={image.alt} />
-                    ))}
-                    ))}
+                <div className="menu">
+                    <img className="child" src={speisen[currentIndex].src} alt={speisen[currentIndex].alt} />
                 </div>
             </div>
             <button className="scroll-buttons" onClick={() => handleScroll('right')}>→</button>
         </div>
-    ): ""
+    ) : null;
 };
 
-export default PictureGallery;
+export default Speisekarte;
