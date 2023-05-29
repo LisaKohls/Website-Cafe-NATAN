@@ -49,10 +49,17 @@ function App() {
                 <Gallery/>
             </Page>
             <Page className="blackText paddingPage">
-                <h2 id="produkteUndPartner" className="ueberschriftDunkel">Produkte & Partner</h2>
-                <ImgPosition name='partner' image={Partner}/>
+                <h2 id="produkteUndPartner" className="ueberschrift">Produkte & Partner</h2>
+                <div className='container'>
+                    <ImgPosition name='partner' image={Partner}/>
+                    <Text text={volunteer} formatierung='blocksatzSchwarz'/>
+                </div>
                 <div id="volunteers" className="sectionPadding"/>
-                <Text text={volunteer} formatierung='mittig'/>
+                <h2 id="volunteer" className="ueberschrift">Werde Volunteer</h2>
+                <div className='container'>
+                    <Text text={volunteer} formatierung='blocksatzSchwarz'/>
+                    <ImgPosition name='volunteer' image={Bar}/>
+                </div>
                 <Button name="Volunteer"/>
                 <div id="footer" className="sectionPadding"/>
             </Page>

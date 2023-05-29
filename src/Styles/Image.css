@@ -21,29 +21,31 @@
     background-color: black;
 }
 
+.imagevolunteer{
+    margin-top: var(--marginContent);
+    margin-left: 1rem;
+    width: 50%;
+}
+
 .imagepartner{
     width: 15rem;
     margin-top: var(--marginContent);
+    margin-right: 1rem;
 }
 
-.imagetables{
-    width: 15rem;
-    height: 10rem;
-    margin: var(--marginContent);
-}
+
+
 
 .imageinteriorNatan{
     display: block;
     width: 44%;
     height: 44%;
     margin-right: 5rem;
+    margin-left: 0;
 }
 
 
 @media only screen and (max-width: 1024px) {
-    .imagelogo {
-        margin-top: 5rem;
-    }
 
     .imageevent {
         margin: 0;
@@ -69,12 +71,13 @@
     }
 
     .imagelogo{
-        width: 28%;
-        height: 28%;
+        width: 21%;
+        height: 21%;
         position: static;
         transform: none;
         align-items: center;
         justify-content: center;
+        margin-top: 5rem;
     }
 
 }
