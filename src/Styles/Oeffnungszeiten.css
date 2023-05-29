@@ -1,7 +1,6 @@
 .Öffnungszeiten{
     flex: 1;
     display: inline-block;
-    border: 0.1rem solid var(--textColor);
     white-space: pre-line;
     text-align: center;
     margin-top: var(--marginContent);
@@ -22,7 +21,6 @@
     color: var(--textColor);
     font-size: 0.8rem;
     line-height: 2rem;
-    border: 0.1rem solid var(--textColor);
 }
 
 .Natan{

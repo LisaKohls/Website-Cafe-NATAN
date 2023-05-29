@@ -25,7 +25,8 @@ function App() {
             <Page bottomWheel={true}>
                 <ImgCenter name='logo' image={natanLogo}/>
                 <div id="ueberUns" className="sectionPadding"/>
-                <Gallery/>
+                <h2 className='ueberschrift'>Über uns</h2>
+                <Text text={ueberNatan} formatierung='blocksatz'/>
                 <div className="container">
                     <BoxWithText title='Öffnungszeiten' >
                         <Text text='Öffnungszeiten'/>
@@ -42,6 +43,7 @@ function App() {
                 <h2>Unsere Speisekarte</h2>
                 <Button name="Speisekarte"/>
                 <h2 id="events" className="sectionPadding">Events </h2>
+                <Gallery/>
             </Page>
             <Page className="blackText paddingPage">
                 <h2 id="produkteUndPartner" className="sectionPadding">Produkte & Partner</h2>
