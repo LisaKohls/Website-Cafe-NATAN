@@ -1,11 +1,9 @@
 .Öffnungszeiten{
     flex: 1;
     display: inline-block;
-    border: 0.1rem solid var(--textColor);
     white-space: pre-line;
-    text-align: center;
+    text-align: left;
     margin-top: var(--marginContent);
-    padding: 2rem;
     color: var(--textColor);
     font-size: 0.8rem;
     line-height: 2rem;
@@ -15,19 +13,8 @@
     margin-left: 2rem;
 }
 
-.reservierung{
-    display: block;
-    text-align: center;
-    margin-top: var(--marginContent);
-    color: var(--textColor);
-    font-size: 0.8rem;
-    line-height: 2rem;
-    border: 0.1rem solid var(--textColor);
-}
 
-.Natan{
 
-}
 
 @media only screen and (max-width: 1024px) {
     .Öffnungszeiten{
@@ -38,7 +25,6 @@
         padding: 3.1rem;
         color: var(--textColor);
         font-size: 0.8rem;
-        line-height: 2rem;
         margin: var(--marginContent) 0;
     }
 

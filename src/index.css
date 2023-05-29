@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200&family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300&family=Roboto:wght@100&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -13,7 +14,7 @@
   --mainColorLight: #E8E8E8;
   --secondaryColor: #808770;
   --textColor: white;
-  --transitionHover: 300ms;
+  --transitionHover: 300ms ease-in-out;
   --size-circle: 10rem;
   --marginContent: 1.5rem;
 }
@@ -25,7 +26,7 @@ h1 {
 
 h2{
   color:var(--textColor);
-  margin-top: 2rem;
+  margin-top: var(--marginContent);
 }
 
 body {
@@ -50,12 +51,26 @@ code {
 }
 
 .sectionPadding {
-  padding-top: 100px;
+  padding-top: var(--marginContent);
 }
 
 .container{
   display: flex;
   justify-content: center;
+}
+
+.ueberschrift{
+  position: relative;
+}
+
+.ueberschrift::after {
+  content: '';
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  bottom: -0.5rem;
+  height: 1px;
+  background-color: var(--textColor);
 }
 
 
