@@ -4,42 +4,38 @@
 .btnVolunteer,
 .btnSpeisekarte {
     all: unset;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    padding: 0.7rem;
+    margin-top: var(--marginContent);
+    padding: 1rem;
     cursor: pointer;
-    align-items: center;
-    border-radius: 50px;
-    transition: background-color 0.3s, color 0.3s;
+    background: transparent;
+    border: 0.1rem solid var(--textColor);
+    outline: none;
+    transition: 100ms ease-in-out;
 }
+
 
 .btnReservierung,
 .btnSpeisekarte{
-    background: var(--textColor);
-    color: var(--mainColor);
-}
-
-.btnReservierung:hover,
-.btnSpeisekarte:hover {
-    background: var(--secondaryColor);
+    background: var(--mainColor);
     color: var(--textColor);
 }
 
+
 .btnVolunteer {
-    border: 0.1rem solid black;
+    border: 0.1rem solid var(--mainColor);
 }
 
 
 .btnReservierung:hover,
 .btnVolunteer:hover,
-.btnMenu:hover{
-    transition: var(--transitionHover);
+.btnSpeisekarte:hover{
+    transition: 100ms ease-in-out;
     color: var(--secondaryColor);
-    border-color: var(--secondaryColor);
+    border: 0.1rem solid var(--secondaryColor);
 }
+
+
+
 
 
 
