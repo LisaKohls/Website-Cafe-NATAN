@@ -6,6 +6,24 @@
     display: block;
 }
 
+.mittigSchwarz{
+    text-align: center;
+    color:var(--mainColor);
+    font-size: 0.8em;
+    display: block;
+    margin-top: var(--marginContent);
+}
+
+.blocksatzSchwarz{
+    text-align: justify;
+    color: var(--mainColor);
+    margin-top: var(--marginContent);
+    font-size: 0.8rem;
+    flex: 1;
+    display: inline-block;
+    text-align-last: justify;
+}
+
 .blocksatz{
     text-align: justify;
     color: var(--textColor);
@@ -23,10 +41,10 @@
 }
 
 .linksbündigZeilenabstand{
-    margin-top: 1.2rem;
+    margin-top: 1.4rem;
     text-align: left;
     color: var(--textColor);
-    line-height: 1.5rem;
+    line-height: 1.9rem;
     font-size: 0.8rem;
 }
 

@@ -4,7 +4,19 @@
 }
 
 .imagelogo{
+    position: absolute;
     margin-top: 5rem;
+
+    width: 10%;
+    height: 10%;
+    z-index: 2;
+}
+
+.imagebar{
+    margin-top: 5rem;
+    position: relative;
+    width: 110%;
+    height:110%;
 }
 
 .imagepartner{

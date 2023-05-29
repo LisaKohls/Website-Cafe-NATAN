@@ -9,13 +9,14 @@ import {ueberNatan} from './Resources/textInhalte'
 import Text from './Components/Text'
 import {volunteer} from './Resources/textInhalte';
 import ImgPosition from "./Components/ImgPosition";
-import NatanLogo from './Resources/Natanlogo.png';
+import NatanLogo from './Resources/Natan_Logo_white.png';
 import Gallery from "./Components/Gallery";
 import BoxWithText from "./Components/BoxWithText";
 import Page from "./Components/Page";
 import Partner from './Resources/img.png'
 import InteriorNatan from './Resources/interiorNatan.jpg'
 import SpecialFood from "./Components/speisen/SpecialFood";
+import Bar from './Resources/barNatan1_edited.jpg'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Navbar/>
             <Page bottomWheel={true}>
                 <ImgPosition name='logo' image={NatanLogo}/>
+                <ImgPosition name='bar' image={Bar}/>
                 <div id="ueberUns" className="sectionPadding"/>
                 <h2 className='ueberschrift'>Über uns</h2>
                 <Text text={ueberNatan} formatierung='blocksatz'/>
