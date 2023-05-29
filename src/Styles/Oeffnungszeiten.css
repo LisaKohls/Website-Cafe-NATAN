@@ -3,15 +3,10 @@
     display: inline-block;
     white-space: pre-line;
     text-align: left;
-    margin-top: var(--marginContent);
     color: var(--textColor);
     font-size: 0.8rem;
-    line-height: 2rem;
 }
 
-.Öffnungszeiten + .blocksatz {
-    margin-left: 2rem;
-}
 
 
 
@@ -28,9 +23,6 @@
         margin: var(--marginContent) 0;
     }
 
-    .Öffnungszeiten + .blocksatz {
-        margin-left: 0rem;
-    }
 
 
 }

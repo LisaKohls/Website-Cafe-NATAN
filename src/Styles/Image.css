@@ -1,30 +1,37 @@
-.image-center {
+.image {
     justify-content: center;
     align-items: center;
 }
 
-.image-centerlogo{
+.imagelogo{
     margin-top: 5rem;
 }
 
-.image-centerpartner{
+.imagepartner{
     width: 15rem;
     margin-top: var(--marginContent);
 }
 
-.image-centertables{
+.imagetables{
     width: 15rem;
     height: 10rem;
     margin: var(--marginContent);
 }
 
+.imageinteriorNatan{
+    display: block;
+    width: 44%;
+    height: 44%;
+    margin-right: 5rem;
+}
+
 
 @media only screen and (max-width: 1024px) {
-    .image-centerlogo {
+    .imagelogo {
         margin-top: 5rem;
     }
 
-    .image-centerevent {
+    .imageevent {
         margin: 0;
     }
 
@@ -33,9 +40,14 @@
         height: 6rem;
     }
 
-    .image-centerpartner{
+    .imagepartner{
         max-width: 22rem;
         margin-top: var(--marginContent);
+    }
+
+    .imageinteriorNatan{
+        visibility: hidden;
+        width: 0;
     }
 
 }

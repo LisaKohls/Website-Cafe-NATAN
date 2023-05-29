@@ -8,14 +8,13 @@ import Footer from './Components/Footer';
 import {ueberNatan} from './Resources/textInhalte'
 import Text from './Components/Text'
 import {volunteer} from './Resources/textInhalte';
-import ImgCenter from "./Components/ImgCenter";
-import natanLogo from './Resources/Natanlogo.png';
-import eventplaceholder from './Resources/EventPlaceholder.png'
+import ImgPosition from "./Components/ImgPosition";
+import NatanLogo from './Resources/Natanlogo.png';
 import Gallery from "./Components/Gallery";
-import Speisekarte from "./Components/Speisekarte";
 import BoxWithText from "./Components/BoxWithText";
 import Page from "./Components/Page";
 import Partner from './Resources/img.png'
+import InteriorNatan from './Resources/interiorNatan.jpg'
 
 function App() {
 
@@ -23,14 +22,17 @@ function App() {
         <React.Fragment>
             <Navbar/>
             <Page bottomWheel={true}>
-                <ImgCenter name='logo' image={natanLogo}/>
+                <ImgPosition name='logo' image={NatanLogo}/>
                 <div id="ueberUns" className="sectionPadding"/>
                 <h2 className='ueberschrift'>Über uns</h2>
                 <Text text={ueberNatan} formatierung='blocksatz'/>
+                <div id="ueberUns" className="sectionPadding"/>
+                <Text text='Open for you' formatierung='decoration'/>
                 <div className="container">
+                    <ImgPosition name='interiorNatan' image={InteriorNatan}/>
                     <BoxWithText title='Öffnungszeiten' >
                         <Text text='Öffnungszeiten' formatierung='linksbündig'/>
-                        <Text text={oeffnungszeiten} formatierung='linksbündig'/>
+                        <Text text={oeffnungszeiten} formatierung='linksbündigZeilenabstand'/>
                         <Button name="Reservierung"/>
                     </BoxWithText>
 
@@ -47,7 +49,7 @@ function App() {
             </Page>
             <Page className="blackText paddingPage">
                 <h2 id="produkteUndPartner" className="sectionPadding">Produkte & Partner</h2>
-                <ImgCenter name='partner' image={Partner}/>
+                <ImgPosition name='partner' image={Partner}/>
                 <div id="volunteers" className="sectionPadding"/>
                 <Text text={volunteer} formatierung='mittig'/>
                 <Button name="Volunteer"/>
