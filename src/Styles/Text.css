@@ -16,6 +16,12 @@
     text-align-last: justify;
 }
 
+.linksbündig{
+    text-align: left;
+    color: var(--textColor);
+    margin-top: var(--marginContent);
+    font-size: 0.8rem;
+}
 @media only screen and (max-width: 1024px) {
     .blocksatz{
         text-align: justify;

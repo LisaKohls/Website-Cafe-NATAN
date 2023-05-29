@@ -8,9 +8,10 @@
     padding: 1rem;
     cursor: pointer;
     background: transparent;
-    border: 0.1rem solid var(--textColor);
+    border: 1px solid var(--textColor);
     outline: none;
     transition: 100ms ease-in-out;
+    line-height: 0.5rem;
 }
 
 

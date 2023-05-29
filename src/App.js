@@ -29,16 +29,15 @@ function App() {
                 <Text text={ueberNatan} formatierung='blocksatz'/>
                 <div className="container">
                     <BoxWithText title='Öffnungszeiten' >
-                        <Text text='Öffnungszeiten'/>
-                        <Text text={oeffnungszeiten} formatierung=''/>
+                        <Text text='Öffnungszeiten' formatierung='linksbündig'/>
+                        <Text text={oeffnungszeiten} formatierung='linksbündig'/>
+                        <Button name="Reservierung"/>
                     </BoxWithText>
-                    <Text text={ueberNatan} formatierung='blocksatz'/>
                 </div>
                 <div className="container">
                     <div>
-                        <Button name="Reservierung"/>
-                    </div>
 
+                    </div>
                 </div>
                 <h2>Unsere Speisekarte</h2>
                 <Button name="Speisekarte"/>
