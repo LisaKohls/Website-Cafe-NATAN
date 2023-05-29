@@ -2,7 +2,7 @@ import "../Styles/Button.css";
 import PopUp from "./PopUp";
 import Reservierung from "./Reservierung";
 import Volunteer from './Volunteer'
-import Speisekarte from './Speisekarte'
+import Speisekarte from './speisen/Speisekarte'
 import Map from './Map'
 import React, {useState} from "react";
 import PictureGallery from "./PictureGallery";

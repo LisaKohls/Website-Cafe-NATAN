@@ -6,7 +6,7 @@ import Img1 from '../Resources/barNatan1.jpg'
 import Img2 from '../Resources/barNatan2.jpg'
 import Img3 from '../Resources/outsideViewNatan.jpg'
 import Img4 from '../Resources/interiorNatan.jpg'
-import Img5 from '../Resources/foodCloseup1.jpg'
+import Img5 from '../Resources/specialFoodStaging/breakfast1.jpg'
 
 function Gallery() {
     const images = [

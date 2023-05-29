@@ -6,6 +6,24 @@
     display: block;
 }
 
+.mittigSchwarz{
+    text-align: center;
+    color:var(--mainColor);
+    font-size: 0.8em;
+    display: block;
+    margin-top: var(--marginContent);
+}
+
+.blocksatzSchwarz{
+    text-align: justify;
+    color: var(--mainColor);
+    margin-top: var(--marginContent);
+    font-size: 0.8rem;
+    flex: 1;
+    display: inline-block;
+    text-align-last: justify;
+}
+
 .blocksatz{
     text-align: justify;
     color: var(--textColor);
@@ -19,9 +37,25 @@
 .linksbündig{
     text-align: left;
     color: var(--textColor);
-    margin-top: var(--marginContent);
     font-size: 0.8rem;
 }
+
+.linksbündigZeilenabstand{
+    margin-top: 1.4rem;
+    text-align: left;
+    color: var(--textColor);
+    line-height: 1.9rem;
+    font-size: 0.8rem;
+}
+
+.decoration {
+    margin-top: var(--marginContent);
+    color: var(--textColor);
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 5rem;
+}
+
 @media only screen and (max-width: 1024px) {
     .blocksatz{
         text-align: justify;
@@ -36,4 +70,18 @@
         text-align: center;
         margin-top: 0;
     }
+
+    .linksbündigZeilenabstand{
+        display: block;
+        text-align: center;
+        margin-top: var(--marginContent);
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .decoration{
+        visibility: hidden;
+        font-size: 0;
+    }
+
 }

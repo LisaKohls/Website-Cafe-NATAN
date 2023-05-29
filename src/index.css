@@ -56,14 +56,50 @@ code {
 
 .container{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
 }
+
+
 
 .ueberschrift{
   position: relative;
+  margin-top: 4rem;
 }
 
-.ueberschrift::after {
+.ueberuns{
+  margin-top: 0;
+}
+
+.ueberuns::after{
+  content: '';
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  bottom: -0.5rem;
+  height: 1px;
+  background-color: var(--textColor);
+}
+
+.ueberschriftDunkel{
+  color: var(--mainColor);
+  margin-top: var(--marginContent);
+}
+
+.ueberschriftDunkel::after{
+  content: '';
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  bottom: -0.5rem;
+  height: 1px;
+  background-color: var(--mainColor);
+}
+
+
+.ueberschrift::after{
   content: '';
   position: absolute;
   left: 30%;
@@ -77,5 +113,7 @@ code {
 @media only screen and (max-width: 1024px) {
   .container{
     display: block;
+    align-items: center;
+    justify-content: center;
   }
 }
