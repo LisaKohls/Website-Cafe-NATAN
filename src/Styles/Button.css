@@ -8,9 +8,9 @@
     padding: 1rem;
     cursor: pointer;
     background: transparent;
-    border: 1px solid var(--textColor);
+    border: 0.1rem solid var(--textColor);
     outline: none;
-    transition: 100ms ease-in-out;
+    transition: var(--transitionHover);
     line-height: 0.5rem;
 }
 
@@ -30,7 +30,7 @@
 .btnReservierung:hover,
 .btnVolunteer:hover,
 .btnSpeisekarte:hover{
-    transition: 100ms ease-in-out;
+    transition: var(--transitionHover);
     color: var(--secondaryColor);
     border: 0.1rem solid var(--secondaryColor);
 }

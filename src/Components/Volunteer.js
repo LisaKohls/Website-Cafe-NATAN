@@ -29,7 +29,7 @@ function Volunteer(props) {
         var name = document.getElementById("name").value
         var mail = document.getElementById("mail").value
         var message = document.getElementById("message").value
-        if(name == ' ' || mail == '' || message == ''){
+        if(name === ' ' || mail === '' || message === ''){
             alert('Bitte fülle alles vollständig aus')
         }else{
             alert('Wir haben das Natan Team mit deiner Anfrage kontaktiert und melden uns dann bei dir')
@@ -44,7 +44,6 @@ function Volunteer(props) {
 
             <div>
                 <h2>Werde Volunteer</h2>
-                <p>Wir kontaktieren dich nach deiner Anfrage. </p>
             </div>
             <div>
                 <label>Vor und Nachname</label>

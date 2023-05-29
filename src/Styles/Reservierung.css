@@ -9,18 +9,17 @@
 
 .Datepicker p {
     display: block;
-    margin-top: var(--marginContent);
+    margin-top: 1rem;
     text-align: left;
 }
 
-.Datepicker h2 {
-    margin-top: var(--marginContent);
-}
+
 
 .Datepicker label {
     display: block;
-    margin-top: var(--marginContent);
+    margin-top: 1rem;
     text-align: left;
+    line-height: 2rem;
 }
 
 .Datepicker input {
@@ -30,14 +29,12 @@
     border: 0.1rem solid #b4b2b2;
     border-radius: 0.5rem;
     color: var(--mainColor);
-    margin-top: 0.8rem;
     padding: 0.3rem;
     text-align: left;
 }
 
 .Datepicker #time {
     display: block;
-    margin-top: 0.8rem;
     padding: 0.3rem;
     width: 15.5rem;
     border-radius: 0.5rem;
@@ -51,17 +48,16 @@
 }
 
 .Datepicker .submit {
-    all: unset;
     background-color: var(--mainColor);
     color: var(--textColor);
-    padding: 0.4rem;
+    padding: 0.5rem;
     cursor: pointer;
     border-radius: 0.5rem;
     border: 0.1rem solid var(--mainColor);
     width: fit-content;
     text-align: center;
     margin-top: var(--marginContent);
-
+    transition: var(--transitionHover);
 }
 
 
@@ -78,7 +74,6 @@
     display: block;
     width: 16.2rem;
     height: 6rem;
-    margin-top: var(--marginContent);
     border: 0.1rem solid #b4b2b2;
     border-radius: 0.5rem;
     text-align: left;
@@ -95,5 +90,9 @@
 @media only screen and (max-width: 1024px) {
     .Datepicker {
         display: block;
+    }
+
+    .Datepicker label {
+        margin-top: 0.5rem;
     }
 }

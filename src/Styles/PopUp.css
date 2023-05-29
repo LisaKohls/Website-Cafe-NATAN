@@ -23,7 +23,7 @@
     width: fit-content;
     height: fit-content;
     background-color: var(--textColor);
-    overflow-y: auto;
+    overflow-y: hidden;
     animation: easeInPopUp .5s ease-out backwards;
 }
 
@@ -40,9 +40,9 @@
 
 .popup-inner .pop-up-close-btn{
     position: absolute;
-    top: 0rem;
-    right: 0rem;
-    padding: 1rem;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
     cursor: pointer;
     background: transparent;
     border: none;
@@ -58,7 +58,6 @@
 @media only screen and (max-width: 1024px) {
     .popup-inner {
         padding: 0 2rem;
-
     }
 
 }

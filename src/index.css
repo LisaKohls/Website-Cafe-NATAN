@@ -14,7 +14,7 @@
   --mainColorLight: #E8E8E8;
   --secondaryColor: #808770;
   --textColor: white;
-  --transitionHover: 300ms;
+  --transitionHover: 300ms ease-in-out;
   --size-circle: 10rem;
   --marginContent: 1.5rem;
 }
