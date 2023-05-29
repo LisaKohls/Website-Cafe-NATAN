@@ -50,7 +50,7 @@
     justify-content: center;
 }
 
-button {
+.scroll-buttons {
     font-size: 20px;
     padding: 5px 10px;
     margin: 0 5px;
@@ -60,6 +60,6 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.scroll-buttons:hover {
     color: var(--secondaryColor);
 }
