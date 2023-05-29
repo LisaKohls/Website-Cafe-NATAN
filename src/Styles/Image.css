@@ -5,18 +5,20 @@
 
 .imagelogo{
     position: absolute;
-    margin-top: 5rem;
-
+    margin-top: 4rem;
     width: 10%;
     height: 10%;
     z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .imagebar{
-    margin-top: 5rem;
+    margin-top: 3.8rem;
     position: relative;
-    width: 110%;
-    height:110%;
+    width: 101%;
+    height: 101%;
+    background-color: black;
 }
 
 .imagepartner{
@@ -60,6 +62,19 @@
     .imageinteriorNatan{
         visibility: hidden;
         width: 0;
+    }
+
+    .imagebar{
+        display: none;
+    }
+
+    .imagelogo{
+        width: 28%;
+        height: 28%;
+        position: static;
+        transform: none;
+        align-items: center;
+        justify-content: center;
     }
 
 }

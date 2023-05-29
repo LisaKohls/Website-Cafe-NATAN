@@ -28,26 +28,28 @@ function App() {
                 <ImgPosition name='logo' image={NatanLogo}/>
                 <ImgPosition name='bar' image={Bar}/>
                 <div id="ueberUns" className="sectionPadding"/>
-                <h2 className='ueberschrift'>Über uns</h2>
+                <h2 className='ueberuns'>Über uns</h2>
                 <Text text={ueberNatan} formatierung='blocksatz'/>
                 <div id="ueberUns" className="sectionPadding"/>
                 <Text text='Open for you' formatierung='decoration'/>
                 <div className="container">
                     <ImgPosition name='interiorNatan' image={InteriorNatan}/>
+                    <div>
                     <BoxWithText title='Öffnungszeiten' >
                         <Text text='Öffnungszeiten' formatierung='linksbündig'/>
                         <Text text={oeffnungszeiten} formatierung='linksbündigZeilenabstand'/>
-                        <Button name="Reservierung"/>
                     </BoxWithText>
+                        <Button name="Reservierung"/>
+                    </div>
                 </div>
                 <h2 className='ueberschrift'>Unsere Speisekarte</h2>
                 <SpecialFood/>
                 <Button name="Speisekarte"/>
-                <h2 id="events" className="sectionPadding">Events </h2>
+                <h2 id="events" className='ueberschrift'>Events </h2>
                 <Gallery/>
             </Page>
             <Page className="blackText paddingPage">
-                <h2 id="produkteUndPartner" className="sectionPadding">Produkte & Partner</h2>
+                <h2 id="produkteUndPartner" className="ueberschriftDunkel">Produkte & Partner</h2>
                 <ImgPosition name='partner' image={Partner}/>
                 <div id="volunteers" className="sectionPadding"/>
                 <Text text={volunteer} formatierung='mittig'/>

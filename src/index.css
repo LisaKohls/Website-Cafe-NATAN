@@ -62,12 +62,33 @@ code {
 }
 
 
+
 .ueberschrift{
   position: relative;
   margin-top: 4rem;
 }
 
-.ueberschrift::after {
+.ueberuns{
+  margin-top: 0;
+}
+
+.ueberschriftDunkel{
+  color: var(--mainColor);
+  margin-top: var(--marginContent);
+}
+
+.ueberschriftDunkel::after{
+  content: '';
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  bottom: -0.5rem;
+  height: 1px;
+  background-color: var(--mainColor);
+}
+
+
+.ueberschrift::after, .ueberuns::after{
   content: '';
   position: absolute;
   left: 30%;
