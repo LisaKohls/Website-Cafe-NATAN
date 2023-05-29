@@ -1,4 +1,4 @@
-import '../Styles/Reservierung.css'
+import '../Styles/PopUpContent.css'
 import React, {useState} from 'react';
 import DatePicker, {registerLocale} from 'react-datepicker';
 import de from 'date-fns/locale/de';
@@ -19,7 +19,7 @@ function Reservierung(props) {
         var count = document.getElementById("personen").value
         var mail = document.getElementById("mail").value
 
-        if(date == ' ' || time == '' || name == '' || count == ''){
+        if(date === ' ' || time === '' || name === '' || count === ''){
             alert('Bitte fülle alles vollständig aus')
         }else{
             alert('Wir haben das Natan Team mit deiner Anfrage kontaktiert und melden uns dann bei dir')
@@ -29,7 +29,7 @@ function Reservierung(props) {
 
     }
     return (
-        <div className='Datepicker'>
+        <div className='formular'>
             <div>
                 <label>Wähle ein Datum: </label>
                 <DatePicker id='datePicker' locale="de" selected={startDate} onChange={(date) => setStartDate(date) }

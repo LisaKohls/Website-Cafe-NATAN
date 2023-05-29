@@ -33,6 +33,7 @@ function App() {
                         <Text text={oeffnungszeiten} formatierung='linksbündig'/>
                         <Button name="Reservierung"/>
                     </BoxWithText>
+
                 </div>
                 <div className="container">
                     <div>

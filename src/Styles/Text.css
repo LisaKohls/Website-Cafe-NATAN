@@ -30,4 +30,10 @@
         font-size: 0.8rem;
         display: block;
     }
+
+    .linksbündig{
+        display: block;
+        text-align: center;
+        margin-top: 0;
+    }
 }

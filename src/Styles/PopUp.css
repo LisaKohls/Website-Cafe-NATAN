@@ -14,7 +14,7 @@
 
 .popup-inner{
     position: absolute;
-    top: 7rem;
+    top: 5rem;
     bottom: 0;
     right: 50%;
     left: 50%;
@@ -57,7 +57,11 @@
 
 @media only screen and (max-width: 1024px) {
     .popup-inner {
-        padding: 0 2rem;
+        padding: 0 1rem;
+    }
+
+    .popup-inner .pop-up-close-btn{
+        padding: 1rem;
     }
 
 }

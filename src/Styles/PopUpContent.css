@@ -1,4 +1,4 @@
-.Datepicker {
+.formular {
     color: var(--mainColor);
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     scroll-behavior: auto;
 }
 
-.Datepicker p {
+.formular p {
     display: block;
     margin-top: 1rem;
     text-align: left;
@@ -15,14 +15,14 @@
 
 
 
-.Datepicker label {
+.formular label {
     display: block;
     margin-top: 1rem;
     text-align: left;
     line-height: 2rem;
 }
 
-.Datepicker input {
+.formular input {
     all: unset;
     width: 15.5rem;
     height: 1.3rem;
@@ -33,7 +33,7 @@
     text-align: left;
 }
 
-.Datepicker #time {
+.formular #time {
     display: block;
     padding: 0.3rem;
     width: 15.5rem;
@@ -41,13 +41,13 @@
     align-content: center;
 }
 
-.Datepicker input:focus {
+.formular input:focus {
     background-color: var(--textColor);
     border-color: var(--mainColor);
     outline: none;
 }
 
-.Datepicker .submit {
+.formular .submit {
     background-color: var(--mainColor);
     color: var(--textColor);
     padding: 0.5rem;
@@ -62,14 +62,14 @@
 
 
 
-.Datepicker .submit:hover {
+.formular .submit:hover {
     transition: var(--transitionHover);
     background-color: var(--secondaryColor);
     color: var(--textColor);
     border-color: var(--secondaryColor);
 }
 
-.Datepicker .textArea{
+.formular .textArea{
     all: unset;
     display: block;
     width: 16.2rem;
@@ -79,7 +79,7 @@
     text-align: left;
 }
 
-.Datepicker textarea:focus {
+.formular textarea:focus {
     background-color: var(--textColor);
     border-color: var(--mainColor);
     outline: none;
@@ -88,11 +88,11 @@
 
 
 @media only screen and (max-width: 1024px) {
-    .Datepicker {
+    .formular {
         display: block;
     }
 
-    .Datepicker label {
+    .formular label {
         margin-top: 0.5rem;
     }
 }

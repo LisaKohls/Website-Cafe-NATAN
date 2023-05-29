@@ -1,4 +1,4 @@
-import '../Styles/Reservierung.css'
+import '../Styles/PopUpContent.css'
 
 function Volunteer(props) {
 /*
@@ -40,7 +40,7 @@ function Volunteer(props) {
 
     }
     return (
-        <div className='Datepicker' >
+        <div className='formular' >
 
             <div>
                 <h2>Werde Volunteer</h2>
