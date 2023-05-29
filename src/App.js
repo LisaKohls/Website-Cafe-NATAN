@@ -25,8 +25,6 @@ function App() {
         <React.Fragment>
             <Navbar/>
             <Page bottomWheel={true}>
-                <ImgPosition name='logo' image={NatanLogo}/>
-                <ImgPosition name='bar' image={Bar}/>
                 <div id="ueberUns" className="sectionPadding"/>
                 <h2 className='ueberuns'>Über uns</h2>
                 <Text text={ueberNatan} formatierung='blocksatz'/>

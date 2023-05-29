@@ -2,8 +2,6 @@ import  React from "react";
 import "../Styles/Gallery.css"
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faAngleDoubleLeft } from "@fortawesome/free-solid-svg-icons";
-import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Img1 from '../Resources/barNatan1.jpg'
 import Img2 from '../Resources/barNatan2.jpg'
 import Img3 from '../Resources/outsideViewNatan.jpg'
@@ -33,21 +31,16 @@ function Gallery() {
 
     return(
         <div className="galleryContainer">
+            <button className="icon" onClick={scrollL}>←</button>
         <div className="gallery">
-            <button className="icon" onClick={scrollL}>
-                <FontAwesomeIcon icon={faAngleDoubleLeft} />
-            </button>
             <div className="scroll-images">
                 {images.map((image, index) => (
                     <img className="child" key={index} src={image.src} alt={image.alt} />
                 ))}
             </div>
-            <button className="icon" onClick={scrollR}>
-                <FontAwesomeIcon icon={faAngleDoubleRight} />
-            </button>
         </div>
+            <button className="icon" onClick={scrollR}>→</button>
         </div>
-
     )
 
 }
