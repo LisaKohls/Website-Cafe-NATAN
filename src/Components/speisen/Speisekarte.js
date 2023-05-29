@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import "../Styles/Speisekarte.css"
-import img1 from "../Resources/menu/speisekarte1.png"
-import img2 from "../Resources/menu/speisekarte2.png"
-import img3 from "../Resources/menu/speisekarte3.png"
-import img4 from "../Resources/menu/speisekarte4.png"
-import img5 from "../Resources/menu/speisekarte5.png"
+import "../../Styles/Speisekarte.css"
+import img1 from "../../Resources/menu/speisekarte1.png"
+import img2 from "../../Resources/menu/speisekarte2.png"
+import img3 from "../../Resources/menu/speisekarte3.png"
+import img4 from "../../Resources/menu/speisekarte4.png"
+import img5 from "../../Resources/menu/speisekarte5.png"
 import { FaTimes } from "react-icons/fa";
 
 

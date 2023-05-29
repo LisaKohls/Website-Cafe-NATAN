@@ -18,5 +18,19 @@ export const volunteer =  "duo dolores et ea rebum. Stet clita kasd gubergren, n
     "amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt"+
     "ut labore"
 
+//Besonderes Essen
+//------------------------------
+//Speise 1
+
+export const food1 = "Healthy Breakfast"
+
+//Speise 2
+
+export const food2 = "Refreshing Drinks"
+
+//Speise 3
+
+export const food3 = "Sweets"
+
 
 

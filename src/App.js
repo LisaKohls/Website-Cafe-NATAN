@@ -15,6 +15,8 @@ import BoxWithText from "./Components/BoxWithText";
 import Page from "./Components/Page";
 import Partner from './Resources/img.png'
 import InteriorNatan from './Resources/interiorNatan.jpg'
+import SpecialFood from "./Components/speisen/SpecialFood";
+
 
 function App() {
 
@@ -35,14 +37,9 @@ function App() {
                         <Text text={oeffnungszeiten} formatierung='linksbündigZeilenabstand'/>
                         <Button name="Reservierung"/>
                     </BoxWithText>
-
                 </div>
-                <div className="container">
-                    <div>
-
-                    </div>
-                </div>
-                <h2>Unsere Speisekarte</h2>
+                <h2 className='ueberschrift'>Unsere Speisekarte</h2>
+                <SpecialFood/>
                 <Button name="Speisekarte"/>
                 <h2 id="events" className="sectionPadding">Events </h2>
                 <Gallery/>
