@@ -16,6 +16,7 @@ import Speisekarte from "./Components/Speisekarte";
 import BoxWithText from "./Components/BoxWithText";
 import Page from "./Components/Page";
 import Partner from './Resources/img.png'
+import PictureGallery from "./Components/PictureGallery";
 
 function App() {
 
@@ -23,7 +24,6 @@ function App() {
         <React.Fragment>
             <Navbar/>
             <Page bottomWheel={true}>
-                <ImgCenter name='logo' image={natanLogo}/>
                 <div id="ueberUns" className="sectionPadding"/>
                 <h2 className='ueberschrift'>Über uns</h2>
                 <Text text={ueberNatan} formatierung='blocksatz'/>
