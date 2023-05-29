@@ -3,6 +3,7 @@ import PopUp from "./PopUp";
 import Reservierung from "./Reservierung";
 import Volunteer from './Volunteer'
 import Speisekarte from './Speisekarte'
+import Map from './Map'
 import React, {useState} from "react";
 
 
@@ -29,7 +30,10 @@ function Button(props){
                 {props.name}
             </button>
             <PopUp trigger={reservierungPopUp} setTrigger={setReservierungPopUp}>
-                <Reservierung trigger={reservierungPopUp} setTrigger={setReservierungPopUp}/>
+                <div className='container'>
+                    <Map/>
+                    <Reservierung trigger={reservierungPopUp} setTrigger={setReservierungPopUp}/>
+                </div>
             </PopUp>
             <PopUp trigger={volunteerPopUp} setTrigger={setVolunteerPopUp}>
                 <Volunteer trigger={volunteerPopUp} setTrigger={setVolunteerPopUp}/>

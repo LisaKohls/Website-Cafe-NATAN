@@ -35,9 +35,9 @@ function App() {
                 </div>
                 <div className="container">
                     <div>
-                        <Text text='Du möchtest einen Tisch reservieren?' formatierung='mittig'/>
                         <Button name="Reservierung"/>
                     </div>
+
                 </div>
                 <h2>Unsere Speisekarte</h2>
                 <Button name="Speisekarte"/>
