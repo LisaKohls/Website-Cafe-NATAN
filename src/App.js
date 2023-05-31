@@ -14,7 +14,7 @@ import Gallery from "./Components/Gallery";
 import BoxWithText from "./Components/BoxWithText";
 import Page from "./Components/Page";
 import Partner from './Resources/img.png'
-import InteriorNatan from './Resources/interiorNatan.jpg'
+import InteriorNatan from './Resources/interior.png'
 import SpecialFood from "./Components/speisen/SpecialFood";
 import Bar from './Resources/barNatan1_edited.jpg'
 
@@ -36,7 +36,7 @@ function App() {
                         </div>
                         <ImgPosition name='interiorNatan' image={InteriorNatan}/>
                     </div>
-                    <div>
+                    <div className="oeffunugszeitenSection">
                         <BoxWithText title='Öffnungszeiten' >
                             <Text text='Öffnungszeiten' formatierung='linksbündig'/>
                             <Text text={oeffnungszeiten} formatierung='linksbündigZeilenabstand'/>
