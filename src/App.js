@@ -3,19 +3,21 @@ import './index.css';
 import {oeffnungszeiten} from './Resources/textInhalte'
 import Navbar from './Components/Navbar';
 import Button from './Components/Button';
-import Oeffnungszeiten from './Components/Oeffnungszeiten';
+
 import Footer from './Components/Footer';
 import {ueberNatan} from './Resources/textInhalte'
 import Text from './Components/Text'
 import {volunteer} from './Resources/textInhalte';
-import ImgCenter from "./Components/ImgCenter";
-import natanLogo from './Resources/Natanlogo.png';
-import eventplaceholder from './Resources/EventPlaceholder.png'
+import ImgPosition from "./Components/ImgPosition";
+import NatanLogo from './Resources/Natan_Logo_white.png';
 import Gallery from "./Components/Gallery";
-
-import Menu from "./Components/Menu";
+import BoxWithText from "./Components/BoxWithText";
 import Page from "./Components/Page";
 import Partner from './Resources/img.png'
+import InteriorNatan from './Resources/interior.png'
+import SpecialFood from "./Components/speisen/SpecialFood";
+import Bar from './Resources/barNatan1_edited.jpg'
+
 
 function App() {
 
@@ -23,21 +25,45 @@ function App() {
         <React.Fragment>
             <Navbar/>
             <Page bottomWheel={true}>
-                <ImgCenter name='logo' image={natanLogo}/>
+                <div id="ueberUns" className="sectionPadding"/>
+                <h2 className='ueberuns'>Über uns</h2>
+                <Text text={ueberNatan} formatierung='blocksatz'/>
+                <div id="ueberUns" className="sectionPadding"/>
+                <div className="container">
+                    <div className="openForYou">
+                        <div className="textOverlay">
+                            <Text text='Open for you' formatierung='decoration'/>
+                        </div>
+                        <ImgPosition name='interiorNatan' image={InteriorNatan}/>
+                    </div>
+                    <div className="oeffunugszeitenSection">
+                        <BoxWithText title='Öffnungszeiten' >
+                            <Text text='Öffnungszeiten' formatierung='linksbündig'/>
+                            <Text text={oeffnungszeiten} formatierung='linksbündigZeilenabstand'/>
+                        </BoxWithText>
+                        <Button name="Reservierung"/>
+                    </div>
+                </div>
+                <h2 className='ueberschrift'>Unsere Speisekarte</h2>
+                <SpecialFood/>
+                <Button name="Speisekarte"/>
+                <h2 id="events" className='ueberschrift'>Events </h2>
                 <Gallery/>
-                <Text text={ueberNatan}/>
-                <Oeffnungszeiten inhalt={oeffnungszeiten}/>
-                <h2>Du möchtest einen Tisch reservieren?</h2>
-                <Button name="Reservierung"/>
-                <h2>Unsere Speisekarte</h2>
-                <Menu/>
-                <h2>Events </h2>
             </Page>
             <Page className="blackText paddingPage">
-                <h2>Produkte & Partner</h2>
-                <ImgCenter name='partner' image={Partner}/>
-                <Text text={volunteer}/>
+                <h2 id="produkteUndPartner" className="ueberschrift">Produkte & Partner</h2>
+                <div className='container'>
+                    <ImgPosition name='partner' image={Partner}/>
+                    <Text text={volunteer} formatierung='blocksatzSchwarz'/>
+                </div>
+                <div id="volunteers" className="sectionPadding"/>
+                <h2 id="volunteer" className="ueberschrift">Werde Volunteer</h2>
+                <div className='container'>
+                    <Text text={volunteer} formatierung='blocksatzSchwarz'/>
+                    <ImgPosition name='volunteer' image={Bar}/>
+                </div>
                 <Button name="Volunteer"/>
+                <div id="footer" className="sectionPadding"/>
             </Page>
             <Footer/>
         </React.Fragment>

@@ -1,12 +1,18 @@
 .map {
-    margin-top: var(--marginContent);
+    all: unset;
+    flex: 1;
+    display: inline-block;
+    visibility: visible;
+    width: fit-content;
+    height: 31rem;
+    padding: 0;
 }
 
 /* Reduzieren Sie die Größe der Karte für kleinere Bildschirme */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1026px) {
     .map {
-        margin-top: var(--marginContent);
-        width: auto;
-        height: 225px;
+        visibility: hidden;
+        width: 0;
+        height: 0;
     }
 }

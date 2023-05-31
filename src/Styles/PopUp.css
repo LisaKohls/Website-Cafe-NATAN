@@ -14,18 +14,16 @@
 
 .popup-inner{
     position: absolute;
-    top: 7rem;
+    top: 5rem;
     bottom: 0;
     right: 50%;
     left: 50%;
     transform: translateX(-50%);
-    padding: 0 4rem;
+    padding: 0;
     width: fit-content;
     height: fit-content;
-
     background-color: var(--textColor);
-
-    overflow-y: auto;
+    overflow-y: hidden;
     animation: easeInPopUp .5s ease-out backwards;
 }
 
@@ -40,11 +38,11 @@
     }
 }
 
-.popup-inner .closeBtn{
+.popup-inner .pop-up-close-btn{
     position: absolute;
-    top: 1em;
-    right: 1em;
-    padding: 5px;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
     cursor: pointer;
     background: transparent;
     border: none;
@@ -53,10 +51,17 @@
     font-size: 1.8rem;
 }
 
+.popup-inner .pop-up-close-btn:hover{
+    color: var(--secondaryColor);
+}
+
 @media only screen and (max-width: 1024px) {
     .popup-inner {
-        padding: 0 2rem;
+        padding: 0;
+    }
 
+    .popup-inner .pop-up-close-btn{
+        padding: 1rem;
     }
 
 }

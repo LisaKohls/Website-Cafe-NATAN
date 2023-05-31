@@ -6,7 +6,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 60px;
     padding: 0 2rem;
     background-color: var(--secondaryColor);
     color: var(--textColor);
@@ -20,7 +20,7 @@ header nav a {
 }
 
 header nav a:hover {
-    transition: 125ms;
+    transition: var(--transitionHover);
     color: var(--mainColor);
 }
 
@@ -36,9 +36,6 @@ header .nav-btn {
     font-size: 1.8rem;
 }
 
-header nav {
-
-}
 
 @media only screen and (max-width: 1024px) {
     header .nav-btn {

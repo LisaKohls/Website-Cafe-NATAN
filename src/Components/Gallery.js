@@ -2,19 +2,19 @@ import  React from "react";
 import "../Styles/Gallery.css"
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faAngleDoubleLeft } from "@fortawesome/free-solid-svg-icons";
-import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Img1 from '../Resources/Bildschirmfoto 2023-04-28 um 12.31.48.png'
-import Img2 from '../Resources/Bildschirmfoto 2023-04-28 um 12.32.05.png'
-import Img3 from '../Resources/Bildschirmfoto 2023-04-28 um 12.32.24.png'
-import Img4 from '../Resources/Bildschirmfoto 2023-04-28 um 12.32.37.png'
+import Img1 from '../Resources/barNatan1.jpg'
+import Img2 from '../Resources/barNatan2.jpg'
+import Img3 from '../Resources/outsideViewNatan.jpg'
+import Img4 from '../Resources/interiorNatan.jpg'
+import Img5 from '../Resources/specialFoodStaging/breakfast1.jpg'
 
 function Gallery() {
     const images = [
-        { src: Img1, alt: 'Image 1' },
-        { src: Img2, alt: 'Image 2' },
-        { src: Img3, alt: 'Image 3' },
-        { src: Img4, alt: 'Image 3' },
+        { src: Img1, alt: 'Natan Bar' },
+        { src: Img2, alt: 'Natan Bar' },
+        { src: Img3, alt: 'Outside View Natan' },
+        { src: Img4, alt: 'Interior Natan' },
+        { src: Img5, alt: 'food closeup'},
     ];
 
     library.add(faAngleDoubleLeft);
@@ -31,21 +31,16 @@ function Gallery() {
 
     return(
         <div className="galleryContainer">
+            <button className="icon" onClick={scrollL}>←</button>
         <div className="gallery">
-            <button className="icon" onClick={scrollL}>
-                <FontAwesomeIcon icon={faAngleDoubleLeft} />
-            </button>
             <div className="scroll-images">
                 {images.map((image, index) => (
-                    <img className="child" key={index} src={image.src} alt={image.alt} />
+                    <img className="singlePicture" key={index} src={image.src} alt={image.alt} />
                 ))}
             </div>
-            <button className="icon" onClick={scrollR}>
-                <FontAwesomeIcon icon={faAngleDoubleRight} />
-            </button>
         </div>
+            <button className="icon" onClick={scrollR}>→</button>
         </div>
-
     )
 
 }

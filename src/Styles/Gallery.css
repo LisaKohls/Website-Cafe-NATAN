@@ -1,7 +1,7 @@
 
 .gallery-container {
     width: 100%;
-    overflow-x: scroll;
+    overflow: hidden;
     position: relative;
 }
 
@@ -9,25 +9,24 @@
     display: flex;
     align-items: center;
     height: 30rem;
-    width: 100%;
     position: relative;
 }
 
 
 .scroll-images {
     width: 100%;
-    height: 450px;
+    height: 400px;
     display: flex;
     justify-content: left;
     align-items: center;
-    overflow: auto;
+    overflow: hidden;
     position: relative;
     scroll-behavior: smooth;
 }
 
 
 .scroll-images::before,
-.scroll-images::after {
+.scroll-images::after{
     position: absolute;
     content: "";
     top: 0;
@@ -38,48 +37,53 @@
 
 .scroll-images::before {
     left: 0;
-    /*
-    background-image: linear-gradient(90deg, var(--mainColor), transparent);
-    */
+   /* background-image: linear-gradient(90deg, var(--mainColor), transparent);*/
 }
 
 .scroll-images::after{
     right: 0;
-    /*
-    background-image: linear-gradient(-90deg, var(--mainColor), transparent);
-    */
+    /*background-image: linear-gradient(-90deg, var(--mainColor), transparent);*/
 }
 
 
-.child{
-    min-width: 400px;
+.singlePicture{
+    min-width: 600px;
     height: 100%;
     margin: 1px 10px;
     cursor: pointer;
     overflow: hidden;
 }
 
-.child img {
-    width: auto;
-    height: 100%;
+.singlePicture img {
+    width: 600px;
+    height: 400px;
     object-fit: contain;
 }
 
 .icon {
     color: var(--mainColorLight);
-    background-color: var(--mainColor);
-    font-size: 50px;
+    background-color: transparent;
     outline: none;
     border: none;
-    padding: 0 20px;
+    padding: 0px 20px;
     cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    justify-content: space-between;
 }
 
 
 
-.child::-webkit-scrollbar {
+.singlePicture::-webkit-scrollbar {
     width: 0;
     background: transparent;
 }
 
+.singlePicture {
+    scrollbar-width: none;
+}
+
+.singlePicture {
+    -ms-overflow-style: none;
+}
 

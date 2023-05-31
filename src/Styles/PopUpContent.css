@@ -1,0 +1,98 @@
+.formular {
+    color: var(--mainColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    scroll-behavior: auto;
+}
+
+.formular p {
+    display: block;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+
+
+.formular label {
+    display: block;
+    margin-top: 1rem;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.formular input {
+    all: unset;
+    width: 15.5rem;
+    height: 1.3rem;
+    border: 0.1rem solid #b4b2b2;
+    border-radius: 0.5rem;
+    color: var(--mainColor);
+    padding: 0.3rem;
+    text-align: left;
+}
+
+.formular #time {
+    display: block;
+    padding: 0.3rem;
+    width: 15.5rem;
+    border-radius: 0.5rem;
+    align-content: center;
+}
+
+.formular input:focus {
+    background-color: var(--textColor);
+    border-color: var(--mainColor);
+    outline: none;
+}
+
+.formular .submit {
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--mainColor);
+    width: fit-content;
+    text-align: center;
+    margin-top: var(--marginContent);
+    transition: var(--transitionHover);
+}
+
+
+
+.formular .submit:hover {
+    transition: var(--transitionHover);
+    background-color: var(--secondaryColor);
+    color: var(--textColor);
+    border-color: var(--secondaryColor);
+}
+
+.formular .textArea{
+    all: unset;
+    display: block;
+    width: 16.2rem;
+    height: 6rem;
+    border: 0.1rem solid #b4b2b2;
+    border-radius: 0.5rem;
+    text-align: left;
+}
+
+.formular textarea:focus {
+    background-color: var(--textColor);
+    border-color: var(--mainColor);
+    outline: none;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .formular {
+        display: block;
+    }
+
+    .formular label {
+        margin-top: 0.5rem;
+    }
+}

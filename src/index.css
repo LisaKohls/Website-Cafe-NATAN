@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200&family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300&family=Roboto:wght@100&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -13,8 +14,7 @@
   --mainColorLight: #E8E8E8;
   --secondaryColor: #808770;
   --textColor: white;
-  --transitionHover: 300ms;
-
+  --transitionHover: 300ms ease-in-out;
   --size-circle: 10rem;
   --marginContent: 1.5rem;
 }
@@ -26,7 +26,7 @@ h1 {
 
 h2{
   color:var(--textColor);
-  margin-top: 3rem;
+  margin-top: var(--marginContent);
 }
 
 body {
@@ -48,4 +48,115 @@ code {
 
 .blackText * {
   color: black;
+}
+
+.sectionPadding {
+  padding-top: var(--marginContent);
+}
+
+.container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+}
+
+.openForYou {
+  width: 50%;
+  position: relative;
+  display: inline-block;
+  padding-top: 3.5rem;
+}
+
+.textOverlay {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 8rem;
+}
+
+.oeffunugszeitenSection {
+  width: 50%;
+  padding-left: 3rem;
+  padding-top: 3rem;
+
+}
+
+.ueberschrift{
+  position: relative;
+  margin-top: 4rem;
+}
+
+.ueberuns{
+  margin-top: 0;
+}
+
+.ueberuns::after{
+  content: '';
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  bottom: -0.5rem;
+  height: 1px;
+  background-color: var(--textColor);
+}
+
+.ueberschriftDunkel{
+  color: var(--mainColor);
+  margin-top: var(--marginContent);
+}
+
+.ueberschriftDunkel::after{
+  content: '';
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  bottom: -0.5rem;
+  height: 1px;
+  background-color: var(--mainColor);
+}
+
+
+.ueberschrift::after{
+  content: '';
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  bottom: -0.5rem;
+  height: 1px;
+  background-color: var(--textColor);
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .openForYou {
+    display: none;
+  }
+
+  .oeffunugszeitenSection {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .textOverlay {
+    margin-left: 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .openForYou {
+    padding-top: 2.5rem;
+  }
 }

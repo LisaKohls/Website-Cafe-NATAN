@@ -3,7 +3,7 @@ import React from "react";
 
 function Text(props){
     return(
-        <div className="text" >
+        <div className={props.formatierung} >
             <p>
                 {props.text}
             </p>

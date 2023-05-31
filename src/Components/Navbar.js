@@ -1,6 +1,7 @@
 import { FaBars, FaTimes } from "react-icons/fa"
 import {useEffect, useRef} from "react"
 import "../Styles/Navbar.css";
+import Logo from "../Resources/Natan_Logo_white_edited.png"
 
 
 function Navbar() {
@@ -26,14 +27,14 @@ function Navbar() {
     }, [])
     return (
         <header>
-            <h3>logo</h3>
+            <img src={Logo} alt="Natan Logo" width="35px" height="40px"/>
             <nav ref={navRef}>
-                <a href="/#">Über uns</a>
-                <a href="/#">Reservierung</a>
-                <a href="/#">Produkte & Partner</a>
-                <a href="/#">Volunteers</a>
-                <a href="/#">Events</a>
-                <a href="/#">Kontakt</a>
+                <a href="/#ueberUns">Über uns</a>
+                <a href="/#reservierung">Reservierung</a>
+                <a href="/#produkteUndPartner">Produkte & Partner</a>
+                <a href="/#volunteers">Volunteers</a>
+                <a href="/#events">Events</a>
+                <a href="/#kontakt">Kontakt</a>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <FaTimes />
                 </button>

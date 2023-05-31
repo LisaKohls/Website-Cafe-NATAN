@@ -1,17 +1,26 @@
-.opening{
-    display: inline-block;
-    border: 0.1rem solid var(--textColor);
+.Öffnungszeiten{
+    flex: 1;
     white-space: pre-line;
-    text-align: center ;
-    margin-top: var(--marginContent);;
-    padding: 1rem;
+    text-align: left;
     color: var(--textColor);
     font-size: 0.8rem;
 }
 
 
+
+
+
 @media only screen and (max-width: 1024px) {
-    .opening{
+    .Öffnungszeiten{
         display: inline-block;
+        border: 0.1rem solid var(--textColor);
+        white-space: pre-line;
+        text-align: center ;
+        padding: 1rem;
+        color: var(--textColor);
+        font-size: 0.8rem;
     }
+
+
+
 }
