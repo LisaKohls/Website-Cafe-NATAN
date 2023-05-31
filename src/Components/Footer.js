@@ -3,6 +3,10 @@ import "../Styles/Footer.css"
 import { SocialIcon } from 'react-social-icons';
 import Oeffnungszeiten from "./BoxWithText";
 import {oeffnungszeiten} from '../Resources/textInhalte'
+import { FaFacebook } from "react-icons/fa"
+
+
+
 
 function Footer() {
     const currentYear = new Date().getFullYear();
@@ -33,6 +37,11 @@ function Footer() {
                 <Oeffnungszeiten inhalt={oeffnungszeiten} />
             </div>
             <div className="socialmedia">
+
+                <FaFacebook bgColor="var(--textColor)"
+                                 url="https://www.facebook.com/people/NATANstuttgart/100063920867609/"
+                                 target="_blank"
+                                 style={{margin: "0.5rem"}}/>
                 <SocialIcon bgColor="var(--textColor)"
                             url="https://www.facebook.com/people/NATANstuttgart/100063920867609/"
                             target="_blank"

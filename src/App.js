@@ -29,14 +29,18 @@ function App() {
                 <h2 className='ueberuns'>Über uns</h2>
                 <Text text={ueberNatan} formatierung='blocksatz'/>
                 <div id="ueberUns" className="sectionPadding"/>
-                <Text text='Open for you' formatierung='decoration'/>
                 <div className="container">
-                    <ImgPosition name='interiorNatan' image={InteriorNatan}/>
+                    <div className="openForYou">
+                        <div className="textOverlay">
+                            <Text text='Open for you' formatierung='decoration'/>
+                        </div>
+                        <ImgPosition name='interiorNatan' image={InteriorNatan}/>
+                    </div>
                     <div>
-                    <BoxWithText title='Öffnungszeiten' >
-                        <Text text='Öffnungszeiten' formatierung='linksbündig'/>
-                        <Text text={oeffnungszeiten} formatierung='linksbündigZeilenabstand'/>
-                    </BoxWithText>
+                        <BoxWithText title='Öffnungszeiten' >
+                            <Text text='Öffnungszeiten' formatierung='linksbündig'/>
+                            <Text text={oeffnungszeiten} formatierung='linksbündigZeilenabstand'/>
+                        </BoxWithText>
                         <Button name="Reservierung"/>
                     </div>
                 </div>
