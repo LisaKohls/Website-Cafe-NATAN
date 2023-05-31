@@ -3,13 +3,11 @@ import './index.css';
 import {oeffnungszeiten} from './Resources/textInhalte'
 import Navbar from './Components/Navbar';
 import Button from './Components/Button';
-
 import Footer from './Components/Footer';
 import {ueberNatan} from './Resources/textInhalte'
 import Text from './Components/Text'
 import {volunteer} from './Resources/textInhalte';
 import ImgPosition from "./Components/ImgPosition";
-import NatanLogo from './Resources/Natan_Logo_white.png';
 import Gallery from "./Components/Gallery";
 import BoxWithText from "./Components/BoxWithText";
 import Page from "./Components/Page";
@@ -48,7 +46,7 @@ function App() {
                 <SpecialFood/>
                 <Button name="Speisekarte"/>
                 <h2 id="events" className='ueberschrift'>Events </h2>
-                <Gallery/>
+                <Gallery />
             </Page>
             <Page className="blackText paddingPage">
                 <h2 id="produkteUndPartner" className="ueberschrift">Produkte & Partner</h2>
