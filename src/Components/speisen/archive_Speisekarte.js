@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../../Styles/Speisekarte.css"
+import "../../Styles/archive_Speisekarte.css"
 import img1 from "../../Resources/menu/speisekarte1.png"
 import img2 from "../../Resources/menu/speisekarte2.png"
 import img3 from "../../Resources/menu/speisekarte3.png"
@@ -41,7 +41,7 @@ const Speisekarte = (props) => {
             <div className="scroll-container">
                 <div className="menu" style={{transform: `translateX(-${scrollPosition * 100}%)`}}>
                     {speisen.map((image, index) => (
-                            <img className="child" key={index} src={image.src} alt={image.alt} />
+                            <img className="menuPage" key={index} src={image.src} alt={image.alt} />
                         ))}
                     ))}
                 </div>

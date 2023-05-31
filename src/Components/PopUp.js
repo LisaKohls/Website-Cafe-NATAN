@@ -9,9 +9,7 @@ function PopUp(props){
                 <button className="pop-up-close-btn" onClick={() => {
                     props.setTrigger(false);
                     document.body.style.overflow = "auto";
-                }}>
-                    <FaTimes />
-                </button>
+                }}>✕</button>
                 { props.children }
             </div>
         </div>

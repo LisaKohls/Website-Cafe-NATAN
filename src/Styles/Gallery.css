@@ -46,7 +46,7 @@
 }
 
 
-.child{
+.singlePicture{
     min-width: 600px;
     height: 100%;
     margin: 1px 10px;
@@ -54,7 +54,7 @@
     overflow: hidden;
 }
 
-.child img {
+.singlePicture img {
     width: 600px;
     height: 400px;
     object-fit: contain;
@@ -74,16 +74,16 @@
 
 
 
-.child::-webkit-scrollbar {
+.singlePicture::-webkit-scrollbar {
     width: 0;
     background: transparent;
 }
 
-.child {
+.singlePicture {
     scrollbar-width: none;
 }
 
-.child {
+.singlePicture {
     -ms-overflow-style: none;
 }
 

@@ -35,7 +35,7 @@ function Gallery() {
         <div className="gallery">
             <div className="scroll-images">
                 {images.map((image, index) => (
-                    <img className="child" key={index} src={image.src} alt={image.alt} />
+                    <img className="singlePicture" key={index} src={image.src} alt={image.alt} />
                 ))}
             </div>
         </div>

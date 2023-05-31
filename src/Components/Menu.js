@@ -1,27 +1,27 @@
 import React, { useState } from 'react';
-import "../Styles/PictureGallery.css"
+import "../Styles/Menu.css"
 import img1 from "../Resources/menu/speisekarte1.png"
 import img2 from "../Resources/menu/speisekarte2.png"
 import img3 from "../Resources/menu/speisekarte3.png"
 import img4 from "../Resources/menu/speisekarte4.png"
 import img5 from "../Resources/menu/speisekarte5.png"
 
-const Speisekarte = (props) => {
+const Menu = (props) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    const speisen = [
-        { src: img1, alt: 'Natan Bar'},
-        { src: img2, alt: 'Natan Bar'},
-        { src: img3, alt: 'Outside View Natan'},
-        { src: img4, alt: 'Interior Natan'},
-        { src: img5, alt: 'food closeup'},
+    const menu = [
+        { src: img1, alt: 'menu1'},
+        { src: img2, alt: 'menu2'},
+        { src: img3, alt: 'menu3'},
+        { src: img4, alt: 'menu4'},
+        { src: img5, alt: 'menu5'},
     ];
 
     const handleScroll = (direction) => {
         if (direction === 'left') {
-            setCurrentIndex((prevIndex) => (prevIndex === 0 ? speisen.length - 1 : prevIndex - 1));
+            setCurrentIndex((prevIndex) => (prevIndex === 0 ? menu.length - 1 : prevIndex - 1));
         } else if (direction === 'right') {
-            setCurrentIndex((prevIndex) => (prevIndex === speisen.length - 1 ? 0 : prevIndex + 1));
+            setCurrentIndex((prevIndex) => (prevIndex === menu.length - 1 ? 0 : prevIndex + 1));
         }
     };
 
@@ -35,7 +35,7 @@ const Speisekarte = (props) => {
             <button className="scroll-buttons" onClick={() => handleScroll('left')}>←</button>
             <div className="scroll-container">
                 <div className="menu">
-                    <img className="child" src={speisen[currentIndex].src} alt={speisen[currentIndex].alt} />
+                    <img className="child" src={menu[currentIndex].src} alt={menu[currentIndex].alt} />
                 </div>
             </div>
             <button className="scroll-buttons" onClick={() => handleScroll('right')}>→</button>
@@ -43,4 +43,4 @@ const Speisekarte = (props) => {
     ) : null;
 };
 
-export default Speisekarte;
+export default Menu;
