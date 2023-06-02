@@ -1,4 +1,4 @@
-import "../Styles/Button.css";
+import "../styles/Button.css";
 import PopUp from "./PopUp";
 import Reservierung from "./Reservierung";
 import Volunteer from './Volunteer'

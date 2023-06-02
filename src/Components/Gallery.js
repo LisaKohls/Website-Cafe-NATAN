@@ -1,5 +1,5 @@
 import  React from "react";
-import "../Styles/Gallery.css"
+import "../styles/Gallery.css"
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faAngleDoubleLeft } from "@fortawesome/free-solid-svg-icons";
 import Img1 from '../Resources/barNatan1.jpg'

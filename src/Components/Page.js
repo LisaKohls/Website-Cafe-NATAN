@@ -1,6 +1,6 @@
 import React from 'react';
 import Wheel from "./Wheel";
-import "../Styles/Page.css";
+import "../styles/Page.css";
 
 function Page({ children, className, style, bottomWheel }) {
     return (

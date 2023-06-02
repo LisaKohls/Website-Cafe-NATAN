@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../../Styles/Speisekarte.css"
+import "../../styles/Speisekarte.css"
 import img1 from "../../Resources/menu/speisekarte1.png"
 import img2 from "../../Resources/menu/speisekarte2.png"
 import img3 from "../../Resources/menu/speisekarte3.png"

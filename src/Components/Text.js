@@ -1,4 +1,4 @@
-import "../Styles/Text.css";
+import "../styles/Text.css";
 import React from "react";
 
 function Text(props){
