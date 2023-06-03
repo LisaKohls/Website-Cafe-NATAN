@@ -17,6 +17,7 @@
   --transitionHover: 300ms ease-in-out;
   --size-circle: 10rem;
   --marginContent: 1.5rem;
+  --marginSection: 3rem;
 }
 
 h1 {
@@ -51,7 +52,7 @@ code {
 }
 
 .sectionPadding {
-  padding-top: var(--marginContent);
+  padding-top: var(--marginSection);
 }
 
 .container{
@@ -87,7 +88,7 @@ code {
 
 .ueberschrift{
   position: relative;
-  margin-top: 4rem;
+  margin-top: var(--marginSection);
 }
 
 .ueberuns{
@@ -104,12 +105,12 @@ code {
   background-color: var(--textColor);
 }
 
-.ueberschriftDunkel{
+.headingBlack{
   color: var(--mainColor);
-  margin-top: var(--marginContent);
+  margin-top: var(--marginSection);
 }
 
-.ueberschriftDunkel::after{
+.headingBlack::after{
   content: '';
   position: absolute;
   left: 30%;

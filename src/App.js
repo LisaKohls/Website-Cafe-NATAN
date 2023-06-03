@@ -17,6 +17,8 @@ import Partner from './Resources/img.png'
 import Interior from './Resources/interior.png'
 import SpecialFood from "./Components/speisen/SpecialFood";
 import Bar from './Resources/barNatan1_edited.jpg'
+import BarOriginal from './Resources/barNatan1.jpg'
+import CoffeeMachine from './Resources/barNatan2.jpg'
 
 
 
@@ -35,42 +37,38 @@ function App() {
                 <div id="ueberUns" className="sectionPadding"/>
                 <Text text='Open for you' formatierung='decoration'/>
                 <div className="container">
-                    <ImgPosition name='interiorNatan' image={Interior}/>
+                    <ImgPosition name='interiorNatan' image={BarOriginal}/>
                     <div>
                     <BoxWithText title='Öffnungszeiten' >
-                        <Text text='Öffnungszeiten' formatierung='linksbündig'/>
+                        <Text text='Öffnungszeiten:' formatierung='linksbündig'/>
                         <Text text={oeffnungszeiten} formatierung='linksbündigZeilenabstand'/>
                     </BoxWithText>
-                        <Button name="Reservierung"/>
+                        <Button name="Reservierung" styleName='Reservierung'/>
                     </div>
                 </div>
-                <div id="ueberUns" className="sectionPadding"/>
                 <div id="ueberUns" className="sectionPadding"/>
                 <h2 className='ueberuns'>VORBILD. IDEE. KONZEPT.
                     DAS NATAN</h2>
                 <Text text={ueberNatanSecondPart} formatierung='blocksatz'/>
                 <h2 className='ueberschrift'>Unsere Speisen & Getränke</h2>
                 <SpecialFood/>
-                <Button name="Speisekarte"/>
-                <div id="ueberUns" className="sectionPadding"/>
+                <Button name='Speisekarte' styleName='Speisekarte'/>
                 <div id="ueberUns" className="sectionPadding"/>
                 <h2 className='ueberuns'>Warum NATAN?</h2>
                 <Text text={originName} formatierung='blocksatz'/>
                 <h2 id="events" className='ueberschrift'>Events </h2>
             </Page>
             <Page className="blackText paddingPage">
-                <h2 id="produkteUndPartner" className="ueberschrift">Produkte & Partner</h2>
-                <div className='container'>
-                    <ImgPosition name='partner' image={Partner}/>
-                    <Text text={partner} formatierung='blocksatzSchwarz'/>
-                </div>
+                <h2 id="produkteUndPartner" className="headingBlack">Produkte & Partner</h2>
+                <ImgPosition name='partner' image={Partner}/>
+                <Text text={partner} formatierung='blocksatzSchwarz'/>
                 <div id="volunteers" className="sectionPadding"/>
                 <h2 id="volunteer" className="ueberschrift">UNSER NATAN DREAM TEAM</h2>
                 <div className='container'>
                     <Text text={volunteer} formatierung='blocksatzSchwarz'/>
-                    <ImgPosition name='volunteer' image={Bar}/>
+                    <ImgPosition name='volunteer' image={CoffeeMachine}/>
                 </div>
-                <Button name="Volunteer"/>
+                <Button name='Werde Volunteer' styleName='Volunteer'/>
                 <div id="footer" className="sectionPadding"/>
             </Page>
             <Page>
