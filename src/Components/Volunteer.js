@@ -26,9 +26,9 @@ function Volunteer(props) {
 
     function check(){
 
-        var name = document.getElementById("name").value
-        var mail = document.getElementById("mail").value
-        var message = document.getElementById("message").value
+        const name = document.getElementById("name").value;
+        const mail = document.getElementById("mail").value;
+        const message = document.getElementById("message").value;
         if(name === ' ' || mail === '' || message === ''){
             alert('Bitte fülle alles vollständig aus')
         }else{
