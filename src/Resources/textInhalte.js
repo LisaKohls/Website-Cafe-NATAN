@@ -12,15 +12,15 @@ export const ueberNatanSecondPart = "\n" +
     "BIST DU DABEI?\n" +
     "STUTTGART HILFT\n" +
     "\n" +
-    "Dass das Trinkgeld davon ausgenommen ist, versteht sich von selbst: Es geht ohne Abzüge an unsere Crew. Und die ist ebenfalls alles andere als gewöhnlich: Ganz nach dem STELP Prinzip, dass jeder einbringt, was er kann, arbeiten im NATAN hinter der Theke, im Service und in der Küche Menschen, die sich für die gute Sache einsetzen — ehrenamtlich!\n"
+    "Dass das Trinkgeld davon ausgenommen ist, versteht sich von selbst: Es geht ohne Abzüge an unsere Crew. Und die ist ebenfalls alles andere als gewöhnlich: Ganz nach dem STELP Prinzip, dass jeder" +
+    " einbringt, was er kann, arbeiten im NATAN hinter der Theke, im Service und in der Küche Menschen, die sich für die gute Sache einsetzen — ehrenamtlich!\n"
 
 
 
 
-export const volunteer =  "\n" +
-    "Das NATAN hätte den Sprung von der Idee zur Realität nicht geschafft ohne unzählige Menschen und Unternehmen in unserem Netzwerk, die uns ohne zu Zögern  und mit viel Herz unterstützen. Allen voran unsere Investor:innen, die dem NATAN mit einer finanziellen Starthilfe den Weg bereitet haben. Von Beginn an konnten wir außerdem auf starke Produzenten und Lieferanten aus der Gastronomie setzen, die unser Konzept mit Begeisterung aufgenommen haben und uns z. B. günstigere Konditionen gewähren. Auch an Dienstleistern, die uns beratend  zur Seiten standen und Sponsoren mangelte es uns nicht. \n" +
-    "\n" +
-    "Wir freuen uns und sind sehr stolz, euch alle an unserer Seite zu haben!\n"
+export const volunteer =  "Im NATAN gibt es kein Personal, sondern nur Gastgeber. Denn das Team, das in der Küche, im Service und an der Bar" +
+    " arbeitet, tut dies aus Überzeugung – um weltweit Menschen in Not zu unterstützen. Mehr als insgesamt 30 Volunteers sind hier Tag für Tag, Schicht für Schicht für unsere Gäste da, und das ehrenamtlich," +
+    " mit Ausnahme der Betriebsleitung. Alle zusammen für die gute Sache. Das Trinkgeld geht ohne Abzüge an unsere Crew. Und die Zufriedenheit und ein Lächeln unserer Gäste ist der Bonus. \n"
 
 //Besonderes Essen
 //------------------------------

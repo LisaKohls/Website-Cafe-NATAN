@@ -46,7 +46,7 @@ function Volunteer(props) {
                 <h2>Werde Volunteer</h2>
             </div>
             <div>
-                <label>Vor und Nachname</label>
+                <label>Vor- und Nachname</label>
                 <input type="text" id="name" name="name" required></input>
             </div>
             <div >

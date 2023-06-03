@@ -21,17 +21,16 @@
     font-size: 0.8rem;
     flex: 1;
     display: inline-block;
-    text-align-last: justify;
 }
 
 .blocksatz{
+    hyphens: auto;
     text-align: justify;
     color: var(--textColor);
     margin-top: var(--marginContent);
     font-size: 0.8rem;
     flex: 1;
     display: inline-block;
-    text-align-last: justify;
 }
 
 .linksbündig{
@@ -39,6 +38,7 @@
     color: var(--textColor);
     font-size: 0.8rem;
 }
+
 
 .linksbündigZeilenabstand{
     margin-top: 1.4rem;

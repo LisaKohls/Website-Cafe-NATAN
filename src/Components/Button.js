@@ -13,20 +13,20 @@ function Button(props){
     const [volunteerPopUp, setVolunteerPopUp] = useState(false);
     const [menuPopUp, setMenuPopUp] = useState(false);
 
-    function open(name) {
+    function open(styleName) {
         document.body.style.overflow = "hidden";
-        if (name === 'Volunteer') {
+        if (styleName === 'Volunteer') {
             setVolunteerPopUp(true);
-        } else if(name === 'Reservierung'){
+        } else if(styleName === 'Reservierung'){
             setReservierungPopUp(true);
-        } else if (name === 'Speisekarte') {
+        } else if (styleName === 'Speisekarte') {
             setMenuPopUp(true);
         }
     }
 
     return (
         <div>
-            <button className={"btn" + props.name} onClick={() => open(props.name)}>
+            <button className={"btn" + props.styleName} onClick={() => open(props.styleName)}>
                 {props.name}
             </button>
             <PopUp trigger={reservierungPopUp} setTrigger={setReservierungPopUp}>
