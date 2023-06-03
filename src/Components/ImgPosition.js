@@ -1,4 +1,4 @@
-import '../styles/Image.css'
+import '../Styles/Image.css'
 
 
 function ImgPosition(props){

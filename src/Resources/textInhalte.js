@@ -3,20 +3,24 @@ export const oeffnungszeiten =
     "Sonntag: 10 Uhr - 18 Uhr \n" +
     "Montag & Dienstag: geschlossen"
 
-export const ueberNatan = "Über Natan: Lorem ipsum dolor sit amet, " +
-                        "consetetur sadipscing elitr, sed diam nonumy " +
-                        "eirmod tempor"+
-                        "invidunt ut labore et dolore magna aliquyam erat, " +
-                        "sed diam voluptua.At vero eos et accusam et justo"+
-                        "duo dolores et ea rebum. Stet clita kasd gubergren, " +
-                        "no sea takimata sanctus est Lorem ipsum dolor sit"+
-                        "amet. Lorem ipsum dolor sit amet, consetetur sadipscing "
+export const ueberNatan = "Mit dem NATAN haben wir eine Idee in der Leonhardsvorstadt zum Leben erweckt, die vor vielen Jahren im Stuttgarter Westen geboren wurde und sich zwei Jahre in der Planung befand: ein einzigartiges Gastronomiekonzept für unsere Stadt. Bei uns verbindet sich eine moderne vegetarische Küche mit dem Wunsch so vieler Menschen, sich sozial engagieren zu wollen — allerdings ohne viel Tamtam, sondern einfach so, unkompliziert, im Alltag."
+
+export const ueberNatanSecondPart = "\n" +
+    "Geht nicht? Geht doch — und zwar bei uns! Denn der gesamte Gewinn des NATAN fließt in die internationalen Projekte der Stuttgarter Hilfsorganisation STELP, die hinter der Idee steckt und für \n" +
+    "die Umsetzung gesorgt hat. Starke Partner und Sponsoren unterstützen uns durch günstige Konditionen; ein weiteres Plus, damit jeder zusätzliche Euro dort ankommt, wo er am dringendsten benötigt wird. \n" +
+    "\n" +
+    "BIST DU DABEI?\n" +
+    "STUTTGART HILFT\n" +
+    "\n" +
+    "Dass das Trinkgeld davon ausgenommen ist, versteht sich von selbst: Es geht ohne Abzüge an unsere Crew. Und die ist ebenfalls alles andere als gewöhnlich: Ganz nach dem STELP Prinzip, dass jeder einbringt, was er kann, arbeiten im NATAN hinter der Theke, im Service und in der Küche Menschen, die sich für die gute Sache einsetzen — ehrenamtlich!\n"
 
 
 
-export const volunteer =  "duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit"+
-    "amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt"+
-    "ut labore"
+
+export const volunteer =  "\n" +
+    "Das NATAN hätte den Sprung von der Idee zur Realität nicht geschafft ohne unzählige Menschen und Unternehmen in unserem Netzwerk, die uns ohne zu Zögern  und mit viel Herz unterstützen. Allen voran unsere Investor:innen, die dem NATAN mit einer finanziellen Starthilfe den Weg bereitet haben. Von Beginn an konnten wir außerdem auf starke Produzenten und Lieferanten aus der Gastronomie setzen, die unser Konzept mit Begeisterung aufgenommen haben und uns z. B. günstigere Konditionen gewähren. Auch an Dienstleistern, die uns beratend  zur Seiten standen und Sponsoren mangelte es uns nicht. \n" +
+    "\n" +
+    "Wir freuen uns und sind sehr stolz, euch alle an unserer Seite zu haben!\n"
 
 //Besonderes Essen
 //------------------------------
@@ -41,5 +45,10 @@ export const food3 = "Sweets"
 export const description3 = "duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit"+
     "amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 
+export const originName = "Der Name NATAN steht bei uns für mehr als nur fünf Buchstaben. „Ich habe es versucht“, hat der Visionär und Friedensaktivist Abie Nathan einmal über seine Arbeit gesagt — heute steht dieses Selbstverständnis als hebräische Inschrift auf seinem Grabstein: „Nissiti“. Abie hat uns inspiriert — " +
+    "und dem NATAN sowohl seinen Namen gegeben als auch die Idee dahinter geprägt. " +
+    "Im NATAN führen wir einen wesentlichen Gedanken von STELP weiter: Alleine lässt sich wenig bewegen; aber durch unseren stetig wachsenden Pool aus Ehrenamtlichen, Partnern, Sponsoren und Freunden können wir mit noch mehr Impact überall da aktiv werden, wo die Not am größten ist. Unser Ziel ist eine Welt, in der alle Menschen selbstbestimmt in Würde und Sicherheit leben und ihre Zukunft aus eigener Kraft gestalten können. "
 
-
+export const partner = "Das NATAN hätte den Sprung von der Idee zur Realität nicht geschafft ohne unzählige Menschen und Unternehmen in unserem Netzwerk, die uns ohne zu Zögern  und mit viel Herz unterstützen. Allen voran unsere Investor:innen, die dem NATAN mit einer finanziellen Starthilfe den Weg bereitet haben. Von Beginn an konnten wir außerdem auf starke Produzenten und Lieferanten aus der Gastronomie setzen, die unser Konzept mit Begeisterung aufgenommen haben und uns z. B. günstigere Konditionen gewähren. Auch an Dienstleistern, die uns beratend  zur Seiten standen und Sponsoren mangelte es uns nicht. \n" +
+    "\n" +
+    "Wir freuen uns und sind sehr stolz, euch alle an unserer Seite zu haben!\n"

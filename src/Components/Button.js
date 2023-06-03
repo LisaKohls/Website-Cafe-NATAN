@@ -1,11 +1,10 @@
-import "../styles/Button.css";
+import "../Styles/Button.css";
 import PopUp from "./PopUp";
 import Reservierung from "./Reservierung";
 import Volunteer from './Volunteer'
-import Speisekarte from './speisen/Speisekarte'
 import Map from './Map'
 import React, {useState} from "react";
-import PictureGallery from "./PictureGallery";
+import Menu from "./Menu";
 
 
 function Button(props){
@@ -39,7 +38,7 @@ function Button(props){
             <PopUp trigger={volunteerPopUp} setTrigger={setVolunteerPopUp}>
                 <Volunteer trigger={volunteerPopUp} setTrigger={setVolunteerPopUp}/>
             </PopUp>
-                <PictureGallery trigger={menuPopUp} setTrigger={setMenuPopUp}/>
+                <Menu trigger={menuPopUp} setTrigger={setMenuPopUp}/>
         </div>
     );
 }

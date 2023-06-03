@@ -1,6 +1,5 @@
 .Öffnungszeiten{
     flex: 1;
-    display: inline-block;
     white-space: pre-line;
     text-align: left;
     color: var(--textColor);

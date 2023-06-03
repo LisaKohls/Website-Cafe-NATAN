@@ -1,4 +1,4 @@
-import "../styles/Oeffnungszeiten.css";
+import "../Styles/Oeffnungszeiten.css";
 
 function BoxWithText(props){
     return(<div className={props.title}>

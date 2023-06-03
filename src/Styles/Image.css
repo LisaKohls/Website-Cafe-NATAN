@@ -38,10 +38,22 @@
 
 .imageinteriorNatan{
     display: block;
-    width: 44%;
-    height: 44%;
+    width: 480px;
+    height: 320px;
     margin-right: 5rem;
     margin-left: 0;
+
+}
+
+@media only screen and (max-width: 1500px) {
+.imageinteriorNatan{
+    border: #000000 solid;
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin-right: 5rem;
+    margin-left: 0;
+}
 }
 
 
@@ -64,6 +76,7 @@
     .imageinteriorNatan{
         visibility: hidden;
         width: 0;
+        display: none;
     }
 
     .imagebar{

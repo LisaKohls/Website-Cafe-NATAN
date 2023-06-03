@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar';
 import Button from './Components/Button';
 
 import Footer from './Components/Footer';
-import {ueberNatan} from './Resources/textInhalte'
+import {ueberNatan, ueberNatanSecondPart, originName, partner} from './Resources/textInhalte'
 import Text from './Components/Text'
 import {volunteer} from './Resources/textInhalte';
 import ImgPosition from "./Components/ImgPosition";
@@ -20,6 +20,7 @@ import Bar from './Resources/barNatan1_edited.jpg'
 
 
 
+
 function App() {
 
     return (
@@ -29,7 +30,7 @@ function App() {
                 <ImgPosition name='logo' image={NatanLogo}/>
                 <ImgPosition name='bar' image={Bar}/>
                 <div id="ueberUns" className="sectionPadding"/>
-                <h2 className='ueberuns'>Über uns</h2>
+                <h2 className='ueberuns'>NON-PROFIT CAFÉ | BAR</h2>
                 <Text text={ueberNatan} formatierung='blocksatz'/>
                 <div id="ueberUns" className="sectionPadding"/>
                 <Text text='Open for you' formatierung='decoration'/>
@@ -43,20 +44,28 @@ function App() {
                         <Button name="Reservierung"/>
                     </div>
                 </div>
-                <h2 className='ueberschrift'>Unsere Speisekarte</h2>
+                <div id="ueberUns" className="sectionPadding"/>
+                <div id="ueberUns" className="sectionPadding"/>
+                <h2 className='ueberuns'>VORBILD. IDEE. KONZEPT.
+                    DAS NATAN</h2>
+                <Text text={ueberNatanSecondPart} formatierung='blocksatz'/>
+                <h2 className='ueberschrift'>Unsere Speisen & Getränke</h2>
                 <SpecialFood/>
                 <Button name="Speisekarte"/>
+                <div id="ueberUns" className="sectionPadding"/>
+                <div id="ueberUns" className="sectionPadding"/>
+                <h2 className='ueberuns'>Warum NATAN?</h2>
+                <Text text={originName} formatierung='blocksatz'/>
                 <h2 id="events" className='ueberschrift'>Events </h2>
-                <Gallery />
             </Page>
             <Page className="blackText paddingPage">
                 <h2 id="produkteUndPartner" className="ueberschrift">Produkte & Partner</h2>
                 <div className='container'>
                     <ImgPosition name='partner' image={Partner}/>
-                    <Text text={volunteer} formatierung='blocksatzSchwarz'/>
+                    <Text text={partner} formatierung='blocksatzSchwarz'/>
                 </div>
                 <div id="volunteers" className="sectionPadding"/>
-                <h2 id="volunteer" className="ueberschrift">Werde Volunteer</h2>
+                <h2 id="volunteer" className="ueberschrift">UNSER NATAN DREAM TEAM</h2>
                 <div className='container'>
                     <Text text={volunteer} formatierung='blocksatzSchwarz'/>
                     <ImgPosition name='volunteer' image={Bar}/>
@@ -65,10 +74,8 @@ function App() {
                 <div id="footer" className="sectionPadding"/>
             </Page>
             <Page>
-                <div id="eventlocation" className="sectionPadding"/>
-                <h2 id="eventlocation" className="ueberschrift">Natan als Eventlocation</h2>
-                <Text text={volunteer} formatierung='blocksatzSchwarz'/>
-                <ImgPosition name='volunteer' image={Bar}/>YY
+                <Gallery />
+
             </Page>
             <Footer/>
         </React.Fragment>

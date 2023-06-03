@@ -1,5 +1,5 @@
 import {useRef, useEffect} from "react";
-import '../styles/Wheel.css'
+import '../Styles/Wheel.css'
 import wheel from '../Resources/Kreis.svg'
 
 function Wheel(){
