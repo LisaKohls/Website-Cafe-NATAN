@@ -6,14 +6,14 @@ a {
     text-align: center;
     color:var(--textColor);
     margin-top: var(--marginContent);
-    font-size: 0.8em;
+    font-size: 0.9em;
     display: block;
 }
 
 .mittigSchwarz{
     text-align: center;
     color:var(--mainColor);
-    font-size: 0.8em;
+    font-size: 0.9em;
     display: block;
     margin-top: var(--marginContent);
 }
@@ -22,7 +22,7 @@ a {
     text-align: justify;
     color: var(--mainColor);
     margin-top: var(--marginContent);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     flex: 1;
     display: inline-block;
 }
@@ -32,7 +32,7 @@ a {
     text-align: justify;
     color: var(--textColor);
     margin-top: var(--marginContent);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     flex: 1;
     display: inline-block;
 }
@@ -40,7 +40,7 @@ a {
 .linksbündig{
     text-align: left;
     color: var(--textColor);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 
@@ -49,7 +49,7 @@ a {
     text-align: left;
     color: var(--textColor);
     line-height: 1.9rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .decoration {
@@ -66,7 +66,7 @@ a {
         text-align: justify;
         color: var(--textColor);
         margin-top: var(--marginContent);
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         display: block;
     }
 
@@ -81,7 +81,7 @@ a {
         text-align: center;
         margin-top: var(--marginContent);
         line-height: 1.5rem;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .decoration{

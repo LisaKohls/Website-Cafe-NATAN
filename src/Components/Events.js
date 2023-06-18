@@ -1,20 +1,15 @@
 import React, { useRef, useState } from "react";
-import "../Styles/Gallery.css";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faAngleDoubleLeft } from "@fortawesome/free-solid-svg-icons";
-import Img1 from "../Resources/gallery/barNatan1.jpg";
-import Img2 from "../Resources/gallery/barNatan2.jpg";
-import Img3 from "../Resources/gallery/outsideViewNatan.jpg";
-import Img4 from "../Resources/gallery/interiorNatan.jpg";
-import Img5 from "../Resources/specialFoodStaging/breakfast1.jpg";
+import "../Styles/Events.css";
+import Img1 from "../Resources/events1.jpg";
+import Img2 from "../Resources/events2.jpg";
+import {library} from "@fortawesome/fontawesome-svg-core";
+import {faAngleDoubleLeft} from "@fortawesome/free-solid-svg-icons";
 
-function Gallery() {
+
+function Events() {
     const images = [
-        { src: Img1, alt: "Natan Bar" },
-        { src: Img2, alt: "Natan Bar" },
-        { src: Img3, alt: "Outside View Natan" },
-        { src: Img4, alt: "Interior Natan" },
-        { src: Img5, alt: "food closeup" },
+        { src: Img1, alt: "Event Poster" },
+        { src: Img2, alt: "Event Poster" },
     ];
 
     const scrollImagesRef = useRef(null);
@@ -67,6 +62,7 @@ function Gallery() {
     };
 
     return (
+        <div>
         <div
             className="galleryContainer"
             onTouchStart={handleTouchStart}
@@ -93,9 +89,17 @@ function Gallery() {
                 →
             </button>
         </div>
+        <p className="blocksatz">
+            Die NATAN Café and Bar kann auch für private Veranstaltungen und corporate Events gebucht werden.
+            Egal ob Familienfeier, Vernissage, Fotoshooting, Produktpräsentation, Weinprobe oder Workshop — wir machen
+            dein Event zu unserem Event!
+            Der Erlös, der über die Speisen und Getränke generiert wird, geht zu 100% in die humanitären Hilfsprojekte
+            von STELP e. V.
+        </p>
+        </div>
 
 
     );
 }
 
-export default Gallery;
+export default Events;
