@@ -57,6 +57,7 @@ function App() {
                 <h2 className='ueberuns'>Warum NATAN?</h2>
                 <Text text={originName} formatierung='blocksatz'/>
                 <h2 id="events" className='ueberschrift'>Events </h2>
+
             </Page>
             <Page className="blackText paddingPage">
                 <h2 id="produkteUndPartner" className="headingBlack">Produkte & Partner</h2>

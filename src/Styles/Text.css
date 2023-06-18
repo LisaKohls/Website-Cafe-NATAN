@@ -1,3 +1,7 @@
+a {
+    color: var(--textColor);
+}
+
 .mittig {
     text-align: center;
     color:var(--textColor);
