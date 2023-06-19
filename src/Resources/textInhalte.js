@@ -1,3 +1,5 @@
+import React from "react";
+
 export const oeffnungszeiten =
     "Mittwoch - Samstag: 10 Uhr - Late \n" +
     "Sonntag: 10 Uhr - 18 Uhr \n" +
@@ -89,3 +91,34 @@ export const partner = "Das NATAN hätte den Sprung von der Idee zur Realität n
     "Seiten standen und Sponsoren mangelte es uns nicht. \n" +
     "\n" +
     "Wir freuen uns und sind sehr stolz, euch alle an unserer Seite zu haben!\n"
+
+export const events =
+    <div>
+    <p className="blocksatz">
+        Die NATAN Café and Bar kann auch für private Veranstaltungen und corporate Events gebucht werden.
+        Egal ob Familienfeier, Vernissage, Fotoshooting, Produktpräsentation, Weinprobe oder Workshop — wir machen
+        dein Event zu unserem Event!
+        Der Erlös, der über die Speisen und Getränke generiert wird, geht zu 100% in die humanitären Hilfsprojekte
+        von STELP e. V.
+    </p>
+    <p className="subheading">Fakten</p>
+    <p className="blocksatz">
+        Größe des Gastraums | 35 qm
+        <br/>
+        Sitzplätze innen | 20–40 (je nach Bestuhlung)
+        <br/>
+        Stehplätze | 100
+    </p>
+    <p className="subheading">Catering</p>
+    <p className="blocksatz">
+    Gemeinsam mit dir, und dem Anlass entsprechend, stellen wir die Speisen und Getränke für dein Event zusammen.
+    </p>
+    <p className="subheading">PERSONAL | RAUMMIETE</p>
+    <p className="blocksatz">
+    Nach Absprache.
+    <br/>
+    Wir freuen uns über deine Anfrage an <a href="mailto:team@natan-cafeandbar.com" target="_blank">
+    team@natan-cafeandbar.com</a>.
+    </p>
+    </div>
+;

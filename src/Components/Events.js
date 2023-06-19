@@ -4,6 +4,12 @@ import Img1 from "../Resources/events1.jpg";
 import Img2 from "../Resources/events2.jpg";
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {faAngleDoubleLeft} from "@fortawesome/free-solid-svg-icons";
+import ImgPosition from "./ImgPosition";
+import EventImg from "../Resources/NatanFotoAußen.png";
+import BoxWithText from "./BoxWithText";
+import Text from "./Text";
+import {events} from "../Resources/textInhalte";
+import Button from "./Button";
 
 
 function Events() {
@@ -89,14 +95,19 @@ function Events() {
                 →
             </button>
         </div>
-        <p className="blocksatz">
-            Die NATAN Café and Bar kann auch für private Veranstaltungen und corporate Events gebucht werden.
-            Egal ob Familienfeier, Vernissage, Fotoshooting, Produktpräsentation, Weinprobe oder Workshop — wir machen
-            dein Event zu unserem Event!
-            Der Erlös, der über die Speisen und Getränke generiert wird, geht zu 100% in die humanitären Hilfsprojekte
-            von STELP e. V.
-        </p>
+            <div className="container">
+                <ImgPosition name='interiorNatan' image={EventImg}/>
+                <div>
+                    <BoxWithText title='Öffnungszeiten' >
+                        <Text text={events} formatierung='linksbündigZeilenabstand'/>
+                    </BoxWithText>
+                    <Button name="Reservierung" styleName='Reservierung'/>
+                </div>
+
+            </div>
         </div>
+
+
 
 
     );
