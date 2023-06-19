@@ -1,20 +1,21 @@
 import React, { useRef, useState } from "react";
-import "../Styles/Gallery.css";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faAngleDoubleLeft } from "@fortawesome/free-solid-svg-icons";
-import Img1 from "../Resources/gallery/barNatan1.jpg";
-import Img2 from "../Resources/gallery/barNatan2.jpg";
-import Img3 from "../Resources/gallery/outsideViewNatan.jpg";
-import Img4 from "../Resources/gallery/interiorNatan.jpg";
-import Img5 from "../Resources/specialFoodStaging/breakfast1.jpg";
+import "../Styles/Events.css";
+import Img1 from "../Resources/events1.jpg";
+import Img2 from "../Resources/events2.jpg";
+import {library} from "@fortawesome/fontawesome-svg-core";
+import {faAngleDoubleLeft} from "@fortawesome/free-solid-svg-icons";
+import ImgPosition from "./ImgPosition";
+import EventImg from "../Resources/NatanFotoAußen.png";
+import BoxWithText from "./BoxWithText";
+import Text from "./Text";
+import {events} from "../Resources/textInhalte";
+import Button from "./Button";
 
-function Gallery() {
+
+function Events() {
     const images = [
-        { src: Img1, alt: "Natan Bar" },
-        { src: Img2, alt: "Natan Bar" },
-        { src: Img3, alt: "Outside View Natan" },
-        { src: Img4, alt: "Interior Natan" },
-        { src: Img5, alt: "food closeup" },
+        { src: Img1, alt: "Event Poster" },
+        { src: Img2, alt: "Event Poster" },
     ];
 
     const scrollImagesRef = useRef(null);
@@ -67,6 +68,7 @@ function Gallery() {
     };
 
     return (
+        <div>
         <div
             className="galleryContainer"
             onTouchStart={handleTouchStart}
@@ -93,9 +95,22 @@ function Gallery() {
                 →
             </button>
         </div>
+            <div className="container">
+                <ImgPosition name='interiorNatan' image={EventImg}/>
+                <div>
+                    <BoxWithText title='Öffnungszeiten' >
+                        <Text text={events} formatierung='linksbündigZeilenabstand'/>
+                    </BoxWithText>
+                    <Button name="Reservierung" styleName='Reservierung'/>
+                </div>
+
+            </div>
+        </div>
+
+
 
 
     );
 }
 
-export default Gallery;
+export default Events;

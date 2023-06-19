@@ -14,11 +14,12 @@ import Gallery from "./Components/Gallery";
 import BoxWithText from "./Components/BoxWithText";
 import Page from "./Components/Page";
 import Partner from './Resources/img.png'
-import Interior from './Resources/interior.png'
+import Interior from './Resources/gallery/interior.png'
 import SpecialFood from "./Components/speisen/SpecialFood";
-import Bar from './Resources/barNatan1_edited.jpg'
-import BarOriginal from './Resources/barNatan1.jpg'
-import CoffeeMachine from './Resources/barNatan2.jpg'
+import Bar from './Resources/gallery/barNatan1_edited.jpg'
+import BarOriginal from './Resources/gallery/barNatan1.jpg'
+import CoffeeMachine from './Resources/gallery/barNatan2.jpg'
+import Events from "./Components/Events";
 
 
 
@@ -57,6 +58,7 @@ function App() {
                 <h2 className='ueberuns'>Warum NATAN?</h2>
                 <Text text={originName} formatierung='blocksatz'/>
                 <h2 id="events" className='ueberschrift'>Events </h2>
+                <Events/>
             </Page>
             <Page className="blackText paddingPage">
                 <h2 id="produkteUndPartner" className="headingBlack">Produkte & Partner</h2>

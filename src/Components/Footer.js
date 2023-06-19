@@ -4,6 +4,7 @@ import { SocialIcon } from 'react-social-icons';
 import Oeffnungszeiten from "./BoxWithText";
 import {oeffnungszeiten} from '../Resources/textInhalte'
 import { FaFacebook } from "react-icons/fa"
+import {faInstagram} from "@fortawesome/free-brands-svg-icons";
 
 
 
@@ -38,10 +39,11 @@ function Footer() {
             </div>
             <div className="socialmedia">
 
-                <FaFacebook bgColor="var(--textColor)"
-                                 url="https://www.facebook.com/people/NATANstuttgart/100063920867609/"
-                                 target="_blank"
-                                 style={{margin: "0.5rem"}}/>
+                <a href="https://www.instagram.com/natan.stuttgart/"  target="_blank">
+                    <i className="faInstagram"
+                       style={{margin: "0.5rem"}} />
+                </a>
+
                 <SocialIcon bgColor="var(--textColor)"
                             url="https://www.facebook.com/people/NATANstuttgart/100063920867609/"
                             target="_blank"
@@ -56,10 +58,9 @@ function Footer() {
             </div>
         </div>
         <div className="copyright">
-            <p>© {currentYear} NATAN – CAFE AND BAR</p>
+            <p> © {currentYear} NATAN – CAFE AND BAR </p>
         </div>
 </div>
-
     )
 }
 

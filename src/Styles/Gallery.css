@@ -52,7 +52,6 @@
     /*background-image: linear-gradient(-90deg, var(--mainColor), transparent);*/
 }
 
-
 .singlePicture{
     flex: 0 0 auto;
     width: auto;
@@ -70,7 +69,7 @@
 
 .iconLeft {
     color: var(--mainColorLight);
-    background-color: transparent;
+    background-color: var(--mainColor);
     outline: none;
     padding: 0px 20px;
     cursor: pointer;
@@ -81,7 +80,7 @@
 
 .iconRight {
     color: var(--mainColorLight);
-    background-color: transparent;
+    background-color: var(--mainColor);
     outline: none;
     padding: 0px 20px;
     cursor: pointer;
