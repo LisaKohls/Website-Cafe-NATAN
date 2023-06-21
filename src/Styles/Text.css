@@ -53,12 +53,21 @@ a {
 }
 
 .decoration {
-    margin-top: var(--marginContent);
     color: var(--textColor);
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: left;
-    margin-left: 5rem;
+    font-size: 2.5rem;
+    position: absolute;
+    margin-top: -1.5rem;
+    font-weight: unset;
+    margin-left: 0rem;
+}
+
+.decorationsayhi{
+    color: var(--textColor);
+    font-size: 2.5rem;
+    position: absolute;
+    margin-left: 13rem;
+    margin-top: 11rem;
+    font-weight: unset;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -85,11 +94,20 @@ a {
     }
 
     .decoration{
-        font-size: 2rem;
+        font-size: 2.3rem;
         position: absolute;
         margin-top: -1.5rem;
         font-weight: unset;
-        text-align: center;
+        margin-left: 0rem;
+    }
+
+    .decorationsayhi{
+        font-size: 2.3rem;
+        position: absolute;
+        right: 3rem;
+        margin-top: -1.3rem;
+        font-weight: unset;
+
     }
 
 

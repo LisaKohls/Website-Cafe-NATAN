@@ -41,7 +41,11 @@
     margin-left: 0;
 }
 
-.wheelPng{
+.imagewheelleft{
+    display: none;
+}
+
+.imagewheelright{
     display: none;
 }
 
@@ -96,8 +100,22 @@
         margin-top: 5rem;
     }
 
-    .wheelPng{
+    .imagewheelleft{
+        width: 40%;
+        height: auto;
+        display: unset;
+        position: absolute;
+        left: -4rem;
+        margin-top: 5rem;
+    }
 
+    .imagewheelright{
+        width: 30%;
+        height: auto;
+        position: absolute;
+        display: unset;
+        right: -1rem;
+        margin-top: -3rem;
     }
 
 }
