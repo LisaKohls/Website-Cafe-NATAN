@@ -10,6 +10,7 @@ import BoxWithText from "./BoxWithText";
 import Text from "./Text";
 import {events} from "../Resources/textInhalte";
 import Button from "./Button";
+import Wheel from "../Resources/logos/rad_weiß.png";
 
 
 function Events() {
@@ -95,13 +96,16 @@ function Events() {
                 →
             </button>
         </div>
+            <div id="eventtext" className="sectionPadding"/>
             <div className="container">
-                <ImgPosition name='interiorNatan' image={EventImg}/>
+                <ImgPosition name='natanoutside' image={EventImg}/>
+                <ImgPosition name='wheelEventOne' image={Wheel}/>
+                <ImgPosition name='wheelEventTwo' image={Wheel}/>
                 <div>
                     <BoxWithText title='Öffnungszeiten' >
                         <Text text={events} formatierung='linksbündigZeilenabstand'/>
                     </BoxWithText>
-                    <Button name="Reservierung" styleName='Reservierung'/>
+
                 </div>
 
             </div>
