@@ -10,11 +10,9 @@ import Text from './Components/Text'
 import {volunteer} from './Resources/textInhalte';
 import ImgPosition from "./Components/ImgPosition";
 import Gallery from "./Components/Gallery";
-import BoxWithText from "./Components/BoxWithText";
 import Page from "./Components/Page";
 import Partner from './Resources/img.png'
 import SpecialFood from "./Components/speisen/SpecialFood";
-import BarOriginal from './Resources/gallery/barNatan1.jpg'
 import CoffeeMachine from './Resources/gallery/barNatan2.jpg'
 import Events from "./Components/Events";
 import FirstSection from "./Components/sections/FirstSection";
