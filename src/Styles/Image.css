@@ -23,8 +23,9 @@
 
 .imagevolunteer{
     margin-top: var(--marginContent);
-    margin-left: 1rem;
-    width: 50%;
+    margin-left: 2rem;
+    width: 40%;
+    height: auto;
 }
 
 .imagepartner{
@@ -49,6 +50,32 @@
     display: none;
 }
 
+.imagenatanoutside{
+    width: 40%;
+    height: 40%;
+    margin-right: 2rem;
+    margin-top: var(--marginContent);
+}
+
+.imagewheelEventOne{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    display: unset;
+    left: 5rem;
+    margin-top: 30rem;
+}
+
+.imagewheelEventTwo{
+    width: 9%;
+    height: auto;
+    position: absolute;
+    display: unset;
+    left: 17rem;
+    margin-top: 23rem;
+
+}
+
 @media only screen and (max-width: 1500px) {
 .imageinteriorNatan{
     display: block;
@@ -69,6 +96,12 @@
     .wheel{
         width: 6rem;
         height: 6rem;
+    }
+
+    .imagevolunteer{
+        margin-left: 0;
+        width: 100%;
+        height: auto;
     }
 
     .imagepartner{
@@ -116,6 +149,18 @@
         display: unset;
         right: -1rem;
         margin-top: -3rem;
+    }
+
+    .imagewheelEventOne{
+        display: none;
+    }
+
+    .imagewheelEventTwo{
+        display: none;
+    }
+
+    .imagenatanoutside{
+        display: none;
     }
 
 }

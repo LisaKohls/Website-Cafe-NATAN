@@ -45,6 +45,7 @@ function App() {
                 <Text text={originName} formatierung='blocksatz'/>
                 <h2 id="events" className='ueberschrift'>Events </h2>
                 <Events/>
+                <div id="endPage" className="sectionPadding"/>
             </Page>
             <Page className="blackText paddingPage">
                 <h2 id="produkteUndPartner" className="headingBlack">Produkte & Partner</h2>
