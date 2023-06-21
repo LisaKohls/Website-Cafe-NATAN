@@ -33,9 +33,6 @@
     margin-right: 1rem;
 }
 
-
-
-
 .imageinteriorNatan{
     display: block;
     width: 480px;
@@ -44,9 +41,12 @@
     margin-left: 0;
 }
 
+.wheelPng{
+    display: none;
+}
+
 @media only screen and (max-width: 1500px) {
 .imageinteriorNatan{
-    border: #000000 solid;
     display: block;
     width: 300px;
     height: 200px;
@@ -56,7 +56,7 @@
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1000px) {
 
     .imageevent {
         margin: 0;
@@ -73,9 +73,13 @@
     }
 
     .imageinteriorNatan{
-        visibility: hidden;
-        width: 0;
-        display: none;
+        position: static;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+
     }
 
     .imagebar{
@@ -90,6 +94,10 @@
         align-items: center;
         justify-content: center;
         margin-top: 5rem;
+    }
+
+    .wheelPng{
+
     }
 
 }

@@ -61,7 +61,7 @@ a {
     margin-left: 5rem;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1000px) {
     .blocksatz{
         text-align: justify;
         color: var(--textColor);
@@ -85,8 +85,11 @@ a {
     }
 
     .decoration{
-        visibility: hidden;
-        font-size: 0;
+        font-size: 2rem;
+        position: absolute;
+        margin-top: -1.5rem;
+        font-weight: unset;
+        text-align: center;
     }
 
 
