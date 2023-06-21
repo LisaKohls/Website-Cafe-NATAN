@@ -9,17 +9,14 @@ import {ueberNatan, ueberNatanSecondPart, originName, partner} from './Resources
 import Text from './Components/Text'
 import {volunteer} from './Resources/textInhalte';
 import ImgPosition from "./Components/ImgPosition";
-import NatanLogo from './Resources/logos/Natan_Logo_white.png';
 import Gallery from "./Components/Gallery";
-import BoxWithText from "./Components/BoxWithText";
 import Page from "./Components/Page";
 import Partner from './Resources/img.png'
-import Interior from './Resources/gallery/interior.png'
 import SpecialFood from "./Components/speisen/SpecialFood";
-import Bar from './Resources/gallery/barNatan1_edited.jpg'
-import BarOriginal from './Resources/gallery/barNatan1.jpg'
 import CoffeeMachine from './Resources/gallery/barNatan2.jpg'
 import Events from "./Components/Events";
+import FirstSection from "./Components/sections/FirstSection";
+import OpeningTimeSection from "./Components/sections/OpeningTimeSection";
 
 
 
@@ -30,23 +27,12 @@ function App() {
         <React.Fragment>
             <Navbar/>
             <Page bottomWheel={true}>
-                <ImgPosition name='logo' image={NatanLogo}/>
-                <ImgPosition name='bar' image={Bar}/>
+                <FirstSection/>
                 <div id="ueberUns" className="sectionPadding"/>
                 <h2 className='ueberuns'>NON-PROFIT CAFÉ | BAR</h2>
                 <Text text={ueberNatan} formatierung='blocksatz'/>
                 <div id="ueberUns" className="sectionPadding"/>
-                <Text text='Open for you' formatierung='decoration'/>
-                <div className="container">
-                    <ImgPosition name='interiorNatan' image={BarOriginal}/>
-                    <div>
-                    <BoxWithText title='Öffnungszeiten' >
-                        <Text text='Öffnungszeiten:' formatierung='linksbündig'/>
-                        <Text text={oeffnungszeiten} formatierung='linksbündigZeilenabstand'/>
-                    </BoxWithText>
-                        <Button name="Reservierung" styleName='Reservierung'/>
-                    </div>
-                </div>
+                <OpeningTimeSection/>
                 <div id="ueberUns" className="sectionPadding"/>
                 <h2 className='ueberuns'>VORBILD. IDEE. KONZEPT.
                     DAS NATAN</h2>
