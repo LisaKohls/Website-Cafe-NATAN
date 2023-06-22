@@ -37,22 +37,23 @@ function App() {
                     DAS NATAN' color="white"/>
                 <Text text={ueberNatanSecondPart} formatierung='blocksatz'/>
                 <div id="menu"/>
-                <HeadlineSection title='Unsere Speisen & Getränke' color="white"/>
+                <HeadlineSection title='UNSERE SPEISEN & GETRÄNKE' color="white"/>
                 <SpecialFood/>
                 <Button name='Speisekarte' styleName='Speisekarte'/>
-                <HeadlineSection title='Warum Natan?' color="white"/>
+                <HeadlineSection title='WARUM NATAN?' color="white"/>
                 <Text text={originName} formatierung='blocksatz'/>
                 <div id="events"/>
-                <HeadlineSection title='Events' color="white"/>
+                <HeadlineSection title='EVENTS' color="white"/>
                 <Events/>
                 <div id="endPage" className="sectionPadding"/>
             </Page>
             <Page className="blackText paddingPage">
-                <HeadlineSection title='Produkte & Partner' color="black"/>
+                <HeadlineSection title='PRODUKTE & PARTNER' color="black"/>
+                <div id="produkteUndPartner"/>
                 <ImgPosition name='partner' image={Partner}/>
                 <Text text={partner} formatierung='blocksatzSchwarz'/>
-                <div id="volunteers" className="sectionPadding"/>
-                <h2 id="volunteer" className="ueberschrift">UNSER NATAN DREAM TEAM</h2>
+                <div id="volunteers"/>
+                <HeadlineSection title='UNSER NATAN DREAM TEAM' color="black"/>
                 <div className='container'>
                     <Text text={volunteer} formatierung='blocksatzSchwarz'/>
                     <ImgPosition name='volunteer' image={CoffeeMachine}/>
@@ -64,6 +65,7 @@ function App() {
                 <Gallery />
 
             </Page>
+            <div id='kontakt'/>
             <Footer/>
         </React.Fragment>
     );
