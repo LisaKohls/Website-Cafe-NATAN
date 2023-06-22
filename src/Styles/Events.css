@@ -54,3 +54,21 @@
     color: var(--secondaryColor);
     padding-top: 2rem;
 }
+
+.eventContainer {
+    display: flex;
+    align-items: center;
+}
+
+.imageEventsContainer {
+    height: 100%;
+    object-fit: contain;
+}
+
+.textContainer {
+    flex: 1;
+    text-align: left;
+}
+
+
+

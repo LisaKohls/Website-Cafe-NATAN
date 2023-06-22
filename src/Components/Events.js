@@ -5,11 +5,10 @@ import Img2 from "../Resources/events2.jpg";
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {faAngleDoubleLeft} from "@fortawesome/free-solid-svg-icons";
 import ImgPosition from "./ImgPosition";
-import EventImg from "../Resources/NatanFotoAußen.png";
+import EventImg from "../Resources/interiorEvents.jpg";
 import BoxWithText from "./BoxWithText";
 import Text from "./Text";
 import {events} from "../Resources/textInhalte";
-import Button from "./Button";
 
 
 function Events() {
@@ -95,14 +94,15 @@ function Events() {
                     →
                 </button>
             </div>
-            <div className="container">
-                <ImgPosition name='interiorNatan' image={EventImg}/>
-                <div>
-                    <BoxWithText title='Öffnungszeiten' >
-                        <Text text={events} formatierung='linksbündigZeilenabstand'/>
+            <div className="eventContainer">
+                <div className="imageEventsContainer">
+                    <ImgPosition name='interiorNatan' image={EventImg}/>
+                </div>
+                <div className="textContainer">
+                    <BoxWithText title='eventInformation'>
+                        <Text text={events} formatierung='eventText'/>
                     </BoxWithText>
                 </div>
-
             </div>
         </div>
 
