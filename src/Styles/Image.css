@@ -87,13 +87,13 @@
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 700px) {
 
     .imageevent {
         margin: 0;
     }
 
-    .wheel{
+    .imagewheel{
         width: 6rem;
         height: 6rem;
     }
@@ -147,7 +147,7 @@
         height: auto;
         position: absolute;
         display: unset;
-        right: -1rem;
+        right: 1rem;
         margin-top: -3rem;
     }
 

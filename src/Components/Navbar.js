@@ -29,8 +29,8 @@ function Navbar() {
         <header>
             <img src={Logo} alt="Natan Logo" width="35px" height="40px"/>
             <nav ref={navRef}>
-                <a href="/#ueberUns">Öffnungszeiten</a>
-                <a href="/#reservierung">Speisekarte</a>
+                <a href="/#opening">Öffnungszeiten</a>
+                <a href="/#menu">Speisekarte</a>
                 <a href="/#events">Events</a>
                 <a href="/#produkteUndPartner">Partner</a>
                 <a href="/#volunteers">Volunteer werden</a>

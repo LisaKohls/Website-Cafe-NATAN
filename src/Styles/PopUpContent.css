@@ -47,7 +47,7 @@
     outline: none;
 }
 
-.formular .submit {
+.formular .submit, .sentForm .submit {
     background-color: var(--mainColor);
     color: var(--textColor);
     padding: 0.5rem;
@@ -62,7 +62,7 @@
 
 
 
-.formular .submit:hover {
+.formular .submit:hover, .formular .submit:hover{
     transition: var(--transitionHover);
     background-color: var(--secondaryColor);
     color: var(--textColor);
@@ -83,6 +83,16 @@
     background-color: var(--textColor);
     border-color: var(--mainColor);
     outline: none;
+}
+
+.sentForm{
+    color: var(--mainColor);
+    line-height: 1.5rem;
+    margin: var(--marginContent);
+    white-space: pre-line;
+    padding: 1rem;
+    width: 10rem;
+    height: 12rem;
 }
 
 

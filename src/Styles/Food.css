@@ -42,9 +42,25 @@
     margin-top: -85px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 700px) {
+
     .stage{
-        display: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .rectangle{
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
     }
 }
+
+@media only screen and (max-width: 900px) {
+    .stage{
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+    }
+}
+
+
 

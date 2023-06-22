@@ -17,6 +17,7 @@ import CoffeeMachine from './Resources/gallery/barNatan2.jpg'
 import Events from "./Components/Events";
 import FirstSection from "./Components/sections/FirstSection";
 import OpeningTimeSection from "./Components/sections/OpeningTimeSection";
+import HeadlineSection from "./Components/sections/HeadlineSection";
 
 
 
@@ -28,27 +29,26 @@ function App() {
             <Navbar/>
             <Page bottomWheel={true}>
                 <FirstSection/>
-                <div id="ueberUns" className="sectionPadding"/>
-                <h2 className='ueberuns'>NON-PROFIT CAFÉ | BAR</h2>
+                <HeadlineSection title='NON-PROFIT CAFÉ | BAR' color="white"/>
                 <Text text={ueberNatan} formatierung='blocksatz'/>
-                <div id="ueberUns" className="sectionPadding"/>
+                <div id="opening" className="sectionPadding"/>
                 <OpeningTimeSection/>
-                <div id="ueberUns" className="sectionPadding"/>
-                <h2 className='ueberuns'>VORBILD. IDEE. KONZEPT.
-                    DAS NATAN</h2>
+                <HeadlineSection title='VORBILD. IDEE. KONZEPT.
+                    DAS NATAN' color="white"/>
                 <Text text={ueberNatanSecondPart} formatierung='blocksatz'/>
-                <h2 className='ueberschrift'>Unsere Speisen & Getränke</h2>
+                <div id="menu"/>
+                <HeadlineSection title='Unsere Speisen & Getränke' color="white"/>
                 <SpecialFood/>
                 <Button name='Speisekarte' styleName='Speisekarte'/>
-                <div id="ueberUns" className="sectionPadding"/>
-                <h2 className='ueberuns'>Warum NATAN?</h2>
+                <HeadlineSection title='Warum Natan?' color="white"/>
                 <Text text={originName} formatierung='blocksatz'/>
-                <h2 id="events" className='ueberschrift'>Events </h2>
+                <div id="events"/>
+                <HeadlineSection title='Events' color="white"/>
                 <Events/>
                 <div id="endPage" className="sectionPadding"/>
             </Page>
             <Page className="blackText paddingPage">
-                <h2 id="produkteUndPartner" className="headingBlack">Produkte & Partner</h2>
+                <HeadlineSection title='Produkte & Partner' color="black"/>
                 <ImgPosition name='partner' image={Partner}/>
                 <Text text={partner} formatierung='blocksatzSchwarz'/>
                 <div id="volunteers" className="sectionPadding"/>
