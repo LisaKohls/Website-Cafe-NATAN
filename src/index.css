@@ -86,54 +86,9 @@ code {
 
 }
 
-.ueberschrift{
-  position: relative;
-  margin-top: var(--marginSection);
-}
-
-.ueberuns{
-  margin-top: 0;
-}
-
-.ueberuns::after{
-  content: '';
-  position: absolute;
-  left: 30%;
-  right: 30%;
-  bottom: -0.5rem;
-  height: 1px;
-  background-color: var(--textColor);
-}
-
-.headingBlack{
-  color: var(--mainColor);
-  margin-top: var(--marginSection);
-}
-
-.headingBlack::after{
-  content: '';
-  position: absolute;
-  left: 30%;
-  right: 30%;
-  bottom: -0.5rem;
-  height: 1px;
-  background-color: var(--mainColor);
-}
 
 
-.ueberschrift::after{
-  content: '';
-  position: absolute;
-  left: 30%;
-  right: 30%;
-  bottom: -0.5rem;
-  height: 1px;
-  background-color: var(--textColor);
-}
-
-
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 700px) {
   .container{
     display: block;
     align-items: center;

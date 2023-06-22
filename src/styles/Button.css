@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200&display=swap');
+
+.btnReservierung,
+.btnVolunteer,
+.btnSpeisekarte {
+    all: unset;
+    margin-top: var(--marginContent);
+    padding: 1rem;
+    cursor: pointer;
+    background: transparent;
+    border: 0.1rem solid var(--textColor);
+    outline: none;
+    transition: var(--transitionHover);
+    line-height: 0.5rem;
+}
+
+
+.btnReservierung,
+.btnSpeisekarte{
+    background: var(--mainColor);
+    color: var(--textColor);
+}
+
+.btnReservierung{
+    display: block;
+    text-align: left;
+    margin-left: 0;
+}
+
+
+
+.btnVolunteer {
+    border: 0.1rem solid var(--mainColor);
+}
+
+
+.btnReservierung:hover,
+.btnVolunteer:hover,
+.btnSpeisekarte:hover{
+    transition: var(--transitionHover);
+    color: var(--secondaryColor);
+    border: 0.1rem solid var(--secondaryColor);
+}
+
+@media only screen and (max-width: 700px) {
+    .btnReservierung,
+    .btnSpeisekarte{
+        text-align: center;
+        display: unset;
+    }
+
+}
+
+
+
+
+
+

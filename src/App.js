@@ -1,22 +1,22 @@
 import React from 'react';
 import './index.css';
-import {oeffnungszeiten} from './Resources/textInhalte'
-import Navbar from './Components/Navbar';
-import Button from './Components/Button';
+import Navbar from './components/Navbar';
+import Button from './components/Button';
 
-import Footer from './Components/Footer';
-import {ueberNatan, ueberNatanSecondPart, originName, partner} from './Resources/textInhalte'
-import Text from './Components/Text'
-import {volunteer} from './Resources/textInhalte';
-import ImgPosition from "./Components/ImgPosition";
-import Gallery from "./Components/Gallery";
-import Page from "./Components/Page";
-import Partner from './Resources/img.png'
-import SpecialFood from "./Components/speisen/SpecialFood";
-import CoffeeMachine from './Resources/gallery/barNatan2.jpg'
-import Events from "./Components/Events";
-import FirstSection from "./Components/sections/FirstSection";
-import OpeningTimeSection from "./Components/sections/OpeningTimeSection";
+import Footer from './components/Footer';
+import {ueberNatan, ueberNatanSecondPart, originName, partner} from './resources/textInhalte'
+import Text from './components/Text'
+import {volunteer} from './resources/textInhalte';
+import ImgPosition from "./components/ImgPosition";
+import Gallery from "./components/Gallery";
+import Page from "./components/Page";
+import Partner from './resources/img.png'
+import SpecialFood from "./components/speisen/SpecialFood";
+import CoffeeMachine from './resources/gallery/barNatan2.jpg'
+import Events from "./components/Events";
+import FirstSection from "./components/sections/FirstSection";
+import OpeningTimeSection from "./components/sections/OpeningTimeSection";
+import HeadlineSection from "./components/sections/HeadlineSection";
 
 
 
@@ -28,31 +28,31 @@ function App() {
             <Navbar/>
             <Page bottomWheel={true}>
                 <FirstSection/>
-                <div id="ueberUns" className="sectionPadding"/>
-                <h2 className='ueberuns'>NON-PROFIT CAFÉ | BAR</h2>
+                <HeadlineSection title='NON-PROFIT CAFÉ | BAR' color="white"/>
                 <Text text={ueberNatan} formatierung='blocksatz'/>
-                <div id="ueberUns" className="sectionPadding"/>
+                <div id="opening" className="sectionPadding"/>
                 <OpeningTimeSection/>
-                <div id="ueberUns" className="sectionPadding"/>
-                <h2 className='ueberuns'>VORBILD. IDEE. KONZEPT.
-                    DAS NATAN</h2>
+                <HeadlineSection title='VORBILD. IDEE. KONZEPT.
+                    DAS NATAN' color="white"/>
                 <Text text={ueberNatanSecondPart} formatierung='blocksatz'/>
-                <h2 className='ueberschrift'>Unsere Speisen & Getränke</h2>
+                <div id="menu"/>
+                <HeadlineSection title='UNSERE SPEISEN & GETRÄNKE' color="white"/>
                 <SpecialFood/>
                 <Button name='Speisekarte' styleName='Speisekarte'/>
-                <div id="ueberUns" className="sectionPadding"/>
-                <h2 className='ueberuns'>Warum NATAN?</h2>
+                <HeadlineSection title='WARUM NATAN?' color="white"/>
                 <Text text={originName} formatierung='blocksatz'/>
-                <h2 id="events" className='ueberschrift'>Events </h2>
+                <div id="events"/>
+                <HeadlineSection title='EVENTS' color="white"/>
                 <Events/>
                 <div id="endPage" className="sectionPadding"/>
             </Page>
             <Page className="blackText paddingPage">
-                <h2 id="produkteUndPartner" className="headingBlack">Produkte & Partner</h2>
+                <HeadlineSection title='PRODUKTE & PARTNER' color="black"/>
+                <div id="produkteUndPartner"/>
                 <ImgPosition name='partner' image={Partner}/>
                 <Text text={partner} formatierung='blocksatzSchwarz'/>
-                <div id="volunteers" className="sectionPadding"/>
-                <h2 id="volunteer" className="ueberschrift">UNSER NATAN DREAM TEAM</h2>
+                <div id="volunteers"/>
+                <HeadlineSection title='UNSER NATAN DREAM TEAM' color="black"/>
                 <div className='container'>
                     <Text text={volunteer} formatierung='blocksatzSchwarz'/>
                     <ImgPosition name='volunteer' image={CoffeeMachine}/>
@@ -62,8 +62,8 @@ function App() {
             </Page>
             <Page>
                 <Gallery />
-
             </Page>
+            <div id='kontakt'/>
             <Footer/>
         </React.Fragment>
     );
