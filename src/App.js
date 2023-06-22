@@ -1,23 +1,23 @@
 import React from 'react';
 import './index.css';
-import {oeffnungszeiten} from './Resources/textInhalte'
-import Navbar from './Components/Navbar';
-import Button from './Components/Button';
+import {oeffnungszeiten} from './resources/textInhalte'
+import Navbar from './components/Navbar';
+import Button from './components/Button';
 
-import Footer from './Components/Footer';
-import {ueberNatan, ueberNatanSecondPart, originName, partner} from './Resources/textInhalte'
-import Text from './Components/Text'
-import {volunteer} from './Resources/textInhalte';
-import ImgPosition from "./Components/ImgPosition";
-import Gallery from "./Components/Gallery";
-import Page from "./Components/Page";
-import Partner from './Resources/img.png'
-import SpecialFood from "./Components/speisen/SpecialFood";
-import CoffeeMachine from './Resources/gallery/barNatan2.jpg'
-import Events from "./Components/Events";
-import FirstSection from "./Components/sections/FirstSection";
-import OpeningTimeSection from "./Components/sections/OpeningTimeSection";
-import HeadlineSection from "./Components/sections/HeadlineSection";
+import Footer from './components/Footer';
+import {ueberNatan, ueberNatanSecondPart, originName, partner} from './resources/textInhalte'
+import Text from './components/Text'
+import {volunteer} from './resources/textInhalte';
+import ImgPosition from "./components/ImgPosition";
+import Gallery from "./components/Gallery";
+import Page from "./components/Page";
+import Partner from './resources/img.png'
+import SpecialFood from "./components/speisen/SpecialFood";
+import CoffeeMachine from './resources/gallery/barNatan2.jpg'
+import Events from "./components/Events";
+import FirstSection from "./components/sections/FirstSection";
+import OpeningTimeSection from "./components/sections/OpeningTimeSection";
+import HeadlineSection from "./components/sections/HeadlineSection";
 
 
 
@@ -63,7 +63,6 @@ function App() {
             </Page>
             <Page>
                 <Gallery />
-
             </Page>
             <div id='kontakt'/>
             <Footer/>

@@ -1,7 +1,7 @@
 import { FaBars, FaTimes } from "react-icons/fa"
 import {useEffect, useRef} from "react"
-import "../Styles/Navbar.css";
-import Logo from "../Resources/logos/Natan_Logo_white_edited.png"
+import "../styles/Navbar.css";
+import Logo from "../resources/logos/Natan_Logo_white_edited.png"
 
 
 function Navbar() {

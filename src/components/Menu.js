@@ -1,10 +1,10 @@
 import React, { useState, useRef } from 'react';
-import '../Styles/Menu.css';
-import img1 from '../Resources/menu/speisekarte1.png';
-import img2 from '../Resources/menu/speisekarte2.png';
-import img3 from '../Resources/menu/speisekarte3.png';
-import img4 from '../Resources/menu/speisekarte4.png';
-import img5 from '../Resources/menu/speisekarte5.png';
+import '../styles/Menu.css';
+import img1 from '../resources/menu/speisekarte1.png';
+import img2 from '../resources/menu/speisekarte2.png';
+import img3 from '../resources/menu/speisekarte3.png';
+import img4 from '../resources/menu/speisekarte4.png';
+import img5 from '../resources/menu/speisekarte5.png';
 
 const Menu = (props) => {
     const [currentIndex, setCurrentIndex] = useState(0);

@@ -1,4 +1,4 @@
-.Öffnungszeiten{
+.opening{
     flex: 1;
     white-space: pre-line;
     text-align: left;
@@ -11,12 +11,15 @@
 
 
 @media only screen and (max-width: 700px) {
-    .Öffnungszeiten{
+    .opening{
         display: inline-block;
         border: 0.1rem solid var(--textColor);
         white-space: pre-line;
         text-align: center ;
-        padding: 1rem;
+        padding: 3rem;
+        margin-left: 0;
+        margin-right: 0;
+
         color: var(--textColor);
         font-size: 0.8rem;
         margin-top: 3rem;

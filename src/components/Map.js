@@ -1,5 +1,5 @@
 import  React from "react";
-import "../Styles/Map.css"
+import "../styles/Map.css"
 
 function Map() {
 

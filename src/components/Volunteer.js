@@ -1,4 +1,4 @@
-import '../Styles/PopUpContent.css'
+import '../styles/PopUpContent.css'
 
 function Volunteer(props) {
 /*

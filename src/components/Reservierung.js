@@ -1,4 +1,4 @@
-import '../Styles/PopUpContent.css'
+import '../styles/PopUpContent.css'
 import React, {useState} from 'react';
 import DatePicker, {registerLocale} from 'react-datepicker';
 import de from 'date-fns/locale/de';
@@ -56,7 +56,8 @@ function Reservierung(props) {
     </div>
 
     const isSubmitted = <div className='sentForm'>
-        <label>Deine Anfrage wurde erfolgreich abgeschickt und wird bearbeitet </label>
+        <label>Deine Anfrage wurde erfolgreich
+            abgeschickt und wird bearbeitet </label>
         <button className='submit' onClick={gotIt}>Got it</button>
     </div>
 

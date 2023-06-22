@@ -1,8 +1,8 @@
 import  React from "react";
-import "../Styles/Footer.css"
+import "../styles/Footer.css"
 import { SocialIcon } from 'react-social-icons';
 import Oeffnungszeiten from "./BoxWithText";
-import {oeffnungszeiten} from '../Resources/textInhalte'
+import {oeffnungszeiten} from '../resources/textInhalte'
 import { FaFacebook } from "react-icons/fa"
 import {faInstagram} from "@fortawesome/free-brands-svg-icons";
 

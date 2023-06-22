@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Styles/Food.css'
+import '../../styles/Food.css'
 import Text from '../Text'
 
 function FoodStage(props){
