@@ -5,7 +5,7 @@ import BarOriginal from "../../Resources/gallery/barNatan1.jpg";
 import BoxWithText from "../BoxWithText";
 import {oeffnungszeiten} from "../../Resources/textInhalte";
 import Button from "../Button";
-import Wheel from '../../Resources/logos/rad_weiß.png'
+import Wheel from '../../Resources/Kreis.svg'
 
 
 function OpeningTimeSection() {

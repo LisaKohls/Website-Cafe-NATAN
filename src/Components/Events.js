@@ -10,7 +10,6 @@ import BoxWithText from "./BoxWithText";
 import Text from "./Text";
 import {events} from "../Resources/textInhalte";
 import Button from "./Button";
-import Wheel from "../Resources/logos/rad_weiß.png";
 
 
 function Events() {
@@ -70,42 +69,38 @@ function Events() {
 
     return (
         <div>
-        <div
-            className="galleryContainer"
-            onTouchStart={handleTouchStart}
-            onTouchMove={handleTouchMove}
-        >
-            <button className="iconLeft" onClick={() => handleScroll("left")}>
-                ←
-            </button>
-            <div className="gallery">
-                <div className="scroll-images" ref={scrollImagesRef}>
-                    {images.map((image, index) => (
-                        <img
-                            className={`singlePicture ${
-                                index === currentIndex ? "active" : ""
-                            }`}
-                            key={index}
-                            src={image.src}
-                            alt={image.alt}
-                        />
-                    ))}
+            <div
+                className="galleryContainer"
+                onTouchStart={handleTouchStart}
+                onTouchMove={handleTouchMove}
+            >
+                <button className="iconLeft" onClick={() => handleScroll("left")}>
+                    ←
+                </button>
+                <div className="gallery">
+                    <div className="scroll-images" ref={scrollImagesRef}>
+                        {images.map((image, index) => (
+                            <img
+                                className={`singlePicture ${
+                                    index === currentIndex ? "active" : ""
+                                }`}
+                                key={index}
+                                src={image.src}
+                                alt={image.alt}
+                            />
+                        ))}
+                    </div>
                 </div>
+                <button className="iconRight" onClick={() => handleScroll("right")}>
+                    →
+                </button>
             </div>
-            <button className="iconRight" onClick={() => handleScroll("right")}>
-                →
-            </button>
-        </div>
-            <div id="eventtext" className="sectionPadding"/>
             <div className="container">
-                <ImgPosition name='natanoutside' image={EventImg}/>
-                <ImgPosition name='wheelEventOne' image={Wheel}/>
-                <ImgPosition name='wheelEventTwo' image={Wheel}/>
+                <ImgPosition name='interiorNatan' image={EventImg}/>
                 <div>
                     <BoxWithText title='Öffnungszeiten' >
                         <Text text={events} formatierung='linksbündigZeilenabstand'/>
                     </BoxWithText>
-
                 </div>
 
             </div>
