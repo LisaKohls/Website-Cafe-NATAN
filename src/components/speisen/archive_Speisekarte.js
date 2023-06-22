@@ -43,7 +43,6 @@ const Speisekarte = (props) => {
                     {speisen.map((image, index) => (
                             <img className="menuPage" key={index} src={image.src} alt={image.alt} />
                         ))}
-                    ))}
                 </div>
             </div>
                 <button className="scroll-buttons" onClick={() => handleScroll('right')}>→</button>

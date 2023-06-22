@@ -6,12 +6,9 @@ import {library} from "@fortawesome/fontawesome-svg-core";
 import {faAngleDoubleLeft} from "@fortawesome/free-solid-svg-icons";
 import ImgPosition from "./ImgPosition";
 import EventImg from "../resources/NatanFotoAußen.png";
-import BoxWithText from "./BoxWithText";
 import Text from "./Text";
 import {events} from "../resources/textInhalte";
-import Button from "./Button";
 import Wheel from "../resources/logos/rad_weiß.png";
-
 
 function Events() {
     const images = [

@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-import {oeffnungszeiten} from './resources/textInhalte'
 import Navbar from './components/Navbar';
 import Button from './components/Button';
 

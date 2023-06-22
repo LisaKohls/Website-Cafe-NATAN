@@ -1,11 +1,8 @@
 import  React from "react";
 import "../styles/Footer.css"
 import { SocialIcon } from 'react-social-icons';
-import Oeffnungszeiten from "./BoxWithText";
+import BoxWithText from "./BoxWithText";
 import {oeffnungszeiten} from '../resources/textInhalte'
-import { FaFacebook } from "react-icons/fa"
-import {faInstagram} from "@fortawesome/free-brands-svg-icons";
-
 
 
 
@@ -35,7 +32,7 @@ function Footer() {
                    target="_blank">team@natan-cafeandbar.com</a>
             </div>
             <div>
-                <Oeffnungszeiten inhalt={oeffnungszeiten} />
+                <BoxWithText inhalt={oeffnungszeiten} />
             </div>
             <div className="socialmedia">
 

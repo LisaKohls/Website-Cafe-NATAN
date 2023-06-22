@@ -39,7 +39,7 @@ export const ueberNatanSecondPart = (
     Dass das Trinkgeld davon ausgenommen ist, versteht sich von selbst: Es geht ohne Abzüge an unsere Crew. Und die ist
     ebenfalls alles andere als gewöhnlich: Ganz nach dem <a href="https://stelp.eu/" target="_blank">STELP</a> Prinzip, dass jeder
     einbringt, was er kann, arbeiten im NATAN hinter der Theke, im Service und in der Küche Menschen, die sich für die
-    gute Sache einsetzen — ehrenamtlich! Sei auch du dabei und <a href="#volunteer">werde Volunteer</a>!
+    gute Sache einsetzen — ehrenamtlich! Sei auch du dabei und <a href="#volunteers">werde Volunteer</a>!
         </p>
     </div> );
 

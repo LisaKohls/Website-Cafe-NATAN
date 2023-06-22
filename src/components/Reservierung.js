@@ -18,7 +18,7 @@ function Reservierung(props) {
         const count = document.getElementById("personen").value;
         const mail = document.getElementById("mail").value;
 
-        if(date === ' ' || time === '' || name === '' || count === ''){
+        if(date === ' ' || time === '' || name === '' || count === '' || mail === ''){
             alert('Bitte fülle alles vollständig aus')
         }else{
             setSubmit(true)

@@ -58,7 +58,7 @@ a {
     position: absolute;
     margin-top: -1.5rem;
     font-weight: unset;
-    margin-left: 0rem;
+    margin-left: 0;
 }
 
 .decorationsayhi{
@@ -98,7 +98,7 @@ a {
         position: absolute;
         margin-top: -1.5rem;
         font-weight: unset;
-        margin-left: 0rem;
+        margin-left: 0;
     }
 
     .decorationsayhi{
