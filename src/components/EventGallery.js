@@ -1,14 +1,10 @@
-import React, { useRef, useState } from "react";
-import "../styles/Events.css";
+import React, { useRef, useState, useEffect } from "react";
+import "../styles/EventGallery.css";
 import Img1 from "../resources/events1.jpg";
 import Img2 from "../resources/events2.jpg";
-import {library} from "@fortawesome/fontawesome-svg-core";
-import {faAngleDoubleLeft} from "@fortawesome/free-solid-svg-icons";
-import ImgPosition from "./ImgPosition";
-import EventImg from "../resources/NatanFotoAußen.png";
-import Text from "./Text";
-import {events} from "../resources/textInhalte";
-import Wheel from "../resources/logos/rad_weiß.png";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faAngleDoubleLeft } from "@fortawesome/free-solid-svg-icons";
+
 
 function Events() {
     const images = [
@@ -19,6 +15,7 @@ function Events() {
     const scrollImagesRef = useRef(null);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [touchStartX, setTouchStartX] = useState(0);
+    const [isOverflowing, setIsOverflowing] = useState(false);
 
     library.add(faAngleDoubleLeft);
 
@@ -65,20 +62,40 @@ function Events() {
         }
     };
 
+    useEffect(() => {
+        const scrollImages = scrollImagesRef.current;
+        setIsOverflowing(scrollImages.scrollWidth > scrollImages.offsetWidth);
+    }, []);
+
     return (
         <div>
-            <div id="eventtext" className="sectionPadding"/>
-            <div className="container">
-                <ImgPosition name='natanoutside' image={EventImg}/>
-                <ImgPosition name='wheelEventOne' image={Wheel}/>
-                <ImgPosition name='wheelEventTwo' image={Wheel}/>
-                <Text text={events} formatierung='linksbündigZeilenabstand'/>
+            <div
+                className={`galleryContainer ${isOverflowing ? "" : "center"}`}
+                onTouchStart={handleTouchStart}
+                onTouchMove={handleTouchMove}
+            >
+                <button className="iconLeft" onClick={() => handleScroll("left")}>
+                    ←
+                </button>
+                <div className="gallery">
+                    <div className="scroll-images" ref={scrollImagesRef}>
+                        {images.map((image, index) => (
+                            <img
+                                className={`singlePicture ${
+                                    index === currentIndex ? "active" : ""
+                                }`}
+                                key={index}
+                                src={image.src}
+                                alt={image.alt}
+                            />
+                        ))}
+                    </div>
+                </div>
+                <button className="iconRight" onClick={() => handleScroll("right")}>
+                    →
+                </button>
             </div>
         </div>
-
-
-
-
     );
 }
 

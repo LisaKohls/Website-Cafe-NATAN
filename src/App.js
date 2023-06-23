@@ -17,6 +17,7 @@ import Events from "./components/Events";
 import FirstSection from "./components/sections/FirstSection";
 import OpeningTimeSection from "./components/sections/OpeningTimeSection";
 import HeadlineSection from "./components/sections/HeadlineSection";
+import ImageScrollGallery from "./components/EventGallery";
 
 
 
@@ -43,6 +44,7 @@ function App() {
                 <Text text={originName} formatierung='blocksatz'/>
                 <div id="events"/>
                 <HeadlineSection title='EVENTS' color="white"/>
+                <ImageScrollGallery/>
                 <Events/>
                 <div id="endPage" className="sectionPadding"/>
             </Page>
