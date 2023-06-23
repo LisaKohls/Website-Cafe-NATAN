@@ -1,0 +1,11 @@
+.galleryContainer.center {
+    justify-content: center;
+}
+
+.galleryContainer.center .gallery {
+    justify-content: center;
+}
+
+.galleryContainer.center .scroll-images {
+    justify-content: flex-start;
+}
