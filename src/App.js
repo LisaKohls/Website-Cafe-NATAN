@@ -18,6 +18,7 @@ import FirstSection from "./components/sections/FirstSection";
 import OpeningTimeSection from "./components/sections/OpeningTimeSection";
 import HeadlineSection from "./components/sections/HeadlineSection";
 import ImageScrollGallery from "./components/EventGallery";
+import NewFooter from "./components/NewFooter";
 
 
 
@@ -67,6 +68,7 @@ function App() {
             </Page>
             <div id='kontakt'/>
             <Footer/>
+            <NewFooter/>
         </React.Fragment>
     );
 }
