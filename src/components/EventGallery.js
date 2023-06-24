@@ -70,18 +70,18 @@ function Events() {
     return (
         <div>
             <div
-                className={`galleryContainer ${isOverflowing ? "" : "center"}`}
+                className={`eventGalleryContainer ${isOverflowing ? "" : "center"}`}
                 onTouchStart={handleTouchStart}
                 onTouchMove={handleTouchMove}
             >
                 <button className="iconLeft" onClick={() => handleScroll("left")}>
                     ←
                 </button>
-                <div className="gallery">
-                    <div className="scroll-images" ref={scrollImagesRef}>
+                <div className="eventGallery">
+                    <div className="scrollEventPosters" ref={scrollImagesRef}>
                         {images.map((image, index) => (
                             <img
-                                className={`singlePicture ${
+                                className={`singleEventPoster ${
                                     index === currentIndex ? "active" : ""
                                 }`}
                                 key={index}
