@@ -76,6 +76,12 @@
     position: absolute;
     z-index: 99;
     left:0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .iconRight {
@@ -89,6 +95,10 @@
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
