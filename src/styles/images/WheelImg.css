@@ -1,0 +1,53 @@
+.wheelleft{
+    display: none;
+}
+
+.wheelright{
+    display: none;
+}
+
+.wheelEventOne{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    display: unset;
+    left: 5rem;
+    margin-top: 30rem;
+}
+
+.wheelEventTwo{
+    width: 9%;
+    height: auto;
+    position: absolute;
+    display: unset;
+    left: 17rem;
+    margin-top: 23rem;
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .wheelleft{
+        width: 40%;
+        height: auto;
+        display: unset;
+        position: absolute;
+        left: -4rem;
+        margin-top: 5rem;
+    }
+
+    .wheelright{
+        width: 30%;
+        height: auto;
+        position: absolute;
+        display: unset;
+        right: 1rem;
+        margin-top: -3rem;
+    }
+
+    .wheelEventOne, .wheelEventTwo{
+        display: none;
+    }
+
+
+}

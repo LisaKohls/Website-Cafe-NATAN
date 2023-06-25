@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../styles/Food.css'
-import Text from '../Text'
+import BlackFontText from '../text/BlackFontText'
 
 function FoodStage(props){
     return(
@@ -9,8 +9,8 @@ function FoodStage(props){
                 <img className="circle-image" src={props.image} alt={props.name} />
             </div>
             <div className='rectangle'>
-                <Text text={props.name} formatierung='mittigSchwarz'/>
-                <Text text={props.description} formatierung='blocksatzSchwarz'/>
+                <BlackFontText text={props.name} formatierung='centered'/>
+                <BlackFontText text={props.description} formatierung='block'/>
             </div>
         </div>
 

@@ -1,0 +1,22 @@
+
+.black::after{
+    content: '';
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    bottom: -0.5rem;
+    height: 1px;
+}
+
+.black{
+    margin-top: var(--marginSection);
+}
+
+.black::after{
+    background-color: var(--mainColor);
+}
+
+
+
+
+

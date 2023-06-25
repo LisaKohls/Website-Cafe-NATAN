@@ -4,7 +4,7 @@
     margin-top: var(--marginSection);
 }
 
-.white::after, .black::after{
+.white::after{
     content: '';
     position: absolute;
     left: 30%;
@@ -13,13 +13,6 @@
     height: 1px;
 }
 
-.black{
-    margin-top: var(--marginSection);
-}
-
-.black::after{
-    background-color: var(--mainColor);
-}
 
 .white::after{
     background-color: var(--textColor);
