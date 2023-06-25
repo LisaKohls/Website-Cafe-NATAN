@@ -42,28 +42,11 @@
     margin-left: 0;
 }
 
-.imagewheelleft{
-    display: none;
-}
-
-.imagewheelright{
-    display: none;
-}
-
 .imagenatanoutside{
     width: 40%;
     height: 40%;
     margin-right: 2rem;
     margin-top: 3.5rem;
-}
-
-.imagewheelEventOne{
-    width: 15%;
-    height: auto;
-    position: absolute;
-    display: unset;
-    left: 5rem;
-    margin-top: 30rem;
 }
 
 .imagewheelEventTwo{
@@ -93,10 +76,6 @@
         margin: 0;
     }
 
-    .imagewheel{
-        width: 6rem;
-        height: 6rem;
-    }
 
     .imagevolunteer{
         margin-left: 0;
@@ -131,32 +110,6 @@
         align-items: center;
         justify-content: center;
         margin-top: 5rem;
-    }
-
-    .imagewheelleft{
-        width: 40%;
-        height: auto;
-        display: unset;
-        position: absolute;
-        left: -4rem;
-        margin-top: 5rem;
-    }
-
-    .imagewheelright{
-        width: 30%;
-        height: auto;
-        position: absolute;
-        display: unset;
-        right: 1rem;
-        margin-top: -3rem;
-    }
-
-    .imagewheelEventOne{
-        display: none;
-    }
-
-    .imagewheelEventTwo{
-        display: none;
     }
 
     .imagenatanoutside{

@@ -1,7 +1,7 @@
-import "../styles/Text.css";
+import "../../styles/text/BlackFontText.css";
 import React from "react";
 
-function Text(props){
+function BlackFontText(props){
     return(
         <div className={props.formatierung} >
             <p>
@@ -11,4 +11,4 @@ function Text(props){
     )
 }
 
-export default Text;
+export default BlackFontText;

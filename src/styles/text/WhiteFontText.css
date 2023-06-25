@@ -10,23 +10,6 @@ a {
     display: block;
 }
 
-.mittigSchwarz{
-    text-align: center;
-    color:var(--mainColor);
-    font-size: 0.9em;
-    display: block;
-    margin-top: var(--marginContent);
-}
-
-.blocksatzSchwarz{
-    text-align: justify;
-    color: var(--mainColor);
-    margin-top: var(--marginContent);
-    font-size: 0.9rem;
-    flex: 1;
-    display: inline-block;
-}
-
 .blocksatz{
     hyphens: auto;
     text-align: justify;
@@ -73,7 +56,6 @@ a {
 @media only screen and (max-width: 700px) {
     .blocksatz{
         text-align: justify;
-        color: var(--textColor);
         margin-top: var(--marginContent);
         font-size: 0.9rem;
         display: block;

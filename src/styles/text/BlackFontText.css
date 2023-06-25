@@ -1,0 +1,21 @@
+a {
+    color: var(--textColor);
+}
+
+.centered{
+    text-align: center;
+    color:var(--mainColor);
+    font-size: 0.9em;
+    display: block;
+    margin-top: var(--marginContent);
+}
+
+.block{
+    text-align: justify;
+    color: var(--mainColor);
+    margin-top: var(--marginContent);
+    font-size: 0.9rem;
+    flex: 1;
+    display: inline-block;
+}
+

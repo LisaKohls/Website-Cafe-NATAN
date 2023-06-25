@@ -8,7 +8,7 @@ function Wheel(){
     useEffect(() => {
         const rotate =  () => {
             if (teschd && teschd.current) {
-                teschd.current.style.transform = `rotate(${window.scrollY/10}deg)`
+                teschd.current.style.transform = `rotate(${window.scrollY/7}deg)`
             }
         }
         document.addEventListener("scroll", rotate )

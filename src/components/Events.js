@@ -4,11 +4,12 @@ import Img1 from "../resources/events1.jpg";
 import Img2 from "../resources/events2.jpg";
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {faAngleDoubleLeft} from "@fortawesome/free-solid-svg-icons";
-import ImgPosition from "./ImgPosition";
+import ImgPosition from "./images/ImgPosition";
 import EventImg from "../resources/NatanFotoAußen.png";
-import Text from "./Text";
+import BlackFontText from "./text/BlackFontText";
 import {events} from "../resources/textInhalte";
 import Wheel from "../resources/logos/rad_weiß.png";
+import WheelImg from "./images/WheelImg";
 
 function Events() {
     const images = [
@@ -70,9 +71,9 @@ function Events() {
             <div id="eventtext" className="sectionPadding"/>
             <div className="container">
                 <ImgPosition name='natanoutside' image={EventImg}/>
-                <ImgPosition name='wheelEventOne' image={Wheel}/>
-                <ImgPosition name='wheelEventTwo' image={Wheel}/>
-                <Text text={events} formatierung='linksbündigZeilenabstand'/>
+                <WheelImg name='wheelEventOne' image={Wheel}/>
+                <WheelImg name='wheelEventTwo' image={Wheel}/>
+                <BlackFontText text={events} formatierung='linksbündigZeilenabstand'/>
             </div>
         </div>
 
