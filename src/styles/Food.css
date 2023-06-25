@@ -6,7 +6,25 @@
     z-index: 1;
     margin-top: 10rem;
     margin-left: 2rem;
+    margin-right: 2rem;opacity: 0; /* Standardmäßig unsichtbar */
+    transform: translateY(20px); /* Um 20px nach unten verschieben */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Übergangseigenschaften hinzufügen */
+}
+
+/* Andere vorhandene Stilregeln */
+
+.container.visible .stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 10rem;
+    margin-left: 2rem;
     margin-right: 2rem;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    opacity: 1; /* Bei Sichtbarkeit auf 1 setzen */
+    transform: translateY(0); /* Zurück zur ursprünglichen Position */
 }
 
 .stage:first-child {
@@ -55,10 +73,12 @@
     }
 }
 
-@media only screen and (max-width: 900px) {
+
+
+@media only screen and (max-width: 1200px) {
     .stage{
-        margin-left: 0.7rem;
-        margin-right: 0.7rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     }
 }
 
