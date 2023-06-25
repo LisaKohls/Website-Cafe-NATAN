@@ -8,73 +8,17 @@
 .footerInformation {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-between;
     color: var(--textColor);
     margin: 2rem;
 }
 
-.footerLinks {
-    text-align: left;
-}
-
-.footerLinks a {
-    display: flex;
-    flex-direction: column;
-    //margin: var(--marginContent);
-    color: var(--textColor);
-    text-decoration: none;
-}
-
-.footerLinks a:hover {
-    transition: 125ms;
-    color: var(--mainColor);
-}
-
-.footerInformation {
-    display: flex;
-
-}
-
 .footerElement {
-    flex: 1 1 200px;
-    margin-right: 10px;
-}
-
-.contact {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact a {
-    text-decoration: none;
-    color: var(--textColor);
-}
-
-.contact a:hover {
-    transition: 125ms;
-    color: var(--mainColor);
-}
-
-.contact p {
-    margin: var(--marginContent);
-}
-
-.socialmedia {
-    display: flex;
-    flex-direction: column;
-    margin: 0.5rem;
-    justify-content: center;
-    align-items: center;
-    border: red;
+    margin-bottom: 2rem;
 }
 
 .footerÜberschrift {
     font-weight: bold;
-}
-
-.footerInhalt {
-
 }
 
 .line {
@@ -102,53 +46,20 @@
     margin: 2rem;
 }
 
-
-/* Media Query für Tablets */
-@media screen and (max-width: 768px) {
-    .information {
+@media screen and (max-width: 810px) {
+    .footerInformation {
         flex-direction: column;
     }
-    .links {
-        text-align: center;
-    }
-    .contact {
-        text-align: center;
-    }
-    .socialmedia {
-        flex-direction: row;
+
+    .bottom {
+        flex-direction: column;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .information {
+    .footerInformation {
+    }
+    .bottom {
         flex-direction: column;
     }
-    .links {
-        text-align: center;
-    }
-    .contact {
-        text-align: center;
-    }
-    .socialmedia {
-        margin: 0;
-    }
-    .socialmedia .icon{
-        margin: 0.5rem;
-        flex-direction: row;
-    }
-
-    .socialIconsBottom {
-        border: red;
-        display: flex;
-        flex-direction: column;
-        margin: 0.5rem;
-        justify-content: center;
-        align-items: center;
-    }
-
 }
-
-
-
-
-
