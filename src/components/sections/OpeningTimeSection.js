@@ -1,5 +1,4 @@
 import React from "react";
-import Text from "../text/BlackFontText";
 import ImgPosition from "../images/ImgPosition";
 import BarOriginal from "../../resources/gallery/barNatan1.jpg";
 import BoxWithText from "../text/BoxWithText";

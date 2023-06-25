@@ -1,6 +1,4 @@
 import FirstSection from "./FirstSection";
-import HeadlineSection from "./WhiteHeadlineSection";
-import Text from "../text/BlackFontText";
 import {originName, ueberNatan, ueberNatanSecondPart} from "../../resources/textInhalte";
 import OpeningTimeSection from "./OpeningTimeSection";
 import SpecialFood from "../speisen/SpecialFood";
