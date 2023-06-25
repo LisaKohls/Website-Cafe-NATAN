@@ -53,6 +53,13 @@ a {
     font-weight: unset;
 }
 
+.bold {
+    text-align: left;
+    color: var(--textColor);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 @media only screen and (max-width: 700px) {
     .blocksatz{
         text-align: justify;
@@ -89,7 +96,6 @@ a {
         right: 3rem;
         margin-top: -1.3rem;
         font-weight: unset;
-
     }
 
 

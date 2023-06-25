@@ -1,4 +1,10 @@
 
+.black{
+    position: relative;
+    margin-top: var(--marginSection);
+    margin-bottom: var(--marginContent);
+}
+
 .black::after{
     content: '';
     position: absolute;
@@ -6,10 +12,6 @@
     right: 30%;
     bottom: -0.5rem;
     height: 1px;
-}
-
-.black{
-    margin-top: var(--marginSection);
 }
 
 .black::after{
