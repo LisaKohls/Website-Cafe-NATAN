@@ -12,9 +12,10 @@ import WhiteHeadlineSection from "./WhiteHeadlineSection";
 function BlackSection() {
     return(<div>
             <FirstSection/>
+            <div id="opening" />
             <WhiteHeadlineSection title='NON-PROFIT CAFÉ | BAR' color="white"/>
             <WhiteFontText text={ueberNatan} formatierung='blocksatz'/>
-            <div id="opening" className="sectionPadding"/>
+            <div className="sectionPadding"/>
             <OpeningTimeSection/>
             <WhiteHeadlineSection title='VORBILD. IDEE. KONZEPT.
                     DAS NATAN' color="white"/>

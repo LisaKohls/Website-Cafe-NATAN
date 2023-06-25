@@ -11,8 +11,8 @@ import BlackFontText from "../text/BlackFontText";
 function WhiteSection(){
     return(
         <div>
+            <div id="produkteUndPartner" />
             <BlackHeadlineSection title='PRODUKTE & PARTNER' />
-            <div id="produkteUndPartner"/>
             <ImgPosition name='partner' image={Partner}/>
             <BlackFontText text={partner} formatierung='block'/>
             <div id="volunteers"/>

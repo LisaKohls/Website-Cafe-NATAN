@@ -17,7 +17,7 @@ function OpeningTimeSection() {
 
                     <div>
                         <BoxWithText title='opening'>
-                            <WhiteFontText text='Öffnungszeiten:' formatierung='linksbündig'/>
+                            <WhiteFontText text='Öffnungszeiten:' formatierung='bold'/>
                             <WhiteFontText text={oeffnungszeiten} formatierung='linksbündigZeilenabstand'/>
                         </BoxWithText>
                         <Button name="Reservierung" styleName='Reservierung'/>

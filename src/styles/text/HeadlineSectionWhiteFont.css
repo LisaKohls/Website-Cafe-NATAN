@@ -2,6 +2,7 @@
 .white{
     position: relative;
     margin-top: var(--marginSection);
+    margin-bottom: var(--marginContent);
 }
 
 .white::after{

@@ -12,6 +12,12 @@ function Navbar() {
         }
     }
 
+    const closeNavbar = () => {
+        if (navRef && navRef.current) {
+            navRef.current.classList.remove("responsive_nav");
+        }
+    };
+
     useEffect(() => {
         const handleResize = () => {
             if (navRef && navRef.current && window.innerWidth > 1024) {
@@ -29,12 +35,11 @@ function Navbar() {
         <header>
             <img src={Logo} alt="Natan Logo" width="35px" height="40px"/>
             <nav ref={navRef}>
-                <a href="/#opening">Öffnungszeiten</a>
-                <a href="/#menu">Speisekarte</a>
-                <a href="/#events">Events</a>
-                <a href="/#produkteUndPartner">Partner</a>
-                <a href="/#volunteers">Volunteer werden</a>
-                <a href="/#kontakt">Kontakt</a>
+                <a href="/#opening" onClick={closeNavbar}>Öffnungszeiten</a>
+                <a href="/#menu" onClick={closeNavbar}>Speisekarte</a>
+                <a href="/#events" onClick={closeNavbar}>Events</a>
+                <a href="/#produkteUndPartner" onClick={closeNavbar}>Partner</a>
+                <a href="/#volunteers" onClick={closeNavbar}>Volunteer werden</a>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <FaTimes />
                 </button>
@@ -42,7 +47,6 @@ function Navbar() {
             <button className="nav-btn" onClick={showNavbar}>
                 <FaBars />
             </button>
-
         </header>
     );
 
