@@ -67,7 +67,7 @@ function Footer() {
                 </div>
                 <div className="impressum">
                     <a href="/impressum">Impressum /</a>
-                    <a href="/privacy">Datenschutz</a>
+                    <a href="/privacy">/ Datenschutz</a>
                 </div>
             </div>
         </div>
