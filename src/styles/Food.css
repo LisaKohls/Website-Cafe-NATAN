@@ -6,26 +6,34 @@
     z-index: 1;
     margin-top: 10rem;
     margin-left: 2rem;
-    margin-right: 2rem;opacity: 0; /* Standardmäßig unsichtbar */
-    transform: translateY(20px); /* Um 20px nach unten verschieben */
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Übergangseigenschaften hinzufügen */
-}
-
-/* Andere vorhandene Stilregeln */
-
-.container.visible .stage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-    margin-top: 10rem;
-    margin-left: 2rem;
     margin-right: 2rem;
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-    opacity: 1; /* Bei Sichtbarkeit auf 1 setzen */
-    transform: translateY(0); /* Zurück zur ursprünglichen Position */
+    transform: translateY(20px);
 }
+
+.foodstage{
+    opacity: 0;
+}
+
+.foodstage.visible{
+    opacity: 1;
+    animation-name: fadeInTranslate;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInTranslate {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 .stage:first-child {
     margin-left: 0;
@@ -60,6 +68,19 @@
     margin-top: -85px;
 }
 
+
+.foodstage:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.foodstage:nth-child(2) {
+    animation-delay: 0.2s; /* Verzögerung für das zweite Element */
+}
+
+.foodstage:nth-child(3) {
+    animation-delay: 0.4s; /* Verzögerung für das dritte Element */
+}
+
 @media only screen and (max-width: 700px) {
 
     .stage{
@@ -73,7 +94,12 @@
     }
 }
 
-
+@media only screen and (max-width: 1000px) {
+    .stage{
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+    }
+}
 
 @media only screen and (max-width: 1200px) {
     .stage{
