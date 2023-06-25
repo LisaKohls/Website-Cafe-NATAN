@@ -68,7 +68,6 @@ function App() {
             </Page>
             <div id='kontakt'/>
             <Footer/>
-            <NewFooter/>
         </React.Fragment>
     );
 }

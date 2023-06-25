@@ -1,11 +1,13 @@
 import React from "react";
 import "../styles/NewFooter.css"
+import {SocialIcon} from "react-social-icons";
 
 
 function NewFooter() {
     const currentYear = new Date().getFullYear();
 
     return (
+
         <div className="footer-clean">
 
                 <div className="container">
@@ -43,6 +45,30 @@ function NewFooter() {
                         </div>
                     </div>
                 </div>
+
+
+            <div className="socialmedia">
+
+                <a href="https://www.instagram.com/natan.stuttgart/" target="_blank">
+                    <i className="faInstagram"
+                       style={{margin: "0.5rem"}}/>
+                </a>
+
+                <SocialIcon bgColor="var(--textColor)"
+                            url="https://www.facebook.com/people/NATANstuttgart/100063920867609/"
+                            target="_blank"
+                            style={{margin: "0.5rem"}}/>
+                <SocialIcon bgColor="var(--textColor)"
+                            url="https://www.instagram.com/natan.stuttgart/"
+                            target="_blank" style={{margin: "0.5rem"}}/>
+                <SocialIcon bgColor="var(--textColor)"
+                            url="mailto:team@natan-cafeandbar.com"
+                            target="_blank"
+                            style={{margin: "0.5rem"}}/>
+            </div>
+
+
+
         </div>
 
     )
