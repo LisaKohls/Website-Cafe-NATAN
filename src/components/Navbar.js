@@ -41,7 +41,7 @@ function Navbar() {
                 <a href="/#produkteUndPartner" onClick={closeNavbar}>Partner</a>
                 <a href="/#volunteers" onClick={closeNavbar}>Volunteer werden</a>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                    <FaTimes />
+                    ✕
                 </button>
             </nav>
             <button className="nav-btn" onClick={showNavbar}>
