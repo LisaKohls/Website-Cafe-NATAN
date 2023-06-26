@@ -27,7 +27,7 @@ function Footer() {
                 <div className="footerElement">
                     <p className="footerÜberschrift">Adresse:</p>
                     <div className="footerInhalt">
-                        <p>Katharinenstraße 15</p>
+                        <p>Katharinenstraße 15 //</p>
                         <p>70182 Stuttgart</p>
                     </div>
                 </div>

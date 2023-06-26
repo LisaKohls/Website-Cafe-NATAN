@@ -44,12 +44,10 @@
 
 .scroll-images::before {
     left: 0;
-   /*background-image: linear-gradient(90deg, var(--mainColor), transparent);*/
 }
 
 .scroll-images::after{
     right: 0;
-    /*background-image: linear-gradient(-90deg, var(--mainColor), transparent);*/
 }
 
 .singlePicture{
@@ -61,12 +59,7 @@
     overflow: hidden;
 }
 
-.singlePicture img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
+.iconRight
 .iconLeft {
     color: var(--mainColorLight);
     background-color: var(--mainColor);
@@ -75,7 +68,6 @@
     cursor: pointer;
     position: absolute;
     z-index: 99;
-    left:0;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;
@@ -85,22 +77,12 @@
 }
 
 .iconRight {
-    color: var(--mainColorLight);
-    background-color: var(--mainColor);
-    outline: none;
-    padding: 0 20px;
-    cursor: pointer;
-    position: absolute;
-    z-index: 99;
     right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
+.iconLeft {
+    left:0;
+}
 
 .singlePicture::-webkit-scrollbar {
     width: 0;
