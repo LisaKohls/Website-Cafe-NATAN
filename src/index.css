@@ -63,13 +63,6 @@ code {
   height: fit-content;
 }
 
-.openForYou {
-  width: 50%;
-  position: relative;
-  display: inline-block;
-  padding-top: 3.5rem;
-}
-
 .textOverlay {
   position: absolute;
   top: 0;
@@ -90,9 +83,8 @@ code {
 
 @media only screen and (max-width: 700px) {
   .container{
-    display: block;
-    align-items: center;
-    justify-content: center;
+    display: unset;
+    margin: 0;
   }
 
   .openForYou {

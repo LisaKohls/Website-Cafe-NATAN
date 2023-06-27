@@ -14,7 +14,7 @@ function SpecialFood(){
         const stageTop = stage.getBoundingClientRect().top;
         const windowHeight = window.innerHeight;
 
-        if (stageTop < windowHeight  && stageTop > -stage.offsetHeight * 0.9) {
+        if (stageTop < windowHeight * 1.2 && stageTop > -stage.offsetHeight ) {
             setIsVisible(true);
             console.log(`visibility chenged to true: ${isVisible}`)
 
