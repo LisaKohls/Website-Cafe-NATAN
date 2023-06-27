@@ -10,21 +10,22 @@ function SpecialFood(){
     const [isVisible, setIsVisible] = useState(false);
 
     const handleScroll = () => {
-        const stage = document.querySelector('.stage');
+        const stage = document.querySelector('.foodstage');
         const stageTop = stage.getBoundingClientRect().top;
         const windowHeight = window.innerHeight;
 
-        if (stageTop < windowHeight  && stageTop > -stage.offsetHeight*0.5) {
+        if (stageTop < windowHeight  && stageTop > -stage.offsetHeight * 0.9) {
             setIsVisible(true);
-            console.log(isVisible)
+            console.log(`visibility chenged to true: ${isVisible}`)
+
         } else {
             setIsVisible(false);
-            console.log(isVisible)
+
         }
     };
 
     useEffect(() => {
-
+        console.log(`visibility chenged to: ${isVisible}`)
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);
