@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import "../styles/EventGallery.css";
+import "../styles/Gallery.css";
 import Img1 from "../resources/events1.jpg";
 import Img2 from "../resources/events2.jpg";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -70,18 +70,18 @@ function Events() {
     return (
         <div>
             <div
-                className={`eventGalleryContainer ${isOverflowing ? "" : "center"}`}
+                className={`galleryContainer ${isOverflowing ? "" : "center"}`}
                 onTouchStart={handleTouchStart}
                 onTouchMove={handleTouchMove}
             >
-                <button className="iconLeft" onClick={() => handleScroll("left")}>
+                <button className="arrowIconLeft" onClick={() => handleScroll("left")}>
                     ←
                 </button>
-                <div className="eventGallery">
-                    <div className="scrollEventPosters" ref={scrollImagesRef}>
+                <div className="gallery">
+                    <div className="scroll-images" ref={scrollImagesRef}>
                         {images.map((image, index) => (
                             <img
-                                className={`singleEventPoster ${
+                                className={`singlePicture ${
                                     index === currentIndex ? "active" : ""
                                 }`}
                                 key={index}
@@ -91,7 +91,7 @@ function Events() {
                         ))}
                     </div>
                 </div>
-                <button className="iconRight" onClick={() => handleScroll("right")}>
+                <button className="arrowIconRight" onClick={() => handleScroll("right")}>
                     →
                 </button>
             </div>

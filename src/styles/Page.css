@@ -11,7 +11,7 @@
 
 .paddingPage {
     background-color: var(--textColor);
-    padding-top: calc(8rem / 2 + 1rem);
+    /*padding-top: calc(8rem / 2 + 1rem);*/
 }
 
 @media only screen and (max-width: 1024px) {
