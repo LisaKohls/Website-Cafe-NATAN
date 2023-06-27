@@ -7,6 +7,7 @@ import Button from "../Button";
 import React from "react";
 import BlackHeadlineSection from "./BlackHeadlineSection";
 import BlackFontText from "../text/BlackFontText";
+import ParallaxSection from "../ParallaxSection";
 
 function WhiteSection(){
     return(
@@ -21,6 +22,7 @@ function WhiteSection(){
                 <BlackFontText text={volunteer} formatierung='block'/>
                 <ImgPosition name='volunteer' image={CoffeeMachine}/>
             </div>
+            <ParallaxSection/>
             <Button name='Werde Volunteer' styleName='Volunteer'/>
             <div id="footer" className="sectionPadding"/>
         </div>

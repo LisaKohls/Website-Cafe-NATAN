@@ -1,15 +1,14 @@
 import React, { useEffect } from 'react';
 import '../styles/ParallaxSection.css';
-import CoffeeMachine from "../resources/gallery/barNatan2.jpg";
-import {volunteer} from "../resources/textInhalte";
+import CoffeeMachine from '../resources/gallery/barNatan2.jpg';
 
-const ParallaxSection = ({ imageUrl, text }) => {
+const ParallaxSection = () => {
     useEffect(() => {
         const handleScroll = () => {
-            const parallaxContainer = document.getElementById('parallax-container');
-            const scrollPosition = window.scrollY;
+            const parallaxBg = document.querySelector('.parallax_bg');
+            const scrollPosition = window.pageYOffset;
 
-            parallaxContainer.style.transform = `translateY(${scrollPosition * 0.4}px)`;
+            parallaxBg.style.transform = `translateY(-${scrollPosition * 0.4}px)`;
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -20,14 +19,20 @@ const ParallaxSection = ({ imageUrl, text }) => {
     }, []);
 
     return (
-        <section className="parallax-section">
-            <div id="parallax-container" className="parallax-image">
-                <img src={CoffeeMachine} alt="Parallax" />
+        <div className="wrapper_outer">
+            <div className="wrapper">
+                <div className="parallax-section">
+                    <div className="parallax_bg" />
+                    <div className="parallax_image">
+                        <img src={CoffeeMachine} alt="Parallax" />
+                    </div>
+                    <h2>Parallax Effect</h2>
+                </div>
             </div>
-            <div className="parallax-text">{volunteer}</div>
-        </section>
+        </div>
     );
 };
 
 export default ParallaxSection;
+
 
