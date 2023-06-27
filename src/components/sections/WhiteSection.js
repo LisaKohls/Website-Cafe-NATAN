@@ -12,7 +12,7 @@ import ParallaxSection from "../ParallaxSection";
 function WhiteSection(){
     return(
         <div>
-            <div id="produkteUndPartner" />
+            <div id="produkteUndPartner" className="sectionPadding"/>
             <BlackHeadlineSection title='PRODUKTE & PARTNER' />
             <ImgPosition name='partner' image={Partner}/>
             <BlackFontText text={partner} formatierung='block'/>
