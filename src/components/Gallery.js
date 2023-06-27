@@ -72,7 +72,7 @@ function Gallery() {
             onTouchStart={handleTouchStart}
             onTouchMove={handleTouchMove}
         >
-            <button className="iconLeft" onClick={() => handleScroll("left")}>
+            <button className="arrowIconLeft" onClick={() => handleScroll("left")}>
                 ←
             </button>
             <div className="gallery">
@@ -89,7 +89,7 @@ function Gallery() {
                     ))}
                 </div>
             </div>
-            <button className="iconRight" onClick={() => handleScroll("right")}>
+            <button className="arrowIconRight" onClick={() => handleScroll("right")}>
                 →
             </button>
         </div>

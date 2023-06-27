@@ -22,7 +22,6 @@ function WhiteSection(){
                 <BlackFontText text={volunteer} formatierung='block'/>
                 <ImgPosition name='volunteer' image={CoffeeMachine}/>
             </div>
-            <ParallaxSection/>
             <Button name='Werde Volunteer' styleName='Volunteer'/>
             <div id="footer" className="sectionPadding"/>
         </div>
