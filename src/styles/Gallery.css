@@ -79,14 +79,6 @@ button.arrowIconRight.arrowIconLeft{
     margin: 0 5px;
 }
 
-.iconRight {
-    right: 0;
-}
-
-.iconLeft {
-    left:0;
-}
-
 .singlePicture::-webkit-scrollbar {
     width: 0;
     background: transparent;
