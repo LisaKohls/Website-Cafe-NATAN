@@ -33,6 +33,10 @@
     text-align: left;
 }
 
+.formular.volunteer input{
+    width: 25rem;
+}
+
 .formular #time {
     display: block;
     padding: 0.3rem;
@@ -72,7 +76,7 @@
 .formular .textArea{
     all: unset;
     display: block;
-    width: 16.2rem;
+    width: 25.5rem;
     height: 6rem;
     border: 0.1rem solid #b4b2b2;
     border-radius: 0.5rem;
@@ -96,7 +100,6 @@
 }
 
 
-
 @media only screen and (max-width: 1024px) {
     .formular {
         display: block;
@@ -105,4 +108,14 @@
     .formular label {
         margin-top: 0.5rem;
     }
+
+    .formular .textArea{
+        width: 16.2rem;
+    }
+
+    .formular.volunteer input{
+        width: 15.5rem;
+    }
+
+
 }
