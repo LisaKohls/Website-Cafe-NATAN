@@ -13,7 +13,6 @@ function WhiteSection(){
         <div>
             <BlackHeadlineSection title='PRODUKTE & PARTNER' />
             <div id="produkteUndPartner"/>
-            <ImgPosition name='partner' image={Partner}/>
             <BlackFontText text={partner} formatierung='block'/>
             <div id="volunteers"/>
             <BlackHeadlineSection title='UNSER NATAN DREAM TEAM'/>

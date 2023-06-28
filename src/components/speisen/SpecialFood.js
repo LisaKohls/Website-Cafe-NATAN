@@ -16,8 +16,6 @@ function SpecialFood(){
 
         if (stageTop < windowHeight * 1.2 && stageTop > -stage.offsetHeight ) {
             setIsVisible(true);
-            console.log(`visibility chenged to true: ${isVisible}`)
-
         } else {
             setIsVisible(false);
 
@@ -25,7 +23,6 @@ function SpecialFood(){
     };
 
     useEffect(() => {
-        console.log(`visibility chenged to: ${isVisible}`)
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);
@@ -33,8 +30,7 @@ function SpecialFood(){
     }, []);
 
     return(
-        <div className={`foodstage${isVisible ? ' visible' : ''}`}
-             style={isVisible ? {animationName: 'fadeInTranslate'} : {}}>
+        <div className={`foodstage${isVisible ? ' visible' : ''}`}>
             <div className='container'>
                 <FoodStage name={food1} image={Food1} description={description1}/>
                 <FoodStage name={food2} image={Food2} description={description2}/>

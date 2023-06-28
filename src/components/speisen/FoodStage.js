@@ -1,4 +1,3 @@
-import React, {useEffect, useState} from 'react'
 import '../../styles/Food.css'
 import BlackFontText from '../text/BlackFontText'
 
@@ -18,7 +17,5 @@ function FoodStage(props) {
                 </div>
             </div>
         );
-
-
 }
     export default FoodStage
