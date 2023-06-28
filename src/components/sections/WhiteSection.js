@@ -14,7 +14,7 @@ function WhiteSection(){
         <div>
             <div id="produkteUndPartner" className="sectionPadding"/>
             <BlackHeadlineSection title='PRODUKTE & PARTNER' />
-            <ImgPosition name='partner' image={Partner}/>
+            <div id="produkteUndPartner"/>
             <BlackFontText text={partner} formatierung='block'/>
             <div id="volunteers"/>
             <BlackHeadlineSection title='UNSER NATAN DREAM TEAM'/>
