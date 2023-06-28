@@ -60,12 +60,10 @@
     overflow: hidden;
 }
 
-.arrowIconRight
-.arrowIconLeft {
+button.arrowIconRight.arrowIconLeft{
     color: var(--mainColorLight);
     background-color: var(--mainColor);
     outline: none;
-    padding: 0 20px;
     cursor: pointer;
     position: absolute;
     z-index: 99;
@@ -76,6 +74,9 @@
     justify-content: center;
     align-items: center;
     border: red solid 2px;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 0 5px;
 }
 
 .iconRight {
@@ -102,9 +103,12 @@
     }
 
 
-    .arrowIconRight
-    .arrowIconLeft {
-        border: red solid 2px;
+
+    button.arrowIconLeft {
+        display: none;
+    }
+
+    button.arrowIconRight {
         display: none;
     }
 
