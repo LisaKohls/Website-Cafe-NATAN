@@ -1,3 +1,4 @@
+/* Gallery */
 
 .galleryContainer {
     width: 100%;
@@ -44,12 +45,10 @@
 
 .scroll-images::before {
     left: 0;
-   /*background-image: linear-gradient(90deg, var(--mainColor), transparent);*/
 }
 
 .scroll-images::after{
     right: 0;
-    /*background-image: linear-gradient(-90deg, var(--mainColor), transparent);*/
 }
 
 .singlePicture{
@@ -61,46 +60,24 @@
     overflow: hidden;
 }
 
-.singlePicture img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-.iconLeft {
+button.arrowIconRight.arrowIconLeft{
     color: var(--mainColorLight);
     background-color: var(--mainColor);
     outline: none;
-    padding: 0 20px;
     cursor: pointer;
     position: absolute;
     z-index: 99;
-    left:0;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: red solid 2px;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 0 5px;
 }
-
-.iconRight {
-    color: var(--mainColorLight);
-    background-color: var(--mainColor);
-    outline: none;
-    padding: 0 20px;
-    cursor: pointer;
-    position: absolute;
-    z-index: 99;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .singlePicture::-webkit-scrollbar {
     width: 0;
@@ -108,12 +85,36 @@
 }
 
 .singlePicture {
-    scrollbar-width: none;
-}
-
-.singlePicture {
     -ms-overflow-style: none;
 }
 
+
+@media screen and (max-width: 480px) {
+    .galleryContainer {
+        display: block
+    }
+
+
+
+    button.arrowIconLeft {
+        display: none;
+    }
+
+    button.arrowIconRight {
+        display: none;
+    }
+
+    .scroll-images {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+/* EventGallery */
+
+
+.eventGalleryContainer.center {
+    justify-content: center;
+}
 
 

@@ -24,7 +24,6 @@ function App() {
             <Page>
                 <Gallery />
             </Page>
-            <div id='kontakt'/>
             <Footer/>
         </React.Fragment>
     );

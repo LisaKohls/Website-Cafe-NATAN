@@ -7,10 +7,12 @@ import Button from "../Button";
 import React from "react";
 import BlackHeadlineSection from "./BlackHeadlineSection";
 import BlackFontText from "../text/BlackFontText";
+import ParallaxSection from "../ParallaxSection";
 
 function WhiteSection(){
     return(
         <div>
+            <div id="produkteUndPartner" className="sectionPadding"/>
             <BlackHeadlineSection title='PRODUKTE & PARTNER' />
             <div id="produkteUndPartner"/>
             <BlackFontText text={partner} formatierung='block'/>

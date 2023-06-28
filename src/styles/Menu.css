@@ -6,11 +6,10 @@
     position: absolute;
     top: 4em;
     right: 2em;
-    padding: 5px;
     cursor: pointer;
     outline: none;
     color: var(--textColor);
-    font-size: 2rem
+    font-size: 2rem;
 }
 
 .popup {
@@ -18,10 +17,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);;
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 100px;
     border: none;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .scroll-container {
@@ -32,7 +30,6 @@
 }
 
 .menu {
-    margin-right: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,15 +54,7 @@
     justify-content: center;
 }
 
-button {
-    font-size: 20px;
-    padding: 5px 10px;
-    margin: 0 5px;
-    border: none;
-    background-color: transparent;
-    color: var(--textColor);
-    cursor: pointer;
-}
+
 
 button:hover {
     color: var(--secondaryColor);
@@ -77,9 +66,25 @@ button:hover {
     }
     .menu .child {
         width: 100%;
-        max-height: 80vh;
     }
     .scroll-buttons {
         display: none;
+    }
+}
+
+
+@media only screen and (max-width: 770px) {
+    .closeBtn {
+        color: var(--mainColor);
+        top: 3em;
+    }
+}
+
+
+@media only screen and (max-width: 510px) {
+    .closeBtn {
+        color: var(--mainColorLight);
+        top: 3em;
+        right: 1em;
     }
 }
