@@ -30,10 +30,7 @@ function Button(props){
                 {props.name}
             </button>
             <PopUp trigger={reservierungPopUp} setTrigger={setReservierungPopUp}>
-                <div className='container'>
-                    <Map/>
-                    <Reservierung trigger={reservierungPopUp} setTrigger={setReservierungPopUp}/>
-                </div>
+            <Reservierung trigger={reservierungPopUp} setTrigger={setReservierungPopUp}/>
             </PopUp>
             <PopUp trigger={volunteerPopUp} setTrigger={setVolunteerPopUp}>
                 <Volunteer trigger={volunteerPopUp} setTrigger={setVolunteerPopUp}/>

@@ -13,8 +13,6 @@
     text-align: left;
 }
 
-
-
 .formular label {
     display: block;
     margin-top: 1rem;
@@ -95,7 +93,7 @@
     margin: var(--marginContent);
     white-space: pre-line;
     padding: 1rem;
-    width: 10rem;
+    width: 20rem;
     height: 12rem;
 }
 
@@ -115,6 +113,10 @@
 
     .formular.volunteer input{
         width: 15.5rem;
+    }
+
+    .sentForm{
+        width: fit-content;
     }
 
 
