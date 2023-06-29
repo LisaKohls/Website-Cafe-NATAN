@@ -1,5 +1,5 @@
 import FirstSection from "./FirstSection";
-import {originName, ueberNatan, ueberNatanSecondPart} from "../../resources/textInhalte";
+import {originName, originName2, ueberNatan, ueberNatanSecondPart} from "../../resources/textInhalte";
 import OpeningTimeSection from "./OpeningTimeSection";
 import SpecialFood from "../speisen/SpecialFood";
 import Button from "../Button";
@@ -26,6 +26,7 @@ function BlackSection() {
             <Button name='Speisekarte' styleName='Speisekarte'/>
             <WhiteHeadlineSection title='WARUM NATAN?' color="white"/>
             <WhiteFontText text={originName} formatierung='blocksatz'/>
+            <WhiteFontText text={originName2} formatierung='blocksatz'/>
             <div id="events"/>
             <WhiteHeadlineSection title='EVENTS' color="white"/>
             <ImageScrollGallery/>

@@ -13,6 +13,12 @@
     transform: translateX(-50%);
 }
 
+.imagelogoNavBar{
+    width:35px;
+    height:40px;
+    margin-top: 3px;
+}
+
 .imagebar{
     margin-top: 3.8rem;
     position: relative;
@@ -94,6 +100,8 @@
     .imageevent {
         margin: 0;
     }
+
+
 
 
     .imagevolunteer{

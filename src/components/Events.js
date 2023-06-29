@@ -68,7 +68,7 @@ function Events() {
 
     return (
         <div>
-            <div id="eventtext" className="sectionPadding"/>
+            <div id="eventtext" />
             <div className="container">
                 <ImgPosition name='natanoutside' image={EventImg}/>
                 <WheelImg name='wheelEventOne' image={Wheel}/>
