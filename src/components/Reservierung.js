@@ -5,6 +5,7 @@ import de from 'date-fns/locale/de';
 import 'react-datepicker/dist/react-datepicker.css';
 import 'react-datepicker/dist/react-datepicker-cssmodules.css';
 import 'react-time-picker/dist/TimePicker.css';
+import Map from "./Map";
 
 function Reservierung(props) {
     const [startDate, setStartDate] = useState(new Date());
@@ -30,29 +31,32 @@ function Reservierung(props) {
         props.setTrigger(false)
     }
 
-    const makeRequest = <div className='formular'>
-        <div>
+    const makeRequest = <div className='container'>
+        <Map/>
+        <div className='formular'>
+        <>
             <label>Wähle ein Datum: </label>
             <DatePicker id='datePicker' locale="de" selected={startDate} onChange={(date) => setStartDate(date) }
                         dateFormat='dd MMMM yy' required/>
-        </div>
-        <div>
+        </>
+        <>
             <label>Deine Uhrzeit: </label>
             <input type="time" id="time" name="time" min="10:00" max="20:00" required></input>
-        </div>
-        <div>
+        </>
+        <>
             <label >Name: </label>
             <input type='text' id='name' name='fname' required></input>
-        </div>
-        <div>
+        </>
+        <>
             <label> Anzahl Personen</label>
             <input type='number' id='personen' name='personen' required></input>
-        </div>
-        <div>
+        </>
+        <>
             <label>E-Mail: </label>
             <input type='text' id='mail' name='mail' required></input>
-        </div>
+        </>
         <button className='submit' onClick={check}>Abschicken</button>
+    </div>
     </div>
 
     const isSubmitted = <div className='sentForm'>
