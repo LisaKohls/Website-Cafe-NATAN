@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200&display=swap');
-
 .btnReservierung,
 .btnVolunteer,
 .btnSpeisekarte {
@@ -19,15 +17,17 @@
 .btnSpeisekarte{
     background: var(--mainColor);
     color: var(--textColor);
+
 }
 
 .btnReservierung{
     display: block;
     text-align: left;
-    margin-left: 0;
 }
 
-
+.btnSpeisekarte{
+    margin-top: 3rem;
+}
 
 .btnVolunteer {
     border: 0.1rem solid var(--mainColor);
@@ -47,6 +47,7 @@
     .btnSpeisekarte{
         text-align: center;
         display: unset;
+
     }
 
 }
