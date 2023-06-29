@@ -50,14 +50,7 @@ export const volunteer =  "Im NATAN gibt es kein Personal, sondern nur Gastgeber
     "sind hier Tag für Tag, Schicht für Schicht für unsere Gäste da, und das ehrenamtlich," +
     " mit Ausnahme der Betriebsleitung. Alle zusammen für die gute Sache. Das Trinkgeld geht ohne Abzüge an unsere Crew. " +
     "Und die Zufriedenheit und ein Lächeln unserer Gäste ist der Bonus."+
-"Im NATAN gibt es kein Personal, sondern nur Gastgeber. Denn das Team, das in der Küche, im " +
-"Service und an der Bar" +
-" arbeitet, tut dies aus Überzeugung – um weltweit Menschen in Not zu unterstützen. Mehr als insgesamt 30 Volunteers " +
-"sind hier Tag für Tag, Schicht für Schicht für unsere Gäste da, und das ehrenamtlich," +
-" mit Ausnahme der Betriebsleitung. Alle zusammen für die gute Sache. Das Trinkgeld geht ohne Abzüge an unsere Crew. " +
-"Und die Zufriedenheit und ein Lächeln unserer Gäste ist der Bonus." +
-    "mit Ausnahme der Betriebsleitung. Alle zusammen für die gute Sache. Das Trinkgeld geht ohne Abzüge an unsere Crew. " +
-    "Und die Zufriedenheit und ein Lächeln unserer Gäste ist der Bonus. \n"
+    "Im NATAN gibt es kein Personal, sondern nur Gastgeber. Denn das Team arbeitet aus Überzeugung "
 
 //Besonderes Essen
 //------------------------------
@@ -65,22 +58,22 @@ export const volunteer =  "Im NATAN gibt es kein Personal, sondern nur Gastgeber
 
 export const food1 = "Healthy Breakfast"
 
-export const description1 = "duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit"+
-    "amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+export const description1 = "Starten Sie Ihren Tag mit einem gesunden und knusprigen Granola-Frühstück, das Sie mit Energie versorgt und Ihnen eine Fülle von Nährstoffen bietet. " +
+    "Granola besteht aus einer Mischung aus Nüssen."
 
 //Speise 2
 
 export const food2 = "Refreshing Drinks"
 
-export const description2 = "duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit"+
-    "amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+export const description2 =  "Dieses spritzige Getränk kombiniert den sauren und erfrischenden Geschmack " +
+    "von Zitronen mit einer dezenten Süße, um eine perfekte Balance zu schaffen. Jeder Schluck erweckt die Sinne und erfrischt."
+
 
 //Speise 3
 
 export const food3 = "Sweets"
 
-export const description3 = "duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit"+
-    "amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+export const description3 = "Energy Balls sind kleine Kraftpakete, die Ihnen einen natürlichen Energiekick geben. Diese köstlichen Snacks bestehen aus einer Mischung aus nahrhaften Zutaten wie Nüssen und Trockenfrüchten"
 
 export const originName = "Der Name NATAN steht bei uns für mehr als nur fünf Buchstaben. „Ich habe es versucht“, hat " +
     "der Visionär und Friedensaktivist Abie Nathan einmal über seine Arbeit gesagt — heute steht dieses " +
