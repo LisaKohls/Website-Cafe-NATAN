@@ -41,7 +41,6 @@ function Volunteer(props) {
     }
     return (
         <div className='formular volunteer' >
-
             <div>
                 <h2>Werde Volunteer</h2>
             </div>
