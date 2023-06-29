@@ -7,7 +7,7 @@ import Button from "../Button";
 import React from "react";
 import BlackHeadlineSection from "./BlackHeadlineSection";
 import BlackFontText from "../text/BlackFontText";
-import ParallaxSection from "../ParallaxSection";
+
 
 function WhiteSection(){
     return(
