@@ -12,7 +12,6 @@ function MainPage() {
 
     return (
         <React.Fragment>
-            <Navbar/>
             <Page bottomWheel={true}>
                 <BlackSection />
             </Page>
@@ -22,7 +21,6 @@ function MainPage() {
             <Page>
                 <Gallery />
             </Page>
-            <Footer/>
         </React.Fragment>
     );
 }
