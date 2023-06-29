@@ -50,14 +50,7 @@ export const volunteer =  "Im NATAN gibt es kein Personal, sondern nur Gastgeber
     "sind hier Tag für Tag, Schicht für Schicht für unsere Gäste da, und das ehrenamtlich," +
     " mit Ausnahme der Betriebsleitung. Alle zusammen für die gute Sache. Das Trinkgeld geht ohne Abzüge an unsere Crew. " +
     "Und die Zufriedenheit und ein Lächeln unserer Gäste ist der Bonus."+
-"Im NATAN gibt es kein Personal, sondern nur Gastgeber. Denn das Team, das in der Küche, im " +
-"Service und an der Bar" +
-" arbeitet, tut dies aus Überzeugung – um weltweit Menschen in Not zu unterstützen. Mehr als insgesamt 30 Volunteers " +
-"sind hier Tag für Tag, Schicht für Schicht für unsere Gäste da, und das ehrenamtlich," +
-" mit Ausnahme der Betriebsleitung. Alle zusammen für die gute Sache. Das Trinkgeld geht ohne Abzüge an unsere Crew. " +
-"Und die Zufriedenheit und ein Lächeln unserer Gäste ist der Bonus." +
-    "mit Ausnahme der Betriebsleitung. Alle zusammen für die gute Sache. Das Trinkgeld geht ohne Abzüge an unsere Crew. " +
-    "Und die Zufriedenheit und ein Lächeln unserer Gäste ist der Bonus. \n"
+    "Im NATAN gibt es kein Personal, sondern nur Gastgeber. Denn das Team arbeitet aus Überzeugung "
 
 //Besonderes Essen
 //------------------------------

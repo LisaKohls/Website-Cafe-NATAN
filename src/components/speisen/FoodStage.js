@@ -12,8 +12,8 @@ function FoodStage(props) {
                     <img className="circle-image" src={props.image} alt={props.name}/>
                 </div>
                 <div className="rectangle">
-                    <BlackFontText text={props.name} formatierung="centered"/>
-                    <BlackFontText text={props.description} formatierung="block"/>
+                    <BlackFontText text={props.name} formatierung="centered bold"/>
+                    <BlackFontText text={props.description} formatierung="blockSmall"/>
                 </div>
             </div>
         );
