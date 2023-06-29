@@ -33,7 +33,9 @@ function Navbar() {
     }, [])
     return (
         <header>
-            <img src={Logo} alt="Natan Logo" width="35px" height="40px"/>
+            <a href="./">
+            <img src={Logo} alt="Natan Logo" width="35px" height="40px" />
+            </a>
             <nav ref={navRef}>
                 <a href="/#opening" onClick={closeNavbar}>Öffnungszeiten</a>
                 <a href="/#menu" onClick={closeNavbar}>Speisekarte</a>

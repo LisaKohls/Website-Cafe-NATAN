@@ -2,10 +2,10 @@ import React from 'react';
 import './index.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Gallery from "./components/Gallery";
-import Page from "./components/Page";
-import BlackSection from "./components/sections/BlackSection";
-import WhiteSection from "./components/sections/WhiteSection";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import MainPage from "./components/MainPage";
+import Impressum from "./components/Impressum";
+import Datenschutz from "./components/Datenschutz";
 
 
 
@@ -13,19 +13,14 @@ import WhiteSection from "./components/sections/WhiteSection";
 function App() {
 
     return (
-        <React.Fragment>
+        <Router>
             <Navbar/>
-            <Page bottomWheel={true}>
-                <BlackSection />
-            </Page>
-            <Page className="blackText paddingPage">
-                <WhiteSection />
-            </Page>
-            <Page>
-                <Gallery />
-            </Page>
-            <Footer/>
-        </React.Fragment>
+            <Routes>
+                <Route exact path="/" element={<MainPage />} />
+                <Route path="/impressum" element={<Impressum />} />
+                <Route path="/datenschutz" element={<Datenschutz />} />
+            </Routes>
+        </Router>
     );
 }
 
