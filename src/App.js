@@ -6,9 +6,7 @@ import MainPage from "./components/MainPage";
 import Impressum from "./components/Impressum";
 import Datenschutz from "./components/Datenschutz";
 import Footer from "./components/Footer";
-
-
-
+import Error404 from "./components/Error404";
 
 function App() {
 
@@ -19,6 +17,7 @@ function App() {
                 <Route exact path="/" element={<MainPage />} />
                 <Route path="/impressum" element={<Impressum />} />
                 <Route path="/privacy" element={<Datenschutz />} />
+                <Route path="*" element={<Error404 />} />
             </Routes>
             <Footer />
         </Router>
