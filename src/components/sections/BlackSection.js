@@ -10,7 +10,7 @@ import WhiteFontText from "../text/WhiteFontText";
 import WhiteHeadlineSection from "./WhiteHeadlineSection";
 
 function BlackSection() {
-    return(<div>
+    return(<>
             <FirstSection/>
             <div id="opening" />
             <WhiteHeadlineSection title='NON-PROFIT CAFÉ | BAR' color="white"/>
@@ -32,7 +32,7 @@ function BlackSection() {
             <ImageScrollGallery/>
             <Events/>
             <div id="endPage" className="sectionPadding"/>
-    </div>
+    </>
     )
 }
 
