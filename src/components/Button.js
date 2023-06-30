@@ -1,7 +1,7 @@
 import "../styles/Button.css";
-import PopUp from "./PopUp";
-import Reservierung from "./Reservierung";
-import Volunteer from './Volunteer'
+import PopUp from "./forms/PopUp";
+import Reservierung from "./forms/Reservierung";
+import Volunteer from './forms/Volunteer'
 import Map from './Map'
 import React, {useState} from "react";
 import Menu from "./Menu";

@@ -27,15 +27,6 @@
 
 @media only screen and (max-width: 700px) {
 
-    .wheelleft{
-        width: 40%;
-        height: auto;
-        display: unset;
-        position: absolute;
-        left: -4rem;
-        margin-top: 5rem;
-    }
-
     .wheelright{
         width: 30%;
         height: auto;

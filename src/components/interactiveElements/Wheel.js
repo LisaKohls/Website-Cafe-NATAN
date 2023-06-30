@@ -1,8 +1,8 @@
 import {useRef, useEffect} from "react";
 import '../../styles/Wheel.css'
-import wheel from '../../resources/logos/Kreis.svg'
 
-function Wheel(){
+
+function Wheel(props){
     const ref = useRef(null)
 
     useEffect(() => {
@@ -19,8 +19,8 @@ function Wheel(){
     }, [])
 
     return(
-        <img alt="wheel" ref={ref} className='wheel'
-             src={wheel}
+        <img alt="wheel" ref={ref} className={props.title}
+             src={props.wheel}
         />
     )
 }

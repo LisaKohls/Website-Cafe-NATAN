@@ -1,11 +1,11 @@
-import '../styles/PopUpContent.css'
+import '../../styles/PopUpContent.css'
 import React, {useState} from 'react';
 import DatePicker, {registerLocale} from 'react-datepicker';
 import de from 'date-fns/locale/de';
 import 'react-datepicker/dist/react-datepicker.css';
 import 'react-datepicker/dist/react-datepicker-cssmodules.css';
 import 'react-time-picker/dist/TimePicker.css';
-import Map from "./Map";
+import Map from "../Map";
 import emailjs from "emailjs-com";
 
 
