@@ -9,7 +9,6 @@ import EventImg from "../resources/NatanFotoAußen.png";
 import BlackFontText from "./text/BlackFontText";
 import {events} from "../resources/textInhalte";
 import Wheel from "../resources/logos/rad_weiß.png";
-import WheelImg from "./images/WheelImg";
 
 function Events() {
     const images = [
@@ -71,8 +70,12 @@ function Events() {
             <div id="eventtext" />
             <div className="container">
                 <ImgPosition name='natanoutside' image={EventImg}/>
-                <WheelImg name='wheelEventOne' image={Wheel}/>
-                <WheelImg name='wheelEventTwo' image={Wheel}/>
+                <img alt="trans" className='wheelEventOne'
+                     src={Wheel}
+                />
+                <img alt="trans" className='wheelEventTwo'
+                     src={Wheel}
+                />
                 <BlackFontText text={events} formatierung='linksbündigZeilenabstand'/>
             </div>
         </div>
