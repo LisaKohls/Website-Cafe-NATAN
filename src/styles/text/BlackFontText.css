@@ -16,7 +16,8 @@ a {
     color: var(--mainColor);
     font-size: 0.9rem;
     flex: 1;
-    line-height: 1.2rem;
+    line-height: 1.4rem;
+    margin-top: 2rem;
     display: inline-block;
 }
 

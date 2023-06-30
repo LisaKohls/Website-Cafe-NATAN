@@ -63,8 +63,8 @@
     padding: 2rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    height: fit-content;
-    margin-top: -85px;
+    height: 21rem;
+    margin-top: -110px;
 }
 
 
@@ -78,7 +78,10 @@
     .rectangle{
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem;
+       height: 19rem;
+        margin-top: -100px;
     }
+
 }
 
 @media only screen and (max-width: 1000px) {
