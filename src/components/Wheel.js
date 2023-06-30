@@ -1,6 +1,6 @@
 import {useRef, useEffect} from "react";
 import '../styles/Wheel.css'
-import wheel from '../resources/Kreis.svg'
+import wheel from '../resources/logos/Kreis.svg'
 
 function Wheel(){
     const teschd = useRef(null)

@@ -14,10 +14,9 @@ a {
 .block, .blockSmall{
     text-align: justify;
     color: var(--mainColor);
-    margin-top: var(--marginContent);
     font-size: 0.9rem;
     flex: 1;
-    line-height: 1rem;
+    line-height: 1.2rem;
     display: inline-block;
 }
 
