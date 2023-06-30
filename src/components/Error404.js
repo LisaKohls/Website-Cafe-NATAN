@@ -1,10 +1,16 @@
 import React from 'react';
+import "../styles/Error404.css";
+import Logo from "../resources/KreisLogo_.png"
 
 const Error404 = () => {
     return (
-        <div>
-            <h1>Seite nicht gefunden</h1>
-            <p>Die von Ihnen angeforderte Seite wurde nicht gefunden.</p>
+        <div className="errorPage">
+            <img src={Logo} alt="Logo Natan" className="LogoNatan" />
+            <h1 className="errorHeading">404</h1>
+            <p className="errorText"> Die angeforderte Seite wurde nicht gefunden. </p>
+            <a href="/" className="errorPageLink">
+               Zurück zur Homepage
+            </a>
         </div>
     );
 };
