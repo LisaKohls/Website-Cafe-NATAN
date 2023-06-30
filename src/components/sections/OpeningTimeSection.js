@@ -4,17 +4,16 @@ import BarOriginal from "../../resources/gallery/barNatan1.jpg";
 import BoxWithText from "../text/BoxWithText";
 import {oeffnungszeiten} from "../../resources/textInhalte";
 import Button from "../Button";
-import Wheel from '../../resources/logos/rad_weiß.png'
+import wheel from '../../resources/logos/rad_weiß.png'
 import WhiteFontText from "../text/WhiteFontText";
-import WheelImg from "../images/WheelImg";
+import Wheel from "../interactiveElements/Wheel";
 
 
 function OpeningTimeSection() {
     return(<div>
-            <WheelImg name='wheelright' image={Wheel}/>
+        <Wheel wheel={wheel} title="wheelRight"/>
                 <div className="container">
                     <ImgPosition name='interiorNatan' image={BarOriginal}/>
-
                     <div>
                         <BoxWithText title='opening'>
                             <WhiteFontText text='Öffnungszeiten:' formatierung='boldHeading'/>

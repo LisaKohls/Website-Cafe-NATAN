@@ -12,10 +12,60 @@
     mix-blend-mode: difference;
 }
 
+.wheelWhite{
+    display: none;
+}
+
+.wheelRight{
+    display: none;
+}
+
+.wheelEventOne{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    display: unset;
+    left: 5rem;
+    margin-top: 30rem;
+}
+
+.wheelEventTwo{
+    width: 9%;
+    height: auto;
+    position: absolute;
+    display: unset;
+    left: 17rem;
+    margin-top: 23rem;
+
+}
+
+
 @media only screen and (max-width: 700px) {
     .wheel{
         width: 10rem;
         height: 10rem;
         bottom: calc(10rem * -0.5);
+    }
+
+    .wheelWhite{
+        width: 40%;
+        height: auto;
+        display: unset;
+        position: absolute;
+        left: -4rem;
+        margin-top: 5rem;
+    }
+
+    .wheelRight{
+        width: 30%;
+        height: auto;
+        position: absolute;
+        display: unset;
+        right: 1rem;
+        margin-top: -3rem;
+    }
+
+    .wheelEventOne, .wheelEventTwo{
+        display: none;
     }
 }
