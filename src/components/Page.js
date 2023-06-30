@@ -1,5 +1,5 @@
 import React from 'react';
-import Wheel from "./Wheel";
+import Wheel from "./interactiveElements/Wheel";
 import "../styles/Page.css";
 
 function Page({ children, className, style, bottomWheel }) {

@@ -2,6 +2,7 @@ import { FaBars, FaTimes } from "react-icons/fa"
 import {useEffect, useRef} from "react"
 import "../styles/Navbar.css";
 import Logo from "../resources/logos/Natan_Logo_white_edited.png"
+import ImgPosition from "./images/ImgPosition";
 
 
 function Navbar() {
@@ -34,7 +35,7 @@ function Navbar() {
     return (
         <header>
             <a href="./">
-            <img src={Logo} alt="Natan Logo" width="35px" height="40px" />
+                <ImgPosition image={Logo} name='logoNavBar'/>
             </a>
             <nav ref={navRef}>
                 <a href="/#opening" onClick={closeNavbar}>Öffnungszeiten</a>

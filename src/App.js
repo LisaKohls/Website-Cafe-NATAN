@@ -8,8 +8,6 @@ import Datenschutz from "./components/Datenschutz";
 import Footer from "./components/Footer";
 
 
-
-
 function App() {
 
     return (

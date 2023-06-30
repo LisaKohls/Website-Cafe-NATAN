@@ -61,6 +61,13 @@ a {
     font-size: 1rem;
 }
 
+.boldHeading{
+    text-align: left;
+    color: var(--textColor);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 @media only screen and (max-width: 700px) {
     .blocksatz{
         text-align: justify;
@@ -100,6 +107,10 @@ a {
     }
 
     .bold {
+        text-align: center;
+    }
+
+    .boldHeading{
         text-align: center;
     }
 
