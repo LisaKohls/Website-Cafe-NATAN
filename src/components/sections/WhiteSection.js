@@ -1,6 +1,5 @@
 
 import ImgPosition from "../images/ImgPosition";
-import Partner from "../../resources/img.png";
 import {partner, volunteer} from "../../resources/textInhalte";
 import CoffeeMachine from "../../resources/gallery/barNatan2.jpg";
 import Button from "../Button";

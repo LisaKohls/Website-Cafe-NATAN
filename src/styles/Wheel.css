@@ -11,3 +11,11 @@
     height: var(--size-circle);
     mix-blend-mode: difference;
 }
+
+@media only screen and (max-width: 700px) {
+    .wheel{
+        width: 10rem;
+        height: 10rem;
+        bottom: calc(10rem * -0.5);
+    }
+}

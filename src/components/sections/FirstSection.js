@@ -7,11 +7,11 @@ import WheelImg from "../images/WheelImg";
 
 function FirstSection(){
     return(
-        <div>
+        <>
             <WheelImg name='wheelleft' image={WheelWhite}/>
             <ImgPosition name='logo' image={NatanLogo}/>
             <ImgPosition name='bar' image={Bar}/>
-        </div>
+        </>
     )
 }
 

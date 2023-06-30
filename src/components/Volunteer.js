@@ -1,40 +1,35 @@
 import '../styles/PopUpContent.css'
+import emailjs from 'emailjs-com';
 
 function Volunteer(props) {
-/*
-    document.getElementById("volunteerForm").addEventListener("submit", function(event) {
-        event.preventDefault();
-        //<script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
-
-        const SERVICE_ID = 'Ihre_Service_ID';
-        const TEMPLATE_ID = 'template_tjgodks';
-        const BENUTZER_ID = 'Ihre_Benutzer_ID';
-
-        var name = document.getElementById("name").value
-        var mail = document.getElementById("mail").value
-        var message = document.getElementById("message").value
-        console.log(`name ${name}, mail ${mail}, message ${message}`)
-
-        var data = {
-            name: name,
-            mail: mail,
-            message: message
-        }//id
-
-
-    })*/
+    const SERVICE_ID = 'service_xe2vwog';
+    const TEMPLATE_ID = 'template_tjgodks';
+    const PUBLIC_KEY = 'hYeEf2ZvtikQQT6Ti';
 
     function check(){
 
         const name = document.getElementById("name").value;
         const mail = document.getElementById("mail").value;
         const message = document.getElementById("message").value;
+
         if(name === ' ' || mail === '' || message === ''){
             alert('Bitte fülle alles vollständig aus')
         }else{
-            alert('Wir haben das Natan Team mit deiner Anfrage kontaktiert und melden uns dann bei dir')
+
             console.log(`name ${name}, mail ${mail}, message ${message}`)
             props.setTrigger(false);
+            emailjs.send(SERVICE_ID,TEMPLATE_ID,{
+                name: name,
+                mail: mail,
+                message: message,
+            },PUBLIC_KEY ).then(
+                function (response) {
+                    console.log("SUCCESS!", response.status, response.text);
+                },
+                function (error) {
+                    console.log("FAILED...", error);
+                }
+            );
         }
 
 
