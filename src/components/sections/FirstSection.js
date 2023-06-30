@@ -4,7 +4,6 @@ import NatanLogo from "../../resources/logos/Natan_Logo_white.png";
 import Bar from "../../resources/gallery/barNatan1_edited.jpg";
 import WheelWhite from '../../resources/logos/rad_weiß.png'
 import WheelImg from "../images/WheelImg";
-import Wheel from "../interactiveElements/Wheel";
 
 function FirstSection(){
     return(
