@@ -1,4 +1,4 @@
-.opening{
+.opening {
     flex: 1;
     white-space: pre-line;
     text-align: left;
@@ -7,11 +7,11 @@
 }
 
 @media only screen and (max-width: 700px) {
-    .opening{
+    .opening {
         display: inline-block;
         border: 0.1rem solid var(--textColor);
         white-space: pre-line;
-        text-align: center ;
+        text-align: center;
         padding: 3rem;
         margin-left: 0;
         margin-right: 0;
@@ -19,7 +19,6 @@
         font-size: 0.8rem;
         margin-top: 3rem;
     }
-
 
 
 }

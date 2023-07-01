@@ -74,6 +74,7 @@ a.footerLink:hover {
 @media screen and (max-width: 480px) {
     .footerInformation {
     }
+
     .bottom {
         flex-direction: column;
     }

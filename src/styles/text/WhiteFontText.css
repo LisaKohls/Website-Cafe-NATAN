@@ -4,13 +4,13 @@ a {
 
 .mittig {
     text-align: center;
-    color:var(--textColor);
+    color: var(--textColor);
     margin-top: var(--marginContent);
     font-size: 0.9em;
     display: block;
 }
 
-.blocksatz{
+.blocksatz {
     hyphens: auto;
     text-align: justify;
     color: var(--textColor);
@@ -21,14 +21,14 @@ a {
     line-height: 1.9rem;
 }
 
-.linksbündig{
+.linksbündig {
     text-align: left;
     color: var(--textColor);
     font-size: 0.9rem;
 }
 
 
-.linksbündigZeilenabstand{
+.linksbündigZeilenabstand {
     margin-top: 1.4rem;
     text-align: left;
     color: var(--textColor);
@@ -45,7 +45,7 @@ a {
     margin-left: 0;
 }
 
-.decorationsayhi{
+.decorationsayhi {
     color: var(--textColor);
     font-size: 2.5rem;
     position: absolute;
@@ -61,7 +61,7 @@ a {
     font-size: 1rem;
 }
 
-.boldHeading{
+.boldHeading {
     text-align: left;
     color: var(--textColor);
     font-weight: bold;
@@ -69,20 +69,20 @@ a {
 }
 
 @media only screen and (max-width: 700px) {
-    .blocksatz{
+    .blocksatz {
         text-align: justify;
         margin-top: var(--marginContent);
         font-size: 0.9rem;
         display: block;
     }
 
-    .linksbündig{
+    .linksbündig {
         display: block;
         text-align: center;
         margin-top: 0;
     }
 
-    .linksbündigZeilenabstand{
+    .linksbündigZeilenabstand {
         display: block;
         text-align: center;
         margin-top: var(--marginContent);
@@ -90,7 +90,7 @@ a {
         font-size: 0.9rem;
     }
 
-    .decoration{
+    .decoration {
         font-size: 2.3rem;
         position: absolute;
         margin-top: -1.5rem;
@@ -98,7 +98,7 @@ a {
         margin-left: 0;
     }
 
-    .decorationsayhi{
+    .decorationsayhi {
         font-size: 2.3rem;
         position: absolute;
         right: 3rem;
@@ -110,7 +110,7 @@ a {
         text-align: center;
     }
 
-    .boldHeading{
+    .boldHeading {
         text-align: center;
     }
 

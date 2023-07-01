@@ -1,11 +1,11 @@
 import '../../styles/images/Image.css'
 
 
-function ImgPosition(props){
+function ImgPosition(props) {
 
-    return(
+    return (
         <img alt="trans" className={"image" + props.name}
-            src={props.image}
+             src={props.image}
         />
     )
 }

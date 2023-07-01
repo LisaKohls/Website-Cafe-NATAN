@@ -1,15 +1,15 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, {useEffect, useRef, useState} from "react";
 import "../styles/Gallery.css";
 import Img1 from "../resources/events/events1.jpg";
 import Img2 from "../resources/events/events2.jpg";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faAngleDoubleLeft } from "@fortawesome/free-solid-svg-icons";
+import {library} from "@fortawesome/fontawesome-svg-core";
+import {faAngleDoubleLeft} from "@fortawesome/free-solid-svg-icons";
 
 
 function Events() {
     const images = [
-        { src: Img1, alt: "Event Poster" },
-        { src: Img2, alt: "Event Poster" },
+        {src: Img1, alt: "Event Poster"},
+        {src: Img2, alt: "Event Poster"},
     ];
 
     const scrollImagesRef = useRef(null);

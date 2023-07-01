@@ -55,7 +55,6 @@
 }
 
 
-
 button:hover {
     color: var(--secondaryColor);
 }
@@ -64,9 +63,11 @@ button:hover {
     .popup {
         padding: 0;
     }
+
     .menu .child {
         width: 100%;
     }
+
     .scroll-buttons {
         display: none;
     }

@@ -6,7 +6,7 @@ import Food3 from '../../resources/specialFoodStaging/sweets3.jpg'
 import '../../styles/Food.css'
 import {description1, description2, description3, food1, food2, food3} from '../../resources/textInhalte'
 
-function SpecialFood(){
+function SpecialFood() {
     const [isVisible, setIsVisible] = useState(false);
 
     const handleScroll = () => {
@@ -14,7 +14,7 @@ function SpecialFood(){
         const stageTop = stage.getBoundingClientRect().top;
         const windowHeight = window.innerHeight;
 
-        if (stageTop < windowHeight * 1.2 && stageTop > -stage.offsetHeight ) {
+        if (stageTop < windowHeight * 1.2 && stageTop > -stage.offsetHeight) {
             setIsVisible(true);
         } else {
             setIsVisible(false);
@@ -29,7 +29,7 @@ function SpecialFood(){
         };
     }, []);
 
-    return(
+    return (
         <div className={`foodstage${isVisible ? ' visible' : ''}`}>
             <div className='container'>
                 <FoodStage name={food1} image={Food1} description={description1}/>

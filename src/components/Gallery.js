@@ -1,10 +1,10 @@
-import React, { useRef, useState } from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faAngleDoubleLeft } from '@fortawesome/free-solid-svg-icons';
+import React, {useRef, useState} from 'react';
+import {library} from '@fortawesome/fontawesome-svg-core';
+import {faAngleDoubleLeft} from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
 import '../styles/Gallery.css';
 
-function Gallery({ images }) {
+function Gallery({images}) {
     const scrollImagesRef = useRef(null);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [touchStartX, setTouchStartX] = useState(0);

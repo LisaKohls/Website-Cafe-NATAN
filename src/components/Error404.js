@@ -5,11 +5,11 @@ import Logo from "../resources/KreisLogo_.png"
 const Error404 = () => {
     return (
         <div className="errorPage">
-            <img src={Logo} alt="Logo Natan" className="LogoNatan" />
+            <img src={Logo} alt="Logo Natan" className="LogoNatan"/>
             <h1 className="errorHeading">404</h1>
             <p className="errorText"> Die angeforderte Seite wurde nicht gefunden. </p>
             <a href="/" className="errorPageLink">
-               Zurück zur Homepage
+                Zurück zur Homepage
             </a>
         </div>
     );

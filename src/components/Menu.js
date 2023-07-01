@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, {useRef, useState} from 'react';
 import '../styles/Menu.css';
 import img1 from '../resources/menu/speisekarte1.png';
 import img2 from '../resources/menu/speisekarte2.png';
@@ -11,11 +11,11 @@ const Menu = (props) => {
     const touchStartXRef = useRef(null);
 
     const menu = [
-        { src: img1, alt: 'menu1' },
-        { src: img2, alt: 'menu2' },
-        { src: img3, alt: 'menu3' },
-        { src: img4, alt: 'menu4' },
-        { src: img5, alt: 'menu5' },
+        {src: img1, alt: 'menu1'},
+        {src: img2, alt: 'menu2'},
+        {src: img3, alt: 'menu3'},
+        {src: img4, alt: 'menu4'},
+        {src: img5, alt: 'menu5'},
     ];
 
     const handleScroll = (direction) => {
@@ -63,7 +63,7 @@ const Menu = (props) => {
                 onTouchEnd={handleTouchEnd}
             >
                 <div className="menu">
-                    <img className="child" src={menu[currentIndex].src} alt={menu[currentIndex].alt} />
+                    <img className="child" src={menu[currentIndex].src} alt={menu[currentIndex].alt}/>
                 </div>
             </div>
             <button className="scroll-buttons" onClick={() => handleScroll('right')}>
