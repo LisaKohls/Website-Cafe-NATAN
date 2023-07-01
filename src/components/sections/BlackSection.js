@@ -3,13 +3,20 @@ import {originName, originName2, ueberNatan, ueberNatanSecondPart} from "../../r
 import OpeningTimeSection from "./OpeningTimeSection";
 import SpecialFood from "../speisen/SpecialFood";
 import Button from "../Button";
-import ImageScrollGallery from "../EventGallery";
 import Events from "../Events";
 import React from "react";
 import WhiteFontText from "../text/WhiteFontText";
 import WhiteHeadlineSection from "./WhiteHeadlineSection";
+import Gallery from "../Gallery";
+import Img1 from "../../resources/events/events1.jpg";
+import Img2 from "../../resources/events/events2.jpg";
 
 function BlackSection() {
+        const images = [
+                { src: Img1, alt: "Event Poster" },
+                { src: Img2, alt: "Event Poster" },
+        ];
+
     return(<>
             <FirstSection/>
             <div id="opening" />
@@ -29,7 +36,7 @@ function BlackSection() {
             <WhiteFontText text={originName2} formatierung='blocksatz'/>
             <div id="events"/>
             <WhiteHeadlineSection title='EVENTS' color="white"/>
-            <ImageScrollGallery/>
+            <Gallery images={images}/>
             <Events/>
             <div id="endPage" className="sectionPadding"/>
     </>

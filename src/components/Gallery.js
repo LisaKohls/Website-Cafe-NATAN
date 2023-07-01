@@ -1,22 +1,10 @@
-import React, { useRef, useState } from "react";
-import "../styles/Gallery.css";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faAngleDoubleLeft } from "@fortawesome/free-solid-svg-icons";
-import Img1 from "../resources/gallery/barNatan1.jpg";
-import Img2 from "../resources/gallery/barNatan2.jpg";
-import Img3 from "../resources/gallery/outsideViewNatan.jpg";
-import Img4 from "../resources/gallery/interiorNatan.jpg";
-import Img5 from "../resources/specialFoodStaging/breakfast1.jpg";
+import React, { useRef, useState } from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faAngleDoubleLeft } from '@fortawesome/free-solid-svg-icons';
+import PropTypes from 'prop-types';
+import '../styles/Gallery.css';
 
-function Gallery() {
-    const images = [
-        { src: Img1, alt: "Natan Bar" },
-        { src: Img2, alt: "Natan Bar" },
-        { src: Img3, alt: "Outside View Natan" },
-        { src: Img4, alt: "Interior Natan" },
-        { src: Img5, alt: "food closeup" },
-    ];
-
+function Gallery({ images }) {
     const scrollImagesRef = useRef(null);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [touchStartX, setTouchStartX] = useState(0);
@@ -30,7 +18,10 @@ function Gallery() {
 
         if (direction === "left") {
             const scrollAmount = Math.floor(containerWidth / 2);
-            scrollImages.scrollBy(-scrollAmount, 0);
+            scrollImages.scrollBy({
+                left: -scrollAmount,
+                behavior: "smooth",
+            });
 
             if (scrollImages.scrollLeft === 0) {
                 setCurrentIndex((prevIndex) =>
@@ -40,7 +31,10 @@ function Gallery() {
             }
         } else if (direction === "right") {
             const scrollAmount = Math.floor(containerWidth / 2);
-            scrollImages.scrollBy(scrollAmount, 0);
+            scrollImages.scrollBy({
+                left: scrollAmount,
+                behavior: "smooth",
+            });
 
             if (scrollImages.scrollLeft + containerWidth >= scrollWidth) {
                 setCurrentIndex((prevIndex) =>
@@ -93,9 +87,17 @@ function Gallery() {
                 →
             </button>
         </div>
-
-
     );
 }
 
+Gallery.propTypes = {
+    images: PropTypes.arrayOf(
+        PropTypes.shape({
+            src: PropTypes.string.isRequired,
+            alt: PropTypes.string.isRequired,
+        })
+    ).isRequired,
+};
+
 export default Gallery;
+

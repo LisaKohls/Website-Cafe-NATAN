@@ -11,59 +11,6 @@ import {events} from "../resources/textInhalte";
 import Wheel from "../resources/logos/rad_weiß.png";
 
 function Events() {
-    const images = [
-        { src: Img1, alt: "Event Poster" },
-        { src: Img2, alt: "Event Poster" },
-    ];
-
-    const scrollImagesRef = useRef(null);
-    const [currentIndex, setCurrentIndex] = useState(0);
-    const [touchStartX, setTouchStartX] = useState(0);
-
-    library.add(faAngleDoubleLeft);
-
-    const handleScroll = (direction) => {
-        const scrollImages = scrollImagesRef.current;
-        const containerWidth = scrollImages.offsetWidth;
-        const scrollWidth = scrollImages.scrollWidth;
-
-        if (direction === "left") {
-            const scrollAmount = Math.floor(containerWidth / 2);
-            scrollImages.scrollBy(-scrollAmount, 0);
-
-            if (scrollImages.scrollLeft === 0) {
-                setCurrentIndex((prevIndex) =>
-                    prevIndex === 0 ? images.length - 1 : prevIndex - 1
-                );
-                scrollImages.scrollTo(scrollWidth - containerWidth, 0);
-            }
-        } else if (direction === "right") {
-            const scrollAmount = Math.floor(containerWidth / 2);
-            scrollImages.scrollBy(scrollAmount, 0);
-
-            if (scrollImages.scrollLeft + containerWidth >= scrollWidth) {
-                setCurrentIndex((prevIndex) =>
-                    prevIndex === images.length - 1 ? 0 : prevIndex + 1
-                );
-                scrollImages.scrollTo(0, 0);
-            }
-        }
-    };
-
-    const handleTouchStart = (e) => {
-        setTouchStartX(e.touches[0].clientX);
-    };
-
-    const handleTouchMove = (e) => {
-        const touchCurrentX = e.touches[0].clientX;
-        const touchDistance = touchStartX - touchCurrentX;
-
-        if (touchDistance > 0) {
-            handleScroll("right");
-        } else if (touchDistance < 0) {
-            handleScroll("left");
-        }
-    };
 
     return (
         <div>

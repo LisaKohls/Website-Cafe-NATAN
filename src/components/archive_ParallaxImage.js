@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import '../styles/PrallaxImage.css'; // Import the CSS file for the component
 
-function ParallaxImage({ name, image }) {
+function Archive_ParallaxImage({ name, image }) {
     const imageRef = useRef(null);
 
     useEffect(() => {
@@ -27,5 +27,5 @@ function ParallaxImage({ name, image }) {
     );
 }
 
-export default ParallaxImage;
+export default Archive_ParallaxImage;
 

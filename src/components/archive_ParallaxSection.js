@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import '../styles/ParallaxSection.css';
 import CoffeeMachine from '../resources/gallery/barNatan2.jpg';
 
-const ParallaxSection = () => {
+const Archive_ParallaxSection = () => {
     useEffect(() => {
         const handleScroll = () => {
             const parallaxBg = document.querySelector('.parallax_bg');
@@ -33,6 +33,6 @@ const ParallaxSection = () => {
     );
 };
 
-export default ParallaxSection;
+export default Archive_ParallaxSection;
 
 
