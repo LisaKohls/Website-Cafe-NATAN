@@ -28,15 +28,16 @@ function Footer() {
                     <p className="footerÜberschrift">Adresse:</p>
                     <div className="footerInhalt">
                         <a href="https://goo.gl/maps/ixYSewPws9csE3Zz5" target="_blank" className="footerLink">
-                        <p>Katharinenstraße 15 //</p>
-                        <p>70182 Stuttgart</p>
+                            <p>Katharinenstraße 15 //</p>
+                            <p>70182 Stuttgart</p>
                         </a>
                     </div>
                 </div>
                 <div className="footerElement">
                     <p className="footerÜberschrift">Kontakt:</p>
                     <div className="footerInhalt">
-                        <a href="mailto:team@natan-cafeandbar.com" target="_blank" className="footerLink">team@natan-cafeandbar.com</a>
+                        <a href="mailto:team@natan-cafeandbar.com" target="_blank"
+                           className="footerLink">team@natan-cafeandbar.com</a>
                     </div>
                 </div>
             </div>

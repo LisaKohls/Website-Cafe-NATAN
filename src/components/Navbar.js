@@ -19,6 +19,21 @@ function Navbar() {
         }
     };
 
+        useEffect(() => {
+            // JavaScript code to handle smooth scrolling
+            const navLinks = document.querySelectorAll('header nav a');
+            navLinks.forEach((link) => {
+                link.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    const target = document.querySelector(link.getAttribute('href'));
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                    });
+                    closeNavbar(); // Call your closeNavbar function to close the navigation menu
+                });
+            });
+        }, []);
+
     useEffect(() => {
         const handleResize = () => {
             if (navRef && navRef.current && window.innerWidth > 1024) {
@@ -38,11 +53,11 @@ function Navbar() {
                 <ImgPosition image={Logo} name='logoNavBar'/>
             </a>
             <nav ref={navRef}>
-                <a href="/#opening" onClick={closeNavbar}>Öffnungszeiten</a>
-                <a href="/#menu" onClick={closeNavbar}>Speisekarte</a>
-                <a href="/#events" onClick={closeNavbar}>Events</a>
-                <a href="/#produkteUndPartner" onClick={closeNavbar}>Partner</a>
-                <a href="/#volunteers" onClick={closeNavbar}>Volunteer werden</a>
+                <a href="#opening" onClick={closeNavbar}>Öffnungszeiten</a>
+                <a href="#menu" onClick={closeNavbar}>Speisekarte</a>
+                <a href="#events" onClick={closeNavbar}>Events</a>
+                <a href="#produkteUndPartner" onClick={closeNavbar}>Partner</a>
+                <a href="#volunteers" onClick={closeNavbar}>Volunteer werden</a>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     ✕
                 </button>
