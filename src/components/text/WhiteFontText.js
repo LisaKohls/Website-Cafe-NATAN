@@ -4,9 +4,9 @@ import React from "react";
 function WhiteFontText(props){
     return(
         <div className={props.formatierung} >
-            <p>
+            <div>
                 {props.text}
-            </p>
+            </div>
         </div>
     )
 }
