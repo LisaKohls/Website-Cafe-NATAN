@@ -1,4 +1,3 @@
-
 import ImgPosition from "../images/ImgPosition";
 import {partner, volunteer} from "../../resources/textInhalte";
 import CoffeeMachine from "../../resources/gallery/barNatan2.jpg";
@@ -8,11 +7,11 @@ import BlackHeadlineSection from "./BlackHeadlineSection";
 import BlackFontText from "../text/BlackFontText";
 
 
-function WhiteSection(){
-    return(
+function WhiteSection() {
+    return (
         <div>
             <div id="produkteUndPartner" className="sectionPadding"/>
-            <BlackHeadlineSection title='PRODUKTE & PARTNER' />
+            <BlackHeadlineSection title='PRODUKTE & PARTNER'/>
             <div id="produkteUndPartner"/>
             <BlackFontText text={partner} formatierung='block'/>
             <div id="volunteers"/>

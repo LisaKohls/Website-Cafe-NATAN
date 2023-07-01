@@ -1,11 +1,11 @@
 
-.white{
+.white {
     position: relative;
     margin-top: var(--marginSection);
     margin-bottom: var(--marginContent);
 }
 
-.white::after{
+.white::after {
     content: '';
     position: absolute;
     left: 30%;
@@ -15,7 +15,7 @@
 }
 
 
-.white::after{
+.white::after {
     background-color: var(--textColor);
 }
 

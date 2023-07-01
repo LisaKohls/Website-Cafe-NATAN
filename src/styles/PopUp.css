@@ -1,18 +1,18 @@
-.popup{
+.popup {
     position: fixed;
     z-index: 10;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #00000080  ;
+    background-color: #00000080;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 }
 
-.popup-inner{
+.popup-inner {
     position: absolute;
     top: 5rem;
     bottom: 0;
@@ -38,7 +38,7 @@
     }
 }
 
-.popup-inner .pop-up-close-btn{
+.popup-inner .pop-up-close-btn {
     position: absolute;
     top: 0;
     right: 0;
@@ -51,7 +51,7 @@
     font-size: 1.8rem;
 }
 
-.popup-inner .pop-up-close-btn:hover{
+.popup-inner .pop-up-close-btn:hover {
     color: var(--secondaryColor);
 }
 
@@ -60,7 +60,7 @@
         padding: 0;
     }
 
-    .popup-inner .pop-up-close-btn{
+    .popup-inner .pop-up-close-btn {
         padding: 1rem;
     }
 

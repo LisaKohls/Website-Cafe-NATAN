@@ -1,24 +1,24 @@
-import {useRef, useEffect} from "react";
+import {useEffect, useRef} from "react";
 import '../../styles/Wheel.css'
 
 
-function Wheel(props){
+function Wheel(props) {
     const ref = useRef(null)
 
     useEffect(() => {
-        const rotate =  () => {
+        const rotate = () => {
             if (ref && ref.current) {
-                ref.current.style.transform = `rotate(${window.scrollY/7}deg)`
+                ref.current.style.transform = `rotate(${window.scrollY / 7}deg)`
             }
         }
-        document.addEventListener("scroll", rotate )
+        document.addEventListener("scroll", rotate)
 
         return () => {
             document.removeEventListener("scroll", rotate)
         }
     }, [])
 
-    return(
+    return (
         <img alt="wheel" ref={ref} className={props.title}
              src={props.wheel}
         />

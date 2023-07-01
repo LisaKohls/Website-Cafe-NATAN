@@ -1,4 +1,4 @@
-.wheel{
+.wheel {
     z-index: 1;
     position: absolute;
     bottom: calc(var(--size-circle) * -0.5);
@@ -12,15 +12,15 @@
     mix-blend-mode: difference;
 }
 
-.wheelWhite{
+.wheelWhite {
     display: none;
 }
 
-.wheelRight{
+.wheelRight {
     display: none;
 }
 
-.wheelEventOne{
+.wheelEventOne {
     width: 15%;
     height: auto;
     position: absolute;
@@ -29,7 +29,7 @@
     margin-top: 30rem;
 }
 
-.wheelEventTwo{
+.wheelEventTwo {
     width: 9%;
     height: auto;
     position: absolute;
@@ -41,13 +41,13 @@
 
 
 @media only screen and (max-width: 700px) {
-    .wheel{
+    .wheel {
         width: 10rem;
         height: 10rem;
         bottom: calc(10rem * -0.5);
     }
 
-    .wheelWhite{
+    .wheelWhite {
         width: 40%;
         height: auto;
         display: unset;
@@ -56,7 +56,7 @@
         margin-top: 5rem;
     }
 
-    .wheelRight{
+    .wheelRight {
         width: 30%;
         height: auto;
         position: absolute;
@@ -65,7 +65,7 @@
         margin-top: -3rem;
     }
 
-    .wheelEventOne, .wheelEventTwo{
+    .wheelEventOne, .wheelEventTwo {
         display: none;
     }
 }

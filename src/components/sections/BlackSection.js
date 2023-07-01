@@ -12,14 +12,14 @@ import Img1 from "../../resources/events/events1.jpg";
 import Img2 from "../../resources/events/events2.jpg";
 
 function BlackSection() {
-        const images = [
-                { src: Img1, alt: "Event Poster" },
-                { src: Img2, alt: "Event Poster" },
-        ];
+    const images = [
+        {src: Img1, alt: "Event Poster"},
+        {src: Img2, alt: "Event Poster"},
+    ];
 
-    return(<>
+    return (<>
             <FirstSection/>
-            <div id="opening" />
+            <div id="opening"/>
             <WhiteHeadlineSection title='NON-PROFIT CAFÉ | BAR' color="white"/>
             <WhiteFontText text={ueberNatan} formatierung='blocksatz'/>
             <div className="sectionPadding"/>
@@ -39,7 +39,7 @@ function BlackSection() {
             <Gallery images={images}/>
             <Events/>
             <div id="endPage" className="sectionPadding"/>
-    </>
+        </>
     )
 }
 
