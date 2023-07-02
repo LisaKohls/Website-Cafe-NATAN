@@ -23,14 +23,14 @@
     all: unset;
     width: 15.5rem;
     height: 1.3rem;
-    border: 0.1rem solid #b4b2b2;
+    border: 0.09rem solid #b4b2b2;
     border-radius: 0.5rem;
     color: var(--mainColor);
     padding: 0.3rem;
     text-align: left;
 }
 
-.formular.volunteer input {
+.formular.volunteer input{
     width: 25rem;
 }
 
@@ -62,19 +62,20 @@
 }
 
 
-.formular .submit:hover, .formular .submit:hover {
+
+.formular .submit:hover, .formular .submit:hover{
     transition: var(--transitionHover);
     background-color: var(--secondaryColor);
     color: var(--textColor);
     border-color: var(--secondaryColor);
 }
 
-.formular .textArea {
+.formular .textArea{
     all: unset;
     display: block;
     width: 25.5rem;
     height: 6rem;
-    border: 0.1rem solid #b4b2b2;
+    border: 0.09rem solid #b4b2b2;
     border-radius: 0.5rem;
     text-align: left;
 }
@@ -85,7 +86,7 @@
     outline: none;
 }
 
-.sentForm {
+.sentForm{
     color: var(--mainColor);
     line-height: 1.5rem;
     margin: var(--marginContent);
@@ -94,6 +95,7 @@
     width: 20rem;
     height: 12rem;
 }
+
 
 
 @media only screen and (max-width: 1024px) {
@@ -105,15 +107,15 @@
         margin-top: 0.5rem;
     }
 
-    .formular .textArea {
+    .formular .textArea{
         width: 16.2rem;
     }
 
-    .formular.volunteer input {
+    .formular.volunteer input{
         width: 15.5rem;
     }
 
-    .sentForm {
+    .sentForm{
         width: fit-content;
     }
 
