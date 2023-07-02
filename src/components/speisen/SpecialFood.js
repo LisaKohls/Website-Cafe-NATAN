@@ -14,7 +14,7 @@ function SpecialFood(props){
         const stageTop = stage.getBoundingClientRect().top;
         const windowHeight = window.innerHeight;
 
-        if (stageTop < windowHeight * 1.2 && stageTop > -stage.offsetHeight ) {
+        if (stageTop < windowHeight * 1.2 && stageTop > -stage.offsetHeight) {
             setIsVisible(true);
         } else {
             setIsVisible(false);
@@ -29,7 +29,7 @@ function SpecialFood(props){
         };
     }, []);
 
-    return(
+    return (
         <div className={`foodstage${isVisible ? ' visible' : ''}`}>
             <div className='container'>
                 {props.children}

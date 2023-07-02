@@ -103,37 +103,37 @@ function Reservierung(props) {
     const makeRequest = <div className='container'>
         <Map/>
         <div className='formular'>
-        <>
-            <label>Wähle ein Datum:* </label>
-            <DatePicker
-                id='datePicker'
-                locale="de"
-                selected={startDate}
-                onChange={(date) => setStartDate(date)}
-                dateFormat='dd MMMM yy'
-                required
-                minDate={new Date()}
-            />
-        </>
-        <>
-            <label>Deine Uhrzeit:* </label>
-            <input type="time" id="time" name="time" min="10:00" max="20:00" required />
-        </>
-        <>
-            <label>Name:* </label>
-            <input type='text' id='name' name='fname' required></input>
-        </>
-        <>
-            <label>Anzahl Personen:*</label>
-            <input type='number' id='personen' name='personen' required></input>
-        </>
-        <>
-            <label>E-Mail:* </label>
-            <input type='email' id='mail' name='mail' required></input>
-        </>
-        <button className='submit' onClick={check}>Abschicken</button>
+            <>
+                <label>Wähle ein Datum:* </label>
+                <DatePicker
+                    id='datePicker'
+                    locale="de"
+                    selected={startDate}
+                    onChange={(date) => setStartDate(date)}
+                    dateFormat='dd MMMM yy'
+                    required
+                    minDate={new Date()}
+                />
+            </>
+            <>
+                <label>Deine Uhrzeit:* </label>
+                <input type="time" id="time" name="time" min="10:00" max="20:00" required />
+            </>
+            <>
+                <label>Name:* </label>
+                <input type='text' id='name' name='fname' required></input>
+            </>
+            <>
+                <label>Anzahl Personen:*</label>
+                <input type='number' id='personen' name='personen' required></input>
+            </>
+            <>
+                <label>E-Mail:* </label>
+                <input type='email' id='mail' name='mail' required></input>
+            </>
+            <button className='submit' onClick={check}>Abschicken</button>
 
-    </div>
+        </div>
     </div>
 
     const isSubmitted = <div className='sentForm'>

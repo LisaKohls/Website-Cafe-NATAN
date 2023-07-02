@@ -9,7 +9,6 @@ import {
 import OpeningTimeSection from "./OpeningTimeSection";
 import SpecialFood from "../speisen/SpecialFood";
 import Button from "../Button";
-import ImageScrollGallery from "../EventGallery";
 import Events from "../Events";
 import React from "react";
 import WhiteFontText from "../text/WhiteFontText";
@@ -25,7 +24,12 @@ import ImgPosition from "../images/ImgPosition";
 import FoodStage from "../speisen/FoodStage";
 
 function BlackSection() {
-    return(<>
+    const images = [
+        {src: Img1, alt: "Event Poster"},
+        {src: Img2, alt: "Event Poster"},
+    ];
+
+    return (<>
             <FirstSection/>
             <div id="opening" />
             <WhiteHeadlineSection title='ZUM WOHLE. ALLER.' color="white"/>
@@ -57,7 +61,7 @@ function BlackSection() {
             <ImageScrollGallery/>
             <Events/>
             <div id="endPage" className="sectionPadding"/>
-    </>
+        </>
     )
 }
 

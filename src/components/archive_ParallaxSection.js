@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react';
 import '../styles/ParallaxSection.css';
 import CoffeeMachine from '../resources/gallery/barNatan2.jpg';
 
-const ParallaxSection = () => {
+const Archive_ParallaxSection = () => {
     useEffect(() => {
         const handleScroll = () => {
             const parallaxBg = document.querySelector('.parallax_bg');
@@ -22,9 +22,9 @@ const ParallaxSection = () => {
         <div className="wrapper_outer">
             <div className="wrapper">
                 <div className="parallax-section">
-                    <div className="parallax_bg" />
+                    <div className="parallax_bg"/>
                     <div className="parallax_image">
-                        <img src={CoffeeMachine} alt="Parallax" />
+                        <img src={CoffeeMachine} alt="Parallax"/>
                     </div>
                     <h2>Parallax Effect</h2>
                 </div>
@@ -33,6 +33,6 @@ const ParallaxSection = () => {
     );
 };
 
-export default ParallaxSection;
+export default Archive_ParallaxSection;
 
 

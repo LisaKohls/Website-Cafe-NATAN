@@ -42,8 +42,23 @@
     display: flex;
 }
 
+.socialIconsBottom:hover {
+    transition: var(--transitionHover);
+    color: var(--mainColor);
+}
+
 .impressum {
     margin: 2rem;
+}
+
+a.footerLink:hover {
+    transition: var(--transitionHover);
+    color: var(--mainColor);
+}
+
+.socialIconsBottom {
+    margin: 0.5rem;
+    display: flex;
 }
 
 @media screen and (max-width: 810px) {
@@ -59,6 +74,7 @@
 @media screen and (max-width: 480px) {
     .footerInformation {
     }
+
     .bottom {
         flex-direction: column;
     }

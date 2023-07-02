@@ -1,8 +1,6 @@
 import '../../styles/Food.css'
 import BlackFontText from '../text/BlackFontText'
 
-
-
 function FoodStage(props) {
         return (
             <div className='stage'>
@@ -14,6 +12,11 @@ function FoodStage(props) {
                     <BlackFontText text={props.description} formatierung="blockSmall"/>
                 </div>
             </div>
-        );
+            <div className="rectangle">
+                <BlackFontText text={props.name} formatierung="centered bold"/>
+                <BlackFontText text={props.description} formatierung="blockSmall"/>
+            </div>
+        </div>
+    );
 }
 export default FoodStage;

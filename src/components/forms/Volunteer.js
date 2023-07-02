@@ -75,7 +75,7 @@ function Volunteer(props) {
                 <label>Deine Nachricht an uns:</label>
                 <textarea id="message" className="textArea"></textarea>
             </div>
-                <button type="submit" className='submit' onClick={check}>Abschicken</button>
+            <button type="submit" className='submit' onClick={check}>Abschicken</button>
         </div>
     )
 }

@@ -1,12 +1,12 @@
 import "../../styles/text/WhiteFontText.css";
 import React from "react";
 
-function WhiteFontText(props){
-    return(
-        <div className={props.formatierung} >
-            <p>
+function WhiteFontText(props) {
+    return (
+        <div className={props.formatierung}>
+            <div>
                 {props.text}
-            </p>
+            </div>
         </div>
     )
 }

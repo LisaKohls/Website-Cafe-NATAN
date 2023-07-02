@@ -2,16 +2,16 @@ a {
     color: var(--textColor);
 }
 
-.centered{
+.centered {
     text-align: center;
-    color:var(--mainColor);
+    color: var(--mainColor);
     font-size: 0.9em;
     display: block;
     margin-top: var(--marginContent);
 }
 
 
-.block, .blockSmall{
+.block, .blockSmall {
     text-align: justify;
     font-size: 0.9rem;
     flex: 1;
@@ -20,12 +20,12 @@ a {
     display: inline-block;
 }
 
-.block{
+.block {
     line-height: 1.9rem;
 }
 
 @media only screen and (max-width: 700px) {
-    .blockSmall{
+    .blockSmall {
         line-height: 1.3rem;
     }
 }

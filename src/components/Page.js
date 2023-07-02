@@ -3,7 +3,7 @@ import Wheel from "./interactiveElements/Wheel";
 import "../styles/Page.css";
 import wheel from '../resources/logos/Kreis.svg'
 
-function Page({ children, className, style, bottomWheel }) {
+function Page({children, className, style, bottomWheel}) {
     return (
         <div className={`page ${className} ${bottomWheel ? " with-bottom-wheel" : null}`} style={style}>
             {children}

@@ -8,7 +8,7 @@ import ImgPosition from "./images/ImgPosition";
 function Navbar() {
     const navRef = useRef();
     const showNavbar = () => {
-        if (navRef && navRef.current)  {
+        if (navRef && navRef.current) {
             navRef.current.classList.toggle("responsive_nav");
         }
     }
@@ -18,6 +18,21 @@ function Navbar() {
             navRef.current.classList.remove("responsive_nav");
         }
     };
+
+    useEffect(() => {
+        // JavaScript code to handle smooth scrolling
+        const navLinks = document.querySelectorAll('header nav a');
+        navLinks.forEach((link) => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault();
+                const target = document.querySelector(link.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                });
+                closeNavbar(); // Call your closeNavbar function to close the navigation menu
+            });
+        });
+    }, []);
 
     useEffect(() => {
         const handleResize = () => {
@@ -48,7 +63,7 @@ function Navbar() {
                 </button>
             </nav>
             <button className="nav-btn" onClick={showNavbar}>
-                <FaBars />
+                <FaBars/>
             </button>
         </header>
     );

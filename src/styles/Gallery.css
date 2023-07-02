@@ -34,7 +34,7 @@
 
 
 .scroll-images::before,
-.scroll-images::after{
+.scroll-images::after {
     position: relative;
     content: "";
     top: 0;
@@ -47,11 +47,11 @@
     left: 0;
 }
 
-.scroll-images::after{
+.scroll-images::after {
     right: 0;
 }
 
-.singlePicture{
+.singlePicture {
     flex: 0 0 auto;
     width: auto;
     height: 100%;
@@ -60,7 +60,7 @@
     overflow: hidden;
 }
 
-button.arrowIconRight.arrowIconLeft{
+button.arrowIconRight.arrowIconLeft {
     color: var(--mainColorLight);
     background-color: var(--mainColor);
     outline: none;
@@ -93,7 +93,6 @@ button.arrowIconRight.arrowIconLeft{
     .galleryContainer {
         display: block
     }
-
 
 
     button.arrowIconLeft {

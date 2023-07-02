@@ -10,19 +10,19 @@ import Wheel from "../interactiveElements/Wheel";
 
 
 function OpeningTimeSection() {
-    return(<div>
+    return (<div>
         <Wheel wheel={wheel} title="wheelRight"/>
-                <div className="container">
-                    <ImgPosition name='interiorNatan' image={BarOriginal}/>
-                    <div>
-                        <BoxWithText title='opening'>
-                            <WhiteFontText text='Öffnungszeiten:' formatierung='boldHeading'/>
-                            <WhiteFontText text={oeffnungszeiten} formatierung='linksbündigZeilenabstand'/>
-                        </BoxWithText>
-                        <Button name="Reservierung" styleName='Reservierung'/>
-                    </div>
-                </div>
-            </div>)
+        <div className="container">
+            <ImgPosition name='interiorNatan' image={BarOriginal}/>
+            <div>
+                <BoxWithText title='opening'>
+                    <WhiteFontText text='Öffnungszeiten:' formatierung='boldHeading'/>
+                    <WhiteFontText text={oeffnungszeiten} formatierung='linksbündigZeilenabstand'/>
+                </BoxWithText>
+                <Button name="Reservierung" styleName='Reservierung'/>
+            </div>
+        </div>
+    </div>)
 }
 
 export default OpeningTimeSection
