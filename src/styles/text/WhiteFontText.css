@@ -21,6 +21,14 @@ a {
     line-height: 1.9rem;
 }
 
+.smallBlock{
+    margin-top: var(--marginContent);
+    font-size: 0.9rem;
+    flex: 1;
+    display: inline-block;
+    line-height: 1.9rem;
+}
+
 .linksbündig{
     text-align: left;
     color: var(--textColor);
@@ -29,7 +37,7 @@ a {
 
 
 .linksbündigZeilenabstand{
-    margin-top: 1.4rem;
+    margin-top: var(--marginContent);
     text-align: left;
     color: var(--textColor);
     line-height: 1.9rem;
@@ -69,6 +77,11 @@ a {
 }
 
 @media only screen and (max-width: 700px) {
+
+    .smallBlock{
+
+    }
+
     .blocksatz{
         text-align: justify;
         margin-top: var(--marginContent);

@@ -62,7 +62,17 @@
     display: unset;
     left: 17rem;
     margin-top: 23rem;
+}
 
+.imagefood{
+    width: 30%;
+    height: auto;
+    margin-top: var(--marginContent);
+    margin-right: auto;
+}
+
+.imagefood:last-child{
+    margin-right: 0;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -137,6 +147,10 @@
     }
 
     .imagenatanoutside{
+        display: none;
+    }
+
+    .imagefood{
         display: none;
     }
 

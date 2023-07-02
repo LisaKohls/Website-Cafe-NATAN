@@ -5,29 +5,33 @@ export const oeffnungszeiten =
     "Sonntag: 10 Uhr - 18 Uhr \n" +
     "Montag & Dienstag: geschlossen"
 
-export const ueberNatan = "Mit dem NATAN haben wir eine Idee in der Leonhardsvorstadt zum Leben erweckt, die vor vielen " +
-    "Jahren im Stuttgarter Westen geboren wurde und sich zwei Jahre in der Planung befand: ein einzigartiges " +
-    "Gastronomiekonzept für unsere Stadt. Bei uns verbindet sich eine moderne vegetarische Küche mit dem Wunsch so " +
-    "vieler Menschen, sich sozial engagieren zu wollen — allerdings ohne viel Tamtam, sondern einfach so, unkompliziert, " +
-    "im Alltag."
+//Block über NATAN
+export const ueberNatan = 'Moderne, vegetarische Küche und leckere Drinks genießen und nebenbei etwas Gutes tun – geht nicht? Geht doch! \n' +
+    '\n' +
+    'Mitten in Stuttgart, im Herzen des Kessels, ist das NATAN im Leonhardsviertel zu Hause. Bei uns treffen Café- und Barbetrieb auf soziales Engagement. Wir sind eine Non-Profit-Bar.\n' +
+    '„Genießen für den guten Zweck“ – so lautet unser Motto. Der komplette Gewinn fließt in die\n' +
+    'humanitären Projekte der Hilfsorganisation STELP e. V. Hier wird dein Espresso auf dem Weg zur Arbeit, das Sandwich zum Lunch mit deiner Kollegin oder dein Gin Tonic mit dem besten Freund am Abend zur direkten Unterstützung für Menschen in Not.\n'
+export const ueberNatan2 = "Mitten in Stuttgart, im Herzen des Kessels, ist das NATAN im Leonhardsviertel zu Hause. Bei uns treffen Café- und Barbetrieb auf soziales Engagement. Wir sind eine Non-Profit-Bar.\n" +
+    "„Genießen für den guten Zweck“ – so lautet unser Motto. Der komplette Gewinn fließt in die\n" +
+    "humanitären Projekte der Hilfsorganisation STELP e. V. Hier wird dein Espresso auf dem Weg zur Arbeit, das Sandwich zum Lunch mit deiner Kollegin oder dein Gin Tonic mit dem besten Freund am Abend zur direkten Unterstützung für Menschen in Not.\n"
 
-/*export const ueberNatanSecondPart = "\n" +
-    "Geht nicht? Geht doch — und zwar bei uns! Denn der gesamte Gewinn des NATAN fließt in die internationalen Projekte " +
-    "der Stuttgarter Hilfsorganisation STELP, die hinter der Idee steckt und für \n" +
-    "die Umsetzung gesorgt hat. Starke Partner und Sponsoren unterstützen uns durch günstige Konditionen; ein weiteres " +
-    "Plus, damit jeder zusätzliche Euro dort ankommt, wo er am dringendsten benötigt wird. \n" +
-    "\n" +
-    "BIST DU DABEI?\n" +
-    "STUTTGART HILFT\n" +
-    "\n" +
-    "Dass das Trinkgeld davon ausgenommen ist, versteht sich von selbst: Es geht ohne Abzüge an unsere Crew. Und die ist " +
-    "ebenfalls alles andere als gewöhnlich: Ganz nach dem STELP Prinzip, dass jeder" +
-    " einbringt, was er kann, arbeiten im NATAN hinter der Theke, im Service und in der Küche Menschen, die sich für die " +
-    "gute Sache einsetzen — ehrenamtlich!\n"
-
- */
+export const ueberNatan3 = "Starke Partner:innen und Sponsor:innen unterstützen uns durch günstige Konditionen und unser Team besteht fast ausschließlich aus Ehrenamtlichen. Damit stellen wir sicher, dass jeder zusätzliche Euro dort ankommt, wo er am dringendsten benötigt wird: Bei den bedürftigen Menschen vor Ort.\n"
 
 
+//Über Stelp
+
+export const ueberStelp = 'STELP ist eine junge Organisation aus Stuttgart – unpolitisch, tolerant und weltoffen. Wir machen uns stark für eine Welt, in der Kinder, Frauen und Männer selbstbestimmt in Würde und Sicherheit leben und ihre Zukunft aus eigener Kraft nachhaltig gestalten können.\n' +
+    '\n' +
+    'In aktuell zwölf Ländern auf vier Kontinenten — Jemen, Bosnien, Griechenland, Ukraine, Polen, Nepal, Afghanistan, Libanon, Uganda, Kambodscha, Tansania und Kolumbien — lindern wir akute Not durch schnellen Zugang zu Lebensmitteln, Sanitärprodukten\n' +
+    'und medizinischer Versorgung.\n' +
+    '\n' +
+    'Außerdem ist STELP eine Plattform für alle, die sich mit Freude und innerhalb ihrer Möglichkeiten für soziale und gesellschaftliche Themen einsetzen und einen Beitrag für ein friedliches und faires Miteinander weltweit leisten möchten.\n' +
+    '\n'
+export const ueberStelp2 = 'In aktuell zwölf Ländern auf vier Kontinenten — Jemen, Bosnien, Griechenland, Ukraine, Polen, Nepal, Afghanistan, Libanon, Uganda, Kambodscha, Tansania und Kolumbien — lindern wir akute Not durch schnellen Zugang zu Lebensmitteln, Sanitärprodukten\n' +
+    'und medizinischer Versorgung.\n'
+export const ueberStelp3 = 'Außerdem ist STELP eine Plattform für alle, die sich mit Freude und innerhalb ihrer Möglichkeiten für soziale und gesellschaftliche Themen einsetzen und einen Beitrag für ein friedliches und faires Miteinander weltweit leisten möchten.\n'
+
+export const ueberStelpLink = <a href="https://www.stelp.eu." target="_blank">Mehr zu STELP</a>
 export const ueberNatanSecondPart = (
     <div>
         <p>
@@ -52,7 +56,11 @@ export const volunteer =  "Im NATAN gibt es kein Personal, sondern nur Gastgeber
     " mit Ausnahme der Betriebsleitung. Alle zusammen für die gute Sache. Das Trinkgeld geht ohne Abzüge an unsere Crew. " +
     "Und die Zufriedenheit und ein Lächeln unserer Gäste ist der Bonus."+
     "Im NATAN gibt es kein Personal, sondern nur Gastgeber. Denn das Team arbeitet aus Überzeugung "
-
+//essen
+export const foodDescription = 'Die Drinks im NATAN können sich sehen lassen: Mokuska Kaffee, GINSTR, Tonic Water & Co. von Thomas Henry, Weine vom Weingut Karl Haidle, Biere der Schönbuch Braumanufaktur, Kessler Hochgewächs Sekt und — last but not least — Softdrinks von Viva con Agua, Dietz, Fritz Kola, sowie Smoothies.\n' +
+    '\n' +
+    'Außerdem gibt es im NATAN von morgens bis spät in den Abend hinein verschiedene vegane\n' +
+    'und vegetarische Speisen, die Spaß machen.\n'
 //Besonderes Essen
 //------------------------------
 //Speise 1
@@ -76,41 +84,32 @@ export const food3 = "Sweets"
 
 export const description3 = "Energy Balls sind kleine Kraftpakete, die Ihnen einen natürlichen Energiekick geben. Diese köstlichen Snacks bestehen aus einer Mischung aus nahrhaften Zutaten wie Nüssen und Trockenfrüchten"
 
-export const originName = "Der Name NATAN steht bei uns für mehr als nur fünf Buchstaben. „Ich habe es versucht“, hat " +
-    "der Visionär und Friedensaktivist Abie Nathan einmal über seine Arbeit gesagt — heute steht dieses " +
-    "Selbstverständnis als hebräische Inschrift auf seinem Grabstein: „Nissiti“. Abie hat uns inspiriert — " +
-    "und dem NATAN sowohl seinen Namen gegeben als auch die Idee dahinter geprägt. "
+export const originName = "Der Name NATAN steht bei uns für mehr als nur fünf Buchstaben. „Ich habe es versucht“, hat der Visionär und Friedensaktivist Abie Nathan einmal über seine Arbeit gesagt — heute steht dieses Selbstverständnis als hebräische Inschrift auf seinem Grabstein: „Nissiti“. Abie hat uns inspiriert — und dem NATAN sowohl seinen Namen gegeben als auch die Idee dahinter geprägt. Im NATAN führen wir einen wesentlichen Gedanken von STELP weiter: Alleine lässt sich wenig bewegen; aber durch unseren stetig wachsenden Pool aus Ehrenamtlichen, Partnern, Sponsoren und Freunden können wir mit noch mehr Impact überall da aktiv werden, wo die Not am größten ist. Unser Ziel ist eine Welt, in der alle Menschen selbstbestimmt in Würde und Sicherheit leben und ihre Zukunft aus eigener Kraft gestalten können."
 
 export const originName2 = "Im NATAN führen wir einen wesentlichen Gedanken von STELP weiter: Alleine lässt sich wenig bewegen; aber durch " +
 "unseren stetig wachsenden Pool aus Ehrenamtlichen, Partnern, Sponsoren und Freunden können wir mit noch mehr Impact " +
 "überall da aktiv werden, wo die Not am größten ist. Unser Ziel ist eine Welt, in der alle Menschen selbstbestimmt " +
 "in Würde und Sicherheit leben und ihre Zukunft aus eigener Kraft gestalten können. "
 
-export const partner = "Das NATAN hätte den Sprung von der Idee zur Realität nicht geschafft ohne unzählige Menschen und " +
-    "Unternehmen in unserem Netzwerk, die uns ohne zu Zögern  und mit viel Herz unterstützen. Allen voran unsere " +
-    "Investor:innen, die dem NATAN mit einer finanziellen Starthilfe den Weg bereitet haben. Von Beginn an konnten wir " +
-    "außerdem auf starke Produzenten und Lieferanten aus der Gastronomie setzen, die unser Konzept mit Begeisterung " +
-    "aufgenommen haben und uns z. B. günstigere Konditionen gewähren. Auch an Dienstleistern, die uns beratend  zur " +
-    "Seiten standen und Sponsoren mangelte es uns nicht. \n" +
-    "\n" +
-    "Wir freuen uns und sind sehr stolz, euch alle an unserer Seite zu haben!\n"
+export const partner = "Das NATAN hätte den Sprung von der Idee zur Realität nicht geschafft ohne unzählige Menschen und Unternehmen in unserem Netzwerk, die uns ohne zu Zögern und mit viel Herz unterstützen. " +
+    "Allen voran unsere Investor:innen, die dem NATAN mit einer finanziellen Starthilfe den Weg bereitet haben. Von Beginn an konnten wir außerdem auf starke Produzenten und Lieferanten aus der Gastronomie setzen, die unser Konzept mit Begeisterung aufgenommen haben und uns z. B. günstigere Konditionen gewähren. Auch an Dienstleistern, die uns beratend zur Seiten standen und Sponsoren mangelte es uns nicht." +
+    " Wir freuen uns und sind sehr stolz, euch alle an unserer Seite zu haben!"
 
 export const events =
     <div>
     <p className="blocksatz">
-        Die NATAN Café and Bar kann auch für private Veranstaltungen und corporate Events gebucht werden.
-        Egal ob Familienfeier, Vernissage, Fotoshooting, Produktpräsentation, Weinprobe oder Workshop — wir machen
-        dein Event zu unserem Event!
-        Der Erlös, der über die Speisen und Getränke generiert wird, geht zu 100% in die humanitären Hilfsprojekte
-        von STELP e. V.
+        Egal ob Familienfeier, After Work, Vernissage, Firmenevents, Weinproben oder Workshops –
+        das NATAN kann sowohl für private, als auch für Corporate Events gemietet werden.
+        Die Gewinne fließen an die Hilfsorganisation STELP.
     </p>
     <p className="subheading">Fakten</p>
     <p className="blocksatz">
         Größe des Gastraums | 35 qm
         <br/>
-        Sitzplätze innen | 20–40 (je nach Bestuhlung)
+        Sitzplätze innen | 25 (je nach Bestuhlung)
         <br/>
-        Stehplätze | 100
+        Stehplätze | 40 - 50
+        <br/>
     </p>
     <p className="subheading">Catering</p>
     <p className="blocksatz">
