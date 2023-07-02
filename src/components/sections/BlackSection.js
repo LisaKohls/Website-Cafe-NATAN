@@ -1,15 +1,8 @@
 import FirstSection from "./FirstSection";
 import {
         originName,
-        originName2,
         ueberNatan,
-        ueberNatan2,
-        ueberNatan3,
-        ueberNatanSecondPart,
         ueberStelp,
-        ueberStelp2,
-        ueberStelp3,
-        ueberStelpLink,
         foodDescription,
         food1, description1, food2, description2, food3, description3
 } from "../../resources/textInhalte";
@@ -37,13 +30,12 @@ function BlackSection() {
             <div id="opening" />
             <WhiteHeadlineSection title='ZUM WOHLE. ALLER.' color="white"/>
             <WhiteFontText text={ueberNatan} formatierung='blocksatz'/>
-            <WhiteFontText text={ueberNatan3} formatierung='blocksatz'/>
             <div className="sectionPadding"/>
             <OpeningTimeSection/>
             <div id='stelp' />
             <WhiteHeadlineSection title='A part of the STELP Family' color="white"/>
             <WhiteFontText text={ueberStelp} formatierung='blocksatz'/>
-            <WhiteFontText text={ueberStelpLink} formatierung='linksbündig'/>
+
             <div id="menu"/>
             <WhiteHeadlineSection title='Food & Drinks - Modern, regional, innovativ' color="white"/>
             <div className='container'>
@@ -60,7 +52,6 @@ function BlackSection() {
             <Button name='Speisekarte' styleName='Speisekarte'/>
             <WhiteHeadlineSection title='Abie Nathan - Der Mann hinter dem Namen' color="white"/>
             <WhiteFontText text={originName} formatierung='blocksatz'/>
-
             <div id="events"/>
             <WhiteHeadlineSection title='Dein Event im NATAN - Mieten, Feiern, Gutes tun' color="white"/>
             <ImageScrollGallery/>

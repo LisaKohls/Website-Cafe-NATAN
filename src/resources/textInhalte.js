@@ -10,28 +10,15 @@ export const ueberNatan = 'Moderne, vegetarische Küche und leckere Drinks genie
     '\n' +
     'Mitten in Stuttgart, im Herzen des Kessels, ist das NATAN im Leonhardsviertel zu Hause. Bei uns treffen Café- und Barbetrieb auf soziales Engagement. Wir sind eine Non-Profit-Bar.\n' +
     '„Genießen für den guten Zweck“ – so lautet unser Motto. Der komplette Gewinn fließt in die\n' +
-    'humanitären Projekte der Hilfsorganisation STELP e. V. Hier wird dein Espresso auf dem Weg zur Arbeit, das Sandwich zum Lunch mit deiner Kollegin oder dein Gin Tonic mit dem besten Freund am Abend zur direkten Unterstützung für Menschen in Not.\n'
-export const ueberNatan2 = "Mitten in Stuttgart, im Herzen des Kessels, ist das NATAN im Leonhardsviertel zu Hause. Bei uns treffen Café- und Barbetrieb auf soziales Engagement. Wir sind eine Non-Profit-Bar.\n" +
-    "„Genießen für den guten Zweck“ – so lautet unser Motto. Der komplette Gewinn fließt in die\n" +
-    "humanitären Projekte der Hilfsorganisation STELP e. V. Hier wird dein Espresso auf dem Weg zur Arbeit, das Sandwich zum Lunch mit deiner Kollegin oder dein Gin Tonic mit dem besten Freund am Abend zur direkten Unterstützung für Menschen in Not.\n"
-
-export const ueberNatan3 = "Starke Partner:innen und Sponsor:innen unterstützen uns durch günstige Konditionen und unser Team besteht fast ausschließlich aus Ehrenamtlichen. Damit stellen wir sicher, dass jeder zusätzliche Euro dort ankommt, wo er am dringendsten benötigt wird: Bei den bedürftigen Menschen vor Ort.\n"
-
+    'humanitären Projekte der Hilfsorganisation STELP e. V. '
 
 //Über Stelp
 
 export const ueberStelp = 'STELP ist eine junge Organisation aus Stuttgart – unpolitisch, tolerant und weltoffen. Wir machen uns stark für eine Welt, in der Kinder, Frauen und Männer selbstbestimmt in Würde und Sicherheit leben und ihre Zukunft aus eigener Kraft nachhaltig gestalten können.\n' +
     '\n' +
     'In aktuell zwölf Ländern auf vier Kontinenten — Jemen, Bosnien, Griechenland, Ukraine, Polen, Nepal, Afghanistan, Libanon, Uganda, Kambodscha, Tansania und Kolumbien — lindern wir akute Not durch schnellen Zugang zu Lebensmitteln, Sanitärprodukten\n' +
-    'und medizinischer Versorgung.\n' +
-    '\n' +
-    'Außerdem ist STELP eine Plattform für alle, die sich mit Freude und innerhalb ihrer Möglichkeiten für soziale und gesellschaftliche Themen einsetzen und einen Beitrag für ein friedliches und faires Miteinander weltweit leisten möchten.\n' +
-    '\n'
-export const ueberStelp2 = 'In aktuell zwölf Ländern auf vier Kontinenten — Jemen, Bosnien, Griechenland, Ukraine, Polen, Nepal, Afghanistan, Libanon, Uganda, Kambodscha, Tansania und Kolumbien — lindern wir akute Not durch schnellen Zugang zu Lebensmitteln, Sanitärprodukten\n' +
     'und medizinischer Versorgung.\n'
-export const ueberStelp3 = 'Außerdem ist STELP eine Plattform für alle, die sich mit Freude und innerhalb ihrer Möglichkeiten für soziale und gesellschaftliche Themen einsetzen und einen Beitrag für ein friedliches und faires Miteinander weltweit leisten möchten.\n'
 
-export const ueberStelpLink = <a href="https://www.stelp.eu." target="_blank">Mehr zu STELP</a>
 export const ueberNatanSecondPart = (
     <div>
         <p>
