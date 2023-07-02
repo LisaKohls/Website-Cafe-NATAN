@@ -1,4 +1,4 @@
-import {FaBars} from "react-icons/fa"
+import { FaBars } from "react-icons/fa"
 import {useEffect, useRef} from "react"
 import "../styles/Navbar.css";
 import Logo from "../resources/logos/Natan_Logo_white_edited.png"
@@ -53,11 +53,11 @@ function Navbar() {
                 <ImgPosition image={Logo} name='logoNavBar'/>
             </a>
             <nav ref={navRef}>
-                <a href="#opening" onClick={closeNavbar}>Öffnungszeiten</a>
-                <a href="#menu" onClick={closeNavbar}>Speisen & Getränke</a>
-                <a href="#events" onClick={closeNavbar}>Events</a>
-                <a href="#produkteUndPartner" onClick={closeNavbar}>Partner</a>
-                <a href="#volunteers" onClick={closeNavbar}>Volunteer werden</a>
+                <a href="/#opening" onClick={closeNavbar}>Öffnungszeiten</a>
+                <a href="/#menu" onClick={closeNavbar}>Food & Drinks</a>
+                <a href="/#events" onClick={closeNavbar}>Events</a>
+                <a href="/#produkteUndPartner" onClick={closeNavbar}>Partner</a>
+                <a href="/#volunteers" onClick={closeNavbar}>Volunteer werden</a>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     ✕
                 </button>

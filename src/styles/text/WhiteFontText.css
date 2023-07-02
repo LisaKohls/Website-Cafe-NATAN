@@ -21,15 +21,23 @@ a {
     line-height: 1.9rem;
 }
 
-.linksbündig {
+.smallBlock{
+    margin-top: var(--marginContent);
+    font-size: 0.9rem;
+    flex: 1;
+    display: inline-block;
+    line-height: 1.9rem;
+}
+
+.linksbündig{
     text-align: left;
     color: var(--textColor);
     font-size: 0.9rem;
 }
 
 
-.linksbündigZeilenabstand {
-    margin-top: 1.4rem;
+.linksbündigZeilenabstand{
+    margin-top: var(--marginContent);
     text-align: left;
     color: var(--textColor);
     line-height: 1.9rem;

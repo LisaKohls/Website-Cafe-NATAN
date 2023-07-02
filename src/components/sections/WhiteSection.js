@@ -11,7 +11,7 @@ function WhiteSection() {
     return (
         <div>
             <div id="produkteUndPartner" className="sectionPadding"/>
-            <BlackHeadlineSection title='PRODUKTE & PARTNER'/>
+            <BlackHeadlineSection title='Unsere Partner*innen' />
             <div id="produkteUndPartner"/>
             <BlackFontText text={partner} formatierung='block'/>
             <div id="volunteers"/>
