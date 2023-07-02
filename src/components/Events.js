@@ -3,7 +3,8 @@ import ImgPosition from "./images/ImgPosition";
 import EventImg from "../resources/NatanFotoAußen.png";
 import BlackFontText from "./text/BlackFontText";
 import {events} from "../resources/textInhalte";
-import Wheel from "../resources/logos/rad_weiß.png";
+import wheel from "../resources/logos/rad_weiß.png";
+import Wheel from './interactiveElements/Wheel'
 
 function Events() {
 
@@ -12,12 +13,8 @@ function Events() {
             <div id="eventtext"/>
             <div className="container">
                 <ImgPosition name='natanoutside' image={EventImg}/>
-                <img alt="trans" className='wheelEventOne'
-                     src={Wheel}
-                />
-                <img alt="trans" className='wheelEventTwo'
-                     src={Wheel}
-                />
+                <Wheel wheel={wheel} title='wheelEventOne'/>
+                <Wheel wheel={wheel} title='wheelEventTwo'/>
                 <BlackFontText text={events} formatierung='linksbündigZeilenabstand'/>
             </div>
         </div>
