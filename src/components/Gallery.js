@@ -4,6 +4,7 @@ import {faAngleDoubleLeft} from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
 import '../styles/Gallery.css';
 
+
 function Gallery({images}) {
     const scrollImagesRef = useRef(null);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -100,4 +101,3 @@ Gallery.propTypes = {
 };
 
 export default Gallery;
-

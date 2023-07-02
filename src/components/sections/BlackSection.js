@@ -19,7 +19,9 @@ import Food3 from '../../resources/food/imgCoffee.jpg'
 import stageFood1 from '../../resources/specialFoodStaging/breakfast1.jpg'
 import stageFood2 from '../../resources/specialFoodStaging/drink2.jpg'
 import stageFood3 from '../../resources/specialFoodStaging/sweets3.jpg'
-
+import Gallery from "../Gallery";
+import Img1 from "../../resources/events/events1.jpg";
+import Img2 from "../../resources/events/events2.jpg";
 import ImgPosition from "../images/ImgPosition";
 import FoodStage from "../speisen/FoodStage";
 
@@ -58,7 +60,7 @@ function BlackSection() {
             <WhiteFontText text={originName} formatierung='blocksatz'/>
             <div id="events"/>
             <WhiteHeadlineSection title='Dein Event im NATAN - Mieten, Feiern, Gutes tun' color="white"/>
-            <ImageScrollGallery/>
+            <Gallery images={images} />
             <Events/>
             <div id="endPage" className="sectionPadding"/>
         </>

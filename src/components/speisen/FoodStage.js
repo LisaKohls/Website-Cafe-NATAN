@@ -12,11 +12,6 @@ function FoodStage(props) {
                     <BlackFontText text={props.description} formatierung="blockSmall"/>
                 </div>
             </div>
-            <div className="rectangle">
-                <BlackFontText text={props.name} formatierung="centered bold"/>
-                <BlackFontText text={props.description} formatierung="blockSmall"/>
-            </div>
-        </div>
     );
 }
 export default FoodStage;
