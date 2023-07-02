@@ -39,7 +39,7 @@ function Navbar() {
             </a>
             <nav ref={navRef}>
                 <a href="/#opening" onClick={closeNavbar}>Öffnungszeiten</a>
-                <a href="/#menu" onClick={closeNavbar}>Speisekarte</a>
+                <a href="/#menu" onClick={closeNavbar}>Food & Drinks</a>
                 <a href="/#events" onClick={closeNavbar}>Events</a>
                 <a href="/#produkteUndPartner" onClick={closeNavbar}>Partner</a>
                 <a href="/#volunteers" onClick={closeNavbar}>Volunteer werden</a>

@@ -23,7 +23,7 @@
     all: unset;
     width: 15.5rem;
     height: 1.3rem;
-    border: 0.1rem solid #b4b2b2;
+    border: 0.09rem solid #b4b2b2;
     border-radius: 0.5rem;
     color: var(--mainColor);
     padding: 0.3rem;
@@ -75,7 +75,7 @@
     display: block;
     width: 25.5rem;
     height: 6rem;
-    border: 0.1rem solid #b4b2b2;
+    border: 0.09rem solid #b4b2b2;
     border-radius: 0.5rem;
     text-align: left;
 }

@@ -4,8 +4,6 @@ import BlackFontText from '../text/BlackFontText'
 
 
 function FoodStage(props) {
-
-
         return (
             <div className='stage'>
                 <div className="circle-wrapper">
@@ -18,4 +16,4 @@ function FoodStage(props) {
             </div>
         );
 }
-    export default FoodStage
+export default FoodStage;

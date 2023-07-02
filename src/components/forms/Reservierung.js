@@ -21,15 +21,63 @@ function Reservierung(props) {
 
 
     function check(){
-        const date = document.getElementById("datePicker").value
-        const time = document.getElementById("time").value;
-        const name = document.getElementById("name").value;
-        const count = document.getElementById("personen").value;
-        const mail = document.getElementById("mail").value;
+        const dateInput = document.getElementById("datePicker")
+        const timeInput = document.getElementById("time");
+        const nameInput = document.getElementById("name");
+        const countInput = document.getElementById("personen");
+        const mailInput = document.getElementById("mail");
 
-        if(date === ' ' || time === '' || name === '' || count === '' || mail === ''){
-            alert('Bitte fülle alles vollständig aus')
-        }else{
+        const date = dateInput.value;
+        const time = timeInput.value;
+        const name = nameInput.value;
+        const count = countInput.value;
+        const mail = mailInput.value;
+
+        const isValidMail = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(mail);
+        const selectedTIme = parseInt(time.split(":")[0]);
+
+        if (date === "") {
+            dateInput.style.borderColor = 'red';
+        } else {
+            dateInput.style.borderColor = 'black';
+        }
+
+        if (time === "") {
+            timeInput.style.borderColor = 'red';
+        }else if (selectedTIme < 10 || selectedTIme >= 20) {
+            alert("Bitte wähle eine Uhrzeit zwischen 10:00 und 20:00 Uhr.");
+        } else {
+            timeInput.style.borderColor = 'black';
+        }
+
+        if (name === "") {
+            nameInput.style.borderColor = 'red';
+        } else {
+            nameInput.style.borderColor = 'black';
+        }
+
+        if (count === "") {
+            countInput.style.borderColor = 'red';
+        } else {
+            countInput.style.borderColor = 'black';
+        }
+
+        if (mail === "") {
+            mailInput.style.borderColor = 'red';
+        } else if (!isValidMail) {
+            mailInput.style.borderColor = 'red';
+            mailInput.value = '';
+            mailInput.setAttribute('placeholder', 'Gebe eine korrekte E-Mail an');
+        } else {
+            mailInput.style.borderColor = 'black';
+            mailInput.removeAttribute('placeholder');
+        }
+
+
+
+        if(date !== '' && time !== '' && name !== '' && count !== '' && mail !== ''){
+            console.log('Input correct')
+            /*
             setSubmit(true)
             emailjs.send(SERVICE_ID,TEMPLATE_ID,{
                 date: date,
@@ -44,7 +92,7 @@ function Reservierung(props) {
                 function (error) {
                     console.log("FAILED...", error);
                 }
-            );
+            );*/
         }
 
     }
@@ -56,27 +104,35 @@ function Reservierung(props) {
         <Map/>
         <div className='formular'>
         <>
-            <label>Wähle ein Datum: </label>
-            <DatePicker id='datePicker' locale="de" selected={startDate} onChange={(date) => setStartDate(date) }
-                        dateFormat='dd MMMM yy' required/>
+            <label>Wähle ein Datum:* </label>
+            <DatePicker
+                id='datePicker'
+                locale="de"
+                selected={startDate}
+                onChange={(date) => setStartDate(date)}
+                dateFormat='dd MMMM yy'
+                required
+                minDate={new Date()}
+            />
         </>
         <>
-            <label>Deine Uhrzeit: </label>
-            <input type="time" id="time" name="time" min="10:00" max="20:00" required></input>
+            <label>Deine Uhrzeit:* </label>
+            <input type="time" id="time" name="time" min="10:00" max="20:00" required />
         </>
         <>
-            <label >Name: </label>
+            <label>Name:* </label>
             <input type='text' id='name' name='fname' required></input>
         </>
         <>
-            <label> Anzahl Personen</label>
+            <label>Anzahl Personen:*</label>
             <input type='number' id='personen' name='personen' required></input>
         </>
         <>
-            <label>E-Mail: </label>
+            <label>E-Mail:* </label>
             <input type='email' id='mail' name='mail' required></input>
         </>
         <button className='submit' onClick={check}>Abschicken</button>
+
     </div>
     </div>
 
