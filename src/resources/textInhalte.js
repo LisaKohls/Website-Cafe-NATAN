@@ -84,13 +84,13 @@ export const partner = "Das NATAN hätte den Sprung von der Idee zur Realität n
 
 export const events =
     <div>
-    <p className="blocksatz">
+    <p>
         Egal ob Familienfeier, After Work, Vernissage, Firmenevents, Weinproben oder Workshops –
         das NATAN kann sowohl für private, als auch für Corporate Events gemietet werden.
         Die Gewinne fließen an die Hilfsorganisation STELP.
     </p>
     <p className="subheading">Fakten</p>
-    <p className="blocksatz">
+    <p >
         Größe des Gastraums | 35 qm
         <br/>
         Sitzplätze innen | 25 (je nach Bestuhlung)

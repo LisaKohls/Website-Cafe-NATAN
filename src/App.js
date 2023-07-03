@@ -1,11 +1,11 @@
 import React from 'react';
 import './index.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/layout/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import MainPage from "./components/MainPage";
+import MainPage from "./components/mainsections/MainPage";
 import Impressum from "./components/Impressum";
 import Datenschutz from "./components/Datenschutz";
-import Footer from "./components/Footer";
+import Footer from "./components/layout/Footer";
 import Error404 from "./components/Error404";
 
 function App() {

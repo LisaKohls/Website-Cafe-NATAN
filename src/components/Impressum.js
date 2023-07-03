@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/Impressum.css";
 import {impressum} from "../resources/textInhalte";
-import WhiteFontText from "./text/WhiteFontText";
+import Text from "./text/Text";
 
 function Impressum() {
     return (
         <div className="impressum">
             <div className="sectionPadding"/>
-            <WhiteFontText text={impressum} formatierung='blocksatz'/>
+            <Text text={impressum} formatierung='block' color='white'/>
         </div>
     )
 }

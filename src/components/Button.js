@@ -3,7 +3,7 @@ import PopUp from "./forms/PopUp";
 import Reservierung from "./forms/Reservierung";
 import Volunteer from './forms/Volunteer'
 import React, {useState} from "react";
-import Menu from "./Menu";
+import Menu from "./foodanddrinks/Menu";
 
 
 function Button(props) {
@@ -24,7 +24,7 @@ function Button(props) {
     }
 
     return (
-        <div>
+        <>
             <button className={"btn" + props.styleName} onClick={() => open(props.styleName)}>
                 {props.name}
             </button>
@@ -35,7 +35,7 @@ function Button(props) {
                 <Volunteer trigger={volunteerPopUp} setTrigger={setVolunteerPopUp}/>
             </PopUp>
             <Menu trigger={menuPopUp} setTrigger={setMenuPopUp}/>
-        </div>
+        </>
     );
 }
 

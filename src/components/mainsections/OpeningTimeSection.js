@@ -5,7 +5,7 @@ import BoxWithText from "../text/BoxWithText";
 import {oeffnungszeiten} from "../../resources/textInhalte";
 import Button from "../Button";
 import wheel from '../../resources/logos/rad_weiß.png'
-import WhiteFontText from "../text/WhiteFontText";
+import Text from "../text/Text";
 import Wheel from "../interactiveElements/Wheel";
 
 
@@ -16,8 +16,8 @@ function OpeningTimeSection() {
             <ImgPosition name='interiorNatan' image={BarOriginal}/>
             <div>
                 <BoxWithText title='opening'>
-                    <WhiteFontText text='Öffnungszeiten:' formatierung='boldHeading'/>
-                    <WhiteFontText text={oeffnungszeiten} formatierung='linksbündigZeilenabstand'/>
+                    <Text text='Öffnungszeiten:' formatierung='boldHeading' color='white'/>
+                    <Text text={oeffnungszeiten} formatierung='openingText' color='white'/>
                 </BoxWithText>
                 <Button name="Reservierung" styleName='Reservierung'/>
             </div>

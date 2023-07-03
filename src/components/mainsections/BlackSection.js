@@ -7,12 +7,11 @@ import {
         food1, description1, food2, description2, food3, description3
 } from "../../resources/textInhalte";
 import OpeningTimeSection from "./OpeningTimeSection";
-import SpecialFood from "../speisen/SpecialFood";
+import SpecialFood from "../foodanddrinks/SpecialFood";
 import Button from "../Button";
 import Events from "../Events";
 import React from "react";
-import WhiteFontText from "../text/WhiteFontText";
-import WhiteHeadlineSection from "./WhiteHeadlineSection";
+import HeadlineSection from "../text/HeadlineSection";
 import Food1 from '../../resources/food/imgCake.jpg'
 import Food2 from '../../resources/food/imgDesert.jpg'
 import Food3 from '../../resources/food/imgCoffee.jpg'
@@ -23,7 +22,8 @@ import Gallery from "../Gallery";
 import Img1 from "../../resources/events/events1.jpg";
 import Img2 from "../../resources/events/events2.jpg";
 import ImgPosition from "../images/ImgPosition";
-import FoodStage from "../speisen/FoodStage";
+import FoodStage from "../foodanddrinks/FoodStage";
+import Text from '../text/Text'
 
 function BlackSection() {
     const images = [
@@ -34,34 +34,33 @@ function BlackSection() {
     return (<>
             <FirstSection/>
             <div id="opening" />
-            <WhiteHeadlineSection title='ZUM WOHLE. ALLER.' color="white"/>
-            <WhiteFontText text={ueberNatan} formatierung='blocksatz'/>
+            <HeadlineSection title='ZUM WOHLE. ALLER.' color="white"/>
+            <Text text={ueberNatan} formatierung='block' color='white'/>
             <div className="sectionPadding"/>
             <OpeningTimeSection/>
             <div id='stelp' />
-            <WhiteHeadlineSection title='A PART OF THE STELP FAMILY' color="white"/>
-            <WhiteFontText text={ueberStelp} formatierung='blocksatz'/>
-
+            <HeadlineSection title='A PART OF THE STELP FAMILY' color="white"/>
+            <Text text={ueberStelp} formatierung='block' color='white'/>
             <div id="menu"/>
-            <WhiteHeadlineSection title='FOOD & DRINKS - MODERN, REGIONAL, INNOVATIV' color="white"/>
+            <HeadlineSection title='FOOD & DRINKS - MODERN, REGIONAL, INNOVATIV' color="white"/>
             <div className='container'>
                 <ImgPosition image={Food1} name='food'/>
                 <ImgPosition image={Food2} name='food'/>
                 <ImgPosition image={Food3} name='food'/>
             </div>
-            <WhiteFontText text={foodDescription} formatierung='blocksatz'/>
+            <Text text={foodDescription} formatierung='block' color='white'/>
             <SpecialFood>
                     <FoodStage name={food1} image={stageFood1} description={description1}/>
                     <FoodStage name={food2} image={stageFood2} description={description2}/>
                     <FoodStage name={food3} image={stageFood3} description={description3}/>
             </SpecialFood>
             <Button name='Speisekarte' styleName='Speisekarte'/>
-            <WhiteHeadlineSection title='ABIE NATHAN - DER MANN HINTER DEM NAMEN' color="white"/>
-            <WhiteFontText text={originName} formatierung='blocksatz'/>
+            <HeadlineSection title='ABIE NATHAN - DER MANN HINTER DEM NAMEN' color="white"/>
+            <Text text={originName} formatierung='block' color='white'/>
             <div id="events"/>
-            <WhiteHeadlineSection title='AKTUELLE EVENTS' color="white"/>
+            <HeadlineSection title='AKTUELLE EVENTS' color="white"/>
             <Gallery images={images} />
-            <WhiteHeadlineSection title='DEIN EVENT IM NATAN - MIETEN, FEIERN, GUTES TUN' color="white"/>
+            <HeadlineSection title='DEIN EVENT IM NATAN - MIETEN, FEIERN, GUTES TUN' color="white"/>
             <Events/>
             <div id="endPage" className="sectionPadding"/>
         </>

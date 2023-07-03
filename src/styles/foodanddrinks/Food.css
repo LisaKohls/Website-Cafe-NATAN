@@ -78,25 +78,23 @@
     .rectangle {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem;
-        height: 19rem;
-        margin-top: -100px;
+        height: 17rem;
+        margin-top: -90px;
     }
 
 }
 
-@media only screen and (max-width: 1000px) {
-    .stage {
-        margin-left: 0.7rem;
-        margin-right: 0.7rem;
+@media only screen and (min-width: 701px) and (max-width: 1300px) {
+    .rectangle {
+        height: 23rem;
+        margin-top: -125px;
     }
-}
-
-@media only screen and (max-width: 1200px) {
     .stage {
         margin-left: 0.5rem;
         margin-right: 0.5rem;
     }
 }
+
 
 
 

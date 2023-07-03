@@ -3,21 +3,21 @@ import {partner, volunteer} from "../../resources/textInhalte";
 import CoffeeMachine from "../../resources/gallery/barNatan2.jpg";
 import Button from "../Button";
 import React from "react";
-import BlackHeadlineSection from "./BlackHeadlineSection";
-import BlackFontText from "../text/BlackFontText";
+import Text from "../text/Text";
+import HeadlineSection from "../text/HeadlineSection";
 
 
 function WhiteSection() {
     return (
         <div>
             <div id="produkteUndPartner" className="sectionPadding"/>
-            <BlackHeadlineSection title='UNSERE PARTNER*INNEN' />
+            <HeadlineSection title='UNSERE PARTNER*INNEN' color='black'/>
             <div id="produkteUndPartner"/>
-            <BlackFontText text={partner} formatierung='block'/>
+            <Text text={partner} formatierung='block' color='black'/>
             <div id="volunteers"/>
-            <BlackHeadlineSection title='UNSER NATAN DREAM TEAM'/>
+            <HeadlineSection title='UNSER NATAN DREAM TEAM' color='black'/>
             <div className='container'>
-                <BlackFontText text={volunteer} formatierung='block'/>
+                <Text text={volunteer} formatierung='block' color='black'/>
                 <ImgPosition name='volunteer' image={CoffeeMachine}/>
             </div>
             <Button name='Werde Volunteer' styleName='Volunteer'/>
