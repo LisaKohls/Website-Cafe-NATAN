@@ -3,7 +3,7 @@ import PopUp from "./forms/PopUp";
 import Reservierung from "./forms/Reservierung";
 import Volunteer from './forms/Volunteer'
 import React, {useState} from "react";
-import Menu from "./Menu";
+import Menu from "./foodanddrinks/Menu";
 
 
 function Button(props) {

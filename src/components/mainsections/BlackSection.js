@@ -7,11 +7,11 @@ import {
         food1, description1, food2, description2, food3, description3
 } from "../../resources/textInhalte";
 import OpeningTimeSection from "./OpeningTimeSection";
-import SpecialFood from "../speisen/SpecialFood";
+import SpecialFood from "../foodanddrinks/SpecialFood";
 import Button from "../Button";
 import Events from "../Events";
 import React from "react";
-import HeadlineSection from "./HeadlineSection";
+import HeadlineSection from "../text/HeadlineSection";
 import Food1 from '../../resources/food/imgCake.jpg'
 import Food2 from '../../resources/food/imgDesert.jpg'
 import Food3 from '../../resources/food/imgCoffee.jpg'
@@ -22,7 +22,7 @@ import Gallery from "../Gallery";
 import Img1 from "../../resources/events/events1.jpg";
 import Img2 from "../../resources/events/events2.jpg";
 import ImgPosition from "../images/ImgPosition";
-import FoodStage from "../speisen/FoodStage";
+import FoodStage from "../foodanddrinks/FoodStage";
 import Text from '../text/Text'
 
 function BlackSection() {

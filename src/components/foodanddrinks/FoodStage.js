@@ -1,4 +1,4 @@
-import '../../styles/Food.css'
+import '../../styles/foodanddrinks/Food.css'
 import Text from '../text/Text'
 
 function FoodStage(props) {

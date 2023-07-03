@@ -1,4 +1,4 @@
-import '../../styles/PopUpContent.css'
+import '../../styles/forms/PopUpContent.css'
 import React, {useState} from 'react';
 import DatePicker, {registerLocale} from 'react-datepicker';
 import de from 'date-fns/locale/de';

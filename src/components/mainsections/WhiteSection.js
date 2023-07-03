@@ -4,7 +4,7 @@ import CoffeeMachine from "../../resources/gallery/barNatan2.jpg";
 import Button from "../Button";
 import React from "react";
 import Text from "../text/Text";
-import HeadlineSection from "./HeadlineSection";
+import HeadlineSection from "../text/HeadlineSection";
 
 
 function WhiteSection() {

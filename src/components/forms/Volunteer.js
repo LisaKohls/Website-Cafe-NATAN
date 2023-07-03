@@ -1,4 +1,4 @@
-import '../../styles/PopUpContent.css'
+import '../../styles/forms/PopUpContent.css'
 import emailjs from 'emailjs-com';
 
 function Volunteer(props) {

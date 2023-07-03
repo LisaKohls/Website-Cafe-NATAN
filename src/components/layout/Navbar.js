@@ -1,8 +1,8 @@
 import { FaBars } from "react-icons/fa"
 import {useEffect, useRef} from "react"
-import "../styles/Navbar.css";
-import Logo from "../resources/logos/Natan_Logo_white_edited.png"
-import ImgPosition from "./images/ImgPosition";
+import "../../styles/layout/Navbar.css";
+import Logo from "../../resources/logos/Natan_Logo_white_edited.png"
+import ImgPosition from "../images/ImgPosition";
 
 
 function Navbar() {
@@ -49,7 +49,7 @@ function Navbar() {
     }, [])
     return (
         <header>
-            <a href="./">
+            <a href="..">
                 <ImgPosition image={Logo} name='logoNavBar'/>
             </a>
             <nav ref={navRef}>

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Footer.css";
+import "../../styles/layout/Footer.css";
 import {SocialIcon} from 'react-social-icons';
 
 
@@ -72,7 +72,7 @@ function Footer() {
                     />
                 </div>
                 <div className="impressum">
-                    <a href="/impressum" className="footerLink">Impressum /</a>
+                    <a href="/src/components/Impressum" className="footerLink">Impressum /</a>
                     <a href="/privacy" className="footerLink">/ Datenschutz</a>
                 </div>
             </div>
