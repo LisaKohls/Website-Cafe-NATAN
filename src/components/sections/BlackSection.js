@@ -39,11 +39,11 @@ function BlackSection() {
             <div className="sectionPadding"/>
             <OpeningTimeSection/>
             <div id='stelp' />
-            <WhiteHeadlineSection title='A part of the STELP Family' color="white"/>
+            <WhiteHeadlineSection title='A PART OF THE STELP FAMILY' color="white"/>
             <WhiteFontText text={ueberStelp} formatierung='blocksatz'/>
 
             <div id="menu"/>
-            <WhiteHeadlineSection title='Food & Drinks - Modern, regional, innovativ' color="white"/>
+            <WhiteHeadlineSection title='FOOD & DRINKS - MODERN, REGIONAL, INNOVATIV' color="white"/>
             <div className='container'>
                 <ImgPosition image={Food1} name='food'/>
                 <ImgPosition image={Food2} name='food'/>
@@ -56,11 +56,12 @@ function BlackSection() {
                     <FoodStage name={food3} image={stageFood3} description={description3}/>
             </SpecialFood>
             <Button name='Speisekarte' styleName='Speisekarte'/>
-            <WhiteHeadlineSection title='Abie Nathan - Der Mann hinter dem Namen' color="white"/>
+            <WhiteHeadlineSection title='ABIE NATHAN - DER MANN HINTER DEM NAMEN' color="white"/>
             <WhiteFontText text={originName} formatierung='blocksatz'/>
             <div id="events"/>
-            <WhiteHeadlineSection title='Dein Event im NATAN - Mieten, Feiern, Gutes tun' color="white"/>
+            <WhiteHeadlineSection title='AKTUELLE EVENTS' color="white"/>
             <Gallery images={images} />
+            <WhiteHeadlineSection title='DEIN EVENT IM NATAN - MIETEN, FEIERN, GUTES TUN' color="white"/>
             <Events/>
             <div id="endPage" className="sectionPadding"/>
         </>
