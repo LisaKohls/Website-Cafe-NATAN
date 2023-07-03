@@ -17,8 +17,8 @@ function WhiteSection() {
             <div id="volunteers"/>
             <HeadlineSection title='UNSER NATAN DREAM TEAM' color='black'/>
             <div className='container'>
-                <Text text={volunteer} formatierung='block' color='black'/>
                 <ImgPosition name='volunteer' image={CoffeeMachine}/>
+                <Text text={volunteer} formatierung='block' color='black'/>
             </div>
             <Button name='Werde Volunteer' styleName='Volunteer'/>
             <div id="footer" className="sectionPadding"/>

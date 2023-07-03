@@ -3,7 +3,7 @@ import ImgPosition from "../images/ImgPosition";
 import NatanLogo from "../../resources/logos/Natan_Logo_white.png";
 import Bar from "../../resources/gallery/barNatan1_edited.jpg";
 import WheelWhite from '../../resources/logos/rad_weiß.png'
-import Wheel from "../interactiveElements/Wheel";
+import Wheel from "../interactiveelements/Wheel";
 
 function FirstSection() {
     return (

@@ -29,7 +29,7 @@
 
 .imagevolunteer {
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-right: 2rem;
     width: 40%;
     height: auto;
 }
@@ -115,6 +115,8 @@
         margin-left: 0;
         width: 100%;
         height: auto;
+        margin-top: 0.8rem;
+        margin-bottom: 0.8rem;
     }
 
     .imagepartner {

@@ -5,7 +5,7 @@ import de from 'date-fns/locale/de';
 import 'react-datepicker/dist/react-datepicker.css';
 import 'react-datepicker/dist/react-datepicker-cssmodules.css';
 import 'react-time-picker/dist/TimePicker.css';
-import Map from "../Map";
+import Map from "../googlemaps/Map";
 import emailjs from "emailjs-com";
 
 

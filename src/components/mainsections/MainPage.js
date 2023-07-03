@@ -1,14 +1,14 @@
 import React from 'react';
 import '../../index.css';
 import Gallery from "../Gallery";
-import Page from "../Page";
+import Page from "../page/Page";
 import BlackSection from "./BlackSection";
 import WhiteSection from "./WhiteSection";
 import Img1 from '../../resources/gallery/barNatan1.jpg';
 import Img2 from '../../resources/gallery/barNatan2.jpg';
 import Img3 from '../../resources/gallery/outsideViewNatan.jpg';
 import Img4 from '../../resources/gallery/interiorNatan.jpg';
-import Img5 from '../../resources/specialFoodStaging/breakfast1.jpg';
+import Img5 from '../../resources/specialfoodstaging/breakfast1.jpg';
 
 function MainPage() {
 
