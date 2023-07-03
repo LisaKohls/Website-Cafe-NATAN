@@ -1,0 +1,70 @@
+a {
+    color: var(--textColor);
+}
+
+.blackcentered, .whitecenter {
+    text-align: center;
+    font-size: 0.9em;
+    display: block;
+    margin-top: var(--marginContent);
+}
+
+.whitecenter, .whiteblock{
+    color: var(--textColor);
+}
+
+.whiteboldHeading{
+    text-align: left;
+    color: var(--textColor);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.whiteevents, .whiteopeningText{
+    text-align: left;
+    color: var(--textColor);
+    line-height: 1.9rem;
+    font-size: 0.9rem;
+    margin-top: var(--marginContent);
+}
+
+.blackblock, .blackblockSmall, .whiteblock {
+    text-align: justify;
+    font-size: 0.9rem;
+    flex: 1;
+    line-height: 1.4rem;
+    display: inline-block;
+    margin-top: var(--marginContent);
+}
+
+.blackblockSmall{
+    margin-top: 1.7rem;
+}
+
+.blackblock {
+    line-height: 1.9rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .blackblockSmall {
+        line-height: 1.3rem;
+    }
+
+    .blackblock, .whiteblock{
+        margin-top: 0;
+    }
+
+    .whiteopeningText {
+        display: block;
+        text-align: center;
+        margin-top: var(--marginContent);
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .whiteboldHeading {
+        text-align: center;
+    }
+}
+
+

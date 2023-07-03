@@ -8,7 +8,6 @@
 
 @media only screen and (max-width: 700px) {
     .opening {
-        display: inline-block;
         border: 0.1rem solid var(--textColor);
         white-space: pre-line;
         text-align: center;

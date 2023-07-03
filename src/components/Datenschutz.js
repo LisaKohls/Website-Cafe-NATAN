@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/Privacy.css";
 import {datenschutz} from "../resources/textInhalte";
-import WhiteFontText from "./text/WhiteFontText";
+import Text from './text/Text'
 
 function Datenschutz() {
     return (
         <div className="privacy">
             <div className="sectionPadding"/>
-            <WhiteFontText text={datenschutz} formatierung='blocksatz'/>
+            <Text text={datenschutz} formatierung='block' color='white'/>
         </div>
     )
 }

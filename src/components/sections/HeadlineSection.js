@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/text/HeadlineSectionWhiteFont.css'
+import '../../styles/text/HeadlineSection.css'
 
 function HeadlineSection(props) {
     return (

@@ -1,5 +1,5 @@
 import '../../styles/Food.css'
-import BlackFontText from '../text/BlackFontText'
+import Text from '../text/Text'
 
 function FoodStage(props) {
         return (
@@ -8,8 +8,8 @@ function FoodStage(props) {
                     <img className="circle-image" src={props.image} alt={props.name}/>
                 </div>
                 <div className="rectangle">
-                    <BlackFontText text={props.name} formatierung="centered bold"/>
-                    <BlackFontText text={props.description} formatierung="blockSmall"/>
+                    <Text text={props.name} formatierung="centered bold" color='black'/>
+                    <Text text={props.description} formatierung="blockSmall" color='black'/>
                 </div>
             </div>
     );

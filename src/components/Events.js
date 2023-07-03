@@ -1,11 +1,10 @@
 import "../styles/Events.css";
 import ImgPosition from "./images/ImgPosition";
 import EventImg from "../resources/NatanFotoAußen.png";
-import BlackFontText from "./text/BlackFontText";
+import Text from "./text/Text";
 import {events} from "../resources/textInhalte";
 import wheel from "../resources/logos/rad_weiß.png";
 import Wheel from './interactiveElements/Wheel'
-import WhiteFontText from "./text/WhiteFontText";
 
 function Events() {
 
@@ -16,7 +15,7 @@ function Events() {
                 <ImgPosition name='natanoutside' image={EventImg}/>
                 <Wheel wheel={wheel} title='wheelEventOne'/>
                 <Wheel wheel={wheel} title='wheelEventTwo'/>
-                <WhiteFontText text={events} formatierung='events'/>
+                <Text text={events} formatierung='events' color='white'/>
             </div>
         </div>
 
