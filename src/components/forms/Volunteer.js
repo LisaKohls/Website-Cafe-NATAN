@@ -1,5 +1,6 @@
 import '../../styles/forms/PopUpContent.css'
 import emailjs from 'emailjs-com';
+import React from "react";
 
 function Volunteer(props) {
     const SERVICE_ID = 'service_xe2vwog';
@@ -60,21 +61,24 @@ function Volunteer(props) {
     }
     return (
         <div className='formular volunteer' >
-            <div>
+            <>
                 <h2>Werde Volunteer</h2>
-            </div>
-            <div>
+            </>
+            <>
                 <label>Vor- und Nachname:*</label>
                 <input type="text" id="name" name="name" required></input>
-            </div>
-            <div >
+            </>
+            <>
                 <label>Mail:*</label>
                 <input type="email" id="mail" name="mail" placeholder=" " required></input>
-            </div>
-            <div>
+            </>
+            <>
                 <label>Deine Nachricht an uns:</label>
                 <textarea id="message" className="textArea"></textarea>
-            </div>
+            </>
+            <div className='checkbox'>
+                <input type="checkbox" id="privacy" name="privacy"/>
+                <label htmlFor="privacy" id="privacyLabel">Ich habe die <a href="/privacy" className='linkBlack' target="_blank"> Datenschutzerklärung </a>  gelesen und verstanden </label></div>
             <button type="submit" className='submit' onClick={check}>Abschicken</button>
         </div>
     )

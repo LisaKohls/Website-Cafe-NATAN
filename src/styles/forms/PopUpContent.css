@@ -96,24 +96,24 @@
     height: 12rem;
 }
 
+.formular .checkbox{
+    display: flex;
+}
+
 .formular #privacy{
     all: initial;
-    display: flex;
-    flex-direction: row;
-    width: 5px;
-    height: 5px;
+    height: 2px;
+    width: 2px;
     border: 0.09rem solid #b4b2b2;
     border-radius: 0.5rem;
-    color: var(--mainColor);
-    padding: 0.3rem;
-    margin-top: var(--marginContent);
-    text-align: left;
+    padding: 0.4rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
 }
 
 .formular #privacyLabel{
-    display: flex;
-    order: 1;
-    flex: 1;
+    font-size: 0.8rem;
+    line-height: 15px;
 }
 
 

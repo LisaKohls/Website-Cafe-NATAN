@@ -106,7 +106,7 @@ export const events =
     <p className="blocksatz">
     Nach Absprache.
     <br/>
-    Wir freuen uns über deine Anfrage an <a href="mailto:team@natan-cafeandbar.com" target="_blank">
+    Wir freuen uns über deine Anfrage an <a href="mailto:team@natan-cafeandbar.com" className='linkWhite' target="_blank">
     team@natan-cafeandbar.com</a>.
     </p>
     </div>
