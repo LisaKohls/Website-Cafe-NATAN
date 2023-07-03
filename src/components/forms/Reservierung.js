@@ -131,8 +131,11 @@ function Reservierung(props) {
                 <label>E-Mail:* </label>
                 <input type='email' id='mail' name='mail' required></input>
             </>
+            <>
+                <input type="checkbox" id="privacy" name="privacy"/>
+                <label htmlFor="privacy" id="privacyLabel">Ich habe die Datenschutzerklärung gelesen und verstanden </label>
+            </>
             <button className='submit' onClick={check}>Abschicken</button>
-
         </div>
     </div>
 
