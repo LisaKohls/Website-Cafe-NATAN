@@ -1,11 +1,11 @@
 
-.white {
+.white, .black {
     position: relative;
     margin-top: var(--marginSection);
     margin-bottom: var(--marginContent);
 }
 
-.white::after {
+.white::after, .black::after {
     content: '';
     position: absolute;
     left: 30%;
@@ -15,8 +15,19 @@
 }
 
 
-.white::after {
+.white::after{
     background-color: var(--textColor);
+}
+
+.black::after{
+    background-color: var(--mainColor);
+}
+
+
+@media only screen and (max-width: 700px) {
+    .white::after, .black::after{
+        bottom: -0.8rem;
+    }
 }
 
 

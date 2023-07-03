@@ -12,7 +12,7 @@ import Button from "../Button";
 import Events from "../Events";
 import React from "react";
 import WhiteFontText from "../text/WhiteFontText";
-import WhiteHeadlineSection from "./WhiteHeadlineSection";
+import HeadlineSection from "./HeadlineSection";
 import Food1 from '../../resources/food/imgCake.jpg'
 import Food2 from '../../resources/food/imgDesert.jpg'
 import Food3 from '../../resources/food/imgCoffee.jpg'
@@ -34,16 +34,16 @@ function BlackSection() {
     return (<>
             <FirstSection/>
             <div id="opening" />
-            <WhiteHeadlineSection title='ZUM WOHLE. ALLER.' color="white"/>
+            <HeadlineSection title='ZUM WOHLE. ALLER.' color="white"/>
             <WhiteFontText text={ueberNatan} formatierung='blocksatz'/>
             <div className="sectionPadding"/>
             <OpeningTimeSection/>
             <div id='stelp' />
-            <WhiteHeadlineSection title='A PART OF THE STELP FAMILY' color="white"/>
+            <HeadlineSection title='A PART OF THE STELP FAMILY' color="white"/>
             <WhiteFontText text={ueberStelp} formatierung='blocksatz'/>
 
             <div id="menu"/>
-            <WhiteHeadlineSection title='FOOD & DRINKS - MODERN, REGIONAL, INNOVATIV' color="white"/>
+            <HeadlineSection title='FOOD & DRINKS - MODERN, REGIONAL, INNOVATIV' color="white"/>
             <div className='container'>
                 <ImgPosition image={Food1} name='food'/>
                 <ImgPosition image={Food2} name='food'/>
@@ -56,12 +56,12 @@ function BlackSection() {
                     <FoodStage name={food3} image={stageFood3} description={description3}/>
             </SpecialFood>
             <Button name='Speisekarte' styleName='Speisekarte'/>
-            <WhiteHeadlineSection title='ABIE NATHAN - DER MANN HINTER DEM NAMEN' color="white"/>
+            <HeadlineSection title='ABIE NATHAN - DER MANN HINTER DEM NAMEN' color="white"/>
             <WhiteFontText text={originName} formatierung='blocksatz'/>
             <div id="events"/>
-            <WhiteHeadlineSection title='AKTUELLE EVENTS' color="white"/>
+            <HeadlineSection title='AKTUELLE EVENTS' color="white"/>
             <Gallery images={images} />
-            <WhiteHeadlineSection title='DEIN EVENT IM NATAN - MIETEN, FEIERN, GUTES TUN' color="white"/>
+            <HeadlineSection title='DEIN EVENT IM NATAN - MIETEN, FEIERN, GUTES TUN' color="white"/>
             <Events/>
             <div id="endPage" className="sectionPadding"/>
         </>

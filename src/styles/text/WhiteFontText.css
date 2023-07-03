@@ -36,13 +36,14 @@ a {
 }
 
 
-.linksbündigZeilenabstand{
-    margin-top: var(--marginContent);
+.events, .openingText{
     text-align: left;
     color: var(--textColor);
     line-height: 1.9rem;
     font-size: 0.9rem;
+    margin-top: var(--marginContent);
 }
+
 
 .decoration {
     color: var(--textColor);
@@ -90,28 +91,12 @@ a {
         margin-top: 0;
     }
 
-    .linksbündigZeilenabstand {
+    .openingText {
         display: block;
         text-align: center;
         margin-top: var(--marginContent);
         line-height: 1.5rem;
         font-size: 0.9rem;
-    }
-
-    .decoration {
-        font-size: 2.3rem;
-        position: absolute;
-        margin-top: -1.5rem;
-        font-weight: unset;
-        margin-left: 0;
-    }
-
-    .decorationsayhi {
-        font-size: 2.3rem;
-        position: absolute;
-        right: 3rem;
-        margin-top: -1.3rem;
-        font-weight: unset;
     }
 
     .bold {
@@ -125,8 +110,3 @@ a {
 
 }
 
-@media only screen and (max-width: 1500px) {
-    .decoration {
-        font-size: 2rem;
-    }
-}

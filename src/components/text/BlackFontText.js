@@ -3,7 +3,7 @@ import React from "react";
 
 function BlackFontText(props) {
     return (
-        <div className={props.formatierung}>
+        <div className={props.color + props.formatierung}>
             <div>
                 {props.text}
             </div>
