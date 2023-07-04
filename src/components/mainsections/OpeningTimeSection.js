@@ -6,7 +6,7 @@ import {oeffnungszeiten} from "../../resources/textInhalte";
 import Button from "../Button";
 import wheel from '../../resources/logos/rad_weiß.png'
 import Text from "../text/Text";
-import Wheel from "../interactiveElements/Wheel";
+import Wheel from "../interactiveelements/Wheel";
 
 
 function OpeningTimeSection() {

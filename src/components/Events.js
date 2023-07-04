@@ -4,7 +4,7 @@ import EventImg from "../resources/NatanFotoAußen.png";
 import Text from "./text/Text";
 import {events} from "../resources/textInhalte";
 import wheel from "../resources/logos/rad_weiß.png";
-import Wheel from './interactiveElements/Wheel'
+import Wheel from './interactiveelements/Wheel'
 
 function Events() {
 

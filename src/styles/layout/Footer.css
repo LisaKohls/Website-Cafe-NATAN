@@ -1,3 +1,7 @@
+.footerLink{
+    color: var(--textColor);
+}
+
 .footer {
     display: flex;
     flex-direction: column;

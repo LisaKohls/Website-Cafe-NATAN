@@ -1,5 +1,11 @@
-a {
+.linkWhite{
     color: var(--textColor);
+}
+
+.linkBlack{
+    color:var(--mainColor);
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 .blackcentered, .whitecenter {

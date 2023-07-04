@@ -4,11 +4,10 @@
     display: inline-block;
     visibility: visible;
     width: fit-content;
-    height: 31rem;
+    height: 34rem;
     padding: 0;
 }
 
-/* Reduzieren Sie die Größe der Karte für kleinere Bildschirme */
 @media screen and (max-width: 1026px) {
     .map {
         visibility: hidden;
