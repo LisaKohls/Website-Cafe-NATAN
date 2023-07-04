@@ -28,6 +28,7 @@
     color: var(--mainColor);
     padding: 0.3rem;
     text-align: left;
+
 }
 
 .formular.volunteer input{
@@ -63,7 +64,7 @@
 
 
 
-.formular .submit:hover, .formular .submit:hover{
+.formular .submit:hover{
     transition: var(--transitionHover);
     background-color: var(--secondaryColor);
     color: var(--textColor);
@@ -102,18 +103,22 @@
 
 .formular #privacy{
     all: initial;
-    height: 2px;
-    width: 2px;
+    display: block;
+    height: 4px;
+    width: 4px;
     border: 0.09rem solid #b4b2b2;
     border-radius: 0.5rem;
     padding: 0.4rem;
-    margin-top: 1rem;
-    margin-right: 1rem;
+    margin-top: 0.6rem;
+    margin-right: 0.8rem;
 }
 
 .formular #privacyLabel{
+    margin-top: 0.6rem;
     font-size: 0.8rem;
     line-height: 15px;
+    display: block;
+
 }
 
 

@@ -74,12 +74,12 @@ function Reservierung(props) {
             mailInput.style.borderColor = 'black';
             mailInput.removeAttribute('placeholder');
         }
-
+/*
         if(privacy!=='isChecked'){
             checkPrivacy.style.borderColor = 'red'
         }else{
             checkPrivacy.style.borderColor = 'black'
-        }
+        }*/
 
 
 
