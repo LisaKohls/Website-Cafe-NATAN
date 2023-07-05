@@ -10,8 +10,8 @@ import emailjs from "emailjs-com";
 
 
 function Reservierung(props) {
-    const SERVICE_ID = 'service_xe2vwog';
-    const TEMPLATE_ID = 'template_tjgodks';
+    const SERVICE_ID = 'service_cbh0z4e';
+    const TEMPLATE_ID = 'template_9r15prc';
     const PUBLIC_KEY = 'hYeEf2ZvtikQQT6Ti';
 
 
@@ -85,7 +85,7 @@ function Reservierung(props) {
 
         if(date !== '' && time !== '' && name !== '' && count !== '' && mail !== ''){
             console.log('Input correct')
-            /*
+
             setSubmit(true)
             emailjs.send(SERVICE_ID,TEMPLATE_ID,{
                 date: date,
@@ -100,7 +100,7 @@ function Reservierung(props) {
                 function (error) {
                     console.log("FAILED...", error);
                 }
-            );*/
+            );
         }
 
     }

@@ -39,7 +39,7 @@ function Volunteer(props) {
 
         if(name !== '' && mail !== ''){
             console.log(`name ${name}, mail ${mail}, message ${message}`)
-            /*
+
             props.setTrigger(false);
             emailjs.send(SERVICE_ID,TEMPLATE_ID,{
                 name: name,
@@ -52,7 +52,7 @@ function Volunteer(props) {
                 function (error) {
                     console.log("FAILED...", error);
                 }
-            );*/
+            );
         }
 
 
