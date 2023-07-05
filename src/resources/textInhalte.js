@@ -8,9 +8,13 @@ export const oeffnungszeiten =
 //Block über NATAN
 export const ueberNatan = 'Moderne, vegetarische Küche und leckere Drinks genießen und nebenbei etwas Gutes tun – geht nicht? Geht doch! \n' +
     '\n' +
-    'Mitten in Stuttgart, im Herzen des Kessels, ist das NATAN im Leonhardsviertel zu Hause. Bei uns treffen Café- und Barbetrieb auf soziales Engagement. Wir sind eine Non-Profit-Bar.\n' +
+    'Bei uns treffen Café- und Barbetrieb auf soziales Engagement. Wir sind eine Non-Profit-Bar.\n' +
     '„Genießen für den guten Zweck“ – so lautet unser Motto. Der komplette Gewinn fließt in die\n' +
-    'humanitären Projekte der Hilfsorganisation STELP e. V. '
+    'humanitären Projekte der Hilfsorganisation STELP e. V. \n' +
+    '\n' +
+    'Starke Partner:innen und Sponsor:innen unterstützen uns durch günstige Konditionen und unser ' +
+    'Team besteht fast ausschließlich aus Ehrenamtlichen. Damit stellen wir sicher, dass jeder zusätzliche ' +
+    'Euro dort ankommt, wo er am dringendsten benötigt wird: Bei den bedürftigen Menschen vor Ort.\n'
 
 //Über Stelp
 
@@ -36,13 +40,7 @@ export const ueberNatanSecondPart = (
     </div> );
 
 
-export const volunteer =  "Im NATAN gibt es kein Personal, sondern nur Gastgeber. Denn das Team, das in der Küche, im " +
-    "Service und an der Bar" +
-    " arbeitet, tut dies aus Überzeugung – um weltweit Menschen in Not zu unterstützen. Mehr als insgesamt 30 Volunteers " +
-    "sind hier Tag für Tag, Schicht für Schicht für unsere Gäste da, und das ehrenamtlich," +
-    " mit Ausnahme der Betriebsleitung. Alle zusammen für die gute Sache. Das Trinkgeld geht ohne Abzüge an unsere Crew. " +
-    "Und die Zufriedenheit und ein Lächeln unserer Gäste ist der Bonus."+
-    "Im NATAN gibt es kein Personal, sondern nur Gastgeber. Denn das Team arbeitet aus Überzeugung "
+export const volunteer =  'Im NATAN gibt es kein Personal, sondern nur Gastgeber*innen. Denn das Team, das in der Küche, im Service und an der Bar arbeitet, tut dies aus Überzeugung – um weltweit Menschen in Not zu unterstützen. Der allergrößte Teil unseres Personals arbeitet ehrenamtlich im NATAN. Mehr als 80 Volunteers sind regelmäßig im Einsatz und für unsere Gäste da. Sie sind das Herzstück des NATAN und geben ihre Zeit und ihre Energie, um anderen zu helfen. Dafür sind wir zutiefst dankbar. Alle zusammen für die gute Sache!\n'
 //essen
 export const foodDescription = 'Die Drinks im NATAN können sich sehen lassen: Mokuska Kaffee, GINSTR, Tonic Water & Co. von Thomas Henry, Weine vom Weingut Karl Haidle, Biere der Schönbuch Braumanufaktur, Kessler Hochgewächs Sekt und — last but not least — Softdrinks von Viva con Agua, Dietz, Fritz Kola, sowie Smoothies.\n' +
     '\n' +
@@ -71,20 +69,20 @@ export const food3 = "Sweets"
 
 export const description3 = "Energy Balls sind kleine Kraftpakete, die Ihnen einen natürlichen Energiekick geben. Diese köstlichen Snacks bestehen aus einer Mischung aus nahrhaften Zutaten wie Nüssen und Trockenfrüchten"
 
-export const originName = "Der Name NATAN steht bei uns für mehr als nur fünf Buchstaben. „Ich habe es versucht“, hat der Visionär und Friedensaktivist Abie Nathan einmal über seine Arbeit gesagt — heute steht dieses Selbstverständnis als hebräische Inschrift auf seinem Grabstein: „Nissiti“. Abie hat uns inspiriert — und dem NATAN sowohl seinen Namen gegeben als auch die Idee dahinter geprägt. Im NATAN führen wir einen wesentlichen Gedanken von STELP weiter: Alleine lässt sich wenig bewegen; aber durch unseren stetig wachsenden Pool aus Ehrenamtlichen, Partnern, Sponsoren und Freunden können wir mit noch mehr Impact überall da aktiv werden, wo die Not am größten ist. Unser Ziel ist eine Welt, in der alle Menschen selbstbestimmt in Würde und Sicherheit leben und ihre Zukunft aus eigener Kraft gestalten können."
-
+export const originName = 'Der Name NATAN steht bei uns für mehr als nur fünf Buchstaben. „Ich habe es versucht“, hat der Visionär und Friedensaktivist Abie Nathan einmal über seine Arbeit gesagt — heute steht dieses Selbstverständnis als hebräische Inschrift auf seinem Grabstein: „Nissiti“. Abie hat uns inspiriert — und dem NATAN sowohl seinen Namen gegeben als auch die Idee dahinter geprägt. Es schließt sich nicht aus, das Leben zu lieben und in vollen Zügen zu genießen, sich aber gleichzeitig mit genauso viel Hingabe für andere einzusetzen. Bei\n' +
+    'STELP machen wir das — genauso wie im NATAN. \n'
 export const originName2 = "Im NATAN führen wir einen wesentlichen Gedanken von STELP weiter: Alleine lässt sich wenig bewegen; aber durch " +
 "unseren stetig wachsenden Pool aus Ehrenamtlichen, Partnern, Sponsoren und Freunden können wir mit noch mehr Impact " +
 "überall da aktiv werden, wo die Not am größten ist. Unser Ziel ist eine Welt, in der alle Menschen selbstbestimmt " +
 "in Würde und Sicherheit leben und ihre Zukunft aus eigener Kraft gestalten können. "
 
-export const partner = "Das NATAN hätte den Sprung von der Idee zur Realität nicht geschafft ohne unzählige Menschen und Unternehmen in unserem Netzwerk, die uns ohne zu Zögern und mit viel Herz unterstützen. " +
-    "Allen voran unsere Investor:innen, die dem NATAN mit einer finanziellen Starthilfe den Weg bereitet haben. Von Beginn an konnten wir außerdem auf starke Produzenten und Lieferanten aus der Gastronomie setzen, die unser Konzept mit Begeisterung aufgenommen haben und uns z. B. günstigere Konditionen gewähren. Auch an Dienstleistern, die uns beratend zur Seiten standen und Sponsoren mangelte es uns nicht." +
-    " Wir freuen uns und sind sehr stolz, euch alle an unserer Seite zu haben!"
+export const partner = 'Ohne die unzähligen Menschen und Unternehmen, die das Natan mit Engagement und viel Herzblut unterstützen, wäre der Sprung von der Idee zur Realität nicht gelungen. Fast alle sind seit Tag 1 dabei und unterstützen finanziell, durch stark vergünstigte Konditionen oder kostenlose Produkte und Dienstleistungen. Sie sind eine tragende Säule des Konzepts und ein wichtiger Grund, warum sich das NATAN zu einem Leuchtturm-Projekt von STELP entwickelt hat.\n' +
+    'Wir sind dankbar und stolz, so treue und starke Partner*innen an unserer Seite zu haben!\n' +
+    '\n'
 
 export const events =
     <div>
-    <p>
+    <p >
         Egal ob Familienfeier, After Work, Vernissage, Firmenevents, Weinproben oder Workshops –
         das NATAN kann sowohl für private, als auch für Corporate Events gemietet werden.
         Die Gewinne fließen an die Hilfsorganisation STELP.
