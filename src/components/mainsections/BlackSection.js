@@ -31,6 +31,15 @@ function BlackSection() {
         {src: Img2, alt: "Event Poster"},
     ];
 
+    const imageStyle = {
+        flex: '0 0 auto',
+        width: 'auto',
+        height: '100%',
+        margin: '1px 10px',
+        cursor: 'pointer',
+        overflow: 'hidden',
+    };
+
     return (<>
             <FirstSection/>
             <div id="opening" />
@@ -59,7 +68,7 @@ function BlackSection() {
             <Text text={originName} formatierung='block' color='white'/>
             <div id="events"/>
             <HeadlineSection title='AKTUELLE EVENTS' color="white"/>
-            <Gallery images={images} />
+            <Gallery images={images} imageStyle={imageStyle} />
             <HeadlineSection title='DEIN EVENT IM NATAN - MIETEN, FEIERN, GUTES TUN' color="white"/>
             <Events/>
             <div id="endPage" className="sectionPadding"/>

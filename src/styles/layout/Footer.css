@@ -55,6 +55,10 @@
     margin: 2rem;
 }
 
+.footerText {
+    color: var(--mainColorLight)
+}
+
 a.footerLink:hover {
     transition: var(--transitionHover);
     color: var(--mainColor);
@@ -63,6 +67,10 @@ a.footerLink:hover {
 .socialIconsBottom {
     margin: 0.5rem;
     display: flex;
+}
+
+.footerInhalt {
+    white-space: pre-line;
 }
 
 @media screen and (max-width: 810px) {
