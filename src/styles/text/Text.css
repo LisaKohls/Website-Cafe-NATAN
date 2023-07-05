@@ -26,7 +26,7 @@
 }
 
 .whiteevents, .whiteopeningText{
-    text-align: left;
+    text-align: justify;
     color: var(--textColor);
     line-height: 1.9rem;
     margin-top: var(--marginContent);
