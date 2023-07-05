@@ -4,9 +4,9 @@ import React from "react";
 function Text(props) {
     return (
         <div className={props.color + props.formatierung}>
-            <div>
+            <p>
                 {props.text}
-            </div>
+            </p>
         </div>
     )
 }

@@ -10,7 +10,6 @@
 
 .blackcentered, .whitecenter {
     text-align: center;
-    font-size: 0.9em;
     display: block;
     margin-top: var(--marginContent);
 }
@@ -30,13 +29,11 @@
     text-align: left;
     color: var(--textColor);
     line-height: 1.9rem;
-    font-size: 0.9rem;
     margin-top: var(--marginContent);
 }
 
 .blackblock, .blackblockSmall, .whiteblock {
     text-align: justify;
-    font-size: 0.9rem;
     flex: 1;
     line-height: 1.4rem;
     display: inline-block;
@@ -65,7 +62,6 @@
         text-align: center;
         margin-top: var(--marginContent);
         line-height: 1.5rem;
-        font-size: 0.9rem;
     }
 
     .whiteboldHeading {
