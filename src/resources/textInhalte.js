@@ -1,7 +1,8 @@
 import React from "react";
 
 export const oeffnungszeiten =
-    "Mittwoch - Samstag: 10 Uhr - Late \n" +
+    "Mittwoch & Donnerstag: 10 Uhr - 22 Uhr \n" +
+    "Freitag & Samstag: 10 Uhr - 1 Uhr  \n"+
     "Sonntag: 10 Uhr - 18 Uhr \n" +
     "Montag & Dienstag: geschlossen"
 
@@ -91,10 +92,7 @@ export const events =
     <p >
         Größe des Gastraums | 35 qm
         <br/>
-        Sitzplätze innen | 25 (je nach Bestuhlung)
-        <br/>
-        Stehplätze | 40 - 50
-        <br/>
+        Anzahl Personen | 40 - 50
     </p>
     <p className="subheading">Catering</p>
     <p className="blocksatz">
