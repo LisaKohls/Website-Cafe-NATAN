@@ -60,7 +60,6 @@
     .whiteopeningText {
         display: block;
         text-align: center;
-        margin-top: var(--marginContent);
         line-height: 1.5rem;
     }
 

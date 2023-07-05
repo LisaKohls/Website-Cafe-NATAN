@@ -48,6 +48,11 @@ function BlackSection() {
                 <ImgPosition image={Food2} name='food'/>
                 <ImgPosition image={Food3} name='food'/>
             </div>
+            <div className='container'>
+                <ImgPosition image={Food1} name='food'/>
+                <ImgPosition image={Food2} name='food'/>
+                <ImgPosition image={Food3} name='food'/>
+            </div>
             <Text text={foodDescription} formatierung='block' color='white'/>
             <SpecialFood>
                     <FoodStage name={food1} image={stageFood1} description={description1}/>
