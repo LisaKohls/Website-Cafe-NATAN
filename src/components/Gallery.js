@@ -68,7 +68,7 @@ function Gallery({images}) {
             onTouchMove={handleTouchMove}
         >
             <button className="arrowIconLeft" onClick={() => handleScroll("left")}>
-                ←
+                ᐊ
             </button>
             <div className="gallery">
                 <div className="scroll-images" ref={scrollImagesRef}>
@@ -85,7 +85,7 @@ function Gallery({images}) {
                 </div>
             </div>
             <button className="arrowIconRight" onClick={() => handleScroll("right")}>
-                →
+                ᐅ
             </button>
         </div>
     );
