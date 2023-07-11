@@ -2,11 +2,11 @@ import React from 'react';
 import './index.css';
 import Navbar from './components/layout/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import MainPage from "./components/pages/MainPage";
-import ImpressumPage from "./components/pages/ImpressumPage";
-import PrivacyPage from "./components/pages/PrivacyPage";
+import MainPage from "./pages/MainPage";
+import ImpressumPage from "./pages/ImpressumPage";
+import PrivacyPage from "./pages/PrivacyPage";
 import Footer from "./components/layout/Footer";
-import Error404Page from "./components/pages/Error404Page";
+import Error404Page from "./pages/Error404Page";
 
 function App() {
 

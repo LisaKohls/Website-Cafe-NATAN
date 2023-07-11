@@ -1,6 +1,6 @@
 import React from 'react';
-import "../../styles/pages/Error404.css";
-import Logo from "../../resources/KreisLogo_.png"
+import "../styles/pages/Error404.css";
+import Logo from "../resources/KreisLogo_.png"
 
 const Error404Page = () => {
     return (

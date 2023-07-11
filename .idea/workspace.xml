@@ -5,31 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="831da116-b36e-4c3b-8b9e-ec881e0919cd" name="Changes" comment="öffnungszeiten angepasst">
-      <change afterPath="$PROJECT_DIR$/src/components/interactiveelements/OnScrollAnimation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Datenschutz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/PrivacyPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Error404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Error404Page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Events.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/scrollimages/Events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/scrollimages/Gallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Impressum.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/ImpressumPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/archive_EventGallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/archive_EventGallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/Reservierung.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/forms/Reservation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/mainsections/BlackSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainsections/BlackSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainsections/FirstSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainsections/FirstSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainsections/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainsections/FirstSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainsections/HeadingSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/mainsections/OpeningTimeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainsections/OpeningTimeSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainsections/WhiteSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainsections/WhiteSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/page/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/StylePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/gallery/barNatan1_edited.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/button/Button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Error404.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/Error404.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Events.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/scrollimages/Events.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/scrollimages/Gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Impressum.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/Impressum.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/StylePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Privacy.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/Privacy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/images/Image.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/images/Image.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Error404Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Error404Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/ImpressumPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ImpressumPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/PrivacyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PrivacyPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/StylePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/StylePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scrollimages/Events.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/events/Events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scrollimages/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/scrollimages/ScrollImages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/button/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/button/Button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/interactiveelements/Wheel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/interactiveelements/Wheel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/scrollimages/Gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/scrollimages/Gallery.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "logo__and__privacy",
+    "git-widget-placeholder": "feat/design__anpassen__mobile",
     "last_opened_file_path": "/Users/lisakohls/Documents/NatanWebseite/src/resources/food",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -87,11 +79,11 @@
       <recent name="C:\Users\DELL\Documents\Semester4\NatanWebseite\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/components/events" />
       <recent name="$PROJECT_DIR$/src/styles/pages" />
       <recent name="$PROJECT_DIR$/src/styles/button" />
       <recent name="$PROJECT_DIR$/src/styles/scrollimages" />
-      <recent name="$PROJECT_DIR$/src/components/button" />
-      <recent name="$PROJECT_DIR$/src/components/pages" />
     </key>
   </component>
   <component name="RunManager">
