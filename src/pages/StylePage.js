@@ -1,7 +1,7 @@
 import React from 'react';
-import Wheel from "../interactiveelements/Wheel";
-import "../../styles/pages/StylePage.css";
-import wheel from '../../resources/logos/Kreis.svg'
+import Wheel from "../components/interactiveelements/Wheel";
+import "../styles/pages/StylePage.css";
+import wheel from '../resources/logos/Kreis.svg'
 
 function StylePage({children, className, style, bottomWheel}) {
     return (

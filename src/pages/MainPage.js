@@ -1,14 +1,15 @@
 import React from 'react';
-import '../../index.css';
-import Gallery from "../scrollimages/Gallery";
+import '../index.css';
+import ScrollImages from "../components/scrollimages/ScrollImages";
 import StylePage from "./StylePage";
-import BlackSection from "../mainsections/BlackSection";
-import WhiteSection from "../mainsections/WhiteSection";
-import Img1 from '../../resources/gallery/barNatan1.jpg';
-import Img2 from '../../resources/gallery/barNatan2.jpg';
-import Img3 from '../../resources/gallery/outsideViewNatan.jpg';
-import Img4 from '../../resources/gallery/interiorNatan.jpg';
-import Img5 from '../../resources/specialfoodstaging/breakfast1.jpg';
+import BlackSection from "../components/mainsections/BlackSection";
+import WhiteSection from "../components/mainsections/WhiteSection";
+import Img1 from '../resources/gallery/barNatan1.jpg';
+import Img2 from '../resources/gallery/barNatan2.jpg';
+import Img3 from '../resources/gallery/outsideViewNatan.jpg';
+import Img4 from '../resources/gallery/interiorNatan.jpg';
+import Img5 from '../resources/specialfoodstaging/breakfast1.jpg';
+import HeadingSection from "../components/mainsections/HeadingSection";
 
 function MainPage() {
 
@@ -23,13 +24,14 @@ function MainPage() {
     return (
         <React.Fragment>
             <StylePage bottomWheel={true}>
+                <HeadingSection/>
                 <BlackSection/>
             </StylePage>
             <StylePage className="blackText paddingPage">
                 <WhiteSection/>
             </StylePage>
             <StylePage>
-                <Gallery images={images}/>
+                <ScrollImages images={images}/>
             </StylePage>
         </React.Fragment>
     );

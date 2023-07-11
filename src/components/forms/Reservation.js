@@ -9,7 +9,7 @@ import Map from "../googlemaps/Map";
 import emailjs from "emailjs-com";
 
 
-function Reservierung(props) {
+function Reservation(props) {
     const SERVICE_ID = 'service_cbh0z4e';
     const TEMPLATE_ID = 'template_9r15prc';
     const PUBLIC_KEY = 'hYeEf2ZvtikQQT6Ti';
@@ -163,4 +163,4 @@ function Reservierung(props) {
 
 }
 
-export default Reservierung
+export default Reservation

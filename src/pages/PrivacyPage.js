@@ -1,7 +1,7 @@
 import React from "react";
-import "../../styles/pages/Privacy.css";
-import {datenschutz} from "../../resources/textInhalte";
-import Text from '../text/Text'
+import "../styles/pages/Privacy.css";
+import {datenschutz} from "../resources/textInhalte";
+import Text from '../components/text/Text'
 
 function PrivacyPage() {
     return (

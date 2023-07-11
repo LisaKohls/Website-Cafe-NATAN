@@ -19,7 +19,7 @@ function OpeningTimeSection() {
                     <Text text='Öffnungszeiten:' formatierung='boldHeading' color='white'/>
                     <Text text={oeffnungszeiten} formatierung='openingText' color='white'/>
                 </BoxWithText>
-                <Button name="Reservierung" styleName='Reservierung'/>
+                <Button name="Reservierung" styleName='Reservation'/>
             </div>
         </div>
     </div>)
