@@ -1,5 +1,5 @@
 import {useEffect, useRef} from "react";
-import '../../styles/Wheel.css'
+import '../../styles/interactiveelements/Wheel.css'
 
 
 function Wheel(props) {

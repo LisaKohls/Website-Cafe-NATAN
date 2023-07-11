@@ -1,8 +1,8 @@
 import React from 'react';
-import "../styles/Error404.css";
-import Logo from "../resources/KreisLogo_.png"
+import "../../styles/pages/Error404.css";
+import Logo from "../../resources/KreisLogo_.png"
 
-const Error404 = () => {
+const Error404Page = () => {
     return (
         <div className="errorPage">
             <img src={Logo} alt="Logo Natan" className="LogoNatan"/>
@@ -15,4 +15,4 @@ const Error404 = () => {
     );
 };
 
-export default Error404;
+export default Error404Page;

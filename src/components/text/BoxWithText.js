@@ -1,4 +1,4 @@
-import "../../styles/OpeningTime.css";
+import "../../styles/openinghours/OpeningHours.css";
 
 function BoxWithText(props) {
     return (

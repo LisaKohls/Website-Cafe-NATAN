@@ -12,10 +12,12 @@ function Volunteer(props) {
         const nameInput = document.getElementById("name");
         let mailInput = document.getElementById("mail");
         const messageInput = document.getElementById("message");
+        const checkPrivacy = document.getElementById('privacy')
 
         const name = nameInput.value;
         let mail = mailInput.value;
         const message = messageInput.value;
+        const privacy = checkPrivacy.checked;
 
         const isValidMail = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(mail);
 
@@ -37,9 +39,8 @@ function Volunteer(props) {
         }
 
 
-        if(name !== '' && mail !== ''){
+        if(name !== '' && mail !== '' && privacy){
             console.log(`name ${name}, mail ${mail}, message ${message}`)
-
             props.setTrigger(false);
             emailjs.send(SERVICE_ID,TEMPLATE_ID,{
                 name: name,
@@ -60,6 +61,7 @@ function Volunteer(props) {
 
     }
     return (
+        <div>
         <div className='formular volunteer' >
             <>
                 <h2>Werde Volunteer</h2>
@@ -76,10 +78,14 @@ function Volunteer(props) {
                 <label>Deine Nachricht an uns:</label>
                 <textarea id="message" className="textArea"></textarea>
             </>
+        </div>
             <div className='checkbox'>
                 <input type="checkbox" id="privacy" name="privacy"/>
-                <label htmlFor="privacy" id="privacyLabel">Ich habe die <a href="/privacy" className='linkBlack' target="_blank"> Datenschutzerklärung </a>  gelesen und verstanden </label></div>
-            <button type="submit" className='submit' onClick={check}>Abschicken</button>
+                <label htmlFor="privacy" id="privacyLabel"> Ich habe die <a href="/privacy" className='linkBlack' target="_blank">Datenschutzerklärung</a> gelesen und verstanden </label>
+            </div>
+            <>
+                <button className='submit' onClick={check}>Abschicken</button>
+            </>
         </div>
     )
 }
