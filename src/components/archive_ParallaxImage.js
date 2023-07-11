@@ -1,5 +1,5 @@
 import React, {useEffect, useRef} from 'react';
-import '../styles/PrallaxImage.css'; // Import the CSS file for the component
+import '../styles/interactiveelements/PrallaxImage.css'; // Import the CSS file for the component
 
 function Archive_ParallaxImage({name, image}) {
     const imageRef = useRef(null);

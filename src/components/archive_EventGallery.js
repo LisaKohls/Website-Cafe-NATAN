@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from "react";
-import "../styles/Gallery.css";
+import "../styles/scrollimages/Gallery.css";
 import Img1 from "../resources/events/events1.jpg";
 import Img2 from "../resources/events/events2.jpg";
 import {library} from "@fortawesome/fontawesome-svg-core";

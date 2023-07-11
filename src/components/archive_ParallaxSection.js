@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import '../styles/ParallaxSection.css';
+import '../styles/interactiveelements/ParallaxSection.css';
 import CoffeeMachine from '../resources/gallery/barNatan2.jpg';
 
 const Archive_ParallaxSection = () => {

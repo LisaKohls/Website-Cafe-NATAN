@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/Privacy.css";
-import {datenschutz} from "../resources/textInhalte";
-import Text from './text/Text'
+import "../../styles/pages/Privacy.css";
+import {datenschutz} from "../../resources/textInhalte";
+import Text from '../text/Text'
 
-function Datenschutz() {
+function PrivacyPage() {
     return (
         <div className="privacy">
             <div className="sectionPadding"/>
@@ -12,4 +12,4 @@ function Datenschutz() {
     )
 }
 
-export default Datenschutz;
+export default PrivacyPage;

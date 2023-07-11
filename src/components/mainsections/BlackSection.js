@@ -8,8 +8,8 @@ import {
 } from "../../resources/textInhalte";
 import OpeningTimeSection from "./OpeningTimeSection";
 import SpecialFood from "../foodanddrinks/SpecialFood";
-import Button from "../Button";
-import Events from "../Events";
+import Button from "../button/Button";
+import Events from "../scrollimages/Events";
 import React from "react";
 import HeadlineSection from "../text/HeadlineSection";
 import Food1 from '../../resources/food/imgCake.jpg'
@@ -18,7 +18,7 @@ import Food3 from '../../resources/food/imgCoffee.jpg'
 import stageFood1 from '../../resources/specialfoodstaging/breakfast1.jpg'
 import stageFood2 from '../../resources/specialfoodstaging/drink2.jpg'
 import stageFood3 from '../../resources/specialfoodstaging/sweets3.jpg'
-import Gallery from "../Gallery";
+import Gallery from "../scrollimages/Gallery";
 import Img1 from "../../resources/events/events1.jpg";
 import Img2 from "../../resources/events/events2.jpg";
 import ImgPosition from "../images/ImgPosition";

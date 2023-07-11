@@ -3,7 +3,7 @@ import ImgPosition from "../images/ImgPosition";
 import BarOriginal from "../../resources/gallery/barNatan1.jpg";
 import BoxWithText from "../text/BoxWithText";
 import {oeffnungszeiten} from "../../resources/textInhalte";
-import Button from "../Button";
+import Button from "../button/Button";
 import wheel from '../../resources/logos/rad_weiß.png'
 import Text from "../text/Text";
 import Wheel from "../interactiveelements/Wheel";

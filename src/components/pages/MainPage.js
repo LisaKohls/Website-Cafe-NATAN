@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../index.css';
-import Gallery from "../Gallery";
-import Page from "../page/Page";
-import BlackSection from "./BlackSection";
-import WhiteSection from "./WhiteSection";
+import Gallery from "../scrollimages/Gallery";
+import StylePage from "./StylePage";
+import BlackSection from "../mainsections/BlackSection";
+import WhiteSection from "../mainsections/WhiteSection";
 import Img1 from '../../resources/gallery/barNatan1.jpg';
 import Img2 from '../../resources/gallery/barNatan2.jpg';
 import Img3 from '../../resources/gallery/outsideViewNatan.jpg';
@@ -22,15 +22,15 @@ function MainPage() {
 
     return (
         <React.Fragment>
-            <Page bottomWheel={true}>
+            <StylePage bottomWheel={true}>
                 <BlackSection/>
-            </Page>
-            <Page className="blackText paddingPage">
+            </StylePage>
+            <StylePage className="blackText paddingPage">
                 <WhiteSection/>
-            </Page>
-            <Page>
+            </StylePage>
+            <StylePage>
                 <Gallery images={images}/>
-            </Page>
+            </StylePage>
         </React.Fragment>
     );
 }
