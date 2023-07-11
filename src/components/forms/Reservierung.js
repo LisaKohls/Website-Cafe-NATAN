@@ -33,7 +33,7 @@ function Reservierung(props) {
         const name = nameInput.value;
         const count = countInput.value;
         const mail = mailInput.value;
-        const privacy = checkPrivacy.value;
+        const privacy = checkPrivacy.checked;
 
         const isValidMail = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(mail);
         const selectedTIme = parseInt(time.split(":")[0]);
@@ -74,16 +74,17 @@ function Reservierung(props) {
             mailInput.style.borderColor = 'black';
             mailInput.removeAttribute('placeholder');
         }
-/*
-        if(privacy!=='isChecked'){
+        console.log(privacy)
+        if(!privacy){
             checkPrivacy.style.borderColor = 'red'
+
         }else{
             checkPrivacy.style.borderColor = 'black'
-        }*/
+        }
 
 
 
-        if(date !== '' && time !== '' && name !== '' && count !== '' && mail !== ''){
+        if(date !== '' && time !== '' && name !== '' && count !== '' && mail !== '' && privacy){
             console.log('Input correct')
 
             setSubmit(true)
@@ -110,40 +111,44 @@ function Reservierung(props) {
 
     const makeRequest = <div className='container'>
         <Map/>
+        <div>
         <div className='formular'>
+                <>
+                    <label>Wähle ein Datum:* </label>
+                    <DatePicker
+                        id='datePicker'
+                        locale="de"
+                        selected={startDate}
+                        onChange={(date) => setStartDate(date)}
+                        dateFormat='dd MMMM yy'
+                        required
+                        minDate={new Date()}
+                    />
+                </>
+                <>
+                    <label>Deine Uhrzeit:* </label>
+                    <input type="time" id="time" name="time" min="10:00" max="20:00" required />
+                </>
+                <>
+                    <label>Name:* </label>
+                    <input type='text' id='name' name='fname' required></input>
+                </>
+                <>
+                    <label>Anzahl Personen:*</label>
+                    <input type='number' id='personen' name='personen' required></input>
+                </>
+                <>
+                    <label>E-Mail:* </label>
+                    <input type='email' id='mail' name='mail' required></input>
+                </>
+        </div>
+        <div className='checkbox'>
+            <input type="checkbox" id="privacy" name="privacy"/>
+            <label htmlFor="privacy" id="privacyLabel"> Ich habe die <a href="/privacy" className='linkBlack' target="_blank">Datenschutzerklärung</a> gelesen und verstanden </label>
+        </div>
             <>
-                <label>Wähle ein Datum:* </label>
-                <DatePicker
-                    id='datePicker'
-                    locale="de"
-                    selected={startDate}
-                    onChange={(date) => setStartDate(date)}
-                    dateFormat='dd MMMM yy'
-                    required
-                    minDate={new Date()}
-                />
+                <button className='submit' onClick={check}>Abschicken</button>
             </>
-            <>
-                <label>Deine Uhrzeit:* </label>
-                <input type="time" id="time" name="time" min="10:00" max="20:00" required />
-            </>
-            <>
-                <label>Name:* </label>
-                <input type='text' id='name' name='fname' required></input>
-            </>
-            <>
-                <label>Anzahl Personen:*</label>
-                <input type='number' id='personen' name='personen' required></input>
-            </>
-            <>
-                <label>E-Mail:* </label>
-                <input type='email' id='mail' name='mail' required></input>
-            </>
-            <div className='checkbox'>
-                <input type="checkbox" id="privacy" name="privacy"/>
-                <label htmlFor="privacy" id="privacyLabel">Ich habe die <a href="/privacy" className='linkBlack' target="_blank">Datenschutzerklärung</a> gelesen und verstanden </label>
-            </div>
-            <button className='submit' onClick={check}>Abschicken</button>
         </div>
     </div>
 

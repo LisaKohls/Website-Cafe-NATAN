@@ -5,6 +5,14 @@
     scroll-behavior: auto;
 }
 
+.containerFormular {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: fit-content;
+}
+
 .formular p {
     display: block;
     margin-top: 1rem;
@@ -17,6 +25,7 @@
     justify-content: left;
     text-align: left;
     line-height: 2rem;
+
 }
 
 .formular input {
@@ -49,7 +58,7 @@
     outline: none;
 }
 
-.formular .submit, .sentForm .submit {
+.submit, .sentForm .submit {
     background-color: var(--mainColor);
     color: var(--textColor);
     padding: 0.5rem;
@@ -59,12 +68,13 @@
     width: fit-content;
     text-align: center;
     margin-top: var(--marginContent);
+    margin-bottom: var(--marginContent);
     transition: var(--transitionHover);
 }
 
 
 
-.formular .submit:hover{
+.submit:hover{
     transition: var(--transitionHover);
     background-color: var(--secondaryColor);
     color: var(--textColor);
@@ -99,25 +109,16 @@
 
 .formular .checkbox{
     display: flex;
+    flex-direction: column;
 }
 
-.formular #privacy{
-    all: initial;
-    display: block;
-    height: 4px;
-    width: 4px;
-    border: 0.09rem solid #b4b2b2;
-    border-radius: 0.5rem;
-    padding: 0.4rem;
-    margin-top: 0.6rem;
-    margin-right: 0.8rem;
+.checkbox #privacy{
+   margin-left: 0.7rem;
+    text-align: left;
+    line-height: 2rem;
 }
 
 .formular #privacyLabel{
-    margin-top: 0.6rem;
-    font-size: 0.8rem;
-    line-height: 15px;
-    display: block;
 
 }
 
