@@ -2,10 +2,10 @@ import React, {useRef, useState} from 'react';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {faAngleDoubleLeft} from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
-import '../styles/Gallery.css';
+import '../../styles/scrollimages/Gallery.css';
 
 
-function Gallery({images}) {
+function ScrollImages({images}) {
     const scrollImagesRef = useRef(null);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [touchStartX, setTouchStartX] = useState(0);
@@ -91,7 +91,7 @@ function Gallery({images}) {
     );
 }
 
-Gallery.propTypes = {
+ScrollImages.propTypes = {
     images: PropTypes.arrayOf(
         PropTypes.shape({
             src: PropTypes.string.isRequired,
@@ -100,4 +100,4 @@ Gallery.propTypes = {
     ).isRequired,
 };
 
-export default Gallery;
+export default ScrollImages;

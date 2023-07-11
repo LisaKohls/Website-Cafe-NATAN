@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/Impressum.css";
+import "../styles/pages/Impressum.css";
 import {impressum} from "../resources/textInhalte";
-import Text from "./text/Text";
+import Text from "../components/text/Text";
 
-function Impressum() {
+function ImpressumPage() {
     return (
         <div className="impressum">
             <div className="sectionPadding"/>
@@ -12,4 +12,4 @@ function Impressum() {
     )
 }
 
-export default Impressum;
+export default ImpressumPage;

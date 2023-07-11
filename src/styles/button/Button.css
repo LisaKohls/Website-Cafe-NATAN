@@ -1,6 +1,6 @@
-.btnReservierung,
+.btnReservation,
 .btnVolunteer,
-.btnSpeisekarte {
+.btnMenu {
     all: unset;
     margin-top: var(--marginContent);
     padding: 1rem;
@@ -13,19 +13,20 @@
 }
 
 
-.btnReservierung,
-.btnSpeisekarte {
+.btnReservation,
+.btnMenu {
     background: var(--mainColor);
     color: var(--textColor);
 
 }
 
-.btnReservierung {
-    display: block;
+.btnReservation {
+   display: flex;
+    align-items: flex-start;
     text-align: left;
 }
 
-.btnSpeisekarte {
+.btnMenu {
     margin-top: 3rem;
 }
 
@@ -34,17 +35,17 @@
 }
 
 
-.btnReservierung:hover,
+.btnReservation:hover,
 .btnVolunteer:hover,
-.btnSpeisekarte:hover {
+.btnMenu:hover {
     transition: var(--transitionHover);
     color: var(--secondaryColor);
     border: 0.1rem solid var(--secondaryColor);
 }
 
 @media only screen and (max-width: 700px) {
-    .btnReservierung,
-    .btnSpeisekarte {
+    .btnReservation,
+    .btnMenu {
         text-align: center;
         display: unset;
 

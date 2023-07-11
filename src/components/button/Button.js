@@ -1,14 +1,14 @@
-import "../styles/Button.css";
-import PopUp from "./forms/PopUp";
-import Reservierung from "./forms/Reservierung";
-import Volunteer from './forms/Volunteer'
+import "../../styles/button/Button.css";
+import PopUp from "../forms/PopUp";
+import Reservation from "../forms/Reservation";
+import Volunteer from '../forms/Volunteer'
 import React, {useState} from "react";
-import Menu from "./foodanddrinks/Menu";
+import Menu from "../foodanddrinks/Menu";
 
 
 function Button(props) {
 
-    const [reservierungPopUp, setReservierungPopUp] = useState(false);
+    const [reservationPopUp, setReservationPopUp] = useState(false);
     const [volunteerPopUp, setVolunteerPopUp] = useState(false);
     const [menuPopUp, setMenuPopUp] = useState(false);
 
@@ -16,9 +16,9 @@ function Button(props) {
         document.body.style.overflow = "hidden";
         if (styleName === 'Volunteer') {
             setVolunteerPopUp(true);
-        } else if (styleName === 'Reservierung') {
-            setReservierungPopUp(true);
-        } else if (styleName === 'Speisekarte') {
+        } else if (styleName === 'Reservation') {
+            setReservationPopUp(true);
+        } else if (styleName === 'Menu') {
             setMenuPopUp(true);
         }
     }
@@ -28,8 +28,8 @@ function Button(props) {
             <button className={"btn" + props.styleName} onClick={() => open(props.styleName)}>
                 {props.name}
             </button>
-            <PopUp trigger={reservierungPopUp} setTrigger={setReservierungPopUp}>
-                <Reservierung trigger={reservierungPopUp} setTrigger={setReservierungPopUp}/>
+            <PopUp trigger={reservationPopUp} setTrigger={setReservationPopUp}>
+                <Reservation trigger={reservationPopUp} setTrigger={setReservationPopUp}/>
             </PopUp>
             <PopUp trigger={volunteerPopUp} setTrigger={setVolunteerPopUp}>
                 <Volunteer trigger={volunteerPopUp} setTrigger={setVolunteerPopUp}/>

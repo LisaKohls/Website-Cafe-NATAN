@@ -4,13 +4,7 @@
 }
 
 .imagelogo {
-    position: absolute;
-    margin-top: 5rem;
-    width: 10%;
-    height: auto;
-    z-index: 2;
-    left: 50%;
-    transform: translateX(-50%);
+    display: none;
 }
 
 .imagelogoNavBar {
@@ -42,10 +36,10 @@
 
 .imageinteriorNatan {
     display: block;
-    width: 480px;
-    height: 320px;
     margin-right: 5rem;
     margin-left: 0;
+    width: 348px;
+    height: 235px;
 }
 
 .imagenatanoutside {
@@ -67,7 +61,7 @@
 .imagefood{
     width: 30%;
     height: auto;
-    margin-top: var(--marginContent);
+    margin-top: 2rem;
     margin-right: auto;
 }
 
@@ -75,34 +69,7 @@
     margin-right: 0;
 }
 
-@media only screen and (max-width: 1500px) {
-    .imageinteriorNatan {
-        display: block;
-        width: 300px;
-        height: 200px;
-        margin-right: 5rem;
-        margin-left: 0;
-    }
-}
 
-
-@media only screen and (max-width: 1350px) {
-    .imagelogo {
-        position: absolute;
-        margin-top: 5rem;
-        width: 8%;
-        height: auto;
-        z-index: 2;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
-@media only screen and (max-width: 1025px) {
-    .imagelogo {
-        width: 10%;
-    }
-}
 
 
 @media only screen and (max-width: 700px) {
@@ -139,6 +106,7 @@
     }
 
     .imagelogo {
+        display: initial;
         width: 20%;
         height: auto;
         position: static;
@@ -146,6 +114,7 @@
         align-items: center;
         justify-content: center;
         margin-top: 5rem;
+        left: 50%;
     }
 
     .imagenatanoutside {
@@ -156,4 +125,13 @@
         display: none;
     }
 
+}
+@media only screen and (min-width: 701px) and (max-width: 1190px){
+    .imageinteriorNatan {
+        display: block;
+        margin-right: 2rem;
+        margin-left: 0;
+        width: 348px;
+        height: 235px;
+    }
 }

@@ -1,4 +1,4 @@
-import FirstSection from "./FirstSection";
+import HeadingSection from "./HeadingSection";
 import {
         originName,
         ueberNatan,
@@ -8,8 +8,8 @@ import {
 } from "../../resources/textInhalte";
 import OpeningTimeSection from "./OpeningTimeSection";
 import SpecialFood from "../foodanddrinks/SpecialFood";
-import Button from "../Button";
-import Events from "../Events";
+import Button from "../button/Button";
+import Events from "../events/Events";
 import React from "react";
 import HeadlineSection from "../text/HeadlineSection";
 import Food1 from '../../resources/food/imgCake.jpg'
@@ -18,7 +18,7 @@ import Food3 from '../../resources/food/imgCoffee.jpg'
 import stageFood1 from '../../resources/specialfoodstaging/breakfast1.jpg'
 import stageFood2 from '../../resources/specialfoodstaging/drink2.jpg'
 import stageFood3 from '../../resources/specialfoodstaging/sweets3.jpg'
-import Gallery from "../Gallery";
+import ScrollImages from "../scrollimages/ScrollImages";
 import Img1 from "../../resources/events/events1.jpg";
 import Img2 from "../../resources/events/events2.jpg";
 import ImgPosition from "../images/ImgPosition";
@@ -41,9 +41,8 @@ function BlackSection() {
     };
 
     return (<>
-            <FirstSection/>
             <div id="opening" />
-            <HeadlineSection title='ZUM WOHLE. ALLER.' color="white"/>
+            <HeadlineSection title='ZUM WOHLE ALLER' color="white"/>
             <Text text={ueberNatan} formatierung='block' color='white'/>
             <div className="sectionPadding"/>
             <OpeningTimeSection/>
@@ -63,12 +62,12 @@ function BlackSection() {
                     <FoodStage name={food2} image={stageFood2} description={description2}/>
                     <FoodStage name={food3} image={stageFood3} description={description3}/>
             </SpecialFood>
-            <Button name='Speisekarte' styleName='Speisekarte'/>
+            <Button name='Speisekarte' styleName='Menu'/>
             <HeadlineSection title='ABIE NATHAN - DER MANN HINTER DEM NAMEN' color="white"/>
             <Text text={originName} formatierung='block' color='white'/>
             <div id="events"/>
             <HeadlineSection title='AKTUELLE EVENTS' color="white"/>
-            <Gallery images={images} imageStyle={imageStyle} />
+            <ScrollImages images={images} />
             <HeadlineSection title='DEIN EVENT IM NATAN - MIETEN, FEIERN, GUTES TUN' color="white"/>
             <Events/>
             <div id="endPage" className="sectionPadding"/>

@@ -4,12 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="831da116-b36e-4c3b-8b9e-ec881e0919cd" name="Changes" comment="interior image mobile version">
+    <list default="true" id="831da116-b36e-4c3b-8b9e-ec881e0919cd" name="Changes" comment="öffnungszeiten angepasst">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Image.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Image.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Oeffnungszeiten.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Oeffnungszeiten.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Text.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/Text.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/Reservierung.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/forms/Reservation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainsections/BlackSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainsections/BlackSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainsections/FirstSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainsections/HeadingSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainsections/OpeningTimeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainsections/OpeningTimeSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Error404Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Error404Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/ImpressumPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ImpressumPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/PrivacyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PrivacyPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/StylePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/StylePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scrollimages/Events.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/events/Events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scrollimages/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/scrollimages/ScrollImages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/button/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/button/Button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/interactiveelements/Wheel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/interactiveelements/Wheel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/scrollimages/Gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/scrollimages/Gallery.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +35,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="develop" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -46,8 +61,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feat/mobile-opening",
-    "last_opened_file_path": "/Users/lisasalzer/WebstormProjects/projekt_lisa_lisa/src/Resources",
+    "git-widget-placeholder": "feat/design__anpassen__mobile",
+    "last_opened_file_path": "/Users/lisakohls/Documents/NatanWebseite/src/resources/food",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,11 +74,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/food" />
       <recent name="$PROJECT_DIR$/src/Resources" />
       <recent name="C:\Users\DELL\Documents\Semester4\NatanWebseite\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Components/sections" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/components/events" />
+      <recent name="$PROJECT_DIR$/src/styles/pages" />
+      <recent name="$PROJECT_DIR$/src/styles/button" />
+      <recent name="$PROJECT_DIR$/src/styles/scrollimages" />
     </key>
   </component>
   <component name="RunManager">
@@ -79,6 +99,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -106,76 +130,12 @@
       <workItem from="1683286389812" duration="5176000" />
       <workItem from="1683816386300" duration="10154000" />
       <workItem from="1684820577787" duration="3800000" />
-    </task>
-    <task id="LOCAL-00001" summary="React Navbar">
-      <created>1681654023637</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1681654023637</updated>
-    </task>
-    <task id="LOCAL-00002" summary="React Navbar">
-      <created>1681654266304</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1681654266304</updated>
-    </task>
-    <task id="LOCAL-00003" summary="btn componente">
-      <created>1681657445897</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1681657445897</updated>
-    </task>
-    <task id="LOCAL-00004" summary="btn Komponente eingebaut öffnungszeiten und volunteer">
-      <created>1681748811728</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1681748811728</updated>
-    </task>
-    <task id="LOCAL-00005" summary="btn komponenten">
-      <created>1681748931858</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1681748931858</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Natan logo, text postitionierung">
-      <created>1681751556965</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1681751556965</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Natan logo, text postitionierung">
-      <created>1681751575836</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1681751575836</updated>
-    </task>
-    <task id="LOCAL-00008" summary="positionierung nav bar">
-      <created>1681752381513</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1681752381513</updated>
-    </task>
-    <task id="LOCAL-00009" summary="border für Öffnungszeiten komponente">
-      <created>1681813673175</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1681813673175</updated>
-    </task>
-    <task id="LOCAL-00010" summary="removed map from footer">
-      <created>1684390895602</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1684390895602</updated>
+      <workItem from="1687448433206" duration="76000" />
+      <workItem from="1687448522745" duration="33218000" />
+      <workItem from="1688060640052" duration="42579000" />
+      <workItem from="1688540522113" duration="10672000" />
+      <workItem from="1688648127632" duration="634000" />
+      <workItem from="1689060690278" duration="2077000" />
     </task>
     <task id="LOCAL-00011" summary="added arrow icons to gallery">
       <created>1684853299306</created>
@@ -191,7 +151,336 @@
       <option name="project" value="LOCAL" />
       <updated>1687360341162</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Headline componente, reservierungs bestätigung, sections">
+      <created>1687447299266</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687447299266</updated>
+    </task>
+    <task id="LOCAL-00014" summary="heading anpassung">
+      <created>1687447726371</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1687447726371</updated>
+    </task>
+    <task id="LOCAL-00015" summary="umstrukturierung und layout">
+      <created>1687448865251</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687448865251</updated>
+    </task>
+    <task id="LOCAL-00016" summary="umstrukturierung und fehler beseitigung">
+      <created>1687449187444</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687449187444</updated>
+    </task>
+    <task id="LOCAL-00017" summary="rad">
+      <created>1687504364901</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687504364901</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Neue Anordnung der Klassen und Componenten">
+      <created>1687715421693</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1687715421693</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Neue Anordnung der Klassen und Componenten">
+      <created>1687715463534</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1687715463534</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Neue Anordnung der Klassen und Componenten">
+      <created>1687725230483</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1687725230483</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Speisekarte faded in">
+      <created>1687731192547</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1687731192547</updated>
+    </task>
+    <task id="LOCAL-00022" summary="reinfliegen">
+      <created>1687899731649</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1687899731649</updated>
+    </task>
+    <task id="LOCAL-00023" summary="reinfliegen">
+      <created>1687900797055</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1687900797055</updated>
+    </task>
+    <task id="LOCAL-00024" summary="reinfliegen">
+      <created>1687959056803</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1687959056803</updated>
+    </task>
+    <task id="LOCAL-00025" summary="reinfliegen">
+      <created>1687959454627</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1687959454627</updated>
+    </task>
+    <task id="LOCAL-00026" summary="größe angepasst volunteer">
+      <created>1687960256256</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1687960256256</updated>
+    </task>
+    <task id="LOCAL-00027" summary="reservierung bestätigung">
+      <created>1688031275286</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1688031275286</updated>
+    </task>
+    <task id="LOCAL-00028" summary="reservierung bestätigung">
+      <created>1688032008118</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1688032008118</updated>
+    </task>
+    <task id="LOCAL-00029" summary="optische anpassungen foodstage und line height">
+      <created>1688033140590</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1688033140590</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Text vom essen">
+      <created>1688033756243</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1688033756243</updated>
+    </task>
+    <task id="LOCAL-00031" summary="design, ordner">
+      <created>1688130301264</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1688130301264</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Mails werden versandt">
+      <created>1688133256845</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1688133256845</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Mails werden versandt">
+      <created>1688138558412</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1688138558412</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Mails werden versandt">
+      <created>1688138606012</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1688138606012</updated>
+    </task>
+    <task id="LOCAL-00035" summary="drehende Räder hinzugefügt">
+      <created>1688143925394</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1688143925394</updated>
+    </task>
+    <task id="LOCAL-00036" summary="drehende Räder hinzugefügt">
+      <created>1688144419726</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1688144419726</updated>
+    </task>
+    <task id="LOCAL-00037" summary="drehende Räder hinzugefügt">
+      <created>1688292551394</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1688292551394</updated>
+    </task>
+    <task id="LOCAL-00038" summary="anpassungen von chris feedback">
+      <created>1688296744724</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1688296744724</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Input validierung der Formulare">
+      <created>1688302108977</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1688302108977</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Input validierung der Formulare">
+      <created>1688302224094</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1688302224094</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Input validierung der Formulare">
+      <created>1688302372585</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1688302372585</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Input validierung der Formulare">
+      <created>1688308017291</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1688308017291</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Input validierung der Formulare">
+      <created>1688310092467</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1688310092467</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Input validierung der Formulare">
+      <created>1688311049587</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1688311049587</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Input validierung der Formulare">
+      <created>1688312926045</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1688312926045</updated>
+    </task>
+    <task id="LOCAL-00046" summary="abstände angepasst">
+      <created>1688386050792</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1688386050792</updated>
+    </task>
+    <task id="LOCAL-00047" summary="abstände angepasst">
+      <created>1688388010501</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1688388010501</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Ordner Sortierung">
+      <created>1688388709307</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1688388709307</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Ordner Sortierung">
+      <created>1688388806214</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1688388806214</updated>
+    </task>
+    <task id="LOCAL-00050" summary="checkbox">
+      <created>1688390078133</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1688390078134</updated>
+    </task>
+    <task id="LOCAL-00051" summary="datenschutzerklärung">
+      <created>1688400542622</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1688400542622</updated>
+    </task>
+    <task id="LOCAL-00052" summary="ordner und bild anpassung">
+      <created>1688401689209</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1688401689209</updated>
+    </task>
+    <task id="LOCAL-00053" summary="datenschutzerklärung mit eingefügt">
+      <created>1688461027879</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1688461027879</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Texte angepasst">
+      <created>1688540929232</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1688540929232</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Texte angepasst">
+      <created>1688547082180</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1688547082180</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Texte angepasst">
+      <created>1688549493776</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1688549493776</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Stage height und spacing angepasst">
+      <created>1688550495334</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1688550495334</updated>
+    </task>
+    <task id="LOCAL-00058" summary="öffnungszeiten angepasst">
+      <created>1688555034637</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1688555034637</updated>
+    </task>
+    <task id="LOCAL-00059" summary="öffnungszeiten angepasst">
+      <created>1688555658394</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1688555658395</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,16 +498,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="React Navbar" />
-    <MESSAGE value="btn componente" />
-    <MESSAGE value="btn Komponente eingebaut öffnungszeiten und volunteer" />
-    <MESSAGE value="btn komponenten" />
-    <MESSAGE value="Natan logo, text postitionierung" />
-    <MESSAGE value="positionierung nav bar" />
-    <MESSAGE value="border für Öffnungszeiten komponente" />
-    <MESSAGE value="removed map from footer" />
-    <MESSAGE value="added arrow icons to gallery" />
-    <MESSAGE value="interior image mobile version" />
-    <option name="LAST_COMMIT_MESSAGE" value="interior image mobile version" />
+    <MESSAGE value="heading anpassung" />
+    <MESSAGE value="umstrukturierung und layout" />
+    <MESSAGE value="umstrukturierung und fehler beseitigung" />
+    <MESSAGE value="rad" />
+    <MESSAGE value="Neue Anordnung der Klassen und Componenten" />
+    <MESSAGE value="Speisekarte faded in" />
+    <MESSAGE value="reinfliegen" />
+    <MESSAGE value="größe angepasst volunteer" />
+    <MESSAGE value="reservierung bestätigung" />
+    <MESSAGE value="optische anpassungen foodstage und line height" />
+    <MESSAGE value="Text vom essen" />
+    <MESSAGE value="design, ordner" />
+    <MESSAGE value="Mails werden versandt" />
+    <MESSAGE value="drehende Räder hinzugefügt" />
+    <MESSAGE value="anpassungen von chris feedback" />
+    <MESSAGE value="Input validierung der Formulare" />
+    <MESSAGE value="abstände angepasst" />
+    <MESSAGE value="Ordner Sortierung" />
+    <MESSAGE value="checkbox" />
+    <MESSAGE value="datenschutzerklärung" />
+    <MESSAGE value="ordner und bild anpassung" />
+    <MESSAGE value="datenschutzerklärung mit eingefügt" />
+    <MESSAGE value="Texte angepasst" />
+    <MESSAGE value="Stage height und spacing angepasst" />
+    <MESSAGE value="öffnungszeiten angepasst" />
+    <option name="LAST_COMMIT_MESSAGE" value="öffnungszeiten angepasst" />
   </component>
 </project>

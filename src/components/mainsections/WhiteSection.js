@@ -1,7 +1,7 @@
 import ImgPosition from "../images/ImgPosition";
 import {partner, volunteer} from "../../resources/textInhalte";
 import CoffeeMachine from "../../resources/gallery/barNatan2.jpg";
-import Button from "../Button";
+import Button from "../button/Button";
 import React from "react";
 import Text from "../text/Text";
 import HeadlineSection from "../text/HeadlineSection";
