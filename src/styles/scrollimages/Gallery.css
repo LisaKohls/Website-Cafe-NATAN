@@ -70,7 +70,7 @@
     overflow: hidden;
 }
 
-
+/*
 .arrowIconLeft,
 .arrowIconRight {
     color: white;
@@ -96,7 +96,13 @@
     right: 0;
 }
 
+*/
 
+.arrowIconLeft,
+.arrowIconRight {
+    font-size: 40px;
+
+}
 
 .singlePicture::-webkit-scrollbar {
     width: 0;
