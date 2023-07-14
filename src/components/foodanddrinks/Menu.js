@@ -43,7 +43,7 @@ const Menu = (props) => {
     };
 
     return props.trigger ? (
-        <div className="popup">
+        <div className="menuPopup">
             <button
                 className="closeBtn"
                 onClick={() => {

@@ -69,6 +69,15 @@ function Footer() {
                         style={{margin: "0.5rem"}}
                         className="footerLink"
                     />
+                    <SocialIcon
+                        bgColor="var(--textColor)"
+                        url="https://www.linkedin.com/company/natan-cafeandbar/"
+                        target="_blank"
+                        style={{margin: "0.5rem"}}
+                        className="footerLink"
+                    />
+
+
                 </div>
                 <div className="impressum">
                     <p className="footerText">

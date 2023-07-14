@@ -63,6 +63,7 @@
 
 .singlePicture.small {
     height: 100px;
+    margin: 1px 15px;
 }
 
 .galleryContainer.small {
