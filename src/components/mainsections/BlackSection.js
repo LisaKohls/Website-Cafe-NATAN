@@ -1,4 +1,3 @@
-import HeadingSection from "./HeadingSection";
 import {
         originName,
         ueberNatan,
@@ -31,14 +30,6 @@ function BlackSection() {
         {src: Img2, alt: "Event Poster"},
     ];
 
-    const imageStyle = {
-        flex: '0 0 auto',
-        width: 'auto',
-        height: '100%',
-        margin: '1px 10px',
-        cursor: 'pointer',
-        overflow: 'hidden',
-    };
 
     return (<>
             <div id="opening" />

@@ -5,7 +5,6 @@ import Button from "../button/Button";
 import React from "react";
 import Text from "../text/Text";
 import HeadlineSection from "../text/HeadlineSection";
-import Gallery from "../Gallery";
 import Img1 from "../../resources/partnerLogos/Akis Getränke.png";
 import Img2 from "../../resources/partnerLogos/Biokiste Ortlieb.png";
 import Img3 from "../../resources/partnerLogos/Nast.png";
@@ -21,6 +20,7 @@ import Img12 from "../../resources/partnerLogos/the-english-tearoom-logo-black.p
 import Img13 from "../../resources/partnerLogos/Schönbuch.png";
 import Img14 from "../../resources/partnerLogos/English tearoom.jpg";
 import Img15 from "../../resources/partnerLogos/Der Blumenladen Stuttgart.png";
+import ScrollImages from "../scrollimages/ScrollImages";
 
 
 
@@ -44,17 +44,13 @@ function WhiteSection() {
         {src: Img15, alt: 'food closeup'},
     ];
 
-    const logoStyle = {
-        width: 'auto',
-        height: '5px',
-        border: 'red solid 2px',
-    };
+
 
     return (
         <div>
             <div id="produkteUndPartner" className="sectionPadding"/>
             <HeadlineSection title='UNSERE PARTNER*INNEN' color='black'/>
-            <Gallery images={logos} imageStyle={logoStyle} />
+            <ScrollImages images={logos} imageSize="small" small={true}/>
             <div id="produkteUndPartner"/>
             <Text text={partner} formatierung='block' color='black'/>
             <div id="volunteers"/>

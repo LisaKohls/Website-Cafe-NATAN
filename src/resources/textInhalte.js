@@ -114,17 +114,20 @@ export const events =
             <p className="mainheading"> IMPRESSUM </p>
             <p className="heading"> ANGABEN GEMÄSS § 5 TMG </p>
             <p> STELP Natan GmbH </p>
-            <p> Johannesstr. 35 </p>
-            <p>70176 Stuttgart </p>
+            <p> Uhlandstraße 14 </p>
+            <p>70182 Stuttgart </p>
+            <div className="text_padding"/>
 
-            <p>Vertreten durch: </p>
-            <p> Serkan Eren </p>
-            <p>Schwabstr. 130 </p>
-            <p>70193 Stuttgart </p>
+            <p> Betriebsstätte: </p>
+            <p> Katharinenstraße 15 </p>
+            <p> 70182 Stuttgart </p>
+            <div className="text_padding"/>
+
+            <p> Geschäftsführer </p>
+            <p>Christian Gärtner </p>
             <div className="text_padding"/>
 
             <p className="heading">KONTAKT </p>
-            <p>Telefon: [Telefonnummer] </p>
             <p>E-Mail: team@natan-cafeandbar.com </p>
             <div className="text_padding"/>
 
