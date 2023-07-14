@@ -62,43 +62,38 @@
 }
 
 .singlePicture.small {
-    height: 20%;
+    height: 100px;
 }
 
 .galleryContainer.small {
-    height: 200px;
+    height: 100px;
+    overflow: hidden;
 }
 
-.galleryContainer .arrowIconLeft{
+
+.arrowIconLeft,
+.arrowIconRight {
     color: white;
-    background-color: var(--mainColor);
     font-size: 40px;
-    outline: none;
-    cursor: pointer;
-    position: absolute;
-    z-index: 5;
-    top: 50%;
-    transform: translateY(-50%);
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    padding: 1px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    transform: translateY(-50%);
+    background-color: var(--mainColor);
 }
 
-.galleryContainer .arrowIconRight{
-    color: white;
-    background-color: var(--mainColor);
-    font-size: 40px;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex; /* Add display flex */
-    justify-content: center; /* Center horizontally */
-    align-items: center;
-    transform: translateY(-50%);
+.arrowIconLeft {
+    left: 0;
+}
+
+.arrowIconRight {
+    right: 0;
 }
 
 

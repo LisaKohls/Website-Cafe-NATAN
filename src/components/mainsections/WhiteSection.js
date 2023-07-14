@@ -20,6 +20,7 @@ import Img12 from "../../resources/partnerLogos/the-english-tearoom-logo-black.p
 import Img13 from "../../resources/partnerLogos/Schönbuch.png";
 import Img14 from "../../resources/partnerLogos/English tearoom.jpg";
 import Img15 from "../../resources/partnerLogos/Der Blumenladen Stuttgart.png";
+import Img16 from '../../resources/partnerLogos/Porsche.png'
 import ScrollImages from "../scrollimages/ScrollImages";
 
 
@@ -27,21 +28,22 @@ import ScrollImages from "../scrollimages/ScrollImages";
 function WhiteSection() {
 
     const logos = [
-        {src: Img1, alt: 'Natan Bar'},
-        {src: Img2, alt: 'Natan Bar'},
-        {src: Img3, alt: 'Outside View Natan'},
-        {src: Img4, alt: 'Interior Natan'},
-        {src: Img5, alt: 'food closeup'},
-        {src: Img6, alt: 'food closeup'},
-        {src: Img7, alt: 'food closeup'},
-        {src: Img8, alt: 'food closeup'},
-        {src: Img9, alt: 'food closeup'},
-        {src: Img10, alt: 'food closeup'},
-        {src: Img11, alt: 'food closeup'},
-        {src: Img12, alt: 'food closeup'},
-        {src: Img13, alt: 'food closeup'},
-        {src: Img14, alt: 'food closeup'},
-        {src: Img15, alt: 'food closeup'},
+        {src:Img16 , alt: 'Porsche Logo'},
+        {src: Img1, alt: 'Akis Getränke Logo'},
+        {src: Img2, alt: 'Biokiste Ortlieb Logo'},
+        {src: Img3, alt: 'Nast Logo'},
+        {src: Img4, alt: 'Ginster Logo'},
+        {src: Img5, alt: 'GMW Steuerberater Logo'},
+        {src: Img6, alt: 'DesignPlus Logo'},
+        {src: Img7, alt: 'Gourmet Kochmanufaktur Logo'},
+        {src: Img8, alt: 'Karl Haidle Weingut Logo'},
+        {src: Img9, alt: 'Kessler Logo'},
+        {src: Img10, alt: 'Leonhard Stuttgart Logo'},
+        {src: Img11, alt: 'Mokuska Logo'},
+        {src: Img12, alt: 'The english tearoom Logo'},
+        {src: Img13, alt: 'Schönbuch Logo'},
+        {src: Img14, alt: 'English Tearoom Logo'},
+        {src: Img15, alt: 'Der Blumenladen Stuttgart Logo'},
     ];
 
 
@@ -50,8 +52,9 @@ function WhiteSection() {
         <div>
             <div id="produkteUndPartner" className="sectionPadding"/>
             <HeadlineSection title='UNSERE PARTNER*INNEN' color='black'/>
+            <div id="produkteUndPartner" className="sectionPadding"/>
             <ScrollImages images={logos} imageSize="small" small={true}/>
-            <div id="produkteUndPartner"/>
+            <div className="sectionPadding"/>
             <Text text={partner} formatierung='block' color='black'/>
             <div id="volunteers"/>
             <HeadlineSection title='UNSER NATAN DREAM TEAM' color='black'/>
