@@ -18,6 +18,7 @@ function Reservation(props) {
     const [startDate, setStartDate] = useState(new Date());
     const [submit, setSubmit] = useState(false)
     registerLocale("de", de)
+    const [nameRequest, setName] = useState('')
 
 
     function check(){
@@ -31,46 +32,64 @@ function Reservation(props) {
         const date = dateInput.value;
         const time = timeInput.value;
         const name = nameInput.value;
+        setName(name)
         const count = countInput.value;
         const mail = mailInput.value;
         const privacy = checkPrivacy.checked;
 
         const isValidMail = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(mail);
-        const selectedTIme = parseInt(time.split(":")[0]);
+        const selectedTime = parseInt(time.split(":")[0]);
+
+        let nameValue = true;
+        let timeValue = true;
+        let dateValue = true;
+        let mailValue = true;
+        let countValue = true;
+        let privacyValue = true;
 
         if (date === "") {
             dateInput.style.borderColor = 'red';
+            dateValue = false;
         } else {
             dateInput.style.borderColor = 'black';
+            dateValue = true;
         }
 
         if (time === "") {
             timeInput.style.borderColor = 'red';
-        }else if (selectedTIme < 10 || selectedTIme >= 20) {
-            alert("Bitte wähle eine Uhrzeit zwischen 10:00 und 20:00 Uhr.");
+        }else if (selectedTime < 10 && selectedTime >= 1) {
+            alert("Bitte wähle eine Uhrzeit die den Öffnungszeiten entspricht");
+            timeValue = false
         } else {
             timeInput.style.borderColor = 'black';
         }
 
         if (name === "") {
             nameInput.style.borderColor = 'red';
+            nameValue = false;
         } else {
             nameInput.style.borderColor = 'black';
+            nameValue = true;
         }
 
-        if (count === "") {
+        if (count === "" || count > 20) {
             countInput.style.borderColor = 'red';
+            countValue = false;
         } else {
             countInput.style.borderColor = 'black';
+            countValue = true;
         }
 
         if (mail === "") {
             mailInput.style.borderColor = 'red';
+            mailValue = false
         } else if (!isValidMail) {
             mailInput.style.borderColor = 'red';
+            mailValue = false;
             mailInput.value = '';
             mailInput.setAttribute('placeholder', 'Gebe eine korrekte E-Mail an');
         } else {
+            mailValue = true
             mailInput.style.borderColor = 'black';
             mailInput.removeAttribute('placeholder');
         }
@@ -84,10 +103,11 @@ function Reservation(props) {
 
 
 
-        if(date !== '' && time !== '' && name !== '' && count !== '' && mail !== '' && privacy){
+        if(dateValue && timeValue && nameValue && countValue && mailValue && privacyValue){
             console.log('Input correct')
 
             setSubmit(true)
+
             emailjs.send(SERVICE_ID,TEMPLATE_ID,{
                 date: date,
                 time: time,
@@ -104,9 +124,6 @@ function Reservation(props) {
             );
         }
 
-    }
-    const gotIt = () => {
-        props.setTrigger(false)
     }
 
     const makeRequest = <div className='container'>
@@ -141,6 +158,9 @@ function Reservation(props) {
                     <label>E-Mail:* </label>
                     <input type='email' id='mail' name='mail' required></input>
                 </>
+            <>
+                <p className='mandatory'>* Pflichtfeld</p>
+            </>
         </div>
         <div className='checkbox'>
             <input type="checkbox" id="privacy" name="privacy"/>
@@ -153,9 +173,10 @@ function Reservation(props) {
     </div>
 
     const isSubmitted = <div className='sentForm'>
-        <label>Deine Anfrage wurde erfolgreich
-            abgeschickt und wird bearbeitet </label>
-        <button className='submit' onClick={gotIt}>Got it</button>
+        <h3>Danke {nameRequest},</h3>
+        <p>Deine Anfrage wurde erfolgreich
+            abgeschickt und wird bearbeitet, wir schicken dir eine Mail zu um die Reservierung zu bestätigen</p>
+
     </div>
 
     return ( submit ? isSubmitted:makeRequest);
