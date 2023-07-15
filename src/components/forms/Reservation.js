@@ -9,7 +9,7 @@ import Map from "../googlemaps/Map";
 import emailjs from "emailjs-com";
 
 
-function Reservation(props) {
+function Reservation() {
     const SERVICE_ID = 'service_cbh0z4e';
     const TEMPLATE_ID = 'template_9r15prc';
     const PUBLIC_KEY = 'hYeEf2ZvtikQQT6Ti';
@@ -32,7 +32,7 @@ function Reservation(props) {
         const date = dateInput.value;
         const time = timeInput.value;
         const name = nameInput.value;
-        setName(name)
+
         const count = countInput.value;
         const mail = mailInput.value;
         const privacy = checkPrivacy.checked;
@@ -70,6 +70,7 @@ function Reservation(props) {
         } else {
             nameInput.style.borderColor = 'black';
             nameValue = true;
+            setName(name)
         }
 
         if (count === "" || count > 20) {
