@@ -28,7 +28,7 @@
 
 }
 
-.formular input {
+.formular input, .formular #time {
     all: unset;
     width: 15.5rem;
     height: 1.3rem;
@@ -37,20 +37,15 @@
     color: var(--mainColor);
     padding: 0.3rem;
     text-align: left;
-
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: visible;
 }
 
 .formular.volunteer input{
     width: 25rem;
 }
 
-.formular #time {
-    display: block;
-    padding: 0.3rem;
-    width: 15.5rem;
-    border-radius: 0.5rem;
-    align-content: center;
-}
 
 .formular input:focus {
     background-color: var(--textColor);
@@ -100,26 +95,30 @@
 .sentForm{
     color: var(--mainColor);
     line-height: 1.5rem;
+    text-align: justify;
     margin: var(--marginContent);
     white-space: pre-line;
     padding: 1rem;
-    width: 20rem;
-    height: 12rem;
+    width: 17rem;
+    height: auto;
 }
 
 .formular .checkbox{
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 
 .checkbox #privacy{
-   margin-left: 0.7rem;
+    margin-left: 0.7rem;
     text-align: left;
-    line-height: 2rem;
 }
 
-.formular #privacyLabel{
-
+.formular .mandatory{
+    font-size: 14px;
+    color: gray;
+    margin-top: 0.3rem;
+    margin-left: 0;
 }
 
 

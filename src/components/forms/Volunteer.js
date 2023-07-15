@@ -78,6 +78,9 @@ function Volunteer(props) {
                 <label>Deine Nachricht an uns:</label>
                 <textarea id="message" className="textArea"></textarea>
             </>
+            <>
+                <p className='mandatory'>* Pflichtfeld</p>
+            </>
         </div>
             <div className='checkbox'>
                 <input type="checkbox" id="privacy" name="privacy"/>
