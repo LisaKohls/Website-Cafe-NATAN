@@ -1,4 +1,3 @@
-import HeadingSection from "./HeadingSection";
 import {
         originName,
         ueberNatan,
@@ -30,6 +29,7 @@ function BlackSection() {
         {src: Img1, alt: "Event Poster"},
         {src: Img2, alt: "Event Poster"},
     ];
+
 
     return (<>
             <div id="opening" />

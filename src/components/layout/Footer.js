@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/layout/Footer.css";
 import {SocialIcon} from 'react-social-icons';
+import {oeffnungszeiten} from "../../resources/textInhalte";
 
 
 function Footer() {
@@ -12,16 +13,14 @@ function Footer() {
                 <div className="footerElement">
                     <p className="footerÜberschrift">Öffnungszeiten:</p>
                     <div className="footerInhalt">
-                        <p>Mittwoch - Samstag: 10 Uhr - Late</p>
-                        <p>Sonntag: 10 Uhr - 18 Uhr</p>
-                        <p>Montag & Dienstag: geschlossen</p>
+                        {oeffnungszeiten}
                     </div>
                 </div>
                 <div className="footerElement">
                     <p className="footerÜberschrift">Info</p>
                     <div className="footerInhalt">
                         <p>Natan ist ein</p>
-                        <p>Projekt von <a href="https://stelp.eu/" target="_blank" className="footerLink">Stelp</a></p>
+                        <p>Projekt von <a href="https://stelp.eu/" target="_blank" className="footerLink">STELP</a></p>
                     </div>
                 </div>
                 <div className="footerElement">
@@ -70,10 +69,22 @@ function Footer() {
                         style={{margin: "0.5rem"}}
                         className="footerLink"
                     />
+                    <SocialIcon
+                        bgColor="var(--textColor)"
+                        url="https://www.linkedin.com/company/natan-cafeandbar/"
+                        target="_blank"
+                        style={{margin: "0.5rem"}}
+                        className="footerLink"
+                    />
+
+
                 </div>
                 <div className="impressum">
-                    <a href="/impressum" className="footerLink">Impressum /</a>
-                    <a href="/privacy" className="footerLink">/ Datenschutz</a>
+                    <p className="footerText">
+                    <a href="/impressum" className="footerLink">Impressum</a>
+                         //
+                    <a href="/privacy" className="footerLink">Datenschutz</a>
+                    </p>
                 </div>
             </div>
         </div>

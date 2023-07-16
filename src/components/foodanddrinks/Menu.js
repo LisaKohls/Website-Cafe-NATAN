@@ -43,7 +43,7 @@ const Menu = (props) => {
     };
 
     return props.trigger ? (
-        <div className="popup">
+        <div className="menuPopup">
             <button
                 className="closeBtn"
                 onClick={() => {
@@ -55,7 +55,7 @@ const Menu = (props) => {
             </button>
 
             <button className="scroll-buttons" onClick={() => handleScroll('left')}>
-                ←
+                «
             </button>
             <div
                 className="scroll-container"
@@ -67,7 +67,7 @@ const Menu = (props) => {
                 </div>
             </div>
             <button className="scroll-buttons" onClick={() => handleScroll('right')}>
-                →
+                »
             </button>
         </div>
     ) : null;

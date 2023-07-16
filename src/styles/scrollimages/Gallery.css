@@ -2,6 +2,7 @@
 
 .galleryContainer {
     width: 100%;
+    height: auto;
     align-items: center;
     position: relative;
     display: flex;
@@ -18,7 +19,6 @@
     overflow: hidden;
 }
 
-
 .scroll-images {
     width: 100%;
     height: 400px;
@@ -31,7 +31,6 @@
     -webkit-overflow-scrolling: touch;
     touch-action: pan-y;
 }
-
 
 .scroll-images::before,
 .scroll-images::after {
@@ -60,23 +59,47 @@
     overflow: hidden;
 }
 
-button.arrowIconRight.arrowIconLeft {
-    color: var(--mainColorLight);
-    background-color: var(--mainColor);
-    outline: none;
-    cursor: pointer;
-    position: absolute;
-    z-index: 99;
-    top: 50%;
-    transform: translateY(-50%);
+.singlePicture.small {
+    height: 100px;
+    margin: 1px 15px;
+}
+
+.galleryContainer.small {
+    height: 100px;
+    overflow: hidden;
+}
+
+/*
+.arrowIconLeft,
+.arrowIconRight {
+    color: white;
+    font-size: 40px;
     border-radius: 50%;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: red solid 2px;
-    font-size: 20px;
-    padding: 5px 10px;
-    margin: 0 5px;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    transform: translateY(-50%);
+    background-color: var(--mainColor);
+}
+
+.arrowIconLeft {
+    left: 0;
+}
+
+.arrowIconRight {
+    right: 0;
+}
+
+*/
+
+.arrowIconLeft,
+.arrowIconRight {
+    font-size: 40px;
 }
 
 .singlePicture::-webkit-scrollbar {
@@ -91,22 +114,31 @@ button.arrowIconRight.arrowIconLeft {
 
 @media screen and (max-width: 480px) {
     .galleryContainer {
-        display: block
+        display: flex;
+        position: relative; /* Add position relative to the container */
+        align-items: center; /* Center the content vertically */
+        overflow: hidden; /* Hide the horizontal overflow */
     }
 
-
-    button.arrowIconLeft {
-        display: none;
+    .galleryContainer .arrowIconRight {
+        display: flex; /* Show the arrow icon */
     }
 
-    button.arrowIconRight {
-        display: none;
+    .galleryContainer .arrowIconLeft {
+        display: flex; /* Show the arrow icon */
     }
 
     .scroll-images {
         width: 100%;
         height: 300px;
+        overflow-x: scroll; /* Add horizontal scrolling */
+        scroll-snap-type: x mandatory;
     }
+
+    .singlePicture {
+        scroll-snap-align: center; /* Snap images to the center */
+    }
+
 }
 
 /* EventGallery */

@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import '../../styles/scrollimages/Gallery.css';
 
 
-function ScrollImages({images}) {
+function ScrollImages({images, imageSize, small}) {
     const scrollImagesRef = useRef(null);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [touchStartX, setTouchStartX] = useState(0);
@@ -63,20 +63,18 @@ function ScrollImages({images}) {
 
     return (
         <div
-            className="galleryContainer"
+            className={`galleryContainer ${small ? 'small' : ''}`}
             onTouchStart={handleTouchStart}
             onTouchMove={handleTouchMove}
         >
             <button className="arrowIconLeft" onClick={() => handleScroll("left")}>
-                ←
+                «
             </button>
             <div className="gallery">
                 <div className="scroll-images" ref={scrollImagesRef}>
                     {images.map((image, index) => (
                         <img
-                            className={`singlePicture ${
-                                index === currentIndex ? "active" : ""
-                            }`}
+                            className={`singlePicture ${index === currentIndex ? "active" : ""} ${imageSize}`}
                             key={index}
                             src={image.src}
                             alt={image.alt}
@@ -85,7 +83,7 @@ function ScrollImages({images}) {
                 </div>
             </div>
             <button className="arrowIconRight" onClick={() => handleScroll("right")}>
-                →
+                »
             </button>
         </div>
     );
@@ -98,6 +96,8 @@ ScrollImages.propTypes = {
             alt: PropTypes.string.isRequired,
         })
     ).isRequired,
+    imageSize: PropTypes.string,
+    small: PropTypes.bool,
 };
 
 export default ScrollImages;
