@@ -19,7 +19,6 @@
     overflow: hidden;
 }
 
-
 .scroll-images {
     width: 100%;
     height: 400px;
@@ -32,7 +31,6 @@
     -webkit-overflow-scrolling: touch;
     touch-action: pan-y;
 }
-
 
 .scroll-images::before,
 .scroll-images::after {
@@ -102,7 +100,6 @@
 .arrowIconLeft,
 .arrowIconRight {
     font-size: 40px;
-
 }
 
 .singlePicture::-webkit-scrollbar {
@@ -117,21 +114,31 @@
 
 @media screen and (max-width: 480px) {
     .galleryContainer {
-        display: block
+        display: flex;
+        position: relative; /* Add position relative to the container */
+        align-items: center; /* Center the content vertically */
+        overflow: hidden; /* Hide the horizontal overflow */
     }
 
     .galleryContainer .arrowIconRight {
-        display: none;
+        display: flex; /* Show the arrow icon */
     }
 
-    .galleryContainer .arrowIconLeft{
-        display: none;
+    .galleryContainer .arrowIconLeft {
+        display: flex; /* Show the arrow icon */
     }
 
     .scroll-images {
         width: 100%;
         height: 300px;
+        overflow-x: scroll; /* Add horizontal scrolling */
+        scroll-snap-type: x mandatory;
     }
+
+    .singlePicture {
+        scroll-snap-align: center; /* Snap images to the center */
+    }
+
 }
 
 /* EventGallery */
