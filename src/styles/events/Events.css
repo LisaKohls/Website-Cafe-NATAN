@@ -4,3 +4,7 @@
     color: var(--secondaryColor);
     padding-top: 2rem;
 }
+
+a:hover {
+    color: var(--secondaryColor)
+}

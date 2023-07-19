@@ -1,4 +1,4 @@
-import "../../styles/scrollimages/Events.css";
+import "../../styles/events/Events.css";
 import ImgPosition from "../images/ImgPosition";
 import EventImg from "../../resources/NatanFotoAußen.png";
 import Text from "../text/Text";

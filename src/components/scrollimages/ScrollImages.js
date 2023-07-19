@@ -2,7 +2,7 @@ import React, {useRef, useState} from 'react';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {faAngleDoubleLeft} from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
-import '../../styles/scrollimages/Gallery.css';
+import '../../styles/scrollimages/ScrollImages.css';
 
 
 function ScrollImages({images, imageSize, small, big}) {
