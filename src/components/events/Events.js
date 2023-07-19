@@ -2,7 +2,7 @@ import "../../styles/scrollimages/Events.css";
 import ImgPosition from "../images/ImgPosition";
 import EventImg from "../../resources/NatanFotoAußen.png";
 import Text from "../text/Text";
-import {events} from "../../resources/textInhalte";
+import {events} from "../../resources/textContent/textContent";
 import wheel from "../../resources/logos/rad_weiß.png";
 import Wheel from '../interactiveelements/Wheel'
 

@@ -4,7 +4,7 @@ import {
         ueberStelp,
         foodDescription,
         food1, description1, food2, description2, food3, description3
-} from "../../resources/textInhalte";
+} from "../../resources/textContent/textContent";
 import OpeningTimeSection from "./OpeningTimeSection";
 import SpecialFood from "../foodanddrinks/SpecialFood";
 import Button from "../button/Button";
@@ -18,8 +18,8 @@ import stageFood1 from '../../resources/specialfoodstaging/breakfast1.jpg'
 import stageFood2 from '../../resources/specialfoodstaging/drink2.jpg'
 import stageFood3 from '../../resources/specialfoodstaging/sweets3.jpg'
 import ScrollImages from "../scrollimages/ScrollImages";
-import Img1 from "../../resources/events/events1.jpg";
-import Img2 from "../../resources/events/events2.jpg";
+import Img1 from "../../resources/events/natan-after-work.png";
+import Img2 from "../../resources/events/natan-pubquiz.png";
 import ImgPosition from "../images/ImgPosition";
 import FoodStage from "../foodanddrinks/FoodStage";
 import Text from '../text/Text'
@@ -58,7 +58,7 @@ function BlackSection() {
             <Text text={originName} formatierung='block' color='white'/>
             <div id="events"/>
             <HeadlineSection title='AKTUELLE EVENTS' color="white"/>
-            <ScrollImages images={images} />
+            <ScrollImages images={images}/>
             <HeadlineSection title='DEIN EVENT IM NATAN - MIETEN, FEIERN, GUTES TUN' color="white"/>
             <Events/>
             <div id="endPage" className="sectionPadding"/>

@@ -37,6 +37,11 @@ header .nav-btn {
     font-size: 1.8rem;
 }
 
+header nav {
+    justify-content: center;
+    margin-bottom: 0.8rem;
+}
+
 
 @media only screen and (max-width: 1024px) {
     header .nav-btn {

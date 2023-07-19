@@ -1,5 +1,5 @@
 import ImgPosition from "../images/ImgPosition";
-import {partner, volunteer} from "../../resources/textInhalte";
+import {partner, volunteer} from "../../resources/textContent/textContent";
 import CoffeeMachine from "../../resources/gallery/barNatan2.jpg";
 import Button from "../button/Button";
 import React from "react";
@@ -52,9 +52,8 @@ function WhiteSection() {
         <div>
             <div id="produkteUndPartner" className="sectionPadding"/>
             <HeadlineSection title='UNSERE PARTNER*INNEN' color='black'/>
-            <div id="produkteUndPartner" className="sectionPadding"/>
+            <div id="produkteUndPartner"/>
             <ScrollImages images={logos} imageSize="small" small={true}/>
-            <div className="sectionPadding"/>
             <Text text={partner} formatierung='block' color='black'/>
             <div id="volunteers"/>
             <HeadlineSection title='UNSER NATAN DREAM TEAM' color='black'/>

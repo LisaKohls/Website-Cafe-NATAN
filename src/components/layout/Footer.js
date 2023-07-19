@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/layout/Footer.css";
 import {SocialIcon} from 'react-social-icons';
-import {oeffnungszeiten} from "../../resources/textInhalte";
+import {oeffnungszeiten} from "../../resources/textContent/textContent";
 
 
 function Footer() {

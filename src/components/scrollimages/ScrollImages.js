@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import '../../styles/scrollimages/Gallery.css';
 
 
-function ScrollImages({images, imageSize, small}) {
+function ScrollImages({images, imageSize, small, big}) {
     const scrollImagesRef = useRef(null);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [touchStartX, setTouchStartX] = useState(0);
@@ -63,7 +63,7 @@ function ScrollImages({images, imageSize, small}) {
 
     return (
         <div
-            className={`galleryContainer ${small ? 'small' : ''}`}
+            className={`galleryContainer ${small ? 'small' : ''} ${big ? 'big' : ''}`}
             onTouchStart={handleTouchStart}
             onTouchMove={handleTouchMove}
         >
@@ -98,6 +98,7 @@ ScrollImages.propTypes = {
     ).isRequired,
     imageSize: PropTypes.string,
     small: PropTypes.bool,
+    big: PropTypes.bool,
 };
 
 export default ScrollImages;

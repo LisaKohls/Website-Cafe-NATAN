@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/pages/Impressum.css";
-import {impressum} from "../resources/textInhalte";
+import {impressum} from "../resources/textContent/impressumAndPrivacyText";
 import Text from "../components/text/Text";
 
 function ImpressumPage() {

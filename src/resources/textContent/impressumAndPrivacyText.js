@@ -1,190 +1,81 @@
 import React from "react";
 
-export const oeffnungszeiten =
-    "Mittwoch & Donnerstag: 10 Uhr - 22 Uhr \n" +
-    "Freitag & Samstag: 10 Uhr - 1 Uhr  \n"+
-    "Sonntag: 10 Uhr - 18 Uhr \n" +
-    "Montag & Dienstag: geschlossen"
-
-//Block über NATAN
-export const ueberNatan = 'Moderne, vegetarische Küche und leckere Drinks genießen und nebenbei etwas Gutes tun – geht nicht? Geht doch! \n' +
-    '\n' +
-    'Bei uns treffen Café- und Barbetrieb auf soziales Engagement. Wir sind eine Non-Profit-Bar.\n' +
-    '„Genießen für den guten Zweck“ – so lautet unser Motto. Der komplette Gewinn fließt in die\n' +
-    'humanitären Projekte der Hilfsorganisation STELP e. V. \n' +
-    '\n' +
-    'Starke Partner:innen und Sponsor:innen unterstützen uns durch günstige Konditionen und unser ' +
-    'Team besteht fast ausschließlich aus Ehrenamtlichen. Damit stellen wir sicher, dass jeder zusätzliche ' +
-    'Euro dort ankommt, wo er am dringendsten benötigt wird: Bei den bedürftigen Menschen vor Ort.\n'
-
-//Über Stelp
-
-export const ueberStelp = 'STELP ist eine junge Organisation aus Stuttgart – unpolitisch, tolerant und weltoffen. Wir machen uns stark für eine Welt, in der Kinder, Frauen und Männer selbstbestimmt in Würde und Sicherheit leben und ihre Zukunft aus eigener Kraft nachhaltig gestalten können.\n' +
-    '\n' +
-    'In aktuell zwölf Ländern auf vier Kontinenten — Jemen, Bosnien, Griechenland, Ukraine, Polen, Nepal, Afghanistan, Libanon, Uganda, Kambodscha, Tansania und Kolumbien — lindern wir akute Not durch schnellen Zugang zu Lebensmitteln, Sanitärprodukten\n' +
-    'und medizinischer Versorgung.\n'
-
-export const ueberNatanSecondPart = (
+export const impressum =
     <div>
-        <p>
-    Geht nicht? Geht doch — und zwar bei uns! Denn der gesamte Gewinn des NATAN fließt in die internationalen Projekte
-    der Stuttgarter Hilfsorganisation <a href="https://stelp.eu/" target="_blank">STELP</a>, die hinter der Idee steckt und für
-    die Umsetzung gesorgt hat. Starke Partner und Sponsoren unterstützen uns durch günstige Konditionen; ein weiteres
-    Plus, damit jeder zusätzliche Euro dort ankommt, wo er am dringendsten benötigt wird.
-    <br/>
-            <br/>
-    Dass das Trinkgeld davon ausgenommen ist, versteht sich von selbst: Es geht ohne Abzüge an unsere Crew. Und die ist
-    ebenfalls alles andere als gewöhnlich: Ganz nach dem <a href="https://stelp.eu/" target="_blank">STELP</a> Prinzip, dass jeder
-    einbringt, was er kann, arbeiten im NATAN hinter der Theke, im Service und in der Küche Menschen, die sich für die
-    gute Sache einsetzen — ehrenamtlich! Sei auch du dabei und <a href="#volunteers">werde Volunteer</a>!
-        </p>
-    </div> );
+        <p className="mainheading"> IMPRESSUM </p>
+        <p className="heading"> ANGABEN GEMÄSS § 5 TMG </p>
+        <p> STELP Natan GmbH </p>
+        <p> Uhlandstraße 14 </p>
+        <p>70182 Stuttgart </p>
+        <div className="text_padding"/>
 
+        <p> Betriebsstätte: </p>
+        <p> Katharinenstraße 15 </p>
+        <p> 70182 Stuttgart </p>
+        <div className="text_padding"/>
 
-export const volunteer =  'Im NATAN gibt es kein Personal, sondern nur Gastgeber*innen. Denn das Team, das in der Küche, im Service und an der Bar arbeitet, tut dies aus Überzeugung – um weltweit Menschen in Not zu unterstützen. Der allergrößte Teil unseres Personals arbeitet ehrenamtlich im NATAN. Mehr als 80 Volunteers sind regelmäßig im Einsatz und für unsere Gäste da. Sie sind das Herzstück des NATAN und geben ihre Zeit und ihre Energie, um anderen zu helfen. Dafür sind wir zutiefst dankbar. Alle zusammen für die gute Sache!\n'
-//essen
-export const foodDescription = 'Die Drinks im NATAN können sich sehen lassen: Mokuska Kaffee, GINSTR, Tonic Water & Co. von Thomas Henry, Weine vom Weingut Karl Haidle, Biere der Schönbuch Braumanufaktur, Kessler Hochgewächs Sekt und — last but not least — Softdrinks von Viva con Agua, Dietz, Fritz Kola, sowie Smoothies.\n' +
-    '\n' +
-    'Außerdem gibt es im NATAN von morgens bis spät in den Abend hinein verschiedene vegane\n' +
-    'und vegetarische Speisen, die Spaß machen.\n'
-//Besonderes Essen
-//------------------------------
-//Speise 1
+        <p> Geschäftsführer </p>
+        <p>Christian Gärtner </p>
+        <div className="text_padding"/>
 
-export const food1 = "Healthy Breakfast"
+        <p className="heading">KONTAKT </p>
+        <p>E-Mail: team@natan-cafeandbar.com </p>
+        <div className="text_padding"/>
 
-export const description1 = "Starten Sie Ihren Tag mit einem gesunden und knusprigen Granola-Frühstück, das Sie mit Energie versorgt und Ihnen eine Fülle von Nährstoffen bietet. " +
-    "Granola besteht aus einer Mischung aus Nüssen."
+        <p className="heading">UMSATZSTEUER-ID </p>
+        <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: </p>
+        <p>DE335947082 </p>
+        <div className="text_padding" />
 
-//Speise 2
+        <p className="heading">EU-STREITSCHLICHTUNG</p>
 
-export const food2 = "Refreshing Drinks"
+        <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS)
+            bereit: https://ec.europa.eu/consumers/odr.</p>
+        <p>Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
+        <div className="text_padding"/>
 
-export const description2 =  "Dieses spritzige Getränk kombiniert den sauren und erfrischenden Geschmack " +
-    "von Zitronen mit einer dezenten Süße, um eine perfekte Balance zu schaffen. Jeder Schluck erweckt die Sinne und erfrischt."
+        <p className="heading">VERBRAUCHERSTREITBEILEGUNG/</p>
+        <p className="heading">UNIVERSALSCHLICHTUNGSSTELLE</p>
 
+        <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
+            Verbraucherschlichtungsstelle teilzunehmen.</p>
+        <div className="text_padding"/>
 
-//Speise 3
-
-export const food3 = "Sweets"
-
-export const description3 = "Energy Balls sind kleine Kraftpakete, die Ihnen einen natürlichen Energiekick geben. Diese köstlichen Snacks bestehen aus einer Mischung aus nahrhaften Zutaten wie Nüssen und Trockenfrüchten"
-
-export const originName = 'Der Name NATAN steht bei uns für mehr als nur fünf Buchstaben. „Ich habe es versucht“, hat der Visionär und Friedensaktivist Abie Nathan einmal über seine Arbeit gesagt — heute steht dieses Selbstverständnis als hebräische Inschrift auf seinem Grabstein: „Nissiti“. Abie hat uns inspiriert — und dem NATAN sowohl seinen Namen gegeben als auch die Idee dahinter geprägt. Es schließt sich nicht aus, das Leben zu lieben und in vollen Zügen zu genießen, sich aber gleichzeitig mit genauso viel Hingabe für andere einzusetzen. Bei\n' +
-    'STELP machen wir das — genauso wie im NATAN. \n'
-export const originName2 = "Im NATAN führen wir einen wesentlichen Gedanken von STELP weiter: Alleine lässt sich wenig bewegen; aber durch " +
-"unseren stetig wachsenden Pool aus Ehrenamtlichen, Partnern, Sponsoren und Freunden können wir mit noch mehr Impact " +
-"überall da aktiv werden, wo die Not am größten ist. Unser Ziel ist eine Welt, in der alle Menschen selbstbestimmt " +
-"in Würde und Sicherheit leben und ihre Zukunft aus eigener Kraft gestalten können. "
-
-export const partner = 'Ohne die unzähligen Menschen und Unternehmen, die das Natan mit Engagement und viel Herzblut unterstützen, wäre der Sprung von der Idee zur Realität nicht gelungen. Fast alle sind seit Tag 1 dabei und unterstützen finanziell, durch stark vergünstigte Konditionen oder kostenlose Produkte und Dienstleistungen. Sie sind eine tragende Säule des Konzepts und ein wichtiger Grund, warum sich das NATAN zu einem Leuchtturm-Projekt von STELP entwickelt hat.\n' +
-    'Wir sind dankbar und stolz, so treue und starke Partner*innen an unserer Seite zu haben!\n' +
-    '\n'
-
-export const events =
-    <div>
-    <p >
-        Egal ob Familienfeier, After Work, Vernissage, Firmenevents, Weinproben oder Workshops –
-        das NATAN kann sowohl für private, als auch für Corporate Events gemietet werden.
-        Die Gewinne fließen an die Hilfsorganisation STELP.
-    </p>
-    <p className="subheading">Fakten</p>
-    <p >
-        Größe des Gastraums | 35 qm
-        <br/>
-        Anzahl Personen | 40 - 50
-    </p>
-    <p className="subheading">Catering</p>
-    <p className="blocksatz">
-    Gemeinsam mit dir, und dem Anlass entsprechend, stellen wir die Speisen und Getränke für dein Event zusammen.
-    </p>
-    <p className="subheading">PERSONAL | RAUMMIETE</p>
-    <p className="blocksatz">
-    Nach Absprache.
-    <br/>
-    Wir freuen uns über deine Anfrage an <a href="mailto:team@natan-cafeandbar.com" className='linkWhite' target="_blank">
-    team@natan-cafeandbar.com</a>.
-    </p>
-    </div>
-;
-
-
-    export const impressum =
-        <div>
-            <p className="mainheading"> IMPRESSUM </p>
-            <p className="heading"> ANGABEN GEMÄSS § 5 TMG </p>
-            <p> STELP Natan GmbH </p>
-            <p> Uhlandstraße 14 </p>
-            <p>70182 Stuttgart </p>
-            <div className="text_padding"/>
-
-            <p> Betriebsstätte: </p>
-            <p> Katharinenstraße 15 </p>
-            <p> 70182 Stuttgart </p>
-            <div className="text_padding"/>
-
-            <p> Geschäftsführer </p>
-            <p>Christian Gärtner </p>
-            <div className="text_padding"/>
-
-            <p className="heading">KONTAKT </p>
-            <p>E-Mail: team@natan-cafeandbar.com </p>
-            <div className="text_padding"/>
-
-            <p className="heading">UMSATZSTEUER-ID </p>
-            <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: </p>
-            <p>DE335947082 </p>
-            <div className="text_padding" />
-
-            <p className="heading">EU-STREITSCHLICHTUNG</p>
-
-            <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS)
-                bereit: https://ec.europa.eu/consumers/odr.</p>
-            <p>Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
-            <div className="text_padding"/>
-
-            <p className="heading">VERBRAUCHERSTREITBEILEGUNG/</p>
-            <p className="heading">UNIVERSALSCHLICHTUNGSSTELLE</p>
-
-            <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
-                Verbraucherschlichtungsstelle teilzunehmen.</p>
-            <div className="text_padding"/>
-
-            <p className="sub_heading">Haftung für Inhalte</p>
-            <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den
-                allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht
-                verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu
-                forschen, die auf eine rechtswidrige Tätigkeit hinweisen. </p>
-            <div className="text_padding"/>
-            <p>Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen
+        <p className="sub_heading">Haftung für Inhalte</p>
+        <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den
+            allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht
+            verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu
+            forschen, die auf eine rechtswidrige Tätigkeit hinweisen. </p>
+        <div className="text_padding"/>
+        <p>Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen
             bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer
             konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese
             Inhalte umgehend entfernen. </p>
-            <div className="text_padding"/>
+        <div className="text_padding"/>
 
-            <p className="sub_heading">Haftung für Links </p>
-            <p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben.
+        <p className="sub_heading">Haftung für Links </p>
+        <p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben.
             Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten
             Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten
             wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum
             Zeitpunkt der Verlinkung nicht erkennbar.</p>
-            <div className="text_padding"/>
-            <p>Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer
-                Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links
-                umgehend entfernen.</p>
-            <div className="text_padding"/>
+        <div className="text_padding"/>
+        <p>Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer
+            Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links
+            umgehend entfernen.</p>
+        <div className="text_padding"/>
 
-            <p className="sub_heading"> Urheberrecht </p>
+        <p className="sub_heading"> Urheberrecht </p>
         <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen
             Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
             Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
             Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. </p>
-            <div className="text_padding"/>
+        <div className="text_padding"/>
         <p>Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter
             beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine
             Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden
             von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
-        </div>
+    </div>
 
 
 export const datenschutz =
@@ -314,7 +205,7 @@ export const datenschutz =
             FÜR DIE VERARBEITUNG NACHWEISEN, DIE IHRE INTERESSEN, RECHTE UND FREIHEITEN ÜBERWIEGEN ODER DIE
             VERARBEITUNG DIENT DER GELTENDMACHUNG, AUSÜBUNG ODER VERTEIDIGUNG VON RECHTSANSPRÜCHEN (WIDERSPRUCH NACH
             ART. 21 ABS. 1 DSGVO). </p>
-            <p>
+        <p>
             WERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, SO HABEN SIE DAS RECHT,
             JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE
             DERARTIGER WERBUNG EINZULEGEN; DIES GILT AUCH FÜR DAS PROFILING, SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN

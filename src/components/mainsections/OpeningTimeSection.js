@@ -2,7 +2,7 @@ import React from "react";
 import ImgPosition from "../images/ImgPosition";
 import BarOriginal from "../../resources/gallery/barNatan1.jpg";
 import BoxWithText from "../text/BoxWithText";
-import {oeffnungszeiten} from "../../resources/textInhalte";
+import {oeffnungszeiten} from "../../resources/textContent/textContent";
 import Button from "../button/Button";
 import wheel from '../../resources/logos/rad_weiß.png'
 import Text from "../text/Text";
