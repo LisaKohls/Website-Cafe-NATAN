@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/pages/Privacy.css";
 import {datenschutz} from "../resources/textContent/impressumAndPrivacyText";
-import Text from '../components/text/Text'
+import TextPage from "../components/text/TextPage";
 
 function PrivacyPage() {
     return (
         <div className="privacy">
             <div className="sectionPadding"/>
-            <Text text={datenschutz} formatierung='block' color='white'/>
+            <TextPage text={datenschutz} formatierung='block' color='white'/>
         </div>
     )
 }

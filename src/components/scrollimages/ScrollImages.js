@@ -67,7 +67,7 @@ function ScrollImages({ images, imageSize, small, big }) {
         <div
             className={`galleryContainer ${small ? 'small' : ''} ${big ? 'big' : ''}`}
             onTouchStart={handleTouchStart}
-            onTouchMove={handleTouchMove}
+            onTouchMoveCapture={handleTouchMove}
         >
             <button className="arrowIconLeft" onClick={() => handleScroll("left")}>
                 «
