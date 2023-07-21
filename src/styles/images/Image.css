@@ -28,6 +28,13 @@
     height: auto;
 }
 
+.imagevolunteer2 {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    width: 260px;
+    height: auto;
+}
+
 .imagepartner {
     width: 15rem;
     margin-top: var(--marginContent);
@@ -128,6 +135,10 @@
     .imageevents {
         width: 100%;
         height: auto;
+    }
+
+    .imagevolunteer2 {
+        display: none;
     }
 
 }
