@@ -60,7 +60,7 @@ function WhiteSection() {
             <HeadlineSection title='UNSER NATAN DREAM TEAM' color='black'/>
             <div className='container'>
                 <ImgPosition name='volunteer' image={Volunteer}/>
-                <ImgPosition name='volunteer' image={Volunteer2}/>
+                <ImgPosition name='volunteer2' image={Volunteer2}/>
                 <Text text={volunteer} formatierung='block' color='black'/>
             </div>
             <Button name='Werde Volunteer' styleName='Volunteer'/>
