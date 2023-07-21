@@ -1,7 +1,7 @@
 import "../../styles/text/Text.css";
 import React from "react";
 
-function TextPage(props) {
+function StyledText(props) {
     return (
         <div className={props.color + props.formatierung}>
             {props.text}
@@ -9,4 +9,4 @@ function TextPage(props) {
     )
 }
 
-export default TextPage;
+export default StyledText;
