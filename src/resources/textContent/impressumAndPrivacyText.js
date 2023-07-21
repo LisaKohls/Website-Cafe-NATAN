@@ -2,8 +2,8 @@ import React from "react";
 
 export const impressum =
     <div>
-        <p className="mainheading"> IMPRESSUM </p>
-        <p className="heading"> ANGABEN GEMÄSS § 5 TMG </p>
+        <h1 className="mainheading"> IMPRESSUM </h1>
+        <h2 className="heading"> ANGABEN GEMÄSS § 5 TMG </h2>
         <p> STELP Natan GmbH </p>
         <p> Uhlandstraße 14 </p>
         <p>70182 Stuttgart </p>
@@ -18,30 +18,30 @@ export const impressum =
         <p>Christian Gärtner </p>
         <div className="text_padding"/>
 
-        <p className="heading">KONTAKT </p>
+        <h2 className="heading">KONTAKT </h2>
         <p>E-Mail: team@natan-cafeandbar.com </p>
         <div className="text_padding"/>
 
-        <p className="heading">UMSATZSTEUER-ID </p>
+        <h2 className="heading">UMSATZSTEUER-ID </h2>
         <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: </p>
         <p>DE335947082 </p>
         <div className="text_padding" />
 
-        <p className="heading">EU-STREITSCHLICHTUNG</p>
+        <h2 className="heading">EU-STREITSCHLICHTUNG</h2>
 
         <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS)
             bereit: https://ec.europa.eu/consumers/odr.</p>
         <p>Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
         <div className="text_padding"/>
 
-        <p className="heading">VERBRAUCHERSTREITBEILEGUNG/</p>
-        <p className="heading">UNIVERSALSCHLICHTUNGSSTELLE</p>
+        <h2 className="heading">VERBRAUCHERSTREITBEILEGUNG/</h2>
+        <h2 className="heading">UNIVERSALSCHLICHTUNGSSTELLE</h2>
 
         <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
             Verbraucherschlichtungsstelle teilzunehmen.</p>
         <div className="text_padding"/>
 
-        <p className="sub_heading">Haftung für Inhalte</p>
+        <h3 className="sub_heading">Haftung für Inhalte</h3>
         <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den
             allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht
             verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu
@@ -53,7 +53,7 @@ export const impressum =
             Inhalte umgehend entfernen. </p>
         <div className="text_padding"/>
 
-        <p className="sub_heading">Haftung für Links </p>
+        <h3 className="sub_heading">Haftung für Links </h3>
         <p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben.
             Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten
             Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten
@@ -65,7 +65,7 @@ export const impressum =
             umgehend entfernen.</p>
         <div className="text_padding"/>
 
-        <p className="sub_heading"> Urheberrecht </p>
+        <h3 className="sub_heading"> Urheberrecht </h3>
         <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen
             Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
             Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
@@ -80,14 +80,14 @@ export const impressum =
 
 export const datenschutz =
     <div>
-        <p className="mainheading">DATENSCHUTZERKLÄRUNG </p>
-        <p className="heading"> 1. DATENSCHUTZ AUF EINEN BLICK </p>
-        <p className="sub_heading"> Allgemeine Hinweise </p>
+        <h1 className="mainheading">DATENSCHUTZERKLÄRUNG </h1>
+        <h2 className="heading"> 1. DATENSCHUTZ AUF EINEN BLICK </h2>
+        <h3 className="sub_heading"> Allgemeine Hinweise </h3>
         <p> Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten
             passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich
             identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter
             diesem Text aufgeführten Datenschutzerklärung. </p>
-        <p className="sub_heading"> Datenerfassung auf dieser Website </p>
+        <h3 className="sub_heading"> Datenerfassung auf dieser Website </h3>
         <p className="bold"> Wer ist verantwortlich für die Datenerfassung auf dieser Website? </p>
         <p> Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können
             Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen. </p>
@@ -110,13 +110,13 @@ export const datenschutz =
             Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. </p>
         <div className="text_padding"/>
         <p> Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden.</p>
-        <p className="sub_heading"> Analyse-Tools und Tools von Dritt anbietern </p>
+        <h3 className="sub_heading"> Analyse-Tools und Tools von Dritt anbietern </h3>
         <p>Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor allem
             mit sogenannten Analyseprogrammen.
             Detaillierte Informationen zu diesen Analyseprogrammen finden Sie in der folgenden
             Datenschutzerklärung. </p>
         <p className="heading"> 2. HOSTING UND CONTENT DELIVERY NETWORKS (CDN) </p>
-        <p className="sub_heading">Externes Hosting</p>
+        <h3 className="sub_heading">Externes Hosting</h3>
         <p>Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten, die auf
             dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v. a.
             um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen,
@@ -142,7 +142,7 @@ export const datenschutz =
             Auftragsverarbeitung
             mit unserem Hoster geschlossen. </p>
         <p className="heading"> 3. ALLGEMEINE HINWEISE UND PFLICHTINFORMATIONEN </p>
-        <p className="sub_heading">Datenschutz </p>
+        <h3 className="sub_heading">Datenschutz </h3>
         <p>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre
             personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie
             dieser Datenschutzerklärung. </p>
@@ -157,7 +157,7 @@ export const datenschutz =
         <p>Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E-Mail)
             Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist
             nicht möglich.</p>
-        <p className="sub_heading">Hinweis zur verantwortlichen Stelle </p>
+        <h3 className="sub_heading">Hinweis zur verantwortlichen Stelle </h3>
         <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
         <div className="text_padding"/>
         <p>STELP Natan GmbH</p>
@@ -169,7 +169,7 @@ export const datenschutz =
         <p>Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen
             über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen
             o. Ä.) entscheidet. </p>
-        <p className="sub_heading">Speicherdauer </p>
+        <h3 className="sub_heading">Speicherdauer </h3>
         <p>Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben
             Ihre
             personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt. Wenn Sie ein
@@ -180,7 +180,7 @@ export const datenschutz =
             Daten haben (z.B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt
             die
             Löschung nach Fortfall dieser Gründe. </p>
-        <p className="sub_heading">Hinweis zur Datenweitergabe in die USA </p>
+        <h3 className="sub_heading">Hinweis zur Datenweitergabe in die USA </h3>
         <p> Auf unserer Website sind unter anderem Tools von Unternehmen mit Sitz in den USA eingebunden. Wenn diese
             Tools aktiv sind, können Ihre personenbezogenen Daten an die US-Server der jeweiligen Unternehmen
             weitergegeben werden. Wir weisen darauf hin, dass die USA kein sicherer Drittstaat im Sinne des
@@ -189,13 +189,13 @@ export const datenschutz =
             Es kann daher nicht ausgeschlossen werden, dass US-Behörden (z.B. Geheimdienste) Ihre auf US-Servern
             befindlichen Daten zu Überwachungszwecken verarbeiten, auswerten und dauerhaft speichern. Wir haben auf
             diese Verarbeitungstätigkeiten keinen Einfluss. </p>
-        <p className="sub_heading"> Widerruf Ihrer Einwilligung zur Datenverarbeitung </p>
+        <h3 className="sub_heading"> Widerruf Ihrer Einwilligung zur Datenverarbeitung </h3>
         <p>Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine
             bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten
             Datenverarbeitung bleibt vom Widerruf unberührt. </p>
-        <p className="sub_heading">
+        <h3 className="sub_heading">
             Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)
-        </p>
+        </h3>
         <p>WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E ODER F DSGVO ERFOLGT, HABEN SIE
             JEDERZEIT DAS RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIE
             VERARBEITUNG IHRER PERSONENBEZOGENEN DATEN WIDERSPRUCH EINZULEGEN; DIES GILT AUCH FÜR EIN AUF DIESE
@@ -211,7 +211,7 @@ export const datenschutz =
             DERARTIGER WERBUNG EINZULEGEN; DIES GILT AUCH FÜR DAS PROFILING, SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN
             VERBINDUNG STEHT. WENN SIE WIDERSPRECHEN, WERDEN IHRE PERSONENBEZOGENEN DATEN ANSCHLIESSEND NICHT MEHR
             ZUM ZWECKE DER DIREKTWERBUNG VERWENDET (WIDERSPRUCH NACH ART. 21 ABS. 2 DSGVO).
-            <p className="sub_heading">Beschwerderecht bei der zuständigen Aufsichtsbehörde</p>
+            <h3 className="sub_heading">Beschwerderecht bei der zuständigen Aufsichtsbehörde</h3>
         </p>
         <p>Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer
             Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes
