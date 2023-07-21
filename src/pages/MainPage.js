@@ -31,6 +31,7 @@ import Img24 from '../resources/gallery/Natan_18.jpg';
 
 
 import HeadingSection from "../components/mainsections/HeadingSection";
+import Navbar from "../components/layout/Navbar";
 
 function MainPage() {
 
@@ -63,6 +64,7 @@ function MainPage() {
 
     return (
         <React.Fragment>
+            <Navbar/>
             <StylePage bottomWheel={true}>
                 <HeadingSection/>
                 <BlackSection/>
