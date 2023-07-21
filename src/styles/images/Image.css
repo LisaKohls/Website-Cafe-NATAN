@@ -24,7 +24,7 @@
 .imagevolunteer {
     margin-top: 2rem;
     margin-right: 2rem;
-    width: 40%;
+    width: 260px;
     height: auto;
 }
 
@@ -42,9 +42,9 @@
     height: 235px;
 }
 
-.imagenatanoutside {
-    width: 40%;
-    height: 40%;
+.imageevents {
+    width: 30%;
+    height: 30%;
     margin-right: 2rem;
     margin-top: 2rem;
 }

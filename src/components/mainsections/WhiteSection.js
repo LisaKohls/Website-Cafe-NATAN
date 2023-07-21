@@ -1,6 +1,7 @@
 import ImgPosition from "../images/ImgPosition";
 import {partner, volunteer} from "../../resources/textContent/textContent";
-import CoffeeMachine from "../../resources/gallery/barNatan2.jpg";
+import Volunteer from "../../resources/gallery/Volunteers gesucht.jpg";
+import Volunteer2 from "../../resources/gallery/STELP-Cinnema for good_9.jpg";
 import Button from "../button/Button";
 import React from "react";
 import Text from "../text/Text";
@@ -58,7 +59,8 @@ function WhiteSection() {
             <div id="volunteers"/>
             <HeadlineSection title='UNSER NATAN DREAM TEAM' color='black'/>
             <div className='container'>
-                <ImgPosition name='volunteer' image={CoffeeMachine}/>
+                <ImgPosition name='volunteer' image={Volunteer}/>
+                <ImgPosition name='volunteer' image={Volunteer2}/>
                 <Text text={volunteer} formatierung='block' color='black'/>
             </div>
             <Button name='Werde Volunteer' styleName='Volunteer'/>
