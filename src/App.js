@@ -1,18 +1,18 @@
 import React from 'react';
 import './index.css';
-import Navbar from './components/layout/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MainPage from "./pages/MainPage";
 import ImpressumPage from "./pages/ImpressumPage";
 import PrivacyPage from "./pages/PrivacyPage";
 import Footer from "./components/layout/Footer";
 import Error404Page from "./pages/Error404Page";
+import Header from "./components/layout/Header";
 
 function App() {
 
     return (
         <Router>
-            <Navbar/>
+            <Header/>
             <Routes>
                 <Route exact path="/" element={<MainPage />} />
                 <Route path="/impressum" element={<ImpressumPage />} />
