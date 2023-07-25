@@ -22,15 +22,8 @@
 }
 
 .imagevolunteer {
-    margin-top: 2rem;
-    margin-right: 2rem;
-    width: 260px;
-    height: auto;
-}
-
-.imagevolunteer2 {
-    margin-top: 2rem;
-    margin-right: 2rem;
+    margin-top: var(--marginContent);
+    padding: 1rem;
     width: 260px;
     height: auto;
 }
@@ -76,7 +69,13 @@
     margin-right: 0;
 }
 
-
+.containerVolunteer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
 
 
 @media only screen and (max-width: 700px) {
@@ -85,13 +84,11 @@
         margin: 0;
     }
 
-    .imagevolunteer {
-        margin-left: 0;
-        width: 100%;
-        height: auto;
-        margin-top: 0.8rem;
-        margin-bottom: 0.8rem;
+    .imagevolunteer{
+        width: 185px;
     }
+
+
 
     .imagepartner {
         max-width: 22rem;
@@ -137,9 +134,6 @@
         height: auto;
     }
 
-    .imagevolunteer2 {
-        display: none;
-    }
 
 }
 @media only screen and (min-width: 701px) and (max-width: 1190px){
