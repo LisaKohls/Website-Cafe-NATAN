@@ -68,7 +68,7 @@ export const description2 =  "Dieses spritzige Getränk kombiniert den sauren un
 
 export const food3 = "Sweets"
 
-export const description3 = "Energy Balls sind kleine Kraftpakete, die Ihnen einen natürlichen Energiekick geben. Diese köstlichen Snacks bestehen aus einer Mischung aus nahrhaften Zutaten wie Nüssen und Trockenfrüchten"
+export const description3 = "Energy Balls sind kleine Kraftpakete, die Ihnen einen natürlichen Energiekick geben. Diese köstlichen Snacks bestehen aus einer Mischung aus nahrhaften Zutaten wie Nüssen und Trockenfrüchten."
 
 export const originName = 'Der Name NATAN steht bei uns für mehr als nur fünf Buchstaben. „Ich habe es versucht“, hat der Visionär und Friedensaktivist Abie Nathan einmal über seine Arbeit gesagt — heute steht dieses Selbstverständnis als hebräische Inschrift auf seinem Grabstein: „Nissiti“. Abie hat uns inspiriert — und dem NATAN sowohl seinen Namen gegeben als auch die Idee dahinter geprägt. Es schließt sich nicht aus, das Leben zu lieben und in vollen Zügen zu genießen, sich aber gleichzeitig mit genauso viel Hingabe für andere einzusetzen. Bei\n' +
     'STELP machen wir das — genauso wie im NATAN. \n'
