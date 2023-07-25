@@ -86,8 +86,8 @@
 
 @media only screen and (min-width: 701px) and (max-width: 1400px) {
     .rectangle {
-        height: 26rem;
-        margin-top: -137px;
+        height: 24rem;
+        margin-top: -130px;
     }
     .stage {
         margin-left: 0.5rem;

@@ -1,11 +1,13 @@
 import { FaBars } from "react-icons/fa"
-import {useEffect, useRef} from "react"
+import React, {useEffect, useRef} from "react"
 import "../../styles/layout/Navbar.css";
 import Logo from "../../resources/logos/Natan_Logo_white_edited.png"
 import ImgPosition from "../images/ImgPosition";
 
 
 function Navbar() {
+
+
     const navRef = useRef();
     const showNavbar = () => {
         if (navRef && navRef.current) {

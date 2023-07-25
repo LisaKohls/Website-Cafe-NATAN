@@ -105,7 +105,6 @@ function Reservation() {
 
 
         if(dateValue && timeValue && nameValue && countValue && mailValue && privacyValue){
-            console.log('Input correct')
 
             setSubmit(true)
 

@@ -35,7 +35,7 @@
 .blackblock, .blackblockSmall, .whiteblock {
     text-align: justify;
     flex: 1;
-    line-height: 1.4rem;
+    line-height: 1.9rem;
     display: inline-block;
     margin-top: var(--marginContent);
 }
@@ -50,7 +50,7 @@
 
 @media only screen and (max-width: 700px) {
     .blackblockSmall {
-        line-height: 1.3rem;
+        line-height: 1.2rem;
     }
 
     .blackblock, .whiteblock{
@@ -69,6 +69,12 @@
 
     .impressumblock{
 
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1190px){
+    .blackblockSmall {
+        line-height: 1.4rem;
     }
 }
 

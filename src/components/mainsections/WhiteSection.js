@@ -5,7 +5,7 @@ import Volunteer2 from "../../resources/gallery/STELP-Cinnema for good_9.jpg";
 import Button from "../button/Button";
 import React from "react";
 import Text from "../text/Text";
-import HeadlineSection from "../text/HeadlineSection";
+import Heading from "../text/Heading";
 import Img1 from "../../resources/partnerLogos/Akis Getränke.png";
 import Img2 from "../../resources/partnerLogos/Biokiste Ortlieb.png";
 import Img3 from "../../resources/partnerLogos/Nast.png";
@@ -52,17 +52,17 @@ function WhiteSection() {
     return (
         <div>
             <div id="produkteUndPartner" className="sectionPadding"/>
-            <HeadlineSection title='UNSERE PARTNER*INNEN' color='black'/>
+            <Heading title='UNSERE PARTNER*INNEN' color='black'/>
             <div id="produkteUndPartner"/>
             <ScrollImages images={logos} imageSize="small" small={true}/>
             <Text text={partner} formatierung='block' color='black'/>
             <div id="volunteers"/>
-            <HeadlineSection title='UNSER NATAN DREAM TEAM' color='black'/>
-            <div className='container'>
+            <Heading title='UNSER NATAN DREAM TEAM' color='black'/>
+            <div className='containerVolunteer'>
                 <ImgPosition name='volunteer' image={Volunteer}/>
-                <ImgPosition name='volunteer2' image={Volunteer2}/>
-                <Text text={volunteer} formatierung='block' color='black'/>
+                <ImgPosition name='volunteer' image={Volunteer2}/>
             </div>
+            <Text text={volunteer} formatierung='block' color='black'/>
             <Button name='Werde Volunteer' styleName='Volunteer'/>
             <div id="footer" className="sectionPadding"/>
         </div>
