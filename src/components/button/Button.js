@@ -5,7 +5,7 @@ import Volunteer from '../forms/Volunteer'
 import React, {useState} from "react";
 import Menu from "../foodanddrinks/Menu";
 
-
+//implementation of the reservation, volunteer and menu popUp button
 function Button(props) {
 
     const [reservationPopUp, setReservationPopUp] = useState(false);

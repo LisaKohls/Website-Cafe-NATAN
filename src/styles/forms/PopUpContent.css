@@ -67,8 +67,6 @@
     transition: var(--transitionHover);
 }
 
-
-
 .submit:hover{
     transition: var(--transitionHover);
     background-color: var(--secondaryColor);
@@ -83,7 +81,6 @@
     height: 6rem;
     border: 0.09rem solid #b4b2b2;
     border-radius: 0.5rem;
-    text-align: left;
 }
 
 .formular textarea:focus {

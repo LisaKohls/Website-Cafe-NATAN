@@ -1,10 +1,10 @@
-import React, { useRef, useState } from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faAngleDoubleLeft } from '@fortawesome/free-solid-svg-icons';
+import React, {useRef, useState} from 'react';
+import {library} from '@fortawesome/fontawesome-svg-core';
+import {faAngleDoubleLeft} from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
 import '../../styles/scrollimages/ScrollImages.css';
 
-function ScrollImages({ images, imageSize, small, big }) {
+function ScrollImages({images, imageSize, small, big}) {
     const scrollImagesRef = useRef(null);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [touchStartX, setTouchStartX] = useState(0);
@@ -62,6 +62,7 @@ function ScrollImages({ images, imageSize, small, big }) {
         // Prevent touch move on the whole document while swiping
         e.preventDefault();
     };
+
 
     return (
         <div

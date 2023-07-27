@@ -2,6 +2,9 @@ import '../../styles/forms/PopUpContent.css'
 import emailjs from 'emailjs-com';
 import React from "react";
 
+/*
+This component is displaying content for the pop up component. It enables applying for volunteer work.
+ */
 function Volunteer(props) {
     const SERVICE_ID = 'service_cbh0z4e';
     const TEMPLATE_ID = 'template_tjgodks';
@@ -9,6 +12,7 @@ function Volunteer(props) {
 
     function check(){
 
+        //neccessary input parameters to make a volunteer request
         const nameInput = document.getElementById("name");
         let mailInput = document.getElementById("mail");
         const messageInput = document.getElementById("message");

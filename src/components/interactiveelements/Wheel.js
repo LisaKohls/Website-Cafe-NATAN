@@ -1,7 +1,7 @@
 import {useEffect, useRef} from "react";
 import '../../styles/interactiveelements/Wheel.css'
 
-
+//this component is responsible for turning wheels depending on the scroll of the user
 function Wheel(props) {
     const ref = useRef(null)
 

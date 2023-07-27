@@ -22,14 +22,15 @@ import Img13 from "../../resources/partnerLogos/Schönbuch.png";
 import Img14 from "../../resources/partnerLogos/English tearoom.jpg";
 import Img15 from "../../resources/partnerLogos/Der-Blumenladen-Stuttgart_Logo.png";
 import Img16 from '../../resources/partnerLogos/Porsche_Logo.png'
-import ScrollImages from "../scrollimages/ScrollImages";
+import ScrollImages from "../interactiveelements/ScrollImages";
 
 
-
+//this component is displaying all content on the white section of the website
 function WhiteSection() {
 
+    //this is responsible for showing the logos with horizontal scrolling
     const logos = [
-        {src:Img16 , alt: 'Porsche Logo'},
+        {src: Img16, alt: 'Porsche Logo'},
         {src: Img1, alt: 'Akis Getränke Logo'},
         {src: Img2, alt: 'Biokiste Ortlieb Logo'},
         {src: Img3, alt: 'Nast Logo'},
@@ -46,7 +47,6 @@ function WhiteSection() {
         {src: Img14, alt: 'English Tearoom Logo'},
         {src: Img15, alt: 'Der Blumenladen Stuttgart Logo'},
     ];
-
 
 
     return (
