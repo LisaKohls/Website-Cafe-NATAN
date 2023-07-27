@@ -16,7 +16,7 @@ function OpeningTimeSection() {
             <ImgPosition name='interiorNatan' image={BarOriginal}/>
             <div>
                 <Opening title='opening'>
-                    <Text text='Öffnungszeiten:' formatierung='boldHeading' color='white'/>
+                    <h3>Öffnungszeiten</h3>
                     <Text text={oeffnungszeiten} formatierung='openingText' color='white'/>
                 </Opening>
                 <Button name="Reservierung" styleName='Reservation'/>

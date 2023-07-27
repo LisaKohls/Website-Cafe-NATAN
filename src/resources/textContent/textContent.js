@@ -95,18 +95,18 @@ export const events =
             das NATAN kann sowohl für private, als auch für Corporate Events gemietet werden.
             Die Gewinne fließen an die Hilfsorganisation STELP.
         </p>
-        <p className="subheading">Fakten</p>
+        <h3 className="subheading">Fakten</h3>
         <p>
             Größe des Gastraums | 35 qm
             <br/>
             Anzahl Personen | 40 - 50
         </p>
-        <p className="subheading">Catering</p>
+        <h3 className="subheading">Catering</h3>
         <p className="blocksatz">
             Gemeinsam mit dir, und dem Anlass entsprechend, stellen wir die Speisen und Getränke für dein Event
             zusammen.
         </p>
-        <p className="subheading">PERSONAL | RAUMMIETE</p>
+        <h3 className="subheading">PERSONAL | RAUMMIETE</h3>
         <p className="blocksatz">
             Nach Absprache.
             <br/>
