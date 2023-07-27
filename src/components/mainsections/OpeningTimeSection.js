@@ -1,7 +1,7 @@
 import React from "react";
 import ImgPosition from "../images/ImgPosition";
 import BarOriginal from "../../resources/gallery/barNatan1.jpg";
-import BoxWithText from "../text/BoxWithText";
+import Opening from "../text/Opening";
 import {oeffnungszeiten} from "../../resources/textContent/textContent";
 import Button from "../button/Button";
 import wheel from '../../resources/logos/rad_weiß.png'
@@ -15,10 +15,10 @@ function OpeningTimeSection() {
         <div className="container">
             <ImgPosition name='interiorNatan' image={BarOriginal}/>
             <div>
-                <BoxWithText title='opening'>
+                <Opening title='opening'>
                     <Text text='Öffnungszeiten:' formatierung='boldHeading' color='white'/>
                     <Text text={oeffnungszeiten} formatierung='openingText' color='white'/>
-                </BoxWithText>
+                </Opening>
                 <Button name="Reservierung" styleName='Reservation'/>
             </div>
         </div>
