@@ -1,0 +1,11 @@
+.banner{
+    background-color: var(--mainColor);
+}
+
+.linkbanner{
+    color: var(--textColor);
+}
+
+.buttoncookies{
+    background-color: var(--secondaryColor);
+}

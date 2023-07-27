@@ -32,7 +32,6 @@ function BlackSection() {
 
 
     return (<>
-
             <Heading title='ZUM WOHLE ALLER' color="white"/>
             <Text text={ueberNatan} formatierung='block' color='white'/>
             <div id="opening" />

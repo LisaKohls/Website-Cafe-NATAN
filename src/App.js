@@ -7,6 +7,8 @@ import PrivacyPage from "./pages/PrivacyPage";
 import Footer from "./components/layout/Footer";
 import Error404Page from "./pages/Error404Page";
 import Header from "./components/layout/Header";
+import CookieBanner from "./components/cookiebanner/CookieBanner";
+
 
 function App() {
 
@@ -20,6 +22,7 @@ function App() {
                 <Route path="*" element={<Error404Page />} />
             </Routes>
             <Footer />
+            <CookieBanner/>
         </Router>
     );
 }
