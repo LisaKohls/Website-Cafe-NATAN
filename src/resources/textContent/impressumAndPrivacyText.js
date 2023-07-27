@@ -25,7 +25,7 @@ export const impressum =
         <h2 className="heading">UMSATZSTEUER-ID </h2>
         <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: </p>
         <p>DE335947082 </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
 
         <h2 className="heading">EU-STREITSCHLICHTUNG</h2>
 
@@ -94,7 +94,7 @@ export const datenschutz =
         <p className="bold"> Wie erfassen wir Ihre Daten? </p>
         <p> Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um
             Daten handeln, die Sie in ein Kontaktformular eingeben. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p> Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme
             erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des
             Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten. </p>
@@ -232,7 +232,7 @@ export const datenschutz =
         <p>Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
             Hierzu können Sie sich jederzeit an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in
             folgenden Fällen: </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <ul>
             <li> Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir
                 in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die
@@ -251,7 +251,7 @@ export const datenschutz =
                 haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
             </li>
         </ul>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von
             ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder
             Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen
@@ -266,15 +266,15 @@ export const datenschutz =
             werden nach Ende Ihres Besuchs automatisch gelöscht. Permanente Cookies bleiben auf Ihrem Endgerät
             gespeichert, bis Sie diese selbst löschen oder eine automatische Löschung durch Ihren Webbrowser
             erfolgt. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Teilweise können auch Cookies von Drittunternehmen auf Ihrem Endgerät gespeichert werden, wenn Sie
             unsere Seite betreten (Third-Party-Cookies). Diese ermöglichen uns oder Ihnen die Nutzung bestimmter
             Dienstleistungen des Drittunternehmens (z.B. Cookies zur Abwicklung von Zahlungsdienstleistungen). </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Cookies haben verschiedene Funktionen. Zahlreiche Cookies sind technisch notwendig, da bestimmte
             Websitefunktionen ohne diese nicht funktionieren würden (z.B. die Warenkorbfunktion oder die Anzeige von
             Videos). Andere Cookies dienen dazu, das Nutzerverhalten auszuwerten oder Werbung anzuzeigen. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Cookies, die zur Durchführung des elektronischen Kommunikationsvorgangs (notwendige Cookies) oder zur
             Bereitstellung bestimmter, von Ihnen erwünschter Funktionen (funktionale Cookies, z. B. für die
             Warenkorbfunktion) oder zur Optimierung der Website (z.B. Cookies zur Messung des Webpublikums)
@@ -284,12 +284,12 @@ export const datenschutz =
             Einwilligung zur Speicherung von Cookies abgefragt wurde, erfolgt die Speicherung der betreffenden
             Cookies ausschließlich auf Grundlage dieser Einwilligung (Art. 6 Abs. 1 lit. a DSGVO); die Einwilligung
             ist jederzeit widerrufbar. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p> Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und
             Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell
             ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren. Bei der
             Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p> Soweit Cookies von Drittunternehmen oder zu Analysezwecken eingesetzt werden, werden wir Sie hierüber im
             Rahmen dieser Datenschutzerklärung gesondert informieren und ggf. eine Einwilligung abfragen. </p>
         <p className="sub_heading">Cookie-Einwilligung mit Usercentrics </p>
@@ -297,9 +297,9 @@ export const datenschutz =
             Speicherung bestimmter Cookies auf Ihrem Endgerät oder zum Einsatz bestimmter Technologien einzuholen
             und diese datenschutzkonform zu dokumentieren. Anbieter dieser Technologie ist die Usercentrics GmbH,
             Rosental 4, 80331 München, Website: https://usercentrics.com/de/ (im Folgenden „Usercentrics“). </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Wenn Sie unsere Website betreten, werden folgende personenbezogene Daten an Usercentrics übertragen:</p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <ul>
             <li>Ihre Einwilligung(en) bzw. der Widerruf Ihrer Einwilligung(en)</li>
             <li>Ihre IP-Adresse</li>
@@ -307,16 +307,16 @@ export const datenschutz =
             <li> Informationen über Ihr Endgerät</li>
             <li>Zeitpunkt Ihres Besuchs auf der Website</li>
         </ul>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Des Weiteren speichert Usercentrics ein Cookie in Ihrem Browser, um Ihnen die erteilten Einwilligungen
             bzw. deren Widerruf zuordnen zu können. Die so erfassten Daten werden gespeichert, bis Sie uns zur
             Löschung auffordern, das Usercentrics-Cookie selbst löschen oder der Zweck für die Datenspeicherung
             entfällt. Zwingende gesetzliche Aufbewahrungspflichten bleiben unberührt. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Der Einsatz von Usercentrics erfolgt, um die gesetzlich vorgeschriebenen Einwilligungen für den Einsatz
             bestimmter Technologien einzuholen. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 S. 1 lit. c DSGVO. </p>
         <p className="sub_heading"> Anfrage per E-Mail, Telefon oder Telefax </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p> Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive aller daraus
             hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei
             uns gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. </p>
@@ -336,11 +336,11 @@ export const datenschutz =
         <p>Auf dieser Website sind Plugins des sozialen Netzwerks Facebook integriert. Anbieter dieses Dienstes ist
             die Facebook Ireland Limited, 4 Grand Canal Square, Dublin 2, Irland. Die erfassten Daten werden nach
             Aussage von Facebook jedoch auch in die USA und in andere Drittländer übertragen.</p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Die Facebook Plugins erkennen Sie an dem Facebook-Logo oder dem „Like-Button“ („Gefällt mir“) auf dieser
             Website. Eine Übersicht über die Facebook Plugins finden Sie hier:
             https://developers.facebook.com/docs/plugins/?locale=de_DE. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Wenn Sie diese Website besuchen, wird über das Plugin eine direkte Verbindung zwischen Ihrem Browser und
             dem Facebook-Server hergestellt. Facebook erhält dadurch die Information, dass Sie mit Ihrer IP-Adresse
             diese Website besucht haben. Wenn Sie den Facebook „Like-Button“ anklicken, während Sie in Ihrem
@@ -349,16 +349,16 @@ export const datenschutz =
             darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie
             deren Nutzung durch Facebook erhalten. Weitere Informationen hierzu finden Sie in der
             Datenschutzerklärung von Facebook unter: https://de-de.facebook.com/privacy/explanation. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Wenn Sie nicht wünschen, dass Facebook den Besuch dieser Website Ihrem Facebook-Nutzerkonto zuordnen
             kann, loggen Sie sich bitte aus Ihrem Facebook-Benutzerkonto aus. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p> Die Verwendung der Facebook Plugins erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der
             Websitebetreiber hat ein berechtigtes Interesse an einer möglichst umfangreichen Sichtbarkeit in den
             Sozialen Medien. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung
             ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die Einwilligung ist jederzeit
             widerrufbar. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Soweit mit Hilfe des hier beschriebenen Tools personenbezogene Daten auf unserer Website erfasst und an
             Facebook weitergeleitet werden, sind wir und die Facebook Ireland Limited, 4 Grand Canal Square, Grand
             Canal Harbour, Dublin 2, Irland gemeinsam für diese Datenverarbeitung verantwortlich (Art. 26 DSGVO).
@@ -372,7 +372,7 @@ export const datenschutz =
             Facebook-Produkte ist Facebook verantwortlich. Betroffenenrechte (z.B. Auskunftsersuchen) hinsichtlich
             der bei Facebook verarbeiteten Daten können Sie direkt bei Facebook geltend machen. Wenn Sie die
             Betroffenenrechte bei uns geltend machen, sind wir verpflichtet, diese an Facebook weiterzuleiten. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt.
             Details finden Sie hier: https://www.facebook.com/legal/EU_data_transfer_addendum,
             https://de-de.facebook.com/help/566994660333381 und https://www.facebook.com/policy.php. </p>
@@ -380,18 +380,18 @@ export const datenschutz =
         <p>Auf dieser Website sind Funktionen des Dienstes Instagram eingebunden. Diese Funktionen werden angeboten
             durch die Facebook Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland
             integriert. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p> Wenn Sie in Ihrem Instagram-Account eingeloggt sind, können Sie durch Anklicken des Instagram-Buttons
             die Inhalte dieser Website mit Ihrem Instagram-Profil verlinken. Dadurch kann Instagram den Besuch
             dieser Website Ihrem Benutzerkonto zuordnen. Wir weisen darauf hin, dass wir als Anbieter der Seiten
             keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Instagram erhalten. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Die Speicherung und Analyse der Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der
             Websitebetreiber hat ein berechtigtes Interesse an einer möglichst umfangreichen Sichtbarkeit in den
             Sozialen Medien. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung
             ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die Einwilligung ist jederzeit
             widerrufbar. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p> Soweit mit Hilfe des hier beschriebenen Tools personenbezogene Daten auf unserer Website erfasst und an
             Facebook bzw. Instagram weitergeleitet werden, sind wir und die Facebook Ireland Limited, 4 Grand Canal
             Square, Grand Canal Harbour, Dublin 2, Irland gemeinsam für diese Datenverarbeitung verantwortlich (Art.
@@ -407,11 +407,11 @@ export const datenschutz =
             (z.B. Auskunftsersuchen) hinsichtlich der bei Facebook bzw. Instagram verarbeiteten Daten können Sie
             direkt bei Facebook geltend machen. Wenn Sie die Betroffenenrechte bei uns geltend machen, sind wir
             verpflichtet, diese an Facebook weiterzuleiten. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt.
             Details finden Sie hier: https://www.facebook.com/legal/EU_data_transfer_addendum,
             https://help.instagram.com/519522125107875 und https://de-de.facebook.com/help/566994660333381. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p> Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Instagram:
             https://instagram.com/about/legal/privacy/. </p>
         <p className="heading"> 6. PLUGINS UND TOOLS </p>
@@ -419,7 +419,7 @@ export const datenschutz =
         <p> Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google
             bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Web Fonts in ihren
             Browsercache, um Texte und Schriftarten korrekt anzuzeigen. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Google aufnehmen.
             Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse diese Website aufgerufen wurde. Die
             Nutzung von Google WebFonts erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber
@@ -427,49 +427,54 @@ export const datenschutz =
             Sofern eine entsprechende Einwilligung abgefragt wurde (z. B. eine Einwilligung zur Speicherung von
             Cookies), erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die
             Einwilligung ist jederzeit widerrufbar. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p> Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p> Weitere Informationen zu Google Web Fonts finden Sie unter https://developers.google.com/fonts/faq und
             in der Datenschutzerklärung von Google: https://policies.google.com/privacy?hl=de. </p>
         <p className="sub_heading">Adobe Fonts </p>
         <p>Diese Website nutzt zur einheitlichen Darstellung bestimmter Schriftarten Web Fonts von Adobe. Anbieter
             ist die Adobe Systems Incorporated, 345 Park Avenue, San Jose, CA 95110-2704, USA (Adobe). </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Beim Aufruf dieser Website lädt Ihr Browser die benötigten Schriftarten direkt von Adobe, um sie Ihrem
             Endgerät korrekt anzeigen zu können. Dabei stellt Ihr Browser eine Verbindung zu den Servern von Adobe
             in den USA her. Hierdurch erlangt Adobe Kenntnis darüber, dass über Ihre IP-Adresse diese Website
             aufgerufen wurde. Bei der Bereitstellung der Schriftarten werden nach Aussage von Adobe keine Cookies
             gespeichert. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Die Speicherung und Analyse der Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der
             Websitebetreiber hat ein berechtigtes Interesse an der einheitlichen Darstellung des Schriftbildes auf
             seiner Website. Sofern eine entsprechende Einwilligung abgefragt wurde (z. B. eine Einwilligung zur
             Speicherung von Cookies), erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a
             DSGVO; die Einwilligung ist jederzeit widerrufbar. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt.
             Details finden Sie hier: https://www.adobe.com/de/privacy/eudatatransfers.html. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Nähere Informationen zu Adobe Fonts erhalten Sie unter:
             https://www.adobe.com/de/privacy/policies/adobe-fonts.html. </p>
-        <div className="text_padding" />
+        <div className="text_padding"/>
         <p>Die Datenschutzerklärung von Adobe finden Sie unter: https://www.adobe.com/de/privacy/policy.html </p>
         <p className="sub_heading">Google Maps </p>
-        <p className="text_padding"> Diese Seite nutzt den Kartendienst Google Maps. Anbieter ist die Google Ireland Limited („Google“),
+        <p className="text_padding"> Diese Seite nutzt den Kartendienst Google Maps. Anbieter ist die Google Ireland
+            Limited („Google“),
             Gordon House, Barrow Street, Dublin 4, Irland. </p>
-        <p className="text_padding">Zur Nutzung der Funktionen von Google Maps ist es notwendig, Ihre IP-Adresse zu speichern. Diese
+        <p className="text_padding">Zur Nutzung der Funktionen von Google Maps ist es notwendig, Ihre IP-Adresse zu
+            speichern. Diese
             Informationen werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
             Der Anbieter dieser Seite hat keinen Einfluss auf diese Datenübertragung. </p>
-        <p className="text_padding">Die Nutzung von Google Maps erfolgt im Interesse einer ansprechenden Darstellung unserer Online-Angebote
+        <p className="text_padding">Die Nutzung von Google Maps erfolgt im Interesse einer ansprechenden Darstellung
+            unserer Online-Angebote
             und an einer leichten Auffindbarkeit der von uns auf der Website angegebenen Orte. Dies stellt ein
             berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar. Sofern eine entsprechende
             Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1
             lit. a DSGVO; die Einwilligung ist jederzeit widerrufbar. </p>
-        <p className="text_padding">Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt.
+        <p className="text_padding">Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der
+            EU-Kommission gestützt.
             Details finden Sie hier: https://privacy.google.com/businesses/gdprcontrollerterms/ und
             https://privacy.google.com/businesses/gdprcontrollerterms/sccs/. </p>
-        <p className="text_padding">Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google:</p>
+        <p className="text_padding">Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung
+            von Google:</p>
         <p>https://policies.google.com/privacy?hl=de. </p>
         <div className="sectionPadding"/>
 

@@ -1,9 +1,9 @@
 import {
-        originName,
-        ueberNatan,
-        ueberStelp,
-        foodDescription,
-        food1, description1, food2, description2, food3, description3
+    originName,
+    ueberNatan,
+    ueberStelp,
+    foodDescription,
+    food1, description1, food2, description2, food3, description3
 } from "../../resources/textContent/textContent";
 import OpeningTimeSection from "./OpeningTimeSection";
 import SpecialFood from "../foodanddrinks/SpecialFood";
@@ -17,7 +17,7 @@ import Food3 from '../../resources/food/imgCoffee.jpg'
 import stageFood1 from '../../resources/specialfoodstaging/breakfast1.jpg'
 import stageFood2 from '../../resources/specialfoodstaging/drink2.jpg'
 import stageFood3 from '../../resources/specialfoodstaging/sweets3.jpg'
-import ScrollImages from "../scrollimages/ScrollImages";
+import ScrollImages from "../interactiveelements/ScrollImages";
 import Img1 from "../../resources/events/natan-after-work.png";
 import Img2 from "../../resources/events/natan-pubquiz.png";
 import ImgPosition from "../images/ImgPosition";
@@ -34,10 +34,10 @@ function BlackSection() {
     return (<>
             <Heading title='ZUM WOHLE ALLER' color="white"/>
             <Text text={ueberNatan} formatierung='block' color='white'/>
-            <div id="opening" />
+            <div id="opening"/>
             <div className="sectionPadding"/>
             <OpeningTimeSection/>
-            <div id='stelp' />
+            <div id='stelp'/>
             <Heading title='A PART OF THE STELP FAMILY' color="white"/>
             <Text text={ueberStelp} formatierung='block' color='white'/>
             <div id="menu"/>
@@ -49,9 +49,9 @@ function BlackSection() {
             </div>
             <Text text={foodDescription} formatierung='block' color='white'/>
             <SpecialFood>
-                    <FoodStage name={food1} image={stageFood1} description={description1}/>
-                    <FoodStage name={food2} image={stageFood2} description={description2}/>
-                    <FoodStage name={food3} image={stageFood3} description={description3}/>
+                <FoodStage name={food1} image={stageFood1} description={description1}/>
+                <FoodStage name={food2} image={stageFood2} description={description2}/>
+                <FoodStage name={food3} image={stageFood3} description={description3}/>
             </SpecialFood>
             <Button name='Speisekarte' styleName='Menu'/>
             <Heading title='ABIE NATHAN - DER MANN HINTER DEM NAMEN' color="white"/>
