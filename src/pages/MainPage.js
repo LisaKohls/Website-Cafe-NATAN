@@ -7,6 +7,7 @@ import HeadingSection from "../components/mainsections/HeadingSection";
 import Navbar from "../components/layout/Navbar";
 import GallerySection from "../components/mainsections/GallerySection";
 
+//the main page separates different sections of the website
 function MainPage() {
 
     return (

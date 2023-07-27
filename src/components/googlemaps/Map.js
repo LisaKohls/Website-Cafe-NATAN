@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/googlemaps/Map.css"
 
 function Map() {
-
+    //showing a GoogleMaps location of the café
     return (
         <>
             <iframe title="Google Maps" className="map"

@@ -8,8 +8,11 @@ import 'react-time-picker/dist/TimePicker.css';
 import Map from "../googlemaps/Map";
 import emailjs from "emailjs-com";
 
-
+/*
+This component is displaying content for the pop up component. It enables making a reservation request
+ */
 function Reservation() {
+
     const SERVICE_ID = 'service_cbh0z4e';
     const TEMPLATE_ID = 'template_9r15prc';
     const PUBLIC_KEY = 'hYeEf2ZvtikQQT6Ti';
@@ -22,6 +25,7 @@ function Reservation() {
 
 
     function check(){
+        //neccessary input parameters to make a volunteer request
         const dateInput = document.getElementById("datePicker")
         const timeInput = document.getElementById("time");
         const nameInput = document.getElementById("name");
@@ -32,19 +36,20 @@ function Reservation() {
         const date = dateInput.value;
         const time = timeInput.value;
         const name = nameInput.value;
-
         const count = countInput.value;
         const mail = mailInput.value;
         const privacy = checkPrivacy.checked;
 
+        //validation if mail is a real address
         const isValidMail = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(mail);
         const selectedTime = parseInt(time.split(":")[0]);
 
-        let nameValue = true;
+        //parameters used to check if current input is true
+        let nameValue;
         let timeValue = true;
-        let dateValue = true;
-        let mailValue = true;
-        let countValue = true;
+        let dateValue;
+        let mailValue;
+        let countValue;
         let privacyValue = true;
 
         if (date === "") {
@@ -103,11 +108,11 @@ function Reservation() {
         }
 
 
-
+        //if the inputValidation is successfull the form will automatically be sent via emailjs
         if(dateValue && timeValue && nameValue && countValue && mailValue && privacyValue){
 
             setSubmit(true)
-
+        //passing the following parameters to the template
             emailjs.send(SERVICE_ID,TEMPLATE_ID,{
                 date: date,
                 time: time,
@@ -125,7 +130,7 @@ function Reservation() {
         }
 
     }
-
+    //this is rendered if the form hasnt been submitted
     const makeRequest = <div className='container'>
         <Map/>
         <div>
@@ -172,11 +177,11 @@ function Reservation() {
         </div>
     </div>
 
+    //this is rendered if the form is submitted
     const isSubmitted = <div className='sentForm'>
         <h3>Danke {nameRequest},</h3>
         <p>Deine Anfrage wurde erfolgreich
             abgeschickt und wird bearbeitet, wir schicken dir eine Mail zu um die Reservierung zu bestätigen</p>
-
     </div>
 
     return ( submit ? isSubmitted:makeRequest);

@@ -24,6 +24,7 @@ import ImgPosition from "../images/ImgPosition";
 import FoodStage from "../foodanddrinks/FoodStage";
 import Text from '../text/Text'
 
+//this component is displaying all content on the black section of the website
 function BlackSection() {
     const images = [
         {src: Img1, alt: "Event Poster"},

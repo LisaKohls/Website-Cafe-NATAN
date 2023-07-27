@@ -18,29 +18,18 @@ Inhaltlich:
 
 ## Anleitung zum Aktualisieren der Inhalte
 
+- Nach dem clonen beliebige Änderungen vornehmen
+- `run git commit -m`
+- `run git push`
+- `run deploy`
 
 
+# Getting Started with our React App
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- `Git clone`
+- `Neues Projekt erstellen mit VCS`
+- `run npm i`
+- `run npm start`
 
 ## Available Scripts
 
@@ -103,7 +92,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 

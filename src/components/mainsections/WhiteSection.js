@@ -25,8 +25,10 @@ import Img16 from '../../resources/partnerLogos/Porsche_Logo.png'
 import ScrollImages from "../interactiveelements/ScrollImages";
 
 
+//this component is displaying all content on the white section of the website
 function WhiteSection() {
 
+    //this is responsible for showing the logos with horizontal scrolling
     const logos = [
         {src: Img16, alt: 'Porsche Logo'},
         {src: Img1, alt: 'Akis Getränke Logo'},

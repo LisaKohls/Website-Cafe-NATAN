@@ -4,7 +4,7 @@ import "../../styles/layout/Navbar.css";
 import Logo from "../../resources/logos/Natan_Logo_white_edited.png"
 import ImgPosition from "../images/ImgPosition";
 
-
+//responsive navigation bar
 function Navbar() {
 
 
