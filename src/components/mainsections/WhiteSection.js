@@ -43,6 +43,7 @@ function WhiteSection() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        paddingBottom: "4px",
     };
 
     return (
@@ -52,9 +53,9 @@ function WhiteSection() {
             <div id="produkteUndPartner"/>
             <Gallery images={logos}
                      slidesToShow={4}
-                     slidesToScroll={4}
+                     slidesToScroll={1}
                      infinite={true}
-                     centerMode={true}
+                     centerMode={false}
                      imageHeight={'100px'}
                      iconStyle={blackIcon}
             />

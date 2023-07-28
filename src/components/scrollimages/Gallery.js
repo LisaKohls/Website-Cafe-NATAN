@@ -6,16 +6,16 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../../styles/scrollimages/Gallery.css';
 
-const Gallery = ({ images, slidesToShow, infinite, centerMode, imageHeight, iconStyle }) => {
+const Gallery = ({ images, slidesToShow, slidesToScroll, infinite, centerMode, imageHeight, iconStyle }) => {
 
 
-    const PrevArrow = ({ onClick, color }) => (
+    const PrevArrow = ({ onClick}) => (
         <div className="custom-arrow custom-prev-arrow" onClick={onClick}>
             <span style={iconStyle}>«</span>
         </div>
     );
 
-    const NextArrow = ({ onClick, color }) => (
+    const NextArrow = ({ onClick}) => (
         <div className="custom-arrow custom-next-arrow" onClick={onClick}>
             <span style={iconStyle}>»</span>
         </div>
@@ -27,7 +27,7 @@ const Gallery = ({ images, slidesToShow, infinite, centerMode, imageHeight, icon
         infinite: infinite,
         speed: 500,
         slidesToShow: slidesToShow,
-        slidesToScroll: 2,
+        slidesToScroll: slidesToScroll,
         swipeToSlide: true,
         variableWidth: true,
         centerMode: centerMode,

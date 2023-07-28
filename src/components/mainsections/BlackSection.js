@@ -39,7 +39,10 @@ function BlackSection() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        paddingBottom: "4px",
     };
+
+    const isMobile = window.innerWidth <= 768;
 
     return (<>
             <Heading title='ZUM WOHLE ALLER' color="white"/>
@@ -70,8 +73,10 @@ function BlackSection() {
             <Heading title='AKTUELLE EVENTS' color="white"/>
             <Gallery images={images}
                      infinite={false}
-                     centerMode={false}
-                     imageHeight={'600px'}
+                     centerMode={isMobile}
+                     slidesToScroll={isMobile ? 1 : 2}
+                     slidesToShow={isMobile ? 1 : 2}
+                     imageHeight={isMobile ? '500px' : '600px'}
                      iconStyle={whiteIcon}
             />
             <Heading title='DEIN EVENT IM NATAN - MIETEN, FEIERN, GUTES TUN' color="white"/>

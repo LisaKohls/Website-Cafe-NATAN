@@ -40,13 +40,17 @@ function GallerySection(){
         justifyContent: "center",
         alignItems: "center",
         lineHeight: "40px",
+        paddingBottom: "4px",
 };
+
+    const isMobile = window.innerWidth <= 768;
 
     return(<Gallery images={images}
                     infinite={true}
                     centerMode={true}
                     slidesToShow={3}
-                    imageHeight={'500px'}
+                    slidesToScroll={1}
+                    imageHeight={isMobile ? '300px' : '400px'}
                     iconStyle={whiteIcon}
     />)
 }
