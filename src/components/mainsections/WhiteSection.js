@@ -1,13 +1,19 @@
-import ImgPosition from "../images/ImgPosition";
+
 import {partner, volunteer} from "../../resources/textContent/textContent";
-import Volunteer from "../../resources/gallery/Volunteers gesucht.jpg";
-import Volunteer2 from "../../resources/gallery/STELP-Cinnema for good_9.jpg";
 import Button from "../button/Button";
 import React from "react";
 import Text from "../text/Text";
 import Heading from "../text/Heading";
 import '../../styles/scrollimages/Gallery.css';
 import Gallery from "../scrollimages/Gallery";
+import DynamicImages from "../images/DynamicImages";
+import Volunteer from '../../resources/gallery/Volunteers gesucht.jpg';
+import Volunteer2 from '../../resources/gallery/STELP-Cinnema for good_9.jpg';
+
+const images = [
+    Volunteer,
+    Volunteer2,
+];
 
 
 //this component is displaying all content on the white section of the website
@@ -46,6 +52,18 @@ function WhiteSection() {
         paddingBottom: "4px",
     };
 
+    const images = [
+        require("../../resources/gallery/Volunteers gesucht.jpg"),
+        require("../../resources/gallery/STELP-Cinnema for good_9.jpg"),
+    ];
+
+    const customStyles = {
+        marginTop: "var(--marginContent)",
+        padding: "1rem",
+        width: "260px",
+        height: "auto",
+    };
+
     return (
         <div>
             <div id="produkteUndPartner" className="sectionPadding"/>
@@ -62,10 +80,7 @@ function WhiteSection() {
             <Text text={partner} formatierung='block' color='black'/>
             <div id="volunteers"/>
             <Heading title='UNSER NATAN DREAM TEAM' color='black'/>
-            <div className='containerVolunteer'>
-                <ImgPosition name='volunteer' image={Volunteer}/>
-                <ImgPosition name='volunteer' image={Volunteer2}/>
-            </div>
+            <DynamicImages images={images} styles={customStyles} />
             <Text text={volunteer} formatierung='block' color='black'/>
             <Button name='Werde Volunteer' styleName='Volunteer'/>
             <div id="footer" className="sectionPadding"/>

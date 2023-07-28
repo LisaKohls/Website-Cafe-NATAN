@@ -1,0 +1,26 @@
+/* CSS-Animation für das Einblenden der Bilder */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Startposition, 20px nach unten versetzt */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Endposition, keine Versetzung */
+    }
+}
+
+/* Füge die Klasse ".fade-in" nur dann hinzu, wenn das Bild im Viewport erscheint */
+.fade-in {
+    animation: fadeIn 1s ease-in-out; /* Verwende die definierte CSS-Animation */
+}
+
+
+.image {
+    opacity: 0;
+    transition: opacity 1s ease; /* Übergangsdauer: 1 Sekunde, easer Effekt */
+}
+
+.fade-in {
+    opacity: 1;
+}

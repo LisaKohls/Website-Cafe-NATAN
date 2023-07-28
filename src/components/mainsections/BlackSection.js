@@ -21,6 +21,8 @@ import ImgPosition from "../images/ImgPosition";
 import FoodStage from "../foodanddrinks/FoodStage";
 import Text from '../text/Text'
 import Gallery from "../scrollimages/Gallery";
+import DynamicImages from "../images/DynamicImages";
+import styles from '../../styles/images/Image.css';
 
 //this component is displaying all content on the black section of the website
 function BlackSection() {
@@ -43,6 +45,20 @@ function BlackSection() {
     };
 
     const isMobile = window.innerWidth <= 768;
+
+    const foodImages = [
+        require('../../resources/food/imgCake.jpg'),
+        require('../../resources/food/imgDesert.jpg'),
+        require('../../resources/food/imgCoffee.jpg'),
+    ];
+
+    const customStyles = {
+        width: "30%",
+        height: "auto",
+        marginTop: "2rem",
+        marginRight: "auto",
+    };
+
 
     return (<>
             <Heading title='ZUM WOHLE ALLER' color="white"/>
