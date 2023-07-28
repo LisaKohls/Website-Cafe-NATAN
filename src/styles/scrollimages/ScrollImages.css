@@ -78,7 +78,7 @@
     flex: 0 0 auto;
     width: auto;
     height: auto;
-    max-height: 500px; /* Adjust the max height for bigger images */
+    max-height: 500px;
     cursor: pointer;
 }
 
@@ -113,17 +113,17 @@
 
     .scroll-images {
         width: 100%;
-        height: 100%; /* Full height for mobile version */
-        overflow-x: hidden; /* Remove horizontal scrolling */
+        height: 100%;
+        overflow-x: hidden;
     }
 
     .singlePicture {
-        width: 100%; /* Make images fit the screen width */
-        height: auto; /* Allow images to adjust height accordingly */
+        width: 100%;
+        height: auto;
     }
 
     .singlePicture.active {
-        max-height: 100%; /* Make the active image fill the screen height */
+        max-height: 100%;
     }
 
 }

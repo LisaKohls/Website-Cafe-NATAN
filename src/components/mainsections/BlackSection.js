@@ -17,20 +17,29 @@ import Food3 from '../../resources/food/imgCoffee.jpg'
 import stageFood1 from '../../resources/specialfoodstaging/breakfast1.jpg'
 import stageFood2 from '../../resources/specialfoodstaging/drink2.jpg'
 import stageFood3 from '../../resources/specialfoodstaging/sweets3.jpg'
-import ScrollImages from "../interactiveelements/ScrollImages";
-import Img1 from "../../resources/events/natan-after-work.png";
-import Img2 from "../../resources/events/natan-pubquiz.png";
 import ImgPosition from "../images/ImgPosition";
 import FoodStage from "../foodanddrinks/FoodStage";
 import Text from '../text/Text'
+import Gallery from "../scrollimages/Gallery";
 
 //this component is displaying all content on the black section of the website
 function BlackSection() {
     const images = [
-        {src: Img1, alt: "Event Poster"},
-        {src: Img2, alt: "Event Poster"},
+        require("../../resources/events/natan-after-work.png"),
+        require("../../resources/events/natan-pubquiz.png"),
     ];
 
+    const whiteIcon = {
+        color: "white",
+        backgroundColor: "var(--mainColor)",
+        hoverColor: "var(--secondaryColor)",
+        borderRadius: "50%",
+        width: "40px",
+        height: "40px",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+    };
 
     return (<>
             <Heading title='ZUM WOHLE ALLER' color="white"/>
@@ -59,7 +68,12 @@ function BlackSection() {
             <Text text={originName} formatierung='block' color='white'/>
             <div id="events"/>
             <Heading title='AKTUELLE EVENTS' color="white"/>
-            <ScrollImages images={images}/>
+            <Gallery images={images}
+                     infinite={false}
+                     centerMode={false}
+                     imageHeight={'600px'}
+                     iconStyle={whiteIcon}
+            />
             <Heading title='DEIN EVENT IM NATAN - MIETEN, FEIERN, GUTES TUN' color="white"/>
             <Events/>
             <div id="endPage" className="sectionPadding"/>
