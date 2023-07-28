@@ -1,0 +1,57 @@
+/* gallery.css (oder Ihre benutzerdefinierte CSS-Datei) */
+
+
+/* Mittig ausgerichtete Bilder */
+.slick-slide img {
+    display: block; /* Optional, um mögliche Leerzeichen zu entfernen */
+    margin: 0 auto;
+    padding: 1rem;
+
+}
+
+/* Padding oben und unten für die Slider-Folien */
+.slick-slide {
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+/*
+.slick-next:before {
+    content: '»';
+
+}
+
+.slick-prev:before {
+    content: '«';
+}
+*/
+
+.slick-prev:before, .slick-next:before {
+    font-size: 40px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border: blue solid 2px;
+}
+
+.blackIcon:before {
+    color: black;
+    border: red solid 2px;
+}
+
+.blackIcon:hover:before {
+    color: var(--secondaryColor)
+}
+
+
+@media screen and (max-width: 1000px) {
+
+}
+
+
+
