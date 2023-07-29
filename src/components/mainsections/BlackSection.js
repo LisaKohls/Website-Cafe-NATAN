@@ -11,18 +11,13 @@ import Button from "../button/Button";
 import Events from "../events/Events";
 import React from "react";
 import Heading from "../text/Heading";
-import Food1 from '../../resources/food/imgCake.jpg'
-import Food2 from '../../resources/food/imgDesert.jpg'
-import Food3 from '../../resources/food/imgCoffee.jpg'
 import stageFood1 from '../../resources/specialfoodstaging/breakfast1.jpg'
 import stageFood2 from '../../resources/specialfoodstaging/drink2.jpg'
 import stageFood3 from '../../resources/specialfoodstaging/sweets3.jpg'
-import ImgPosition from "../images/ImgPosition";
 import FoodStage from "../foodanddrinks/FoodStage";
 import Text from '../text/Text'
 import Gallery from "../scrollimages/Gallery";
 import DynamicImages from "../images/DynamicImages";
-import styles from '../../styles/images/Image.css';
 
 //this component is displaying all content on the black section of the website
 function BlackSection() {
@@ -44,21 +39,14 @@ function BlackSection() {
         paddingBottom: "4px",
     };
 
-    const isMobile = window.innerWidth <= 768;
-
     const foodImages = [
         require('../../resources/food/imgCake.jpg'),
         require('../../resources/food/imgDesert.jpg'),
-        require('../../resources/food/imgCoffee.jpg'),
-    ];
+        require( '../../resources/food/imgCoffee.jpg'),
+    ]
 
-    const customStyles = {
-        width: "30%",
-        height: "auto",
-        marginTop: "2rem",
-        marginRight: "auto",
-    };
 
+    const isMobile = window.innerWidth <= 768;
 
     return (<>
             <Heading title='ZUM WOHLE ALLER' color="white"/>
@@ -71,11 +59,7 @@ function BlackSection() {
             <Text text={ueberStelp} formatierung='block' color='white'/>
             <div id="menu"/>
             <Heading title='FOOD & DRINKS - MODERN, REGIONAL, INNOVATIV' color="white"/>
-            <div className='container'>
-                <ImgPosition image={Food1} name='food'/>
-                <ImgPosition image={Food2} name='food'/>
-                <ImgPosition image={Food3} name='food'/>
-            </div>
+            <DynamicImages images={foodImages} className="imagefood" containerClass="container"/>
             <Text text={foodDescription} formatierung='block' color='white'/>
             <SpecialFood>
                 <FoodStage name={food1} image={stageFood1} description={description1}/>

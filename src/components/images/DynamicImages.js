@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import '../../styles/images/DynamicImages.css';
 
-const DynamicImages = ({ images, styles }) => {
+const DynamicImages = ({ images, className, containerClass }) => {
     const imageRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
 
@@ -29,18 +29,26 @@ const DynamicImages = ({ images, styles }) => {
         };
     }, []);
 
+    const isMobile = window.innerWidth <= 700;
+
     return (
-        <div>
-            {images.map((image, index) => (
-                <img
-                    key={index}
-                    ref={imageRef}
-                    src={image}
-                    alt={`Bild ${index + 1}`}
-                    className={`image ${isVisible ? 'fade-in' : ''}`}
-                    style={styles}
-                />
-            ))}
+        <div className={containerClass}>
+            {images.map((image, index) => {
+                if (isMobile && index > 0) {
+                    // Zeige nur das erste Bild in der Mobilversion an
+                    return null;
+                }
+
+                return (
+                    <img
+                        key={index}
+                        ref={imageRef}
+                        src={image}
+                        alt={`Bild ${index + 1}`}
+                        className={`image ${className} ${isVisible ? 'fade-in' : ''}`}
+                    />
+                );
+            })}
         </div>
     );
 };
