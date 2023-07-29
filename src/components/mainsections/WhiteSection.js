@@ -1,14 +1,13 @@
-import ImgPosition from "../images/ImgPosition";
+
 import {partner, volunteer} from "../../resources/textContent/textContent";
-import Volunteer from "../../resources/gallery/Volunteers gesucht.jpg";
-import Volunteer2 from "../../resources/gallery/STELP-Cinnema for good_9.jpg";
 import Button from "../button/Button";
 import React from "react";
 import Text from "../text/Text";
 import Heading from "../text/Heading";
 import '../../styles/scrollimages/Gallery.css';
 import Gallery from "../scrollimages/Gallery";
-
+import DynamicImages from "../interactiveelements/DynamicImages";
+import '../../styles/interactiveelements/DynamicImages.css';
 
 //this component is displaying all content on the white section of the website
 function WhiteSection() {
@@ -33,6 +32,7 @@ function WhiteSection() {
         require("../../resources/partnerLogos/Der-Blumenladen-Stuttgart_Logo.png"),
     ];
 
+    //this is the style for the arrow icon for the gallery
     const blackIcon = {
         color: "black",
         backgroundColor: "white",
@@ -46,26 +46,30 @@ function WhiteSection() {
         paddingBottom: "4px",
     };
 
+    const images = [
+        require("../../resources/gallery/Volunteers gesucht.jpg"),
+        require("../../resources/gallery/STELP-Cinnema for good_9.jpg"),
+    ];
+
+    const isMobile = window.innerWidth <= 768;
+
     return (
         <div>
             <div id="produkteUndPartner" className="sectionPadding"/>
             <Heading title='UNSERE PARTNER*INNEN' color='black'/>
             <div id="produkteUndPartner"/>
             <Gallery images={logos}
-                     slidesToShow={4}
+                     slidesToShow={isMobile ? 2 : 4}
                      slidesToScroll={1}
                      infinite={true}
-                     centerMode={false}
+                     centerMode={isMobile}
                      imageHeight={'100px'}
                      iconStyle={blackIcon}
             />
             <Text text={partner} formatierung='block' color='black'/>
             <div id="volunteers"/>
             <Heading title='UNSER NATAN DREAM TEAM' color='black'/>
-            <div className='containerVolunteer'>
-                <ImgPosition name='volunteer' image={Volunteer}/>
-                <ImgPosition name='volunteer' image={Volunteer2}/>
-            </div>
+            <DynamicImages images={images} className="imagevolunteer" />
             <Text text={volunteer} formatierung='block' color='black'/>
             <Button name='Werde Volunteer' styleName='Volunteer'/>
             <div id="footer" className="sectionPadding"/>

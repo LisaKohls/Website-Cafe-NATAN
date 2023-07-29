@@ -1,0 +1,86 @@
+/* CSS-Animation für das Einblenden der Bilder */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Startposition, 20px nach unten versetzt */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Endposition, keine Versetzung */
+    }
+}
+
+/* Füge die Klasse ".fade-in" nur dann hinzu, wenn das Bild im Viewport erscheint */
+.fade-in {
+    animation: fadeIn 1s ease-in-out; /* Verwende die definierte CSS-Animation */
+}
+
+
+.image {
+    opacity: 0;
+    transition: opacity 1s ease; /* Übergangsdauer: 1 Sekunde, easer Effekt */
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.imagevolunteer {
+    margin-top: var(--marginContent);
+    padding: 1rem;
+    width: 260px;
+    height: auto;
+}
+
+.imageinteriorNatan {
+    display: block;
+    margin-right: 5rem;
+    margin-left: 0;
+    width: 348px;
+    height: 235px;
+}
+
+.imagefood{
+    width: 30%;
+    height: auto;
+    margin-top: 2rem;
+    margin-right: auto;
+}
+
+.imagefood:last-child{
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 700px) {
+    .imagevolunteer{
+        width: 260px;
+    }
+
+    .imageinteriorNatan {
+        position: static;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .imagefood{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1190px){
+    .imageinteriorNatan {
+        display: block;
+        margin-right: 2rem;
+        margin-left: 0;
+        width: 348px;
+        height: 235px;
+    }
+
+    .imagefood{
+        display: none;
+    }
+}
