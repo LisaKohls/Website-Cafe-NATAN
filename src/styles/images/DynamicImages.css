@@ -80,4 +80,8 @@
         width: 348px;
         height: 235px;
     }
+
+    .imagefood{
+        display: none;
+    }
 }

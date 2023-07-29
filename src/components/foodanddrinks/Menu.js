@@ -54,7 +54,7 @@ const Menu = (props) => {
                 ✕
             </button>
 
-            <button className="scroll-buttons" onClick={() => handleScroll('left')}>
+            <button className="scroll-button-before" onClick={() => handleScroll('left')}>
                 «
             </button>
             <div
@@ -66,7 +66,7 @@ const Menu = (props) => {
                     <img className="child" src={menu[currentIndex].src} alt={menu[currentIndex].alt}/>
                 </div>
             </div>
-            <button className="scroll-buttons" onClick={() => handleScroll('right')}>
+            <button className="scroll-button-after" onClick={() => handleScroll('right')}>
                 »
             </button>
         </div>

@@ -8,8 +8,16 @@
     right: 2em;
     cursor: pointer;
     outline: none;
-    color: var(--textColor);
+    color: var(--textColor) !important;
+    background: var(--mainColor);
     font-size: 2rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4px;
 }
 
 .menuPopup {
@@ -53,11 +61,30 @@
     height: 90vh;
 }
 
-.scroll-buttons {
+.scroll-button-before{
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    background: var(--mainColor);
+    font-size: 3rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.scroll-button-after {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background: var(--mainColor);
+    font-size: 3rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    padding-bottom: 10px;
 }
 
 
@@ -74,24 +101,41 @@ button:hover {
         width: 100%;
     }
 
-    .scroll-buttons {
-        display: none;
+    .scroll-button-before {
+        position: absolute;
+        left: 0.5em;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        z-index: 99;
+    }
+
+    .scroll-button-after {
+        right: 0.5em;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        z-index: 99;
     }
 }
 
 
-@media only screen and (max-width: 770px) {
-    .closeBtn {
-        color: var(--mainColor);
-        top: 3em;
-    }
-}
 
-
-@media only screen and (max-width: 510px) {
+@media only screen and (max-width: 520px) {
     .closeBtn {
-        color: var(--mainColorLight);
-        top: 3em;
         right: 1em;
+    }
+
+    .scroll-button-before {
+        left: 0.1em;
+        color: var(--mainColor);
+        background: transparent;
+    }
+
+    .scroll-button-after {
+        right: 0.1em;
+        color: var(--mainColor);
+        background: transparent;
     }
 }
