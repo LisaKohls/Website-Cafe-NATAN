@@ -5,7 +5,7 @@ import Button from "../button/Button";
 import wheel from '../../resources/logos/rad_weiß.png'
 import Text from "../text/Text";
 import Wheel from "../interactiveelements/Wheel";
-import DynamicImages from "../images/DynamicImages";
+import DynamicImages from "../interactiveelements/DynamicImages";
 
 const singleImage = [
     require("../../resources/gallery/barNatan1.jpg"),

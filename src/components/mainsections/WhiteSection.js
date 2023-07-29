@@ -6,8 +6,8 @@ import Text from "../text/Text";
 import Heading from "../text/Heading";
 import '../../styles/scrollimages/Gallery.css';
 import Gallery from "../scrollimages/Gallery";
-import DynamicImages from "../images/DynamicImages";
-import '../../styles/images/DynamicImages.css';
+import DynamicImages from "../interactiveelements/DynamicImages";
+import '../../styles/interactiveelements/DynamicImages.css';
 
 //this component is displaying all content on the white section of the website
 function WhiteSection() {

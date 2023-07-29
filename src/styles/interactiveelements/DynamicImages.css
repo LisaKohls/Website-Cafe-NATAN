@@ -40,12 +40,11 @@
     height: 235px;
 }
 
-.img.image.imagefood.fade-in{
+.imagefood{
     width: 30%;
     height: auto;
     margin-top: 2rem;
     margin-right: auto;
-    align-content: space-between;
 }
 
 .imagefood:last-child{

@@ -17,7 +17,7 @@ import stageFood3 from '../../resources/specialfoodstaging/sweets3.jpg'
 import FoodStage from "../foodanddrinks/FoodStage";
 import Text from '../text/Text'
 import Gallery from "../scrollimages/Gallery";
-import DynamicImages from "../images/DynamicImages";
+import DynamicImages from "../interactiveelements/DynamicImages";
 
 //this component is displaying all content on the black section of the website
 function BlackSection() {
@@ -47,6 +47,7 @@ function BlackSection() {
 
 
     const isMobile = window.innerWidth <= 768;
+    const isTablet = window.innerWidth <= 1330;
 
     return (<>
             <Heading title='ZUM WOHLE ALLER' color="white"/>
@@ -72,10 +73,10 @@ function BlackSection() {
             <div id="events"/>
             <Heading title='AKTUELLE EVENTS' color="white"/>
             <Gallery images={images}
-                     infinite={false}
-                     centerMode={isMobile}
-                     slidesToScroll={isMobile ? 1 : 2}
-                     slidesToShow={isMobile ? 1 : 2}
+                     infinite={true}
+                     centerMode={true}
+                     slidesToScroll={1}
+                     slidesToShow={2}
                      imageHeight={isMobile ? '500px' : '600px'}
                      iconStyle={whiteIcon}
             />

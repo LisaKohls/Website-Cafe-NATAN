@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import '../../styles/images/DynamicImages.css';
+import '../../styles/interactiveelements/DynamicImages.css';
 
 const DynamicImages = ({ images, className, containerClass }) => {
     const imageRef = useRef(null);
@@ -9,7 +9,7 @@ const DynamicImages = ({ images, className, containerClass }) => {
         const options = {
             root: null,
             rootMargin: '0px',
-            threshold: 0.6,
+            threshold: 0.2,
         };
 
         const handleIntersection = (entries) => {
