@@ -15,24 +15,42 @@
 .heading {
     font-size: 30px;
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .sub_heading {
     font-size: 20px;
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .bold {
     font-weight: bold;
-    margin-top: 2rem;
+    margin-top: 1rem;
+}
+
+.boldHeading {
+    font-weight: bold;
+    margin-top: 1.5rem;
 }
 
 .impressumAndPrivacyText {
     text-align: left;
-    color: var(--mainColorLight);
     word-break: break-word;
+    color: #ffffff;
+    font-family: 'Roboto Regular', sans-serif;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.impressumAndPrivacyText ul {
+    margin-left: 1rem;
+    padding: 0;
+}
+
+.text_padding {
+    padding: 0.8rem;
 }
 
 

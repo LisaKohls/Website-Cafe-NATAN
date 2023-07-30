@@ -14,7 +14,7 @@ export const impressum =
         <p> 70182 Stuttgart </p>
         <div className="text_padding"/>
 
-        <p> Geschäftsführer </p>
+        <p className="bold"> Geschäftsführer: </p>
         <p>Christian Gärtner </p>
         <div className="text_padding"/>
 
@@ -88,20 +88,20 @@ export const datenschutz =
             identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter
             diesem Text aufgeführten Datenschutzerklärung. </p>
         <h3 className="sub_heading"> Datenerfassung auf dieser Website </h3>
-        <p className="bold"> Wer ist verantwortlich für die Datenerfassung auf dieser Website? </p>
+        <p className="boldHeading"> Wer ist verantwortlich für die Datenerfassung auf dieser Website? </p>
         <p> Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können
             Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen. </p>
-        <p className="bold"> Wie erfassen wir Ihre Daten? </p>
+        <p className="boldHeading"> Wie erfassen wir Ihre Daten? </p>
         <p> Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um
             Daten handeln, die Sie in ein Kontaktformular eingeben. </p>
         <div className="text_padding"/>
         <p> Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme
             erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des
             Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten. </p>
-        <p className="bold"> Wofür nutzen wir Ihre Daten? </p>
+        <p className="boldHeading"> Wofür nutzen wir Ihre Daten? </p>
         <p>Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere
             Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden. </p>
-        <p className="bold"> Welche Rechte haben Sie bezüglich Ihrer Daten? </p>
+        <p className="boldHeading"> Welche Rechte haben Sie bezüglich Ihrer Daten? </p>
         <p>Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten
             personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser
             Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese
@@ -115,7 +115,7 @@ export const datenschutz =
             mit sogenannten Analyseprogrammen.
             Detaillierte Informationen zu diesen Analyseprogrammen finden Sie in der folgenden
             Datenschutzerklärung. </p>
-        <p className="heading"> 2. HOSTING UND CONTENT DELIVERY NETWORKS (CDN) </p>
+        <h2 className="heading"> 2. HOSTING UND CONTENT DELIVERY NETWORKS (CDN) </h2>
         <h3 className="sub_heading">Externes Hosting</h3>
         <p>Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten, die auf
             dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v. a.
@@ -141,7 +141,7 @@ export const datenschutz =
         <p>Um die datenschutzkonforme Verarbeitung zu gewährleisten, haben wir einen Vertrag über
             Auftragsverarbeitung
             mit unserem Hoster geschlossen. </p>
-        <p className="heading"> 3. ALLGEMEINE HINWEISE UND PFLICHTINFORMATIONEN </p>
+        <h2 className="heading"> 3. ALLGEMEINE HINWEISE UND PFLICHTINFORMATIONEN </h2>
         <h3 className="sub_heading">Datenschutz </h3>
         <p>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre
             personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie
@@ -217,17 +217,17 @@ export const datenschutz =
             oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger
             verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
         </p>
-        <p className="sub_heading"> Recht auf Datenübertragbarkeit </p>
+        <h3 className="sub_heading"> Recht auf Datenübertragbarkeit </h3>
         <p> Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags
             automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format
             aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen
             verlangen, erfolgt dies nur, soweit es technisch machbar ist. </p>
-        <p className="sub_heading"> Auskunft, Löschung und Berichtigung </p>
+        <h3 className="sub_heading"> Auskunft, Löschung und Berichtigung </h3>
         <p>Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche
             Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der
             Datenverarbeitung und ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu
             weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit an uns wenden. </p>
-        <p className="sub_heading"> Recht auf Einschränkung der Verarbeitung </p>
+        <h3 className="sub_heading"> Recht auf Einschränkung der Verarbeitung </h3>
         <p>Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
             Hierzu können Sie sich jederzeit an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in
             folgenden Fällen: </p>
@@ -257,8 +257,8 @@ export const datenschutz =
             Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines
             Mitgliedstaats verarbeitet werden.
         </p>
-        <p className="heading"> 4. DATENERFASSUNG AUF DIESER WEBSITE </p>
-        <p className="sub_heading">Cookies </p>
+        <h2 className="heading"> 4. DATENERFASSUNG AUF DIESER WEBSITE </h2>
+        <h3 className="sub_heading">Cookies </h3>
         <p> Unsere Internetseiten verwenden so genannte „Cookies“. Cookies sind kleine Textdateien und richten auf
             Ihrem Endgerät keinen Schaden an. Sie werden entweder vorübergehend für die Dauer einer Sitzung
             (Session-Cookies) oder dauerhaft (permanente Cookies) auf Ihrem Endgerät gespeichert. Session-Cookies
@@ -291,7 +291,7 @@ export const datenschutz =
         <div className="text_padding"/>
         <p> Soweit Cookies von Drittunternehmen oder zu Analysezwecken eingesetzt werden, werden wir Sie hierüber im
             Rahmen dieser Datenschutzerklärung gesondert informieren und ggf. eine Einwilligung abfragen. </p>
-        <p className="sub_heading">Cookie-Einwilligung mit Usercentrics </p>
+        <h3 className="sub_heading">Cookie-Einwilligung mit Usercentrics </h3>
         <p> Diese Website nutzt die Cookie-Consent-Technologie von Usercentrics, um Ihre Einwilligung zur
             Speicherung bestimmter Cookies auf Ihrem Endgerät oder zum Einsatz bestimmter Technologien einzuholen
             und diese datenschutzkonform zu dokumentieren. Anbieter dieser Technologie ist die Usercentrics GmbH,
@@ -314,7 +314,7 @@ export const datenschutz =
         <div className="text_padding"/>
         <p>Der Einsatz von Usercentrics erfolgt, um die gesetzlich vorgeschriebenen Einwilligungen für den Einsatz
             bestimmter Technologien einzuholen. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 S. 1 lit. c DSGVO. </p>
-        <p className="sub_heading"> Anfrage per E-Mail, Telefon oder Telefax </p>
+        <h3 className="sub_heading"> Anfrage per E-Mail, Telefon oder Telefax </h3>
         <div className="text_padding"/>
         <p> Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive aller daraus
             hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei
@@ -330,8 +330,8 @@ export const datenschutz =
             auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung
             entfällt (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen –
             insbesondere gesetzliche Aufbewahrungsfristen – bleiben unberührt. </p>
-        <p className="heading"> 5. SOZIALE MEDIEN </p>
-        <p className="sub_heading"> Facebook Plugins (Like & Share-Button) </p>
+        <h2 className="heading"> 5. SOZIALE MEDIEN </h2>
+        <h3 className="sub_heading"> Facebook Plugins (Like & Share-Button) </h3>
         <p>Auf dieser Website sind Plugins des sozialen Netzwerks Facebook integriert. Anbieter dieses Dienstes ist
             die Facebook Ireland Limited, 4 Grand Canal Square, Dublin 2, Irland. Die erfassten Daten werden nach
             Aussage von Facebook jedoch auch in die USA und in andere Drittländer übertragen.</p>
@@ -375,7 +375,7 @@ export const datenschutz =
         <p>Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt.
             Details finden Sie hier: https://www.facebook.com/legal/EU_data_transfer_addendum,
             https://de-de.facebook.com/help/566994660333381 und https://www.facebook.com/policy.php. </p>
-        <p className="sub_heading"> Instagram Plugin </p>
+        <h3 className="sub_heading"> Instagram Plugin </h3>
         <p>Auf dieser Website sind Funktionen des Dienstes Instagram eingebunden. Diese Funktionen werden angeboten
             durch die Facebook Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland
             integriert. </p>
@@ -413,8 +413,8 @@ export const datenschutz =
         <div className="text_padding"/>
         <p> Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Instagram:
             https://instagram.com/about/legal/privacy/. </p>
-        <p className="heading"> 6. PLUGINS UND TOOLS </p>
-        <p className="sub_heading">Google Web Fonts </p>
+        <h2 className="heading"> 6. PLUGINS UND TOOLS </h2>
+        <h3 className="sub_heading">Google Web Fonts </h3>
         <p> Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google
             bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Web Fonts in ihren
             Browsercache, um Texte und Schriftarten korrekt anzuzeigen. </p>
@@ -431,7 +431,7 @@ export const datenschutz =
         <div className="text_padding"/>
         <p> Weitere Informationen zu Google Web Fonts finden Sie unter https://developers.google.com/fonts/faq und
             in der Datenschutzerklärung von Google: https://policies.google.com/privacy?hl=de. </p>
-        <p className="sub_heading">Adobe Fonts </p>
+        <h3 className="sub_heading">Adobe Fonts </h3>
         <p>Diese Website nutzt zur einheitlichen Darstellung bestimmter Schriftarten Web Fonts von Adobe. Anbieter
             ist die Adobe Systems Incorporated, 345 Park Avenue, San Jose, CA 95110-2704, USA (Adobe). </p>
         <div className="text_padding"/>
@@ -454,25 +454,29 @@ export const datenschutz =
             https://www.adobe.com/de/privacy/policies/adobe-fonts.html. </p>
         <div className="text_padding"/>
         <p>Die Datenschutzerklärung von Adobe finden Sie unter: https://www.adobe.com/de/privacy/policy.html </p>
-        <p className="sub_heading">Google Maps </p>
-        <p className="text_padding"> Diese Seite nutzt den Kartendienst Google Maps. Anbieter ist die Google Ireland
+        <h3 className="sub_heading">Google Maps </h3>
+        <p> Diese Seite nutzt den Kartendienst Google Maps. Anbieter ist die Google Ireland
             Limited („Google“),
             Gordon House, Barrow Street, Dublin 4, Irland. </p>
-        <p className="text_padding">Zur Nutzung der Funktionen von Google Maps ist es notwendig, Ihre IP-Adresse zu
+        <div className="text_padding"/>
+        <p>Zur Nutzung der Funktionen von Google Maps ist es notwendig, Ihre IP-Adresse zu
             speichern. Diese
             Informationen werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
             Der Anbieter dieser Seite hat keinen Einfluss auf diese Datenübertragung. </p>
-        <p className="text_padding">Die Nutzung von Google Maps erfolgt im Interesse einer ansprechenden Darstellung
+        <div className="text_padding"/>
+        <p>Die Nutzung von Google Maps erfolgt im Interesse einer ansprechenden Darstellung
             unserer Online-Angebote
             und an einer leichten Auffindbarkeit der von uns auf der Website angegebenen Orte. Dies stellt ein
             berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar. Sofern eine entsprechende
             Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1
             lit. a DSGVO; die Einwilligung ist jederzeit widerrufbar. </p>
-        <p className="text_padding">Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der
+        <div className="text_padding"/>
+        <p>Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der
             EU-Kommission gestützt.
             Details finden Sie hier: https://privacy.google.com/businesses/gdprcontrollerterms/ und
             https://privacy.google.com/businesses/gdprcontrollerterms/sccs/. </p>
-        <p className="text_padding">Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung
+        <div className="text_padding"/>
+        <p>Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung
             von Google:</p>
         <p>https://policies.google.com/privacy?hl=de. </p>
         <div className="sectionPadding"/>
