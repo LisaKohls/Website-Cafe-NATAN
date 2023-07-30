@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="831da116-b36e-4c3b-8b9e-ec881e0919cd" name="Changes" comment="öffnungszeiten angepasst">
+    <list default="true" id="831da116-b36e-4c3b-8b9e-ec881e0919cd" name="Changes" comment="fixed gallery for events">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/forms/Reservierung.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/forms/Reservation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainsections/BlackSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainsections/BlackSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainsections/FirstSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainsections/HeadingSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainsections/OpeningTimeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainsections/OpeningTimeSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Error404Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Error404Page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/ImpressumPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ImpressumPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/PrivacyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PrivacyPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/StylePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/StylePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/scrollimages/Events.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/events/Events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/scrollimages/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/scrollimages/ScrollImages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/button/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/button/Button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/interactiveelements/Wheel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/interactiveelements/Wheel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/scrollimages/Gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/scrollimages/Gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cookiebanner/CookieBanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cookiebanner/CookieBanner.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -62,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "feat/design__anpassen__mobile",
-    "last_opened_file_path": "/Users/lisakohls/Documents/NatanWebseite/src/resources/food",
+    "last_opened_file_path": "/Users/lisasalzer/WebstormProjects/projekt_webseite_natan/src/resources/events",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -74,16 +59,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/events" />
       <recent name="$PROJECT_DIR$/src/resources/food" />
       <recent name="$PROJECT_DIR$/src/Resources" />
       <recent name="C:\Users\DELL\Documents\Semester4\NatanWebseite\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/gallery" />
+      <recent name="$PROJECT_DIR$/src/styles/interactiveelements" />
+      <recent name="$PROJECT_DIR$/src/components/interactiveelements" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/components/events" />
-      <recent name="$PROJECT_DIR$/src/styles/pages" />
-      <recent name="$PROJECT_DIR$/src/styles/button" />
-      <recent name="$PROJECT_DIR$/src/styles/scrollimages" />
     </key>
   </component>
   <component name="RunManager">
@@ -136,34 +122,6 @@
       <workItem from="1688540522113" duration="10672000" />
       <workItem from="1688648127632" duration="634000" />
       <workItem from="1689060690278" duration="2077000" />
-    </task>
-    <task id="LOCAL-00011" summary="added arrow icons to gallery">
-      <created>1684853299306</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1684853299306</updated>
-    </task>
-    <task id="LOCAL-00012" summary="interior image mobile version">
-      <created>1687360341162</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1687360341162</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Headline componente, reservierungs bestätigung, sections">
-      <created>1687447299266</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1687447299266</updated>
-    </task>
-    <task id="LOCAL-00014" summary="heading anpassung">
-      <created>1687447726371</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1687447726371</updated>
     </task>
     <task id="LOCAL-00015" summary="umstrukturierung und layout">
       <created>1687448865251</created>
@@ -480,7 +438,35 @@
       <option name="project" value="LOCAL" />
       <updated>1688555658395</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="added css for dynamicImages component">
+      <created>1690610969705</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1690610969705</updated>
+    </task>
+    <task id="LOCAL-00061" summary="added arrows to mobile version of the menu">
+      <created>1690613966119</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1690613966119</updated>
+    </task>
+    <task id="LOCAL-00062" summary="fixed openingTime wheel, changed directory of DynamicImages.css and DynamicImages.js">
+      <created>1690658507447</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1690658507447</updated>
+    </task>
+    <task id="LOCAL-00063" summary="fixed gallery for events">
+      <created>1690696646142</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1690696646142</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,10 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="heading anpassung" />
-    <MESSAGE value="umstrukturierung und layout" />
-    <MESSAGE value="umstrukturierung und fehler beseitigung" />
-    <MESSAGE value="rad" />
     <MESSAGE value="Neue Anordnung der Klassen und Componenten" />
     <MESSAGE value="Speisekarte faded in" />
     <MESSAGE value="reinfliegen" />
@@ -523,6 +505,10 @@
     <MESSAGE value="Texte angepasst" />
     <MESSAGE value="Stage height und spacing angepasst" />
     <MESSAGE value="öffnungszeiten angepasst" />
-    <option name="LAST_COMMIT_MESSAGE" value="öffnungszeiten angepasst" />
+    <MESSAGE value="added css for dynamicImages component" />
+    <MESSAGE value="added arrows to mobile version of the menu" />
+    <MESSAGE value="fixed openingTime wheel, changed directory of DynamicImages.css and DynamicImages.js" />
+    <MESSAGE value="fixed gallery for events" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed gallery for events" />
   </component>
 </project>
