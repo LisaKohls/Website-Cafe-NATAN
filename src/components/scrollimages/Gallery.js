@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -6,6 +6,15 @@ import '../../styles/scrollimages/Gallery.css';
 
 const Gallery = ({ images, slidesToShow, slidesToScroll, infinite, centerMode, imageHeight, iconStyle }) => {
 
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleResize = () => setWindowWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     const PrevArrow = ({ onClick}) => (
         <div className="custom-arrow custom-prev-arrow" onClick={onClick}>
@@ -36,6 +45,12 @@ const Gallery = ({ images, slidesToShow, slidesToScroll, infinite, centerMode, i
     return (
         <div>
             <style>
+                {`
+          .slick-slide {
+            width: ${windowWidth}px;
+            padding: 0 10px; /* Optional: füge Abstand zwischen den Bildern hinzu */
+          }
+        `}
                 {`
           .custom-arrow {
             position: absolute;

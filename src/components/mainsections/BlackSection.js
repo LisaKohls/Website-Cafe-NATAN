@@ -36,6 +36,7 @@ function BlackSection() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        lineHeight: "40px",
         paddingBottom: "4px",
     };
 
@@ -46,8 +47,7 @@ function BlackSection() {
     ]
 
 
-    const isMobile = window.innerWidth <= 768;
-    const isTablet = window.innerWidth <= 1330;
+    const isMobile = window.innerWidth <= 1330;
 
     return (<>
             <Heading title='ZUM WOHLE ALLER' color="white"/>
@@ -75,8 +75,8 @@ function BlackSection() {
             <Gallery images={images}
                      infinite={true}
                      centerMode={true}
+                     slidesToShow={isMobile ? 1 : 2}
                      slidesToScroll={1}
-                     slidesToShow={2}
                      imageHeight={isMobile ? '500px' : '600px'}
                      iconStyle={whiteIcon}
             />
