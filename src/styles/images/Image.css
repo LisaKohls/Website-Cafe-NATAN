@@ -44,11 +44,11 @@
     margin-top: 23rem;
 }
 
-.imagefood:last-child{
+.imagefood:last-child {
     margin-right: 0;
 }
 
-.containerVolunteer{
+.containerVolunteer {
     display: flex;
     justify-content: center;
     align-items: center;

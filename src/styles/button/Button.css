@@ -21,7 +21,7 @@
 }
 
 .btnReservation {
-   display: flex;
+    display: flex;
     align-items: flex-start;
     text-align: left;
 }

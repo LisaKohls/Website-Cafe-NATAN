@@ -42,7 +42,7 @@
     overflow-y: visible;
 }
 
-.formular.volunteer input{
+.formular.volunteer input {
     width: 25rem;
 }
 
@@ -67,14 +67,14 @@
     transition: var(--transitionHover);
 }
 
-.submit:hover{
+.submit:hover {
     transition: var(--transitionHover);
     background-color: var(--secondaryColor);
     color: var(--textColor);
     border-color: var(--secondaryColor);
 }
 
-.formular .textArea{
+.formular .textArea {
     all: unset;
     display: block;
     width: 25.5rem;
@@ -89,7 +89,7 @@
     outline: none;
 }
 
-.sentForm{
+.sentForm {
     color: var(--mainColor);
     line-height: 1.5rem;
     text-align: justify;
@@ -100,18 +100,18 @@
     height: auto;
 }
 
-.formular .checkbox{
+.formular .checkbox {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 
-.checkbox #privacy{
+.checkbox #privacy {
     margin-left: 0.7rem;
     text-align: left;
 }
 
-.formular .mandatory{
+.formular .mandatory {
     font-size: 14px;
     color: gray;
     margin-top: 0.3rem;
@@ -128,15 +128,15 @@
         margin-top: 0.5rem;
     }
 
-    .formular .textArea{
+    .formular .textArea {
         width: 16.2rem;
     }
 
-    .formular.volunteer input{
+    .formular.volunteer input {
         width: 15.5rem;
     }
 
-    .sentForm{
+    .sentForm {
         width: fit-content;
     }
 

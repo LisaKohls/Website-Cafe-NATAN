@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import '../../styles/interactiveelements/DynamicImages.css';
 
-const DynamicImages = ({ images, className, containerClass }) => {
+const DynamicImages = ({images, className, containerClass}) => {
     const imageRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
 

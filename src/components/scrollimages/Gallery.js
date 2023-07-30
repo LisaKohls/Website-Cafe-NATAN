@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../../styles/scrollimages/Gallery.css';
 
-const Gallery = ({ images, slidesToShow, slidesToScroll, infinite, centerMode, imageHeight, iconStyle }) => {
+const Gallery = ({images, slidesToShow, slidesToScroll, infinite, centerMode, imageHeight, iconStyle}) => {
 
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -16,13 +16,13 @@ const Gallery = ({ images, slidesToShow, slidesToScroll, infinite, centerMode, i
         };
     }, []);
 
-    const PrevArrow = ({ onClick}) => (
+    const PrevArrow = ({onClick}) => (
         <div className="custom-arrow custom-prev-arrow" onClick={onClick}>
             <span style={iconStyle}>«</span>
         </div>
     );
 
-    const NextArrow = ({ onClick}) => (
+    const NextArrow = ({onClick}) => (
         <div className="custom-arrow custom-next-arrow" onClick={onClick}>
             <span style={iconStyle}>»</span>
         </div>
@@ -38,8 +38,8 @@ const Gallery = ({ images, slidesToShow, slidesToScroll, infinite, centerMode, i
         swipeToSlide: true,
         variableWidth: true,
         centerMode: centerMode,
-        prevArrow: <PrevArrow />,
-        nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow/>,
+        nextArrow: <NextArrow/>,
     };
 
     return (
@@ -87,7 +87,7 @@ const Gallery = ({ images, slidesToShow, slidesToScroll, infinite, centerMode, i
                         <img
                             src={image}
                             alt={`Bild ${index + 1}`}
-                            style={{ height: imageHeight }}
+                            style={{height: imageHeight}}
                         />
                     </div>
                 ))}

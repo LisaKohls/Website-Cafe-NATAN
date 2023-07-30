@@ -1,9 +1,9 @@
-.linkWhite{
+.linkWhite {
     color: var(--textColor);
 }
 
-.linkBlack{
-    color:var(--mainColor);
+.linkBlack {
+    color: var(--mainColor);
     margin-left: 4px;
     margin-right: 4px;
 }
@@ -14,18 +14,18 @@
     margin-top: var(--marginContent);
 }
 
-.whitecenter, .whiteblock{
+.whitecenter, .whiteblock {
     color: var(--textColor);
 }
 
-.whiteboldHeading{
+.whiteboldHeading {
     text-align: left;
     color: var(--textColor);
     font-weight: bold;
     font-size: 1rem;
 }
 
-.whiteevents, .whiteopeningText{
+.whiteevents, .whiteopeningText {
     text-align: justify;
     color: var(--textColor);
     line-height: 1.9rem;
@@ -40,7 +40,7 @@
     margin-top: var(--marginContent);
 }
 
-.blackblockSmall{
+.blackblockSmall {
     margin-top: 1.7rem;
 }
 
@@ -53,7 +53,7 @@
         line-height: 1.2rem;
     }
 
-    .blackblock, .whiteblock{
+    .blackblock, .whiteblock {
         margin-top: 0;
     }
 
@@ -67,12 +67,12 @@
         text-align: center;
     }
 
-    .impressumblock{
+    .impressumblock {
 
     }
 }
 
-@media only screen and (min-width: 400px) and (max-width: 1190px){
+@media only screen and (min-width: 400px) and (max-width: 1190px) {
     .blackblockSmall {
         line-height: 1.4rem;
     }

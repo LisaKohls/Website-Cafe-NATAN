@@ -1,4 +1,3 @@
-
 import {partner, volunteer} from "../../resources/textContent/textContent";
 import Button from "../button/Button";
 import React from "react";
@@ -69,7 +68,7 @@ function WhiteSection() {
             <Text text={partner} formatierung='block' color='black'/>
             <div id="volunteers"/>
             <Heading title='UNSER NATAN DREAM TEAM' color='black'/>
-            <DynamicImages images={images} className="imagevolunteer" />
+            <DynamicImages images={images} className="imagevolunteer"/>
             <Text text={volunteer} formatierung='block' color='black'/>
             <Button name='Werde Volunteer' styleName='Volunteer'/>
             <div id="footer" className="sectionPadding"/>

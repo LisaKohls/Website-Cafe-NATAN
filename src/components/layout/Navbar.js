@@ -1,4 +1,4 @@
-import { FaBars } from "react-icons/fa"
+import {FaBars} from "react-icons/fa"
 import React, {useEffect, useRef} from "react"
 import "../../styles/layout/Navbar.css";
 import Logo from "../../resources/logos/Natan_Logo_white_edited.png"

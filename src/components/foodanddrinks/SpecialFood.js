@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import '../../styles/foodanddrinks/Food.css'
 
-function SpecialFood(props){
+function SpecialFood(props) {
     const [isVisible, setIsVisible] = useState(false);
 
     const handleScroll = () => {

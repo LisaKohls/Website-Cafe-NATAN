@@ -10,7 +10,7 @@ function Volunteer(props) {
     const TEMPLATE_ID = 'template_tjgodks';
     const PUBLIC_KEY = 'hYeEf2ZvtikQQT6Ti';
 
-    function check(){
+    function check() {
 
         //neccessary input parameters to make a volunteer request
         const nameInput = document.getElementById("name");
@@ -27,30 +27,30 @@ function Volunteer(props) {
 
         if (name === "") {
             nameInput.style.borderColor = 'red'
-        }else{
+        } else {
             nameInput.style.borderColor = 'black'
         }
 
-        if (mail === ""){
+        if (mail === "") {
             mailInput.style.borderColor = 'red'
-        }else if(!isValidMail){
+        } else if (!isValidMail) {
             mailInput.style.borderColor = 'red'
             mailInput.value = ''
             mailInput.setAttribute('placeholder', 'Gebe eine korrekte E-Mail an');
-        } else{
+        } else {
             mailInput.style.borderColor = 'black'
             mailInput.removeAttribute('placeholder')
         }
 
 
-        if(name !== '' && mail !== '' && privacy){
+        if (name !== '' && mail !== '' && privacy) {
             console.log(`name ${name}, mail ${mail}, message ${message}`)
             props.setTrigger(false);
-            emailjs.send(SERVICE_ID,TEMPLATE_ID,{
+            emailjs.send(SERVICE_ID, TEMPLATE_ID, {
                 name: name,
                 mail: mail,
                 message: message,
-            },PUBLIC_KEY ).then(
+            }, PUBLIC_KEY).then(
                 function (response) {
                     console.log("SUCCESS!", response.status, response.text);
                 },
@@ -61,34 +61,35 @@ function Volunteer(props) {
         }
 
 
-
-
     }
+
     return (
         <div>
-        <div className='formular volunteer' >
-            <>
-                <h2>Werde Volunteer</h2>
-            </>
-            <>
-                <label>Vor- und Nachname:*</label>
-                <input type="text" id="name" name="name" required></input>
-            </>
-            <>
-                <label>Mail:*</label>
-                <input type="email" id="mail" name="mail" placeholder=" " required></input>
-            </>
-            <>
-                <label>Deine Nachricht an uns:</label>
-                <textarea id="message" className="textArea"></textarea>
-            </>
-            <>
-                <p className='mandatory'>* Pflichtfeld</p>
-            </>
-        </div>
+            <div className='formular volunteer'>
+                <>
+                    <h2>Werde Volunteer</h2>
+                </>
+                <>
+                    <label>Vor- und Nachname:*</label>
+                    <input type="text" id="name" name="name" required></input>
+                </>
+                <>
+                    <label>Mail:*</label>
+                    <input type="email" id="mail" name="mail" placeholder=" " required></input>
+                </>
+                <>
+                    <label>Deine Nachricht an uns:</label>
+                    <textarea id="message" className="textArea"></textarea>
+                </>
+                <>
+                    <p className='mandatory'>* Pflichtfeld</p>
+                </>
+            </div>
             <div className='checkbox'>
                 <input type="checkbox" id="privacy" name="privacy"/>
-                <label htmlFor="privacy" id="privacyLabel"> Ich habe die <a href="/privacy" className='linkBlack' target="_blank">Datenschutzerklärung</a> gelesen und verstanden </label>
+                <label htmlFor="privacy" id="privacyLabel"> Ich habe die <a href="/privacy" className='linkBlack'
+                                                                            target="_blank">Datenschutzerklärung</a> gelesen
+                    und verstanden </label>
             </div>
             <>
                 <button className='submit' onClick={check}>Abschicken</button>
