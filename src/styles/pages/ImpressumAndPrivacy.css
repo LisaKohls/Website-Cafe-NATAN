@@ -53,6 +53,16 @@
     padding: 0.8rem;
 }
 
+.impressumAndPrivacyText a:hover {
+    transition: var(--transitionHover);
+    color: var(--secondaryColor);
+}
+
+.impressumAndPrivacyText a {
+    color:var(--textColor);
+    text-decoration: none;
+}
+
 
 @media only screen and (max-width: 700px) {
     .impressumAndPrivacy {

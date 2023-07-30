@@ -30,7 +30,7 @@ export const impressum =
         <h2 className="heading">EU-STREITSCHLICHTUNG</h2>
 
         <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS)
-            bereit: https://ec.europa.eu/consumers/odr.</p>
+            bereit: <a href="https://ec.europa.eu/consumers/odr">https://ec.europa.eu/consumers/odr</a>.</p>
         <p>Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
         <div className="text_padding"/>
 
@@ -338,7 +338,8 @@ export const datenschutz =
         <div className="text_padding"/>
         <p>Die Facebook Plugins erkennen Sie an dem Facebook-Logo oder dem „Like-Button“ („Gefällt mir“) auf dieser
             Website. Eine Übersicht über die Facebook Plugins finden Sie hier:
-            https://developers.facebook.com/docs/plugins/?locale=de_DE. </p>
+            <a href="https://developers.facebook.com/docs/plugins/?locale=de_DE">
+            https://developers.facebook.com/docs/plugins/?locale=de_DE</a>.</p>
         <div className="text_padding"/>
         <p>Wenn Sie diese Website besuchen, wird über das Plugin eine direkte Verbindung zwischen Ihrem Browser und
             dem Facebook-Server hergestellt. Facebook erhält dadurch die Information, dass Sie mit Ihrer IP-Adresse
@@ -347,7 +348,8 @@ export const datenschutz =
             verlinken. Dadurch kann Facebook den Besuch dieser Website Ihrem Benutzerkonto zuordnen. Wir weisen
             darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie
             deren Nutzung durch Facebook erhalten. Weitere Informationen hierzu finden Sie in der
-            Datenschutzerklärung von Facebook unter: https://de-de.facebook.com/privacy/explanation. </p>
+            Datenschutzerklärung von Facebook unter: <a href="https://de-de.facebook.com/privacy/explanation">
+            https://de-de.facebook.com/privacy/explanation </a>.</p>
         <div className="text_padding"/>
         <p>Wenn Sie nicht wünschen, dass Facebook den Besuch dieser Website Ihrem Facebook-Nutzerkonto zuordnen
             kann, loggen Sie sich bitte aus Ihrem Facebook-Benutzerkonto aus. </p>
@@ -365,7 +367,9 @@ export const datenschutz =
             deren Weitergabe an Facebook. Die nach der Weiterleitung erfolgende Verarbeitung durch Facebook ist
             nicht Teil der gemeinsamen Verantwortung. Die uns gemeinsam obliegenden Verpflichtungen wurden in einer
             Vereinbarung über gemeinsame Verarbeitung festgehalten. Den Wortlaut der Vereinbarung finden Sie unter:
-            https://www.facebook.com/legal/controller_addendum. Laut dieser Vereinbarung sind wir für die Erteilung
+            <a href="https://www.facebook.com/legal/controller_addendum">
+                https://www.facebook.com/legal/controller_addendum</a>.
+            Laut dieser Vereinbarung sind wir für die Erteilung
             der Datenschutzinformationen beim Einsatz des Facebook-Tools und für die datenschutzrechtlich sichere
             Implementierung des Tools auf unserer Website verantwortlich. Für die Datensicherheit der
             Facebook-Produkte ist Facebook verantwortlich. Betroffenenrechte (z.B. Auskunftsersuchen) hinsichtlich
@@ -373,8 +377,12 @@ export const datenschutz =
             Betroffenenrechte bei uns geltend machen, sind wir verpflichtet, diese an Facebook weiterzuleiten. </p>
         <div className="text_padding"/>
         <p>Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt.
-            Details finden Sie hier: https://www.facebook.com/legal/EU_data_transfer_addendum,
-            https://de-de.facebook.com/help/566994660333381 und https://www.facebook.com/policy.php. </p>
+            Details finden Sie hier:
+            <a href="https://www.facebook.com/legal/EU_data_transfer_addendum">
+                https://www.facebook.com/legal/EU_data_transfer_addendum</a>,
+            <a href="https://de-de.facebook.com/help/566994660333381">
+                https://de-de.facebook.com/help/566994660333381</a>
+             und <a href="https://www.facebook.com/policy.php">https://www.facebook.com/policy.php</a>.</p>
         <h3 className="sub_heading"> Instagram Plugin </h3>
         <p>Auf dieser Website sind Funktionen des Dienstes Instagram eingebunden. Diese Funktionen werden angeboten
             durch die Facebook Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland
@@ -399,7 +407,9 @@ export const datenschutz =
             Verarbeitung durch Facebook bzw. Instagram ist nicht Teil der gemeinsamen Verantwortung. Die uns
             gemeinsam obliegenden Verpflichtungen wurden in einer Vereinbarung über gemeinsame Verarbeitung
             festgehalten. Den Wortlaut der Vereinbarung finden Sie unter:
-            https://www.facebook.com/legal/controller_addendum. Laut dieser Vereinbarung sind wir für die Erteilung
+            <a href="https://www.facebook.com/legal/controller_addendum">
+                https://www.facebook.com/legal/controller_addendum</a>.
+            Laut dieser Vereinbarung sind wir für die Erteilung
             der Datenschutzinformationen beim Einsatz des Facebook- bzw. Instagram-Tools und für die
             datenschutzrechtlich sichere Implementierung des Tools auf unserer Website verantwortlich. Für die
             Datensicherheit der Facebook bzw. Instagram-Produkte ist Facebook verantwortlich. Betroffenenrechte
@@ -408,11 +418,16 @@ export const datenschutz =
             verpflichtet, diese an Facebook weiterzuleiten. </p>
         <div className="text_padding"/>
         <p>Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt.
-            Details finden Sie hier: https://www.facebook.com/legal/EU_data_transfer_addendum,
-            https://help.instagram.com/519522125107875 und https://de-de.facebook.com/help/566994660333381. </p>
+            Details finden Sie hier:
+            <a href="https://www.facebook.com/legal/EU_data_transfer_addendum">
+                https://www.facebook.com/legal/EU_data_transfer_addendum</a>,
+            <a href="https://help.instagram.com/519522125107875">
+                https://help.instagram.com/519522125107875 </a> und
+            <a href="https://de-de.facebook.com/help/566994660333381">
+                https://de-de.facebook.com/help/566994660333381</a>.</p>
         <div className="text_padding"/>
         <p> Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Instagram:
-            https://instagram.com/about/legal/privacy/. </p>
+            <a href="https://instagram.com/about/legal/privacy/">https://instagram.com/about/legal/privacy/</a>.</p>
         <h2 className="heading"> 6. PLUGINS UND TOOLS </h2>
         <h3 className="sub_heading">Google Web Fonts </h3>
         <p> Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google
@@ -429,9 +444,11 @@ export const datenschutz =
         <div className="text_padding"/>
         <p> Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt. </p>
         <div className="text_padding"/>
-        <p> Weitere Informationen zu Google Web Fonts finden Sie unter https://developers.google.com/fonts/faq und
-            in der Datenschutzerklärung von Google: https://policies.google.com/privacy?hl=de. </p>
-        <h3 className="sub_heading">Adobe Fonts </h3>
+        <p> Weitere Informationen zu Google Web Fonts finden Sie unter
+            <a href="https://developers.google.com/fonts/faq">https://developers.google.com/fonts/faq</a> und
+            in der Datenschutzerklärung von Google:
+            <a href="https://policies.google.com/privacy?hl=de"> https://policies.google.com/privacy?hl=de.</a></p>
+        <h3 className="sub_heading">Adobe Fonts</h3>
         <p>Diese Website nutzt zur einheitlichen Darstellung bestimmter Schriftarten Web Fonts von Adobe. Anbieter
             ist die Adobe Systems Incorporated, 345 Park Avenue, San Jose, CA 95110-2704, USA (Adobe). </p>
         <div className="text_padding"/>
@@ -448,12 +465,16 @@ export const datenschutz =
             DSGVO; die Einwilligung ist jederzeit widerrufbar. </p>
         <div className="text_padding"/>
         <p>Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt.
-            Details finden Sie hier: https://www.adobe.com/de/privacy/eudatatransfers.html. </p>
+            Details finden Sie hier:
+            <a href="https://www.adobe.com/de/privacy/eudatatransfers.html">
+                https://www.adobe.com/de/privacy/eudatatransfers.html</a>.</p>
         <div className="text_padding"/>
         <p>Nähere Informationen zu Adobe Fonts erhalten Sie unter:
-            https://www.adobe.com/de/privacy/policies/adobe-fonts.html. </p>
+            <a href="https://www.adobe.com/de/privacy/policies/adobe-fonts.html">
+                https://www.adobe.com/de/privacy/policies/adobe-fonts.html</a>.</p>
         <div className="text_padding"/>
-        <p>Die Datenschutzerklärung von Adobe finden Sie unter: https://www.adobe.com/de/privacy/policy.html </p>
+        <p>Die Datenschutzerklärung von Adobe finden Sie unter:
+            <a href="https://www.adobe.com/de/privacy/policy.html">https://www.adobe.com/de/privacy/policy.html</a></p>
         <h3 className="sub_heading">Google Maps </h3>
         <p> Diese Seite nutzt den Kartendienst Google Maps. Anbieter ist die Google Ireland
             Limited („Google“),
@@ -473,12 +494,15 @@ export const datenschutz =
         <div className="text_padding"/>
         <p>Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der
             EU-Kommission gestützt.
-            Details finden Sie hier: https://privacy.google.com/businesses/gdprcontrollerterms/ und
-            https://privacy.google.com/businesses/gdprcontrollerterms/sccs/. </p>
+            Details finden Sie hier:
+            <a href="https://privacy.google.com/businesses/gdprcontrollerterms/">
+                https://privacy.google.com/businesses/gdprcontrollerterms/</a> und
+            <a href="https://privacy.google.com/businesses/gdprcontrollerterms/sccs/">
+                https://privacy.google.com/businesses/gdprcontrollerterms/sccs/</a>.</p>
         <div className="text_padding"/>
         <p>Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung
             von Google:</p>
-        <p>https://policies.google.com/privacy?hl=de. </p>
+        <p><a href="https://policies.google.com/privacy?hl=de">https://policies.google.com/privacy?hl=de</a>.</p>
         <div className="sectionPadding"/>
 
     </div>
