@@ -81,9 +81,9 @@ function Footer() {
                 </div>
                 <div className="impressum">
                     <p className="footerText">
-                    <a href="/impressum" className="footerLink">Impressum</a>
-                         //
-                    <a href="/privacy" className="footerLink">Datenschutz</a>
+                        <a href="/impressum" className="footerLink">Impressum</a>
+                        //
+                        <a href="/privacy" className="footerLink">Datenschutz</a>
                     </p>
                 </div>
             </div>

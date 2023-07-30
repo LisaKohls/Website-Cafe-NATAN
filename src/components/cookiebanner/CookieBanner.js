@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {useEffect, useState} from 'react';
 import CookieConsent from 'react-cookie-consent';
 import '../../styles/cookiebanner/CookieBanner.css';
 
@@ -21,11 +21,13 @@ function CookieBanner() {
                 <CookieConsent
                     debug={true}
                     className="banner"
-                    buttonStyle={{ color: '#FFFFFF', background: '#808770', borderRadius: '10px', fontSize: '18px' }}
+                    buttonStyle={{color: '#FFFFFF', background: '#808770', borderRadius: '10px', fontSize: '18px'}}
                     buttonText="Verstanden!"
                     onAccept={handleAccept}
                 >
-                    Diese Seite nutzt Cookies. Schau dir unsere <a href="/privacy" className="linkbanner">Datenschutzerklärung</a> an für mehr Informationen
+                    Diese Seite nutzt Cookies. Schau dir unsere <a href="/privacy"
+                                                                   className="linkbanner">Datenschutzerklärung</a> an
+                    für mehr Informationen
                 </CookieConsent>
             </div>
         )

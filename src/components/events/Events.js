@@ -7,7 +7,7 @@ function Events() {
     return (
         <div>
             <div id="eventtext"/>
-                <Text text={events} formatierung='events' color='white'/>
+            <Text text={events} formatierung='events' color='white'/>
         </div>
 
     );

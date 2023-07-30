@@ -1,7 +1,7 @@
 import React from 'react'
 import Gallery from "../scrollimages/Gallery";
 
-function GallerySection(){
+function GallerySection() {
     const images = [
         require("../../resources/gallery/barNatan1.jpg"),
         require("../../resources/gallery/barNatan2.jpg"),
@@ -41,17 +41,17 @@ function GallerySection(){
         alignItems: "center",
         lineHeight: "40px",
         paddingBottom: "4px",
-};
+    };
 
     const isMobile = window.innerWidth <= 768;
 
-    return(<Gallery images={images}
-                    infinite={true}
-                    centerMode={true}
-                    slidesToShow={3}
-                    slidesToScroll={1}
-                    imageHeight={isMobile ? '300px' : '400px'}
-                    iconStyle={whiteIcon}
+    return (<Gallery images={images}
+                     infinite={true}
+                     centerMode={true}
+                     slidesToShow={3}
+                     slidesToScroll={1}
+                     imageHeight={isMobile ? '300px' : '400px'}
+                     iconStyle={whiteIcon}
     />)
 }
 

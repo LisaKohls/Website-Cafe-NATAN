@@ -24,7 +24,7 @@ function Reservation() {
     const [nameRequest, setName] = useState('')
 
 
-    function check(){
+    function check() {
         //neccessary input parameters to make a volunteer request
         const dateInput = document.getElementById("datePicker")
         const timeInput = document.getElementById("time");
@@ -62,7 +62,7 @@ function Reservation() {
 
         if (time === "") {
             timeInput.style.borderColor = 'red';
-        }else if (selectedTime < 10 && selectedTime >= 1) {
+        } else if (selectedTime < 10 && selectedTime >= 1) {
             alert("Bitte wähle eine Uhrzeit die den Öffnungszeiten entspricht");
             timeValue = false
         } else {
@@ -100,26 +100,26 @@ function Reservation() {
             mailInput.removeAttribute('placeholder');
         }
         console.log(privacy)
-        if(!privacy){
+        if (!privacy) {
             checkPrivacy.style.borderColor = 'red'
 
-        }else{
+        } else {
             checkPrivacy.style.borderColor = 'black'
         }
 
 
         //if the inputValidation is successfull the form will automatically be sent via emailjs
-        if(dateValue && timeValue && nameValue && countValue && mailValue && privacyValue){
+        if (dateValue && timeValue && nameValue && countValue && mailValue && privacyValue) {
 
             setSubmit(true)
-        //passing the following parameters to the template
-            emailjs.send(SERVICE_ID,TEMPLATE_ID,{
+            //passing the following parameters to the template
+            emailjs.send(SERVICE_ID, TEMPLATE_ID, {
                 date: date,
                 time: time,
                 name: name,
                 count: count,
                 mail: mail
-            },PUBLIC_KEY ).then(
+            }, PUBLIC_KEY).then(
                 function (response) {
                     console.log("SUCCESS!", response.status, response.text);
                 },
@@ -130,11 +130,12 @@ function Reservation() {
         }
 
     }
+
     //this is rendered if the form hasnt been submitted
     const makeRequest = <div className='container'>
         <Map/>
         <div>
-        <div className='formular'>
+            <div className='formular'>
                 <>
                     <label>Wähle ein Datum:* </label>
                     <DatePicker
@@ -149,7 +150,7 @@ function Reservation() {
                 </>
                 <>
                     <label>Deine Uhrzeit:* </label>
-                    <input type="time" id="time" name="time" min="10:00" max="20:00" required />
+                    <input type="time" id="time" name="time" min="10:00" max="20:00" required/>
                 </>
                 <>
                     <label>Name:* </label>
@@ -163,14 +164,16 @@ function Reservation() {
                     <label>E-Mail:* </label>
                     <input type='email' id='mail' name='mail' required></input>
                 </>
-            <>
-                <p className='mandatory'>* Pflichtfeld</p>
-            </>
-        </div>
-        <div className='checkbox'>
-            <input type="checkbox" id="privacy" name="privacy"/>
-            <label htmlFor="privacy" id="privacyLabel"> Ich habe die <a href="/privacy" className='linkBlack' target="_blank">Datenschutzerklärung</a> gelesen und verstanden </label>
-        </div>
+                <>
+                    <p className='mandatory'>* Pflichtfeld</p>
+                </>
+            </div>
+            <div className='checkbox'>
+                <input type="checkbox" id="privacy" name="privacy"/>
+                <label htmlFor="privacy" id="privacyLabel"> Ich habe die <a href="/privacy" className='linkBlack'
+                                                                            target="_blank">Datenschutzerklärung</a> gelesen
+                    und verstanden </label>
+            </div>
             <>
                 <button className='submit' onClick={check}>Abschicken</button>
             </>
@@ -184,7 +187,7 @@ function Reservation() {
             abgeschickt und wird bearbeitet, wir schicken dir eine Mail zu um die Reservierung zu bestätigen</p>
     </div>
 
-    return ( submit ? isSubmitted:makeRequest);
+    return (submit ? isSubmitted : makeRequest);
 
 
 }

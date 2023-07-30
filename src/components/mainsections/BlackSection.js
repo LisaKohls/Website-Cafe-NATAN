@@ -1,9 +1,14 @@
 import {
+    description1,
+    description2,
+    description3,
+    food1,
+    food2,
+    food3,
+    foodDescription,
     originName,
     ueberNatan,
-    ueberStelp,
-    foodDescription,
-    food1, description1, food2, description2, food3, description3
+    ueberStelp
 } from "../../resources/textContent/textContent";
 import OpeningTimeSection from "./OpeningTimeSection";
 import SpecialFood from "../foodanddrinks/SpecialFood";
@@ -43,7 +48,7 @@ function BlackSection() {
     const foodImages = [
         require('../../resources/food/imgCake.jpg'),
         require('../../resources/food/imgDesert.jpg'),
-        require( '../../resources/food/imgCoffee.jpg'),
+        require('../../resources/food/imgCoffee.jpg'),
     ]
 
 
